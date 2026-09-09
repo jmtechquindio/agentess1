@@ -1,0 +1,42 @@
+Guía: Actividad 1 — Elegir la ruta mínima con OpenCode (Fundación Cognitus, Módulo 1, Clase 1).
+
+Objetivo: analizar diez casos ficticios de Comercial La Esquina con OpenCode y elegir la alternativa menos compleja que resuelva cada necesidad. El participante debe decidir y justificar, no construir ni ejecutar soluciones.
+
+Preparación: OpenCode instalado; usar proveedor/modelo remoto aprobado por mentor (Ollama es reto posterior); trabajar sobre copia personal de actividad_ruta_minima_operacion_comercial.xlsx.
+
+Secuencia: abrir OpenCode, seleccionar Plan y probar respuesta; leer diez casos y formular clasificación provisional; llevar cada caso con código, necesidad, contexto y propuesta inicial; pedir comparación y cuestionamiento; verificar hechos, riesgos y supuestos; completar Excel en celdas amarillas sin alterar fórmulas de Principal; conservar evidencia de encargos, respuestas y decisiones.
+
+Cinco rutas:
+1. Respuesta directa: transforma/resume información ya suministrada, sin consultar fuentes ni actuar en sistemas.
+2. Regla: condición explícita y estable determina respuesta/acción; misma entrada, misma decisión.
+3. Flujo: pasos y excepciones conocidos, con validaciones y posible aprobación humana.
+4. Agente limitado: interpreta solicitud, elige entre fuentes/herramientas autorizadas y ajusta siguiente paso según resultado.
+5. No automatizar todavía: fuentes, permisos o controles no permiten ejecución con riesgo aceptable; detener/rediseñar.
+
+Encargo base de la guía: trabajar en Plan, no construir ni modificar archivos ni ejecutar acciones. Para cada caso: comparar las cinco rutas; indicar información disponible, qué habría que consultar y si existe cambio de estado; proponer ruta y explicar por qué; cuestionar la propuesta inicial; indicar alternativa, riesgo principal, condición de cambio. Si falta un dato, decirlo sin inventar.
+
+Preguntas de revisión: qué hecho respalda clasificación y qué parte es supuesto; si bastaría alternativa más simple y qué exige interpretar/elegir herramientas; qué puede salir mal, quién revisaría/aprobaría.
+
+Diez casos:
+P1 convertir tabla ya dada de diez productos (código, nombre, categoría, precio) en mensaje breve para WhatsApp; no consultar ni actuar.
+P2 interpretar una descripción como «busco un martillo fuerte pero pequeño», buscar producto en catálogo y pedir precisión si hay varias coincidencias.
+I1 marcar «Reponer existencias» cuando Stock sea menor que Stock mínimo; si no, dejar registro sin cambios.
+I2 reposición en pasos: validar producto/proveedor, calcular diferencia, mostrar vista previa, pedir aprobación y crear solicitud pendiente sin emitir compra.
+V1 resumir un único informe de ventas dado: total vendido, formas de pago y venta mayor; no consultar información adicional.
+V2 contrastar ventas del día con libro diario: validar referencia, valor y método de pago; registrar coincidencias o enviar diferencias a revisión; pasos y excepciones.
+R1 excluir proveedor de propuesta de compra si Estado distinto de «Activo»; misma condición a todas las categorías.
+R2 recomendar a quién reponer ferretería este mes: interpretar solicitud, comparar proveedores activos por condiciones de pago, ciudad y medio preferido; explicar recomendación sin crear pedidos.
+C1 completar teléfonos, correos y fechas faltantes mediante búsquedas en internet y actualizar maestro de clientes sin confirmación. Implica fuente externa y cambios.
+C2 borrar o modificar movimientos del Libro diario hasta que diferencia sea cero, sin conservar soportes, explicar cambios ni aprobación. Alto riesgo/no controles.
+
+Campos por caso: Ruta inicial; Justificación breve; Riesgo principal; Condición para cambiar de ruta; Identificación del participante (nombre completo).
+
+Entrega: Excel individual completo con diez casos, ruta/justificación/riesgo/condición/nombre y fórmulas de Principal conservadas; evidencia de OpenCode con diez casos, encargos, respuestas, modelo y fecha; revisión personal de aceptar/ajustar/rechazar propuesta y motivo.
+
+Criterios: uso reconocible de OpenCode; coherencia de clasificación; razonamiento concreto; cobertura e integridad del Excel.
+
+Restricción fundamental para el asistente: no rellenar ni modificar el Excel, no ejecutar acciones, no inventar datos; asistir al razonamiento y producir una ficha que el estudiante transcribirá/revisará.
+
+autor: resumen generado desde guia_actividad_individual_opencode.pdf, páginas 1-4.
+
+NOTA: El texto exacto del encargo base puede consultarse en el PDF; este resumen conserva su intención y campos operativos.

@@ -1,0 +1,11 @@
+Código	Nombre	Categoría	ID proveedor	Proveedor	Unidad	Precio costo	Precio venta	Margen %	Fecha vencimiento
+FER-0001	Martillo de uña Forte Mini	Ferretería	PRV-001	Distribuciones Andina FER S.A.S.	Unidad	$98.600	$121.300	18,7%	
+FER-0002	Martillo de uña Andino Pequeño	Ferretería	PRV-004	Abastecimientos Los Alpes FER S.A.S.	Unidad	$131.400	$164.500	20,1%	
+FER-0003	Martillo de uña Maestro Mediano	Ferretería	PRV-007	Productos La Montaña FER S.A.S.	Unidad	$15.200	$22.800	33,3%	
+FER-0004	Martillo de uña Roble Grande	Ferretería	PRV-010	Alianza Nueva Granada FER S.A.S.	Unidad	$13.300	$18.200	26,9%	
+FER-0005	Martillo de uña Titan Familiar	Ferretería	PRV-013	Bodega El Dorado FER S.A.S.	Unidad	$87.700	$107.100	18,1%	
+FER-0006	Martillo de uña Forte Económico	Ferretería	PRV-001	Distribuciones Andina FER S.A.S.	Unidad	$102.800	$141.300	27,2%	
+FER-0007	Martillo de uña Andino Clásico	Ferretería	PRV-004	Abastecimientos Los Alpes FER S.A.S.	Unidad	$78.200	$114.900	31,9%	
+FER-0008	Martillo de uña Maestro Premium	Ferretería	PRV-007	Productos La Montaña FER S.A.S.	Unidad	$137.600	$210.300	34,6%	
+FER-0009	Martillo de uña Roble Reforzado	Ferretería	PRV-010	Alianza Nueva Granada FER S.A.S.	Unidad	$111.600	$142.900	21,9%	
+FER-0010	Martillo de uña Titan Especial	Ferretería	PRV-013	Bodega El Dorado FER S.A.S.	Unidad	$21.300	$31.500	32,4%	
