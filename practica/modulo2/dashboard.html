@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Módulo 02 — Dashboard de conversaciones a datos</title>
+<style>
+  :root { color-scheme: light; }
+  body { font-family: -apple-system, Segoe UI, Roboto, sans-serif; margin: 0; background: #f4f6fa; color: #1c2733; }
+  header { background: #14416b; color: #fff; padding: 22px 28px; }
+  header h1 { margin: 0; font-size: 20px; }
+  header p { margin: 4px 0 0; opacity: .85; font-size: 13px; }
+  main { max-width: 1040px; margin: 0 auto; padding: 24px 18px; }
+  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 14px; margin-bottom: 22px; }
+  .kpi { background: #fff; border-radius: 10px; padding: 16px; box-shadow: 0 1px 3px rgba(16,44,84,.08); }
+  .kpi .n { font-size: 26px; font-weight: 700; color: #14416b; }
+  .kpi .t { font-size: 12px; color: #5a6b7c; margin-top: 4px; }
+  .card { background: #fff; border-radius: 10px; padding: 18px 20px; margin-bottom: 18px; box-shadow: 0 1px 3px rgba(16,44,84,.08); }
+  .card h2 { margin: 0 0 14px; font-size: 15px; border-bottom: 2px solid #eef1f5; padding-bottom: 8px; }
+  .bar-row { display: flex; align-items: center; gap: 10px; margin: 8px 0; }
+  .lbl { width: 190px; font-size: 12px; text-align: right; }
+  .track { flex: 1; background: #eef1f5; border-radius: 5px; height: 18px; overflow: hidden; }
+  .bar { height: 100%; border-radius: 5px; min-width: 2px; }
+  .val { width: 210px; font-size: 12px; }
+  .st-confirmado { background: #2e9e6b; } .st-sin_pedido { background: #8d9bb0; }
+  .st-pendiente { background: #e2a93b; } .st-cancelado { background: #d05959; }
+  .cty { background: #3a7db5; } .prd { background: #7a5fb0; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th, td { padding: 8px 10px; border-bottom: 1px solid #eef1f5; text-align: left; }
+  th { background: #f7f9fc; }
+  footer { text-align: center; color: #8a97a6; font-size: 11px; padding: 18px; }
+  .note { font-size: 12px; color: #5a6b7c; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Módulo 02 — Conversaciones a datos · Dashboard estático</h1>
+  <p>Fuente: dataset.json (200 conversaciones sintéticas) · Datos procesados y validados en conversaciones.csv, lineas_producto.csv y pendientes_excepciones.csv</p>
+</header>
+<main>
+  <section class="kpis">
+    <div class="kpi"><div class="n">200</div><div class="t">Conversaciones analizadas</div></div>
+    <div class="kpi"><div class="n">139</div><div class="t">Pedidos confirmados (69.5%)</div></div>
+    <div class="kpi"><div class="n">$36.489.000</div><div class="t">Ventas totales (confirmados)</div></div>
+    <div class="kpi"><div class="n">641</div><div class="t">Unidades pedidas en flujo de pedido</div></div>
+  </section>
+
+  <section class="card">
+    <h2>P1 · Embudo de atención: estado final de las conversaciones</h2>
+      <div class="bar-row"><span class="lbl">confirmado</span><div class="track"><div class="bar st-confirmado" style="width:69.5%"></div></div><span class="val">139 (69.5%)</span></div>
+  <div class="bar-row"><span class="lbl">sin_pedido</span><div class="track"><div class="bar st-sin_pedido" style="width:20.0%"></div></div><span class="val">40 (20.0%)</span></div>
+  <div class="bar-row"><span class="lbl">pendiente</span><div class="track"><div class="bar st-pendiente" style="width:6.0%"></div></div><span class="val">12 (6.0%)</span></div>
+  <div class="bar-row"><span class="lbl">cancelado</span><div class="track"><div class="bar st-cancelado" style="width:4.5%"></div></div><span class="val">9 (4.5%)</span></div>
+    <p class="note">Conteos verificables: 139 confirmadas + 12 pendientes + 9 canceladas + 40 sin pedido = 200.</p>
+  </section>
+
+  <section class="card">
+    <h2>P2 · Ventas de pedidos confirmados por ciudad</h2>
+      <div class="bar-row"><span class="lbl">Manizales</span><div class="track"><div class="bar cty" style="width:13.7%"></div></div><span class="val">$4.991.000 · 18 pedidos</span></div>
+  <div class="bar-row"><span class="lbl">Pereira</span><div class="track"><div class="bar cty" style="width:13.3%"></div></div><span class="val">$4.855.000 · 18 pedidos</span></div>
+  <div class="bar-row"><span class="lbl">Ibagué</span><div class="track"><div class="bar cty" style="width:13.3%"></div></div><span class="val">$4.835.000 · 18 pedidos</span></div>
+  <div class="bar-row"><span class="lbl">Santa Marta</span><div class="track"><div class="bar cty" style="width:12.9%"></div></div><span class="val">$4.713.000 · 17 pedidos</span></div>
+  <div class="bar-row"><span class="lbl">Cartagena</span><div class="track"><div class="bar cty" style="width:12.3%"></div></div><span class="val">$4.505.000 · 17 pedidos</span></div>
+  <div class="bar-row"><span class="lbl">Cali</span><div class="track"><div class="bar cty" style="width:11.8%"></div></div><span class="val">$4.306.000 · 17 pedidos</span></div>
+  <div class="bar-row"><span class="lbl">Medellín</span><div class="track"><div class="bar cty" style="width:11.4%"></div></div><span class="val">$4.151.000 · 17 pedidos</span></div>
+  <div class="bar-row"><span class="lbl">Barranquilla</span><div class="track"><div class="bar cty" style="width:11.3%"></div></div><span class="val">$4.133.000 · 17 pedidos</span></div>
+    <p class="note">Chequeo interno: subtotal + domicilios = total → $34.509.000 + $1.980.000 = $36.489.000. Promedio por pedido: $262.510.</p>
+  </section>
+
+  <section class="card">
+    <h2>P3 · Top 5 productos por unidades pedidas</h2>
+      <div class="bar-row"><span class="lbl">cobija térmica doble gris</span><div class="track"><div class="bar prd" style="width:100.0%"></div></div><span class="val">51 uds · 19 convos</span></div>
+  <div class="bar-row"><span class="lbl">protector de colchón doble</span><div class="track"><div class="bar prd" style="width:88.2%"></div></div><span class="val">45 uds · 22 convos</span></div>
+  <div class="bar-row"><span class="lbl">cortina blackout 140x220 gris</span><div class="track"><div class="bar prd" style="width:82.4%"></div></div><span class="val">42 uds · 21 convos</span></div>
+  <div class="bar-row"><span class="lbl">cojín decorativo terracota</span><div class="track"><div class="bar prd" style="width:82.4%"></div></div><span class="val">42 uds · 21 convos</span></div>
+  <div class="bar-row"><span class="lbl">juego de toallas blancas x3</span><div class="track"><div class="bar prd" style="width:76.5%"></div></div><span class="val">39 uds · 19 convos</span></div>
+    <table>
+      <thead><tr><th>Método de pago (confirmados)</th><th>Pedidos</th><th>%</th></tr></thead>
+      <tbody>  <tr><td>nequi</td><td style="text-align:right">35</td><td style="text-align:right">25.2%</td></tr>
+  <tr><td>pago contraentrega</td><td style="text-align:right">35</td><td style="text-align:right">25.2%</td></tr>
+  <tr><td>daviplata</td><td style="text-align:right">35</td><td style="text-align:right">25.2%</td></tr>
+  <tr><td>transferencia bancaria</td><td style="text-align:right">34</td><td style="text-align:right">24.5%</td></tr></tbody>
+    </table>
+  </section>
+</main>
+<footer>Dashboard estático generado a partir de los CSV validados · No contiene datos inventados.</footer>
+</body>
+</html>
