@@ -1,0 +1,8 @@
+Usa el skill analyze-data-quality para revisar
+la-esquina-productos-desorganizados.csv.
+
+1. Conserva el archivo original.
+2. Detecta vacíos, duplicados, categorías, códigos y precios inconsistentes.
+3. No inventes valores: envía dudas a pendiente_revision.
+4. Genera una sola tabla: productos_limpios.csv.
+5. Crea reporte_calidad.md con cambios, conteos y límites.

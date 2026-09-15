@@ -1,0 +1,93 @@
+codigo,nombre,categoria,id_proveedor,proveedor,precio_venta,unidad,estado
+FER-0001,Martillo Clásico,Ferreteria,PRV-010,Alianza Nueva Granada,9719,Unidad,limpio
+MIS-0002,Vela aromática Mediano,Miscelanea,PRV-019,Importadora San Martín,17638,Unidad,limpio
+PAN-0003,Galleta de avena Grande,Panaderia,PRV-028,Soluciones del Norte,25557,Unidad,limpio
+ABA-0004,Atún Premium,Abarrotes,PRV-001,Distribuciones Andina,33476,Paquete,limpio
+PAP-0005,Resma de papel Mini,Papeleria,PRV-010,Alianza Nueva Granada,41395,Paquete,limpio
+FER-0006,Martillo Clásico,Ferreteria,PRV-019,Importadora San Martín,49314,Unidad,limpio
+MIS-0007,Vela aromática Mediano,Miscelanea,PRV-028,Soluciones del Norte,57233,Unidad,limpio
+PAN-0008,Galleta de avena Grande,Panaderia,PRV-001,Distribuciones Andina,65152,Unidad,limpio
+ABA-0009,Atún Premium,Abarrotes,PRV-010,Alianza Nueva Granada,73071,Unidad,limpio
+PAP-0010,Resma de papel Mini,Papeleria,PRV-019,Importadora San Martín,80990,Paquete,limpio
+FER-0011,Martillo Clásico,Ferreteria,PRV-028,Soluciones del Norte,88909,Paquete,limpio
+MIS-0012,Vela aromática Mediano,Miscelanea,PRV-001,Distribuciones Andina,96828,Unidad,limpio
+PAN-0013,Galleta de avena Grande,Panaderia,PRV-010,Alianza Nueva Granada,104747,Unidad,limpio
+ABA-0014,Atún Premium,Abarrotes,PRV-019,Importadora San Martín,112666,Unidad,limpio
+PAP-0015,Resma de papel Mini,Papeleria,PRV-028,Soluciones del Norte,120585,Unidad,limpio
+FER-0016,Martillo Clásico,Ferreteria,PRV-001,Distribuciones Andina,128504,Paquete,limpio
+MIS-0017,Vela aromática Mediano,Miscelanea,PRV-010,Alianza Nueva Granada,136423,Paquete,limpio
+PAN-0018,Galleta de avena Grande,Panaderia,PRV-019,Importadora San Martín,144342,Unidad,limpio
+ABA-0019,Atún Premium,Abarrotes,PRV-028,Soluciones del Norte,152261,Unidad,limpio
+PAP-0020,Resma de papel Mini,Papeleria,PRV-001,Distribuciones Andina,160180,Unidad,limpio
+FER-0021,Martillo Clásico,Ferreteria,PRV-010,Alianza Nueva Granada,168099,Unidad,limpio
+MIS-0022,Vela aromática Mediano,Miscelanea,PRV-019,Importadora San Martín,176018,Paquete,limpio
+PAN-0023,Galleta de avena Grande,Panaderia,PRV-028,Soluciones del Norte,183937,Paquete,limpio
+ABA-0024,Atún Premium,Abarrotes,PRV-001,Distribuciones Andina,191856,Unidad,limpio
+PAP-0025,Resma de papel Mini,Papeleria,PRV-010,Alianza Nueva Granada,199775,Unidad,limpio
+FER-0026,Martillo Clásico,Ferreteria,PRV-019,Importadora San Martín,9694,Unidad,limpio
+MIS-0027,Vela aromática Mediano,Miscelanea,PRV-028,Soluciones del Norte,17613,Unidad,limpio
+PAN-0028,Galleta de avena Grande,Panaderia,PRV-001,Distribuciones Andina,25532,Paquete,limpio
+ABA-0029,Atún Premium,Abarrotes,PRV-010,Alianza Nueva Granada,33451,Paquete,limpio
+PAP-0030,Resma de papel Mini,Papeleria,PRV-019,Importadora San Martín,41370,Unidad,limpio
+FER-0031,Martillo Clásico,Ferreteria,PRV-028,Soluciones del Norte,49289,Unidad,limpio
+MIS-0032,Vela aromática Mediano,Miscelanea,PRV-001,Distribuciones Andina,57208,Unidad,limpio
+PAN-0033,Galleta de avena Grande,Panaderia,PRV-010,Alianza Nueva Granada,65127,Unidad,limpio
+ABA-0034,Atún Premium,Abarrotes,PRV-019,Importadora San Martín,73046,Paquete,limpio
+PAP-0035,Resma de papel Mini,Papeleria,PRV-028,Soluciones del Norte,80965,Paquete,limpio
+FER-0036,Martillo Clásico,Ferreteria,PRV-001,Distribuciones Andina,88884,Unidad,limpio
+MIS-0037,Vela aromática Mediano,Miscelanea,PRV-010,Alianza Nueva Granada,96803,Unidad,limpio
+PAN-0038,Galleta de avena Grande,Panaderia,PRV-019,Importadora San Martín,104722,Unidad,limpio
+ABA-0039,Atún Premium,Abarrotes,PRV-028,Soluciones del Norte,112641,Unidad,limpio
+PAP-0040,Resma de papel Mini,Papeleria,PRV-001,Distribuciones Andina,120560,Paquete,limpio
+FER-0041,Martillo Clásico,Ferreteria,PRV-010,Alianza Nueva Granada,128479,Paquete,limpio
+MIS-0042,Vela aromática Mediano,Miscelanea,PRV-019,Importadora San Martín,136398,Unidad,limpio
+PAN-0043,Galleta de avena Grande,Panaderia,PRV-028,Soluciones del Norte,144317,Unidad,limpio
+ABA-0044,Atún Premium,Abarrotes,PRV-001,Distribuciones Andina,152236,Unidad,limpio
+PAP-0045,Resma de papel Mini,Papeleria,PRV-010,Alianza Nueva Granada,160155,Unidad,limpio
+FER-0046,Martillo Clásico,Ferreteria,PRV-019,Importadora San Martín,168074,Paquete,limpio
+MIS-0047,Vela aromática Mediano,Miscelanea,PRV-028,Soluciones del Norte,175993,Paquete,limpio
+PAN-0048,Galleta de avena Grande,Panaderia,PRV-001,Distribuciones Andina,183912,Unidad,limpio
+ABA-0049,Atún Premium,Abarrotes,PRV-010,Alianza Nueva Granada,191831,Unidad,limpio
+PAP-0050,Resma de papel Mini,Papeleria,PRV-019,Importadora San Martín,199750,Unidad,limpio
+FER-0051,Martillo Clásico,Ferreteria,PRV-028,Soluciones del Norte,9669,Unidad,limpio
+MIS-0052,Vela aromática Mediano,Miscelanea,PRV-001,Distribuciones Andina,17588,Paquete,limpio
+PAN-0053,Galleta de avena Grande,Panaderia,PRV-010,Alianza Nueva Granada,25507,Paquete,limpio
+ABA-0054,Atún Premium,Abarrotes,PRV-019,Importadora San Martín,33426,Unidad,limpio
+PAP-0055,Resma de papel Mini,Papeleria,PRV-028,Soluciones del Norte,41345,Unidad,limpio
+FER-0056,Martillo Clásico,Ferreteria,PRV-001,Distribuciones Andina,49264,Unidad,limpio
+MIS-0057,Vela aromática Mediano,Miscelanea,PRV-010,Alianza Nueva Granada,57183,Unidad,limpio
+PAN-0058,Galleta de avena Grande,Panaderia,PRV-019,Importadora San Martin,65102,Paquete,limpio
+ABA-0059,Atún Premium,Abarrotes,PRV-028,Soluciones del Norte,73021,Paquete,limpio
+PAP-0060,Resma de papel Mini,Papeleria,PRV-001,Distribuciones Andina,80940,Unidad,limpio
+FER-0061,Martillo Clásico,Ferreteria,PRV-010,Alianza Nueva Granada,88859,Unidad,limpio
+MIS-0062,Vela aromática Mediano,Miscelanea,PRV-019,Importadora San Martín,96778,Unidad,limpio
+PAN-0063,Galleta de avena Grande,Panaderia,PRV-028,Soluciones del Norte,104697,Unidad,limpio
+ABA-0064,Atún Premium,Abarrotes,PRV-001,Distribuciones Andina,112616,Paquete,limpio
+PAP-0065,Resma de papel Mini,Papeleria,PRV-010,Alianza Nueva Granada,120535,Paquete,limpio
+FER-0066,Martillo Clásico,Ferreteria,PRV-019,Importadora San Martín,128454,Unidad,limpio
+MIS-0067,Vela aromática Mediano,Miscelanea,PRV-028,Soluciones del Norte,136373,Unidad,limpio
+PAN-0068,Galleta de avena Grande,Panaderia,PRV-001,Distribuciones Andina,144292,Unidad,limpio
+ABA-0069,Atún Premium,Abarrotes,PRV-010,Alianza Nueva Granada,152211,Unidad,limpio
+PAP-0070,Resma de papel Mini,Papeleria,PRV-019,Importadora San Martín,160130,Paquete,limpio
+FER-0071,Martillo Clásico,Ferreteria,PRV-028,Soluciones del Norte,168049,Paquete,limpio
+MIS-0072,Vela aromática Mediano,Miscelanea,PRV-001,Distribuciones Andina,175968,Unidad,limpio
+PAN-0073,Galleta de avena Grande,Panaderia,PRV-010,Alianza Nueva Granada,183887,Unidad,limpio
+ABA-0074,Atún Premium,Abarrotes,PRV-019,Importadora San Martín,191806,Unidad,limpio
+PAP-0075,Resma de papel Mini,Papeleria,PRV-028,Soluciones del Norte,199725,Unidad,limpio
+FER-0076,Martillo Clásico,Ferreteria,PRV-001,Distribuciones Andina,9644,Paquete,limpio
+MIS-0077,Vela aromática Mediano,Miscelanea,PRV-010,Alianza Nueva Granada,17563,Paquete,limpio
+PAN-0078,Galleta de avena Grande,Panaderia,PRV-019,Importadora San Martín,25482,Unidad,limpio
+ABA-0079,Atún Premium,Abarrotes,PRV-028,Soluciones del Norte,33401,Unidad,limpio
+PAP-0080,Resma de papel Mini,Papeleria,PRV-001,Distribuciones Andina,41320,Unidad,limpio
+FER-0081,Martillo Clásico,Ferreteria,PRV-010,Alianza Nueva Granada,49239,Unidad,limpio
+MIS-0082,Vela aromática Mediano,Miscelanea,PRV-019,Importadora San Martín,57158,Paquete,limpio
+PAN-0083,Galleta de avena Grande,Panaderia,PRV-028,Soluciones del Norte,65077,Paquete,limpio
+ABA-0084,Atún Premium,Abarrotes,PRV-001,Distribuciones Andina,72996,Unidad,limpio
+PAP-0085,Resma de papel Mini,Papeleria,PRV-010,Alianza Nueva Granada,80915,Unidad,limpio
+FER-0086,Martillo Clásico,Ferreteria,PRV-019,Importadora San Martín,88834,Unidad,limpio
+MIS-0087,Vela aromática Mediano,Miscelanea,PRV-028,Soluciones del Norte,96753,Unidad,limpio
+PAN-0088,Galleta de avena Grande,Panaderia,PRV-001,Distribuciones Andina,104672,Paquete,limpio
+ABA-0089,Atún Premium,Abarrotes,PRV-010,Alianza Nueva Granada,112591,Paquete,limpio
+PAP-0090,Resma de papel Mini,Papeleria,PRV-019,Importadora San Martín,120510,Unidad,limpio
+,Producto sin código,Ferreteria,PRV-007,Productos La Montaña,35000,Unidad,pendiente_revision
+PAP-0099,,Papeleria,,Papelería Central,12500,Unidad,pendiente_revision
