@@ -1,0 +1,40 @@
+﻿id,tipo,conversation_id,descripcion,evidencia_msg_ids
+EXC-001,dataset_formato,,dataset.json (copia sin modificar de /mnt/c/practica/dataset.txt) no inicia con la llave '{'. Se corrigió en memoria para la lectura; el archivo original queda intacto.,
+PEN-001,referencia_corregida,wa-hogar-0008,Referencia ajustada por mensaje 'Perdón...': ['cobija térmica sencilla azul'],wa-hogar-0008-msg-03
+PEN-002,color_pendiente,wa-hogar-0009,Cliente preguntó por 'color crema'; el dataset no muestra confirmación de disponibilidad ni cambio de referencia.,wa-hogar-0009-msg-02
+PEN-003,referencia_corregida,wa-hogar-0016,Referencia ajustada por mensaje 'Perdón...': ['cobija térmica queen beige'],wa-hogar-0016-msg-03
+PEN-004,color_pendiente,wa-hogar-0018,Cliente preguntó por 'color crema'; el dataset no muestra confirmación de disponibilidad ni cambio de referencia.,wa-hogar-0018-msg-02
+PEN-005,referencia_corregida,wa-hogar-0024,Referencia ajustada por mensaje 'Perdón...': ['cobija térmica doble gris'],wa-hogar-0024-msg-03
+PEN-006,color_pendiente,wa-hogar-0027,Cliente preguntó por 'color crema'; el dataset no muestra confirmación de disponibilidad ni cambio de referencia.,wa-hogar-0027-msg-02
+PEN-007,referencia_corregida,wa-hogar-0032,Referencia ajustada por mensaje 'Perdón...': ['cobija térmica sencilla azul'],wa-hogar-0032-msg-03
+PEN-008,color_pendiente,wa-hogar-0036,Cliente preguntó por 'color crema'; el dataset no muestra confirmación de disponibilidad ni cambio de referencia.,wa-hogar-0036-msg-02
+PEN-009,referencia_corregida,wa-hogar-0048,Referencia ajustada por mensaje 'Perdón...': ['cobija térmica doble gris'],wa-hogar-0048-msg-03
+PEN-010,color_pendiente,wa-hogar-0054,Cliente preguntó por 'color crema'; el dataset no muestra confirmación de disponibilidad ni cambio de referencia.,wa-hogar-0054-msg-02
+PEN-011,referencia_corregida,wa-hogar-0056,Referencia ajustada por mensaje 'Perdón...': ['cobija térmica sencilla azul'],wa-hogar-0056-msg-03
+PEN-012,color_pendiente,wa-hogar-0063,Cliente preguntó por 'color crema'; el dataset no muestra confirmación de disponibilidad ni cambio de referencia.,wa-hogar-0063-msg-02
+PEN-013,referencia_corregida,wa-hogar-0064,Referencia ajustada por mensaje 'Perdón...': ['cobija térmica queen beige'],wa-hogar-0064-msg-03
+PEN-014,color_pendiente,wa-hogar-0072,Cliente preguntó por 'color crema'; el dataset no muestra confirmación de disponibilidad ni cambio de referencia.,wa-hogar-0072-msg-02
+PEN-015,referencia_corregida,wa-hogar-0072,Referencia ajustada por mensaje 'Perdón...': ['cobija térmica doble gris'],wa-hogar-0072-msg-04
+PEN-016,color_pendiente,wa-hogar-0081,Cliente preguntó por 'color crema'; el dataset no muestra confirmación de disponibilidad ni cambio de referencia.,wa-hogar-0081-msg-02
+PEN-017,referencia_corregida,wa-hogar-0088,Referencia ajustada por mensaje 'Perdón...': ['cobija térmica queen beige'],wa-hogar-0088-msg-03
+PEN-018,referencia_corregida,wa-hogar-0096,Referencia ajustada por mensaje 'Perdón...': ['cobija térmica doble gris'],wa-hogar-0096-msg-03
+PEN-019,color_pendiente,wa-hogar-0099,Cliente preguntó por 'color crema'; el dataset no muestra confirmación de disponibilidad ni cambio de referencia.,wa-hogar-0099-msg-02
+PEN-020,referencia_corregida,wa-hogar-0104,Referencia ajustada por mensaje 'Perdón...': ['cobija térmica sencilla azul'],wa-hogar-0104-msg-03
+PEN-021,color_pendiente,wa-hogar-0108,Cliente preguntó por 'color crema'; el dataset no muestra confirmación de disponibilidad ni cambio de referencia.,wa-hogar-0108-msg-02
+PEN-022,referencia_corregida,wa-hogar-0112,Referencia ajustada por mensaje 'Perdón...': ['cobija térmica queen beige'],wa-hogar-0112-msg-03
+PEN-023,color_pendiente,wa-hogar-0117,Cliente preguntó por 'color crema'; el dataset no muestra confirmación de disponibilidad ni cambio de referencia.,wa-hogar-0117-msg-02
+PEN-024,color_pendiente,wa-hogar-0126,Cliente preguntó por 'color crema'; el dataset no muestra confirmación de disponibilidad ni cambio de referencia.,wa-hogar-0126-msg-02
+PEN-025,referencia_corregida,wa-hogar-0128,Referencia ajustada por mensaje 'Perdón...': ['cobija térmica sencilla azul'],wa-hogar-0128-msg-03
+PEN-026,referencia_corregida,wa-hogar-0136,Referencia ajustada por mensaje 'Perdón...': ['cobija térmica queen beige'],wa-hogar-0136-msg-03
+PEN-027,color_pendiente,wa-hogar-0144,Cliente preguntó por 'color crema'; el dataset no muestra confirmación de disponibilidad ni cambio de referencia.,wa-hogar-0144-msg-02
+PEN-028,referencia_corregida,wa-hogar-0144,Referencia ajustada por mensaje 'Perdón...': ['cobija térmica doble gris'],wa-hogar-0144-msg-04
+PEN-029,referencia_corregida,wa-hogar-0152,Referencia ajustada por mensaje 'Perdón...': ['cobija térmica sencilla azul'],wa-hogar-0152-msg-03
+PEN-030,color_pendiente,wa-hogar-0153,Cliente preguntó por 'color crema'; el dataset no muestra confirmación de disponibilidad ni cambio de referencia.,wa-hogar-0153-msg-02
+PEN-031,color_pendiente,wa-hogar-0162,Cliente preguntó por 'color crema'; el dataset no muestra confirmación de disponibilidad ni cambio de referencia.,wa-hogar-0162-msg-02
+PEN-032,referencia_corregida,wa-hogar-0168,Referencia ajustada por mensaje 'Perdón...': ['cobija térmica doble gris'],wa-hogar-0168-msg-03
+PEN-033,color_pendiente,wa-hogar-0171,Cliente preguntó por 'color crema'; el dataset no muestra confirmación de disponibilidad ni cambio de referencia.,wa-hogar-0171-msg-02
+PEN-034,referencia_corregida,wa-hogar-0176,Referencia ajustada por mensaje 'Perdón...': ['cobija térmica sencilla azul'],wa-hogar-0176-msg-03
+PEN-035,referencia_corregida,wa-hogar-0184,Referencia ajustada por mensaje 'Perdón...': ['cobija térmica queen beige'],wa-hogar-0184-msg-03
+PEN-036,color_pendiente,wa-hogar-0189,Cliente preguntó por 'color crema'; el dataset no muestra confirmación de disponibilidad ni cambio de referencia.,wa-hogar-0189-msg-02
+PEN-037,referencia_corregida,wa-hogar-0192,Referencia ajustada por mensaje 'Perdón...': ['cobija térmica doble gris'],wa-hogar-0192-msg-03
+PEN-038,color_pendiente,wa-hogar-0198,Cliente preguntó por 'color crema'; el dataset no muestra confirmación de disponibilidad ni cambio de referencia.,wa-hogar-0198-msg-02

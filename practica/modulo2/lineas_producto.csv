@@ -1,0 +1,321 @@
+﻿conversation_id,producto_original,cantidad,producto_final,referencia_corregida
+wa-hogar-0001,cojín decorativo verde oliva,2,cojín decorativo verde oliva,False
+wa-hogar-0001,juego de toallas blancas x3,3,juego de toallas blancas x3,False
+wa-hogar-0002,protector de colchón sencillo,3,protector de colchón sencillo,False
+wa-hogar-0002,cobija térmica queen beige,1,cobija térmica queen beige,False
+wa-hogar-0002,juego de sábanas doble algodón,2,juego de sábanas doble algodón,False
+wa-hogar-0003,cortina blackout 140x220 gris,1,cortina blackout 140x220 gris,False
+wa-hogar-0004,tapete de baño gris,2,tapete de baño gris,False
+wa-hogar-0004,protector de colchón doble,3,protector de colchón doble,False
+wa-hogar-0006,juego de sábanas doble algodón,1,juego de sábanas doble algodón,False
+wa-hogar-0007,juego de toallas gris x3,2,juego de toallas gris x3,False
+wa-hogar-0007,almohada hotelera firme,3,almohada hotelera firme,False
+wa-hogar-0008,cobija térmica sencilla azul,3,cobija térmica doble gris,True
+wa-hogar-0008,juego de sábanas queen blancas,1,juego de sábanas queen blancas,False
+wa-hogar-0008,tapete de baño verde,2,tapete de baño verde,False
+wa-hogar-0009,cojín decorativo terracota,1,cojín decorativo terracota,False
+wa-hogar-0011,cortina blackout 200x220 azul,3,cortina blackout 200x220 azul,False
+wa-hogar-0011,cojín decorativo verde oliva,1,cojín decorativo verde oliva,False
+wa-hogar-0011,juego de toallas blancas x3,2,juego de toallas blancas x3,False
+wa-hogar-0012,tapete de baño verde,1,tapete de baño verde,False
+wa-hogar-0013,almohada hotelera media,2,almohada hotelera media,False
+wa-hogar-0013,cortina blackout 140x220 gris,3,cortina blackout 140x220 gris,False
+wa-hogar-0014,juego de sábanas sencillas estampadas,3,juego de sábanas sencillas estampadas,False
+wa-hogar-0014,tapete de baño gris,1,tapete de baño gris,False
+wa-hogar-0014,protector de colchón doble,2,protector de colchón doble,False
+wa-hogar-0016,cobija térmica queen beige,2,cobija térmica sencilla azul,True
+wa-hogar-0016,juego de sábanas doble algodón,3,juego de sábanas doble algodón,False
+wa-hogar-0017,cojín decorativo crema,3,cojín decorativo crema,False
+wa-hogar-0017,juego de toallas gris x3,1,juego de toallas gris x3,False
+wa-hogar-0017,almohada hotelera firme,2,almohada hotelera firme,False
+wa-hogar-0018,protector de colchón doble,1,protector de colchón doble,False
+wa-hogar-0019,cortina blackout 140x220 beige,2,cortina blackout 140x220 beige,False
+wa-hogar-0019,cojín decorativo terracota,3,cojín decorativo terracota,False
+wa-hogar-0021,almohada hotelera firme,1,almohada hotelera firme,False
+wa-hogar-0022,juego de sábanas queen blancas,2,juego de sábanas queen blancas,False
+wa-hogar-0022,tapete de baño verde,3,tapete de baño verde,False
+wa-hogar-0023,juego de toallas arena x2,3,juego de toallas arena x2,False
+wa-hogar-0023,almohada hotelera media,1,almohada hotelera media,False
+wa-hogar-0023,cortina blackout 140x220 gris,2,cortina blackout 140x220 gris,False
+wa-hogar-0024,cobija térmica doble gris,1,cobija térmica queen beige,True
+wa-hogar-0026,protector de colchón sencillo,3,protector de colchón sencillo,False
+wa-hogar-0026,cobija térmica queen beige,1,cobija térmica queen beige,False
+wa-hogar-0026,juego de sábanas doble algodón,2,juego de sábanas doble algodón,False
+wa-hogar-0027,cortina blackout 140x220 gris,1,cortina blackout 140x220 gris,False
+wa-hogar-0028,tapete de baño gris,2,tapete de baño gris,False
+wa-hogar-0028,protector de colchón doble,3,protector de colchón doble,False
+wa-hogar-0029,almohada hotelera suave,3,almohada hotelera suave,False
+wa-hogar-0029,cortina blackout 140x220 beige,1,cortina blackout 140x220 beige,False
+wa-hogar-0029,cojín decorativo terracota,2,cojín decorativo terracota,False
+wa-hogar-0031,juego de toallas gris x3,2,juego de toallas gris x3,False
+wa-hogar-0031,almohada hotelera firme,3,almohada hotelera firme,False
+wa-hogar-0032,cobija térmica sencilla azul,3,cobija térmica doble gris,True
+wa-hogar-0032,juego de sábanas queen blancas,1,juego de sábanas queen blancas,False
+wa-hogar-0032,tapete de baño verde,2,tapete de baño verde,False
+wa-hogar-0033,cojín decorativo terracota,1,cojín decorativo terracota,False
+wa-hogar-0034,protector de colchón queen,2,protector de colchón queen,False
+wa-hogar-0034,cobija térmica doble gris,3,cobija térmica doble gris,False
+wa-hogar-0036,tapete de baño verde,1,tapete de baño verde,False
+wa-hogar-0037,almohada hotelera media,2,almohada hotelera media,False
+wa-hogar-0037,cortina blackout 140x220 gris,3,cortina blackout 140x220 gris,False
+wa-hogar-0038,juego de sábanas sencillas estampadas,3,juego de sábanas sencillas estampadas,False
+wa-hogar-0038,tapete de baño gris,1,tapete de baño gris,False
+wa-hogar-0038,protector de colchón doble,2,protector de colchón doble,False
+wa-hogar-0039,juego de toallas blancas x3,1,juego de toallas blancas x3,False
+wa-hogar-0041,cojín decorativo crema,3,cojín decorativo crema,False
+wa-hogar-0041,juego de toallas gris x3,1,juego de toallas gris x3,False
+wa-hogar-0041,almohada hotelera firme,2,almohada hotelera firme,False
+wa-hogar-0042,protector de colchón doble,1,protector de colchón doble,False
+wa-hogar-0043,cortina blackout 140x220 beige,2,cortina blackout 140x220 beige,False
+wa-hogar-0043,cojín decorativo terracota,3,cojín decorativo terracota,False
+wa-hogar-0044,tapete de baño beige,3,tapete de baño beige,False
+wa-hogar-0044,protector de colchón queen,1,protector de colchón queen,False
+wa-hogar-0044,cobija térmica doble gris,2,cobija térmica doble gris,False
+wa-hogar-0046,juego de sábanas queen blancas,2,juego de sábanas queen blancas,False
+wa-hogar-0046,tapete de baño verde,3,tapete de baño verde,False
+wa-hogar-0047,juego de toallas arena x2,3,juego de toallas arena x2,False
+wa-hogar-0047,almohada hotelera media,1,almohada hotelera media,False
+wa-hogar-0047,cortina blackout 140x220 gris,2,cortina blackout 140x220 gris,False
+wa-hogar-0048,cobija térmica doble gris,1,cobija térmica queen beige,True
+wa-hogar-0049,cojín decorativo verde oliva,2,cojín decorativo verde oliva,False
+wa-hogar-0049,juego de toallas blancas x3,3,juego de toallas blancas x3,False
+wa-hogar-0051,cortina blackout 140x220 gris,1,cortina blackout 140x220 gris,False
+wa-hogar-0052,tapete de baño gris,2,tapete de baño gris,False
+wa-hogar-0052,protector de colchón doble,3,protector de colchón doble,False
+wa-hogar-0053,almohada hotelera suave,3,almohada hotelera suave,False
+wa-hogar-0053,cortina blackout 140x220 beige,1,cortina blackout 140x220 beige,False
+wa-hogar-0053,cojín decorativo terracota,2,cojín decorativo terracota,False
+wa-hogar-0054,juego de sábanas doble algodón,1,juego de sábanas doble algodón,False
+wa-hogar-0056,cobija térmica sencilla azul,3,cobija térmica doble gris,True
+wa-hogar-0056,juego de sábanas queen blancas,1,juego de sábanas queen blancas,False
+wa-hogar-0056,tapete de baño verde,2,tapete de baño verde,False
+wa-hogar-0057,cojín decorativo terracota,1,cojín decorativo terracota,False
+wa-hogar-0058,protector de colchón queen,2,protector de colchón queen,False
+wa-hogar-0058,cobija térmica doble gris,3,cobija térmica doble gris,False
+wa-hogar-0059,cortina blackout 200x220 azul,3,cortina blackout 200x220 azul,False
+wa-hogar-0059,cojín decorativo verde oliva,1,cojín decorativo verde oliva,False
+wa-hogar-0059,juego de toallas blancas x3,2,juego de toallas blancas x3,False
+wa-hogar-0061,almohada hotelera media,2,almohada hotelera media,False
+wa-hogar-0061,cortina blackout 140x220 gris,3,cortina blackout 140x220 gris,False
+wa-hogar-0062,juego de sábanas sencillas estampadas,3,juego de sábanas sencillas estampadas,False
+wa-hogar-0062,tapete de baño gris,1,tapete de baño gris,False
+wa-hogar-0062,protector de colchón doble,2,protector de colchón doble,False
+wa-hogar-0063,juego de toallas blancas x3,1,juego de toallas blancas x3,False
+wa-hogar-0064,cobija térmica queen beige,2,cobija térmica sencilla azul,True
+wa-hogar-0064,juego de sábanas doble algodón,3,juego de sábanas doble algodón,False
+wa-hogar-0066,protector de colchón doble,1,protector de colchón doble,False
+wa-hogar-0067,cortina blackout 140x220 beige,2,cortina blackout 140x220 beige,False
+wa-hogar-0067,cojín decorativo terracota,3,cojín decorativo terracota,False
+wa-hogar-0068,tapete de baño beige,3,tapete de baño beige,False
+wa-hogar-0068,protector de colchón queen,1,protector de colchón queen,False
+wa-hogar-0068,cobija térmica doble gris,2,cobija térmica doble gris,False
+wa-hogar-0069,almohada hotelera firme,1,almohada hotelera firme,False
+wa-hogar-0071,juego de toallas arena x2,3,juego de toallas arena x2,False
+wa-hogar-0071,almohada hotelera media,1,almohada hotelera media,False
+wa-hogar-0071,cortina blackout 140x220 gris,2,cortina blackout 140x220 gris,False
+wa-hogar-0072,cobija térmica doble gris,1,cobija térmica queen beige,True
+wa-hogar-0073,cojín decorativo verde oliva,2,cojín decorativo verde oliva,False
+wa-hogar-0073,juego de toallas blancas x3,3,juego de toallas blancas x3,False
+wa-hogar-0074,protector de colchón sencillo,3,protector de colchón sencillo,False
+wa-hogar-0074,cobija térmica queen beige,1,cobija térmica queen beige,False
+wa-hogar-0074,juego de sábanas doble algodón,2,juego de sábanas doble algodón,False
+wa-hogar-0076,tapete de baño gris,2,tapete de baño gris,False
+wa-hogar-0076,protector de colchón doble,3,protector de colchón doble,False
+wa-hogar-0077,almohada hotelera suave,3,almohada hotelera suave,False
+wa-hogar-0077,cortina blackout 140x220 beige,1,cortina blackout 140x220 beige,False
+wa-hogar-0077,cojín decorativo terracota,2,cojín decorativo terracota,False
+wa-hogar-0078,juego de sábanas doble algodón,1,juego de sábanas doble algodón,False
+wa-hogar-0079,juego de toallas gris x3,2,juego de toallas gris x3,False
+wa-hogar-0079,almohada hotelera firme,3,almohada hotelera firme,False
+wa-hogar-0081,cojín decorativo terracota,1,cojín decorativo terracota,False
+wa-hogar-0082,protector de colchón queen,2,protector de colchón queen,False
+wa-hogar-0082,cobija térmica doble gris,3,cobija térmica doble gris,False
+wa-hogar-0083,cortina blackout 200x220 azul,3,cortina blackout 200x220 azul,False
+wa-hogar-0083,cojín decorativo verde oliva,1,cojín decorativo verde oliva,False
+wa-hogar-0083,juego de toallas blancas x3,2,juego de toallas blancas x3,False
+wa-hogar-0084,tapete de baño verde,1,tapete de baño verde,False
+wa-hogar-0086,juego de sábanas sencillas estampadas,3,juego de sábanas sencillas estampadas,False
+wa-hogar-0086,tapete de baño gris,1,tapete de baño gris,False
+wa-hogar-0086,protector de colchón doble,2,protector de colchón doble,False
+wa-hogar-0087,juego de toallas blancas x3,1,juego de toallas blancas x3,False
+wa-hogar-0088,cobija térmica queen beige,2,cobija térmica sencilla azul,True
+wa-hogar-0088,juego de sábanas doble algodón,3,juego de sábanas doble algodón,False
+wa-hogar-0089,cojín decorativo crema,3,cojín decorativo crema,False
+wa-hogar-0089,juego de toallas gris x3,1,juego de toallas gris x3,False
+wa-hogar-0089,almohada hotelera firme,2,almohada hotelera firme,False
+wa-hogar-0091,cortina blackout 140x220 beige,2,cortina blackout 140x220 beige,False
+wa-hogar-0091,cojín decorativo terracota,3,cojín decorativo terracota,False
+wa-hogar-0092,tapete de baño beige,3,tapete de baño beige,False
+wa-hogar-0092,protector de colchón queen,1,protector de colchón queen,False
+wa-hogar-0092,cobija térmica doble gris,2,cobija térmica doble gris,False
+wa-hogar-0093,almohada hotelera firme,1,almohada hotelera firme,False
+wa-hogar-0094,juego de sábanas queen blancas,2,juego de sábanas queen blancas,False
+wa-hogar-0094,tapete de baño verde,3,tapete de baño verde,False
+wa-hogar-0096,cobija térmica doble gris,1,cobija térmica queen beige,True
+wa-hogar-0097,cojín decorativo verde oliva,2,cojín decorativo verde oliva,False
+wa-hogar-0097,juego de toallas blancas x3,3,juego de toallas blancas x3,False
+wa-hogar-0098,protector de colchón sencillo,3,protector de colchón sencillo,False
+wa-hogar-0098,cobija térmica queen beige,1,cobija térmica queen beige,False
+wa-hogar-0098,juego de sábanas doble algodón,2,juego de sábanas doble algodón,False
+wa-hogar-0099,cortina blackout 140x220 gris,1,cortina blackout 140x220 gris,False
+wa-hogar-0101,almohada hotelera suave,3,almohada hotelera suave,False
+wa-hogar-0101,cortina blackout 140x220 beige,1,cortina blackout 140x220 beige,False
+wa-hogar-0101,cojín decorativo terracota,2,cojín decorativo terracota,False
+wa-hogar-0102,juego de sábanas doble algodón,1,juego de sábanas doble algodón,False
+wa-hogar-0103,juego de toallas gris x3,2,juego de toallas gris x3,False
+wa-hogar-0103,almohada hotelera firme,3,almohada hotelera firme,False
+wa-hogar-0104,cobija térmica sencilla azul,3,cobija térmica doble gris,True
+wa-hogar-0104,juego de sábanas queen blancas,1,juego de sábanas queen blancas,False
+wa-hogar-0104,tapete de baño verde,2,tapete de baño verde,False
+wa-hogar-0106,protector de colchón queen,2,protector de colchón queen,False
+wa-hogar-0106,cobija térmica doble gris,3,cobija térmica doble gris,False
+wa-hogar-0107,cortina blackout 200x220 azul,3,cortina blackout 200x220 azul,False
+wa-hogar-0107,cojín decorativo verde oliva,1,cojín decorativo verde oliva,False
+wa-hogar-0107,juego de toallas blancas x3,2,juego de toallas blancas x3,False
+wa-hogar-0108,tapete de baño verde,1,tapete de baño verde,False
+wa-hogar-0109,almohada hotelera media,2,almohada hotelera media,False
+wa-hogar-0109,cortina blackout 140x220 gris,3,cortina blackout 140x220 gris,False
+wa-hogar-0111,juego de toallas blancas x3,1,juego de toallas blancas x3,False
+wa-hogar-0112,cobija térmica queen beige,2,cobija térmica sencilla azul,True
+wa-hogar-0112,juego de sábanas doble algodón,3,juego de sábanas doble algodón,False
+wa-hogar-0113,cojín decorativo crema,3,cojín decorativo crema,False
+wa-hogar-0113,juego de toallas gris x3,1,juego de toallas gris x3,False
+wa-hogar-0113,almohada hotelera firme,2,almohada hotelera firme,False
+wa-hogar-0114,protector de colchón doble,1,protector de colchón doble,False
+wa-hogar-0116,tapete de baño beige,3,tapete de baño beige,False
+wa-hogar-0116,protector de colchón queen,1,protector de colchón queen,False
+wa-hogar-0116,cobija térmica doble gris,2,cobija térmica doble gris,False
+wa-hogar-0117,almohada hotelera firme,1,almohada hotelera firme,False
+wa-hogar-0118,juego de sábanas queen blancas,2,juego de sábanas queen blancas,False
+wa-hogar-0118,tapete de baño verde,3,tapete de baño verde,False
+wa-hogar-0119,juego de toallas arena x2,3,juego de toallas arena x2,False
+wa-hogar-0119,almohada hotelera media,1,almohada hotelera media,False
+wa-hogar-0119,cortina blackout 140x220 gris,2,cortina blackout 140x220 gris,False
+wa-hogar-0121,cojín decorativo verde oliva,2,cojín decorativo verde oliva,False
+wa-hogar-0121,juego de toallas blancas x3,3,juego de toallas blancas x3,False
+wa-hogar-0122,protector de colchón sencillo,3,protector de colchón sencillo,False
+wa-hogar-0122,cobija térmica queen beige,1,cobija térmica queen beige,False
+wa-hogar-0122,juego de sábanas doble algodón,2,juego de sábanas doble algodón,False
+wa-hogar-0123,cortina blackout 140x220 gris,1,cortina blackout 140x220 gris,False
+wa-hogar-0124,tapete de baño gris,2,tapete de baño gris,False
+wa-hogar-0124,protector de colchón doble,3,protector de colchón doble,False
+wa-hogar-0126,juego de sábanas doble algodón,1,juego de sábanas doble algodón,False
+wa-hogar-0127,juego de toallas gris x3,2,juego de toallas gris x3,False
+wa-hogar-0127,almohada hotelera firme,3,almohada hotelera firme,False
+wa-hogar-0128,cobija térmica sencilla azul,3,cobija térmica doble gris,True
+wa-hogar-0128,juego de sábanas queen blancas,1,juego de sábanas queen blancas,False
+wa-hogar-0128,tapete de baño verde,2,tapete de baño verde,False
+wa-hogar-0129,cojín decorativo terracota,1,cojín decorativo terracota,False
+wa-hogar-0131,cortina blackout 200x220 azul,3,cortina blackout 200x220 azul,False
+wa-hogar-0131,cojín decorativo verde oliva,1,cojín decorativo verde oliva,False
+wa-hogar-0131,juego de toallas blancas x3,2,juego de toallas blancas x3,False
+wa-hogar-0132,tapete de baño verde,1,tapete de baño verde,False
+wa-hogar-0133,almohada hotelera media,2,almohada hotelera media,False
+wa-hogar-0133,cortina blackout 140x220 gris,3,cortina blackout 140x220 gris,False
+wa-hogar-0134,juego de sábanas sencillas estampadas,3,juego de sábanas sencillas estampadas,False
+wa-hogar-0134,tapete de baño gris,1,tapete de baño gris,False
+wa-hogar-0134,protector de colchón doble,2,protector de colchón doble,False
+wa-hogar-0136,cobija térmica queen beige,2,cobija térmica sencilla azul,True
+wa-hogar-0136,juego de sábanas doble algodón,3,juego de sábanas doble algodón,False
+wa-hogar-0137,cojín decorativo crema,3,cojín decorativo crema,False
+wa-hogar-0137,juego de toallas gris x3,1,juego de toallas gris x3,False
+wa-hogar-0137,almohada hotelera firme,2,almohada hotelera firme,False
+wa-hogar-0138,protector de colchón doble,1,protector de colchón doble,False
+wa-hogar-0139,cortina blackout 140x220 beige,2,cortina blackout 140x220 beige,False
+wa-hogar-0139,cojín decorativo terracota,3,cojín decorativo terracota,False
+wa-hogar-0141,almohada hotelera firme,1,almohada hotelera firme,False
+wa-hogar-0142,juego de sábanas queen blancas,2,juego de sábanas queen blancas,False
+wa-hogar-0142,tapete de baño verde,3,tapete de baño verde,False
+wa-hogar-0143,juego de toallas arena x2,3,juego de toallas arena x2,False
+wa-hogar-0143,almohada hotelera media,1,almohada hotelera media,False
+wa-hogar-0143,cortina blackout 140x220 gris,2,cortina blackout 140x220 gris,False
+wa-hogar-0144,cobija térmica doble gris,1,cobija térmica queen beige,True
+wa-hogar-0146,protector de colchón sencillo,3,protector de colchón sencillo,False
+wa-hogar-0146,cobija térmica queen beige,1,cobija térmica queen beige,False
+wa-hogar-0146,juego de sábanas doble algodón,2,juego de sábanas doble algodón,False
+wa-hogar-0147,cortina blackout 140x220 gris,1,cortina blackout 140x220 gris,False
+wa-hogar-0148,tapete de baño gris,2,tapete de baño gris,False
+wa-hogar-0148,protector de colchón doble,3,protector de colchón doble,False
+wa-hogar-0149,almohada hotelera suave,3,almohada hotelera suave,False
+wa-hogar-0149,cortina blackout 140x220 beige,1,cortina blackout 140x220 beige,False
+wa-hogar-0149,cojín decorativo terracota,2,cojín decorativo terracota,False
+wa-hogar-0151,juego de toallas gris x3,2,juego de toallas gris x3,False
+wa-hogar-0151,almohada hotelera firme,3,almohada hotelera firme,False
+wa-hogar-0152,cobija térmica sencilla azul,3,cobija térmica doble gris,True
+wa-hogar-0152,juego de sábanas queen blancas,1,juego de sábanas queen blancas,False
+wa-hogar-0152,tapete de baño verde,2,tapete de baño verde,False
+wa-hogar-0153,cojín decorativo terracota,1,cojín decorativo terracota,False
+wa-hogar-0154,protector de colchón queen,2,protector de colchón queen,False
+wa-hogar-0154,cobija térmica doble gris,3,cobija térmica doble gris,False
+wa-hogar-0156,tapete de baño verde,1,tapete de baño verde,False
+wa-hogar-0157,almohada hotelera media,2,almohada hotelera media,False
+wa-hogar-0157,cortina blackout 140x220 gris,3,cortina blackout 140x220 gris,False
+wa-hogar-0158,juego de sábanas sencillas estampadas,3,juego de sábanas sencillas estampadas,False
+wa-hogar-0158,tapete de baño gris,1,tapete de baño gris,False
+wa-hogar-0158,protector de colchón doble,2,protector de colchón doble,False
+wa-hogar-0159,juego de toallas blancas x3,1,juego de toallas blancas x3,False
+wa-hogar-0161,cojín decorativo crema,3,cojín decorativo crema,False
+wa-hogar-0161,juego de toallas gris x3,1,juego de toallas gris x3,False
+wa-hogar-0161,almohada hotelera firme,2,almohada hotelera firme,False
+wa-hogar-0162,protector de colchón doble,1,protector de colchón doble,False
+wa-hogar-0163,cortina blackout 140x220 beige,2,cortina blackout 140x220 beige,False
+wa-hogar-0163,cojín decorativo terracota,3,cojín decorativo terracota,False
+wa-hogar-0164,tapete de baño beige,3,tapete de baño beige,False
+wa-hogar-0164,protector de colchón queen,1,protector de colchón queen,False
+wa-hogar-0164,cobija térmica doble gris,2,cobija térmica doble gris,False
+wa-hogar-0166,juego de sábanas queen blancas,2,juego de sábanas queen blancas,False
+wa-hogar-0166,tapete de baño verde,3,tapete de baño verde,False
+wa-hogar-0167,juego de toallas arena x2,3,juego de toallas arena x2,False
+wa-hogar-0167,almohada hotelera media,1,almohada hotelera media,False
+wa-hogar-0167,cortina blackout 140x220 gris,2,cortina blackout 140x220 gris,False
+wa-hogar-0168,cobija térmica doble gris,1,cobija térmica queen beige,True
+wa-hogar-0169,cojín decorativo verde oliva,2,cojín decorativo verde oliva,False
+wa-hogar-0169,juego de toallas blancas x3,3,juego de toallas blancas x3,False
+wa-hogar-0171,cortina blackout 140x220 gris,1,cortina blackout 140x220 gris,False
+wa-hogar-0172,tapete de baño gris,2,tapete de baño gris,False
+wa-hogar-0172,protector de colchón doble,3,protector de colchón doble,False
+wa-hogar-0173,almohada hotelera suave,3,almohada hotelera suave,False
+wa-hogar-0173,cortina blackout 140x220 beige,1,cortina blackout 140x220 beige,False
+wa-hogar-0173,cojín decorativo terracota,2,cojín decorativo terracota,False
+wa-hogar-0174,juego de sábanas doble algodón,1,juego de sábanas doble algodón,False
+wa-hogar-0176,cobija térmica sencilla azul,3,cobija térmica doble gris,True
+wa-hogar-0176,juego de sábanas queen blancas,1,juego de sábanas queen blancas,False
+wa-hogar-0176,tapete de baño verde,2,tapete de baño verde,False
+wa-hogar-0177,cojín decorativo terracota,1,cojín decorativo terracota,False
+wa-hogar-0178,protector de colchón queen,2,protector de colchón queen,False
+wa-hogar-0178,cobija térmica doble gris,3,cobija térmica doble gris,False
+wa-hogar-0179,cortina blackout 200x220 azul,3,cortina blackout 200x220 azul,False
+wa-hogar-0179,cojín decorativo verde oliva,1,cojín decorativo verde oliva,False
+wa-hogar-0179,juego de toallas blancas x3,2,juego de toallas blancas x3,False
+wa-hogar-0181,almohada hotelera media,2,almohada hotelera media,False
+wa-hogar-0181,cortina blackout 140x220 gris,3,cortina blackout 140x220 gris,False
+wa-hogar-0182,juego de sábanas sencillas estampadas,3,juego de sábanas sencillas estampadas,False
+wa-hogar-0182,tapete de baño gris,1,tapete de baño gris,False
+wa-hogar-0182,protector de colchón doble,2,protector de colchón doble,False
+wa-hogar-0183,juego de toallas blancas x3,1,juego de toallas blancas x3,False
+wa-hogar-0184,cobija térmica queen beige,2,cobija térmica sencilla azul,True
+wa-hogar-0184,juego de sábanas doble algodón,3,juego de sábanas doble algodón,False
+wa-hogar-0186,protector de colchón doble,1,protector de colchón doble,False
+wa-hogar-0187,cortina blackout 140x220 beige,2,cortina blackout 140x220 beige,False
+wa-hogar-0187,cojín decorativo terracota,3,cojín decorativo terracota,False
+wa-hogar-0188,tapete de baño beige,3,tapete de baño beige,False
+wa-hogar-0188,protector de colchón queen,1,protector de colchón queen,False
+wa-hogar-0188,cobija térmica doble gris,2,cobija térmica doble gris,False
+wa-hogar-0189,almohada hotelera firme,1,almohada hotelera firme,False
+wa-hogar-0191,juego de toallas arena x2,3,juego de toallas arena x2,False
+wa-hogar-0191,almohada hotelera media,1,almohada hotelera media,False
+wa-hogar-0191,cortina blackout 140x220 gris,2,cortina blackout 140x220 gris,False
+wa-hogar-0192,cobija térmica doble gris,1,cobija térmica queen beige,True
+wa-hogar-0193,cojín decorativo verde oliva,2,cojín decorativo verde oliva,False
+wa-hogar-0193,juego de toallas blancas x3,3,juego de toallas blancas x3,False
+wa-hogar-0194,protector de colchón sencillo,3,protector de colchón sencillo,False
+wa-hogar-0194,cobija térmica queen beige,1,cobija térmica queen beige,False
+wa-hogar-0194,juego de sábanas doble algodón,2,juego de sábanas doble algodón,False
+wa-hogar-0196,tapete de baño gris,2,tapete de baño gris,False
+wa-hogar-0196,protector de colchón doble,3,protector de colchón doble,False
+wa-hogar-0197,almohada hotelera suave,3,almohada hotelera suave,False
+wa-hogar-0197,cortina blackout 140x220 beige,1,cortina blackout 140x220 beige,False
+wa-hogar-0197,cojín decorativo terracota,2,cojín decorativo terracota,False
+wa-hogar-0198,juego de sábanas doble algodón,1,juego de sábanas doble algodón,False
+wa-hogar-0199,juego de toallas gris x3,2,juego de toallas gris x3,False
+wa-hogar-0199,almohada hotelera firme,3,almohada hotelera firme,False
