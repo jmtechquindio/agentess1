@@ -1,0 +1,271 @@
+{
+ "navegador": "Chrome/154.0.8037.58",
+ "extension": "jhpamggeoecblhcmppikmemmilpclcnp",
+ "resultados": [
+  [
+   "PASS",
+   "Chrome carga la extension sin errores de manifiesto",
+   "jhpamggeoecblhcmppikmemmilpclcnp"
+  ],
+  [
+   "PASS",
+   "Manifest V3",
+   "3"
+  ],
+  [
+   "PASS",
+   "Solo los tres permisos acordados",
+   "['activeTab', 'downloads', 'scripting']"
+  ],
+  [
+   "PASS",
+   "Sin service worker declarado",
+   ""
+  ],
+  [
+   "PASS",
+   "Sin content scripts declarados",
+   ""
+  ],
+  [
+   "PASS",
+   "Sin <all_urls> ni host_permissions",
+   ""
+  ],
+  [
+   "PASS",
+   "Recurso declarado existe",
+   "popup.html"
+  ],
+  [
+   "PASS",
+   "La pagina se sirve como ferricentro.com sobre TLS",
+   "https://ferricentro.com/productos/herramienta-manual"
+  ],
+  [
+   "PASS",
+   "El selector acotado encuentra 24 en el navegador real",
+   "acotadas=24 globales=26"
+  ],
+  [
+   "PASS",
+   "extractor.js real devuelve estado ok",
+   "ok / 24 productos"
+  ],
+  [
+   "PASS",
+   "24 productos",
+   "24"
+  ],
+  [
+   "PASS",
+   "SKU leido del DOM",
+   "FF-0000012528"
+  ],
+  [
+   "PASS",
+   "precio leido del DOM real",
+   "Abecedario De Golpe De 4Mm -> 66000"
+  ],
+  [
+   "PASS",
+   "estado coherente con D1",
+   "requiere_revision"
+  ],
+  [
+   "PASS",
+   "observaciones con campo y valor explicitos",
+   "[{\"campo\": \"precio_cop\", \"valor\": \"66000\", \"motivo\": \"La pagina no muestra codigo de moneda (ni COP, ni \\\"pesos\\\", ni \\\"colombiano"
+  ],
+  [
+   "PASS",
+   "el registro incluye los 10 campos del contrato",
+   "faltan: []"
+  ],
+  [
+   "PASS",
+   "las 24 filas tienen la misma forma",
+   "12 claves: 10 del contrato + url_producto + observaciones"
+  ],
+  [
+   "PASS",
+   "total declarado leido",
+   "2147"
+  ],
+  [
+   "PASS",
+   "inventario y activo vacios en las 24 filas",
+   ""
+  ],
+  [
+   "PASS",
+   "extractor.js real se detiene en un dominio ajeno",
+   "parada :: La pestaña no pertenece al dominio autorizado ferricentro.com. No se a"
+  ],
+  [
+   "PASS",
+   "el motivo nombra el dominio autorizado",
+   "La pestaña no pertenece al dominio autorizado ferricentro.com. No se analiza."
+  ],
+  [
+   "PASS",
+   "cero productos en dominio ajeno",
+   ""
+  ],
+  [
+   "PASS",
+   "El popup carga desde chrome-extension://",
+   "Inventario Ferricentro"
+  ],
+  [
+   "PASS",
+   "El boton Descargar arranca deshabilitado",
+   ""
+  ],
+  [
+   "PASS",
+   "El CSS se aplico (boton visible)",
+   "display=inline-block"
+  ],
+  [
+   "PASS",
+   "La interfaz se compone en el navegador",
+   "titulo visible, alto=291px"
+  ],
+  [
+   "PASS",
+   "APIs presentes en el popup",
+   "{\"tabs\": \"function\", \"scripting\": \"function\", \"downloads\": \"function\"}"
+  ],
+  [
+   "PASS",
+   "COLS tiene las 10 columnas",
+   "10"
+  ],
+  [
+   "PASS",
+   "COLS_EXCEPCIONES tiene las 7 columnas",
+   "7"
+  ],
+  [
+   "PASS",
+   "fuente_url se completa con la URL de la pestana (popup.js:315)",
+   "{\"todas\": true, \"distintas\": 1}"
+  ],
+  [
+   "PASS",
+   "La UI real muestra 24",
+   "24"
+  ],
+  [
+   "PASS",
+   "La UI real muestra el total 2147 junto al conteo",
+   "2147"
+  ],
+  [
+   "PASS",
+   "La UI real muestra 0 verificados",
+   "0"
+  ],
+  [
+   "PASS",
+   "La vista previa real muestra 12 filas",
+   "12"
+  ],
+  [
+   "PASS",
+   "La UI real habilita Descargar",
+   ""
+  ],
+  [
+   "PASS",
+   "La UI real declara los campos ausentes",
+   "inventario — la pagina no muestra ninguna cantidad. Un boton \"Agregar al carro\" deshabilitado no es "
+  ],
+  [
+   "PASS",
+   "El resultado real 'parada' se pinta como estado de error",
+   "nivel=error"
+  ],
+  [
+   "PASS",
+   "La UI real explica el rechazo por dominio",
+   "La pestaña no pertenece al dominio autorizado ferricentro.com. No se analiza."
+  ],
+  [
+   "PASS",
+   "Sin descarga tras un resultado 'parada'",
+   ""
+  ],
+  [
+   "PASS",
+   "La UI real advierte que no se genero CSV",
+   "No se generó ningún CSV. Un archivo con datos incompletos sería engañoso: la dif"
+  ],
+  [
+   "PASS",
+   "El CSV del navegador coincide con la muestra del entregable",
+   "25 lineas identicas"
+  ],
+  [
+   "PASS",
+   "excepciones.csv coincide con la muestra del entregable",
+   "49 lineas identicas"
+  ],
+  [
+   "PASS",
+   "Cabecera exacta",
+   "proveedor,sku,nombre,marca,precio_cop,inventario,activo,fuente_url,fec"
+  ],
+  [
+   "PASS",
+   "24 filas de datos",
+   "24"
+  ],
+  [
+   "PASS",
+   "Escapa comillas dobles",
+   ""
+  ],
+  [
+   "PASS",
+   "Cada fila con sus 10 campos",
+   ""
+  ],
+  [
+   "PASS",
+   "excepciones.csv con 48 filas",
+   "48"
+  ],
+  [
+   "PASS",
+   "valor_observado trae el importe real, no el texto del motivo",
+   ""
+  ],
+  [
+   "PASS",
+   "chrome.downloads completo las dos descargas",
+   "[{\"estado\": \"complete\", \"error\": null}, {\"estado\": \"complete\", \"error\": null}]"
+  ],
+  [
+   "PASS",
+   "las dos descargas se materializaron como .csv",
+   "['aaef3a47-7b6', 'fdad81a7-e7d']"
+  ],
+  [
+   "PASS",
+   "Las descargas se piden como text/csv",
+   "['text/csv', 'text/csv']"
+  ],
+  [
+   "PASS",
+   "Captura del popup guardada",
+   "capturas/popup-chrome.png"
+  ],
+  [
+   "PASS",
+   "Sin errores de JavaScript en el popup",
+   "[]"
+  ]
+ ]
+}

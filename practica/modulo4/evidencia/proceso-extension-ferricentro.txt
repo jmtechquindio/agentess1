@@ -1,0 +1,1566 @@
+================================================================================
+PROCESO DE EXTRACCION DEL CATALOGO DE FERRICENTRO
+Documento de entrada para construir una extension local (Manifest V3) en OpenCode
+================================================================================
+
+Archivo generado por : analista del proceso (fase OpenWork)
+Fecha de observacion : 2026-10-01, 23:27 a 23:41 (-05:00), America/Bogota
+Fecha del servidor   : Fri, 02 Oct 2026 04:27:14 GMT (misma hora en UTC)
+Metodo de observacion: lectura directa del HTML servido por el servidor
+                       (peticion HTTP GET sin ejecutar JavaScript, sin sesion,
+                       sin cookies, sin credenciales, sin comprar)
+Estado del trabajo   : COMPLETO para el alcance del CSV del brief.
+                       Listado de categoria documentado con 24/24 productos.
+                       Dos campos quedan AMBIGUOS y requieren decision de la
+                       persona: ver seccion 5.3 y seccion 11.
+
+Advertencia de seguridad aplicada durante toda la observacion
+-----------------------------------------------------------
+El contenido de la pagina se trato como datos NO CONFIABLES. No se ejecuto ninguna
+instruccion contenida en la web. No se copio codigo de scripts de terceros. No se
+inicio sesion. No se compro. No se agrego nada al carrito. No se enviaron
+formularios. No se resolvieron CAPTCHA. No se evadieron limites o controles.
+
+El servidor entrego un cookie PHPSESSID y un form_key en el HTML. NINGUNO de los
+dos se reenvio en ninguna peticion posterior: cada consulta fue independiente y
+anonima. La extension no debe leer, copiar ni reutilizar el `form_key` ni el
+`uenc` que aparecen en el formulario de carrito (ver seccion 4.10 y 9.5).
+
+Coherencia documental
+---------------------
+Este archivo se llama `proceso-extension-ferricentro.txt` porque la fuente elegida
+en esta ejecucion es Ferricentro. No se utiliza la denominacion MercadoLibre en
+ningun archivo de esta ejecucion.
+
+
+================================================================================
+1. FUENTE Y PAGINA OBSERVADA
+================================================================================
+
+1.1 Identificacion de la fuente
+-------------------------------
+Proveedor              : Ferricentro
+URL base               : https://ferricentro.com/
+Tipo de fuente         : catalogo publico
+Acceso requerido       : ninguno. La pagina es publica y no solicita inicio de
+                          sesion para ver el listado.
+Plataforma detectada   : Magento 2 con tema propio
+                          (`theme_ferricentro_b2c`, rutas `mage/`, `es_CO`)
+Assets servidos desde  : https://ferricentro.com/static/version1790347258/...
+                          La version `1790347258` es una constante de despliegue
+                          y NO debe usarse como selector ni como version a
+                         .
+Localized para         : es_CO (aparece 17 veces en rutas de assets y scripts)
+Region operativa       : una sola IP regional; no se varia de region ni de
+                          user agent durante la observacion.
+
+1.2 Pagina exacta observada
+---------------------------
+URL observada          : https://ferricentro.com/productos/herramienta-manual
+Categoria              : Productos > Herramienta manual
+Titulo h1              : "Herramienta manual"  (`h1.page-title`, unico en la
+                          pagina)
+Migas de pan           : Inicio > Productos > Herramienta manual
+                          (`.breadcrumbs`, OBSERVADO)
+Codigo HTTP            : 200
+Tamano del HTML        : 565 636 bytes
+
+Advertencia sobre el fragmento y la query
+-----------------------------------------
+La URL no tiene fragmento. La paginacion usa el parametro de consulta `?p=N`
+(seccion 4.9). Para la columna `fuente_url` del CSV debe conservarse la URL tal
+como la observo la persona, INCLUDINGO el `?p=N` si existe, porque el registro se
+extrajo de ESA pagina concreta y no de otra. Recortarlo perderia trazabilidad.
+Decision pendiente de la persona: ver seccion 9.6.
+
+1.3 Fecha y hora de observacion
+------------------------------
+2026-10-01 23:27 (-05:00)  apertura de la pagina y primer analisis
+2026-10-01 23:41 (-05:00)  cierre de la observacion
+Zona horaria             : -05:00 (America/Bogota), sin hora de verano
+
+Advertencia de reproducibilidad
+------------------------------
+El sitio sirve contenido variable. Es normal que otra consulta, en otra fecha o
+desde otra region devuelva:
+  - un subconjunto o superconjunto de productos,
+  - los mismos productos en distinto orden (el orden por defecto observado es
+    alfabetico por nombre),
+  - una pagina distinta si cambia el `?p=N`,
+  - una grilla vacia si la categoria cambia de contenido.
+Por eso la extension NO debe asumir 24 productos ni ningun total. Debe contar lo
+que encuentre en el momento de la ejecucion.
+
+
+================================================================================
+2. RESUMEN DE LA ESTRUCTURA
+================================================================================
+
+Plataforma            : Magento 2 (grid de catalogo estandar del tema)
+Renderizado           : COMPLETO EN SERVIDOR. Los 24 productos, con nombre, SKU,
+                        marca, referencia y precio, llegan en el HTML inicial.
+                        No se requiere ejecutar JavaScript para leerlos.
+Carga dinamica        : NO OBSERVADA. Cero coincidencias de `infinite-scroll`,
+                        `infiniteScroll`, `lazy-load`, `load-more`, `ajaxscroll`.
+                        El desplazamiento no anade productos.
+Datos estructurados   : NO OBSERVADOS. Cero coincidencias de
+                        `application/ld+json`, `itemscope`, `itemtype`,
+                        `itemprop`. No hay JSON-LD ni microdata de producto.
+                        Toda la extraccion debe hacerse por DOM.
+Precio                : un solo bloque por producto, siempre `finalPrice`.
+                        El entero plano esta en un atributo `data-price-amount`
+                        que coincide con el texto visible en 24/24 casos.
+Moneda                : el simbolo `$` es la UNICA evidencia. NO hay codigo de
+                        moneda en el HTML. Ver seccion 5.3 (AMBIGUO).
+Inventario            : NO OBSERVADO en absoluto. Cero apariciones de `stock`,
+                        `Disponible`, `Sin stock`, `Agotado`, existencias o
+                        Ultimas unidades en el HTML servido.
+Estado del boton      : los 24 botones "Agregar al carro" estan `disabled`
+                        desde el servidor, en las dos paginas observadas.
+                        Esto NO es evidencia de inventario (seccion 4.10).
+Paginacion            : OBSERVADA. `?p=N`, 5 enlaces visibles (2..6) sobre un
+                        total de 2147 articulos en la categoria.
+Limite por pagina     : 24 (`limitDefault: 24` en la configuracion del toolbar)
+Otros bloques con     : OBSERVADOS y relevantes como trampa de selector. La pagina
+tarjetas de producto      contiene 3 listas `ol.product-items`: la grilla (24) y
+                        dosplantillas ocultas de comparar y de lista de deseados
+                        (1 cada una). Ver seccion 3.2: es el riesgo de extraccion
+                        numero uno de esta fuente.
+
+
+================================================================================
+3. CONTENEDOR DE PRODUCTOS
+================================================================================
+
+3.1 Estructura jerarquica observada
+-----------------------------------
+  div.page-wrapper
+    main#maincontent
+      div.columns
+        div.column.main
+          div.products.wrapper.grid.products-grid      <- GRILLA
+            ol.products.list.items.product-items        <- LISTA
+              li.item.product.product-item              <- TARJETA (x24)
+                div.product-item-info                   <- CONTENEDOR DE DATOS
+                  div.product details.product-item-details
+                    div.product-item-group
+                      div.product-item-group_item
+                        div.product-item-row
+                          span.product-item-brand        <- MARCA
+                          span.product-item-reference    <- REFERENCIA
+                      strong.product.name.product-item-name
+                        a.product-item-link              <- NOMBRE + URL
+                      div.product-item-row.inline
+                        id="availability-product-<SKU>"
+                        div.product-item-row_content
+                          span.product-item-row_label   <- "SKU: <SKU>"
+                    div.product-item-inner
+                      div.price-box[data-role=priceBox] <- PRECIO
+                        span.price-container
+                          span[data-price-amount]        <- ENTERO PLANO
+                            span.price                  <- TEXTO VISIBLE "$ 66.000"
+                      div.product actions.product-item-actions
+                        form[data-role=tocart-form]     <- NO USAR
+
+3.2 La trampa de selector mas importante de esta fuente
+-------------------------------------------------------
+En el documento completo hay 26 elementos `li.product-item`, pero solo 24 son
+productos reales:
+
+  lista #1  ol.product-items en .products.wrapper.grid.products-grid   24 tarjetas  <- ESTA
+  lista #2  ol.product-items en .block.block-compare  (.block-content.no-display)  1 tarjeta
+  lista #3  ol.product-items en .block.block-wishlist (.block-content)              1 tarjeta
+
+Las listas #2 y #3 son plantillas ocultas de Magento (comparar y lista de
+deseados). Sus tarjetas estan VACIAS: se verifico que su `a.product-item-link`
+no tiene texto. Un selector global `li.product-item` devolveria 26 nodos, 2 de los
+cuales no son productos.
+
+La misma discrepancia aparece en otros elementos, medida en el documento completo
+frente al recorte de la grilla:
+
+  SELECTOR                              GLOBAL   EN LA GRILLA
+  li.product-item                          26          24
+  strong.product-item-name                 26          24
+  a.product-item-link                      26          24
+  button.action.tocart                     26          24
+  span.product-item-brand                  24          24
+  span.product-item-reference              24          24
+  img.product-image-photo                  24          24
+  div[data-role=priceBox]                  24          24
+  form[data-role=tocart-form]              24          24
+
+CONSECUENCIA OBLIGATORIA PARA LA EXTENSION: todos los selectores de producto
+deben estar acotados al alcance
+`div.products-grid ol.product-items > li.product-item`.
+No se debe iterar sobre `document.querySelectorAll('li.product-item')`.
+
+3.3 Contenedor de productos - ficha
+-----------------------------------
+Nombre humano            : Grilla de productos
+Etiqueta HTML observada  : div
+Clases observadas        : products wrapper grid products-grid
+Atributos estables        : ninguno propio de la grilla
+Coincidencias             : 1
+Selector principal       : div.products-grid
+Selector alternativo     : ol.product-items (devuelve las 3 listas; NO usar solo)
+Selector alternativo 2   : main#maincontent .column.main .products-grid
+Accion asociada           : leer
+Ejemplo real observado    :
+   <div class="products wrapper grid products-grid">
+   <ol class="products list items product-items">
+Causas de falla o cambio  : `products-grid`/`grid`/`wrapper` provienen del modulo
+                           grid de Magento y son razonablemente estables. Si la
+                           persona cambia el modo a "Lista" (hay un control
+                           visible `.modes-mode.mode-list`, seccion 4.11) la
+                           grilla puede cambiar de marcado. La extension debe
+                           avisar si no encuentra `ol.product-items` y no
+                           exportar.
+
+3.4 Contenedor de la tarjeta - ficha
+------------------------------------
+Nombre humano            : Tarjeta de producto
+Etiqueta HTML observada  : li
+Clases observadas        : item product product-item
+Atributos estables        : ninguno en la propia etiqueta. El identificador
+                           estable esta en el hijo:
+                           `div.product-item-info` lleva
+                           `id="product-item-info_<entity_id>"` y
+                           `data-container="product-grid"`.
+                           El `entity_id` (244383, 117595, ...) es un
+                           identificador interno de Magento, estable para un
+                           mismo producto entre renders y entre paginas.
+                           VERIFICADO: los 24 son numericos y unicos, y coinciden
+                           exactamente con el `data-product-id` del bloque de
+                           precio de la MISMA tarjeta (24/24).
+Coincidencias             : 24 dentro de la grilla (26 en el documento)
+Selector principal       : div.products-grid ol.product-items > li.product-item
+Selector alternativo     : div.products-grid li.product-item
+Ancla numérica estable   : div.products-grid div.product-item-info
+                           (extraer el id; NO usar id como selector CSS porque
+                           cambia con el producto)
+Accion asociada           : leer (iterar)
+Ejemplo real observado    :
+   <li class="item product product-item">
+     <div class="product-item-info" id="product-item-info_244383"
+          data-container="product-grid">
+Causas de falla o cambio  : `product-item` es clase estandar del tema. El
+                           patron `product-item-*` completo se usa en Magento para
+                           la tarjeta, pero `product-item-brand` y
+                           `product-item-reference` son extensiones PROPIAS del
+                           tema Ferricentro: son menos estables que un
+                           `data-testid`. Ver seccion 6.3.
+
+
+================================================================================
+4. ELEMENTOS DEL PRODUCTO
+================================================================================
+
+--------------------------------------------------------------------------------
+4.1 Marca
+--------------------------------------------------------------------------------
+Nombre humano            : Marca del producto
+Etiqueta HTML observada  : span
+Clases observadas        : product-item-brand
+Atributos estables        : ninguno
+Rol y nombre accesible   : No se observo rol ARIA. El texto es el nombre de la
+                           marca.
+Texto o patron reconocible: la marca en mayusculas, p. ej. "SURTEK"
+Coincidencias             : 24 dentro de la grilla (24 en el documento completo)
+Selector principal       : .products-grid li.product-item span.product-item-brand
+Selector alternativo     : NO SE OBSERVO ALTERNATIVO. La marca solo aparece aqui.
+                           Ver seccion 9.3.
+Contenedor o alcance      : dentro de div.product-item-row, junto a la referencia
+Ejemplo real observado    :
+   <div class="product-item-row">
+       <span class="product-item-brand">SURTEK</span>
+       <span class="product-item-reference">117224</span>
+   </div>
+Ejemplos reales (6 marcas distintas, 24 productos):
+   SURTEK 3 | MIKELS 8 | EDUARDODO 3 | FORCE 3 | STANLEY 4 | SATA 3
+Accion asociada           : leer
+Posibles fallas           : VER SECCION 8.1. Una de las marcas observadas es
+                           "EDUARDODO", que parece un error de catalogo. La
+                           extension debe copiarla tal cual y NO corregirla.
+
+--------------------------------------------------------------------------------
+4.2 Referencia del fabricante
+--------------------------------------------------------------------------------
+Nombre humano            : Referencia / parte del fabricante
+Etiqueta HTML observada  : span
+Clases observadas        : product-item-reference
+Atributos estables        : ninguno
+Rol y nombre accesible   : No se observo rol ARIA.
+Texto o patron reconocible: un codigo corto del fabricante, distinto del SKU.
+                           Ejemplos: "117224", "JAN-17", "4-86-002", "LE-SMTCU",
+                           "ST16908S", "20-600"
+Coincidencias             : 24 elementos dentro de la grilla
+                           PERO solo 22 con texto. 2 elementos (productos 12 y 13)
+                           existen VACIOS (solo espacios). Ver seccion 8.2.
+Selector principal       : .products-grid li.product-item span.product-item-reference
+Selector alternativo     : NO SE OBSERVO ALTERNATIVO
+Contenedor o alcance      : dentro de div.product-item-row, junto a la marca
+Ejemplo real observado    :
+       <span class="product-item-reference">
+                                                                               </span>
+Ejemplo con dato          : <span class="product-item-reference">117224</span>
+Accion asociada           : leer
+Posibles fallas           : NO CONFUNDIR con el SKU. Son dos campos distintos:
+                           la referencia "117224" NO es el SKU "FF-0000012528".
+                           En 24/24 productos los dos valores difieren.
+                           OJO: este campo NO existe en el contrato de datos del
+                           brief. Ver seccion 5.4 y 9.4: la decision de incluirlo
+                           o descartarlo es de la persona.
+Advertencia de parseo     : el elemento contiene mucho espacio en blanco. Si se lee
+                           `textContent` sin `trim()` se obtendra una cadena con
+                           espacios y saltos de linea que hay que limpiar.
+
+--------------------------------------------------------------------------------
+4.3 Nombre del producto
+--------------------------------------------------------------------------------
+Nombre humano            : Nombre / titulo del producto
+Etiqueta HTML observada  : strong > a
+Clases observadas        : contenedor: product name product-item-name
+                           enlace: product-item-link
+Atributos estables        : ninguno en el texto. El `href` del enlace es el dato
+                           estable, no el titulo.
+Rol y nombre accesible   : El `a` tiene rol implicito `link`. Su nombre accesible
+                           es su propio texto. El `strong` no aporta semantica
+                           de encabezado; NO es un h1..h6. En la grilla NO existe
+                           ningun encabezado semantico por producto.
+Texto o patron reconocible: nombre comercial, con capitalizacion en Title Case
+Coincidencias             : `a.product-item-link` = 24 en la grilla (26 global)
+                           `strong.product-item-name` = 24 en la grilla (26 global)
+Selector principal       : .products-grid li.product-item a.product-item-link
+Selector alternativo     : .products-grid li.product-item
+                               strong.product-item-name > a.product-item-link
+Contenedor o alcance      : dentro de div.product-item-details
+Ejemplo real observado    :
+   <strong class="product name product-item-name">
+       <a class="product-item-link"
+          href="https://ferricentro.com/abecedario-de-golpe-de-4mm-ff-0000012528">
+           Abecedario De Golpe De 4Mm                          </a>
+   </strong>
+Accion asociada           : leer (texto)
+Posibles fallas           : El texto del enlace tiene mucho relleno en blanco
+                           antes del cierre de la etiqueta. Limpiar con `trim()`
+                           y colapsar espacios internos; NO alterar el contenido.
+                           Riesgo real de CSV: 9 de los 24 nombres observados
+                           contienen una comilla doble (productos 14, 17 a 24),
+                           por ejemplo `Adaptador H1" X M3/4"`. Cero nombres
+                           contienen coma, punto y coma o salto de linea. Ver
+                           seccion 8.3.
+
+--------------------------------------------------------------------------------
+4.4 SKU
+--------------------------------------------------------------------------------
+Nombre humano            : SKU / codigo interno del producto
+Etiqueta HTML observada  : span (dentro de div) y atributo `id` (en el div)
+Atributos estables        : `id="availability-product-<SKU>"` en un div, y
+                           `data-product-sku="<SKU>"` en el formulario del
+                           carrito. El texto del span es "SKU: <SKU>".
+Rol y nombre accesible   : El div contenedor declara
+                           `data-bind="scope: 'availability_catalog_list_<SKU>'"`,
+                           lo que indica que Magento esta pensandolo como un
+                           scope de disponibilidad que se rellena por JS. En el
+                           HTML servido, ese scope contiene UNICAMENTE la
+                           etiqueta "SKU:" y NUNCA una cantidad. Ver 4.10.
+Texto o patron reconocible: el prefijo literal "SKU: " seguido del codigo.
+                           Formato observado: "FF-0000012528" (prefijo "FF-",
+                           guion, 7 digitos). 24/24 con ese formato.
+Coincidencias             : `#availability-product-<SKU>` = 24 en la grilla
+                           `span.product-item-row_label` = 24 en la grilla
+                           `form[data-product-sku]` = 24 en la grilla
+Selector principal       : .products-grid li.product-item
+                               div[id^="availability-product-"]
+                               (el valor del id, quitando el prefijo, es el SKU)
+Selector alternativo     : .products-grid li.product-item
+                               span.product-item-row_label
+                           (texto con prefijo "SKU: " que hay que quitar)
+Contenedor o alcance      : dentro de div.product-item-details
+Ejemplo real observado    :
+   <div class="product-item-row inline" id="availability-product-FF-0000012528"
+        data-bind="scope: 'availability_catalog_list_FF-0000012528'">
+       <div class="product-item-row_content">
+           <span class="product-item-row_label">
+       SKU: FF-0000012528                                        </span>
+   </div>
+Accion asociada           : leer
+Verificacion de redundancia
+                           Las TRES fuentes de SKU coinciden en 24/24 productos:
+                             id="availability-product-X"  ==  X
+                             texto "SKU: X"               ==  X
+                             data-product-sku="X"         ==  X
+                           VERIFICADO: 24/24 coincidencias. Esto convierte al
+                           SKU en el campo mas confiable de esta fuente.
+                           La extension debe preferir el `id` (o el
+                           `data-product-sku` del formulario, sin llegar a
+                           activar el formulario) y usar el texto visible como
+                           comprobacion.
+                           Verificacion adicional: los 24 SKU de la pagina 1 y los
+                           24 de la pagina 2 son DISJUNTOS (0 coincidencias).
+                           El SKU sirve como clave de deduplicacion.
+Advertencia adicional     : el SKU tambien aparece en el slug de la URL
+                           ("...-ff-0000012528"). Se verifico en 24/24. Es una
+                           cuarta fuente, pero la menos recomendable: si el
+                           sitio cambiara de regla de slug,aria bien. El slug es
+                           DELEGADO. No debe ser el selector principal.
+Nota de permisos          : leer `data-product-sku` NO requiere enviar el
+                           formulario. La extension solo lee el atributo.
+
+--------------------------------------------------------------------------------
+4.5 Precio
+--------------------------------------------------------------------------------
+Nombre humano            : Precio de venta del producto
+Etiqueta HTML observada  : span anidado (3 niveles)
+Clases observadas        : contenedor: price-box price-final_price
+                           intermediate: price-container price-final_price tax weee
+                           portador: price-wrapper
+                           visible: price
+Atributos estables        : `data-price-amount="<entero>"` (el dato que sirve)
+                           `data-price-type="finalPrice"` (constante en 24/24)
+                           `data-role="priceBox"` en el contenedor
+                           `data-product-id="<entity_id>"` en el contenedor
+Rol y nombre accesible   : No se observo rol ARIA en el precio. No hay
+                           `aria-label` ni `aria-roledescription`. A diferencia de
+                           MercadoLibre, aqui NO hay una segunda representacion
+                           accesible del monto. El texto visible es la unica
+                           lectura humana.
+Texto o patron reconocible: "$" seguido de un espacio y el numero con PUNTO como
+                           separador de miles. Ejemplos reales:
+                             "$ 66.000"     "$ 106.743"    "$ 136.731"
+                             "$ 76.800"     "$ 21.500"     "$ 155.000"
+Coincidencias             : `div.price-box[data-role=priceBox]` = 24 en grilla
+                           `span[data-price-amount]`            = 24 en grilla
+                           `[data-price-type="finalPrice"]`     = 24 en grilla
+Selector principal       : .products-grid li.product-item
+                               div[data-role="priceBox"]
+                               span[data-price-amount]
+                           (leer el atributo `data-price-amount`)
+Selector alternativo     : .products-grid li.product-item
+                               div[data-role="priceBox"] span.price
+                           (leer texto visible; REQUIERE quitar "$", el espacio y
+                           el punto de miles)
+Contenedor o alcance      : dentro de div.product-item-inner
+Ejemplo real observado    :
+   <div class="price-box price-final_price" data-role="priceBox"
+        data-product-id="244383" data-price-box="product-id-244383">
+     <span class="price-container price-final_price&#x20;tax&#x20;weee">
+       <span id="product-price-244383" data-price-amount="66000"
+             data-price-type="finalPrice" class="price-wrapper ">
+         <span class="price">$ 66.000</span></span>
+     </span>
+   </div>
+Verificacion cruzada      : en 24/24 productos, los digitos del texto visible
+                           coinciden con `data-price-amount`:
+                             "$ 66.000"   -> 66000
+                             "$ 106.743"  -> 106743
+                             "$ 155.000"  -> 155000
+                           VERIFICADO. Los dos metodos son equivalentes en esta
+                           muestra.
+Formato numerico           : los 24 `data-price-amount` son enteros SIN decimales y
+                           SIN separador de miles. Rango observado: 6.100 a
+                           155.000. Todos positivos. Ver seccion 8.4: esto es una
+                           MUESTRA, no una garantia para todo el catalogo.
+Posibles fallas           : las clases `tax weee` del contenedor indican que el
+                           tema soporta impuestos y cargos adicionales. En esta
+                           pagina NO se mostro ninguna linea extra de impuesto, y
+                           solo hay un `data-price-amount` por producto. Si una
+                           pagina mostrara desglose, habria MAS de un
+                           `data-price-amount` en la tarjeta y el selector leeria
+                           el equivocado. La extension debe contar los
+                           `data-price-amount` de la tarjeta y detenerse si hay
+                           mas de uno. Ver seccion 10.5.
+                           `span.price` aparece 43 veces en el documento (24 en la
+                           grilla) por las plantillas ocultas. Acotar siempre.
+
+--------------------------------------------------------------------------------
+4.6 Moneda
+--------------------------------------------------------------------------------
+Nombre humano            : Moneda del precio
+Etiqueta HTML observada  : (no hay elemento propio; solo el simbolo "$" dentro
+                           del texto del precio)
+Texto o patron reconocible: "$"
+Busqueda exhaustiva de un codigo de moneda en el HTML servido:
+    "COP"        -> 0 coincidencias
+    "MXN"        -> 0 coincidencias
+    "USD"        -> 0 coincidencias
+    "pesos"      -> 0 coincidencias
+    "Pesos"      -> 0 coincidencias
+    "PESOS"      -> 0 coincidencias
+    "colombiano" -> 0 coincidencias
+    "Colombia"   -> 0 coincidencias
+    "currency"   -> 1 coincidencia (no es un codigo; ver abajo)
+    "symbol"     -> 0 coincidencias
+    <meta> con currency / locale / region / country -> 0
+ESTADO: AMBIGUO. Ver seccion 5.3. Es el punto mas delicado de esta observacion.
+
+--------------------------------------------------------------------------------
+4.7 Inventario / cantidad
+--------------------------------------------------------------------------------
+Nombre humano            : Inventario o cantidad disponible
+Etiqueta HTML observada  : NO EXISTE ELEMENTO ALGUNO
+ESTADO: NO OBSERVADO. Ver seccion 5.5 y 8.5.
+Busqueda en el HTML servido, coincidencias = 0 en todos los casos:
+    "stock"          "Stock"        "Disponible"    "disponible"
+    "Sin stock"      "Agotado"      "existencias"  "Ultimas unidades"
+    "Understock"     "quantity"     "qty"  (4 apariciones, todas en el
+                                            formulario de carrito, no en un
+                                            campo de datos)
+Lo que SI se observo, en su lugar:
+    - El div que Magento parece usar para la disponibilidad
+      (`#availability-product-<SKU>`) esta presente, pero su unico contenido es
+      la etiqueta "SKU: <SKU>". La disponibilidad se inyectaria por JavaScript y
+      no llego en el HTML servido.
+    - El boton "Agregar al carro" esta `disabled` en las 24 tarjetas, tanto en
+      la pagina 1 como en la pagina 2.
+    - El boton tiene `title="Agregar al carro"` y texto "Agregar al carro", pero
+      ningun texto que indique unidades.
+
+--------------------------------------------------------------------------------
+4.8 Enlace a la ficha del producto
+--------------------------------------------------------------------------------
+Nombre humano            : Enlace al detalle del producto
+Etiqueta HTML observada  : a
+Rol y nombre accesible   : rol implicito `link`. El enlace de la FOTO tiene
+                           `tabindex="-1"` y nombre accesible = nombre del
+                           archivo de imagen. El enlace del TITULO tiene el
+                           nombre del producto.
+Atributos estables        : `href`
+Texto o patron reconocible: URL absoluta, sin query y sin fragmento
+Coincidencias             : `a.product-item-link` = 24 en la grilla
+                           `a.product.photo.product-item-photo` = 25 en el
+                           documento (24 en la grilla + 1 en una plantilla)
+                           AMBOS apuntan al MISMO href en cada tarjeta.
+Selector principal       : .products-grid li.product-item a.product-item-link
+Selector alternativo     : .products-grid li.product-item a.product-item-photo
+Contenedor o alcance      : a.product-item-link dentro de strong.product-item-name
+                           a.product-item-photo dentro de div.product-item-info
+Ejemplo real observado    :
+   https://ferricentro.com/abecedario-de-golpe-de-4mm-ff-0000012528
+   https://ferricentro.com/aceitera-metalica-1000ml-tubo-flexible-ff-0000055730
+Verificacion de la URL   : los 24 `href` de `a.product-item-link` y los 24 de
+                           `a.product-item-photo` son IDENTICOS tarjeta por tarjeta.
+                           24 URLs unicas, todas `https://ferricentro.com/...`,
+                           SIN query string, SIN fragmento. No hay ambiguedad
+                           entre los dos enlaces.
+Posibles fallas           : el slug termina con el SKU en minusculas. Si un
+                           producto cambia de nombre, el slug cambia. Usar el
+                           `href` tal cual; no construir la URL a partir del SKU.
+                           NO seguir el enlace: la extension solo lo lee.
+
+--------------------------------------------------------------------------------
+4.9 Imagen principal
+--------------------------------------------------------------------------------
+Nombre humano            : Imagen del producto
+Etiqueta HTML observada  : img
+Clases observadas        : product-image-photo
+Atributos estables        : `src`, `width`, `height`, `loading="lazy"`.
+                           La imagen esta envuelta en un contenedor con clase
+                           GENERADA: `product-image-container-244383`, y hay un
+                           `<style>` en linea que define sus medidas con ese
+                           mismo numero. El numero es el `entity_id`.
+Texto o patron reconocible: el `alt` NO es el nombre del producto. Es el nombre
+                           del archivo: "imagen_0000012528_49198876"
+Coincidencias             : `img.product-image-photo` = 24 en grilla (24 global)
+Selector principal       : .products-grid li.product-item img.product-image-photo
+Selector alternativo     : .products-grid li.product-item .product-image-photo
+Contenedor o alcance      : dentro de span.product-image-container dentro de
+                           a.product-item-photo
+Ejemplo real observado    :
+   <span class="product-image-container product-image-container-244383">
+     <span class="product-image-wrapper">
+       <img class="product-image-photo" srcset=""
+            src="https://ferricentro.com/media/catalog/product/i/m/imagen_0000012528_49198876.jpg?optimize=low&amp;fit=bounds&amp;height=300&amp;width=240"
+            loading="lazy" width="240" height="300"
+            alt="imagen_0000012528_49198876"/>
+   </span>
+   <style>.product-image-container-244383 { width: 240px; ... }</style>
+Verificacion             : 24/24 con `src` no vacio. 24/24 con `alt` no vacio.
+                           24/24 `src` con el mismo patron de query
+                           (`?optimize=low&fit=bounds&height=300&width=240`).
+Posibles fallas           : el atributo `srcset` esta VACIO en la observacion
+                           (""). Si la pagina se sirve con `srcset` relleno, el
+                           `src` puede ser una version reducida. Leer `src` tal
+                           cual. NO usar el nombre del archivo como identificador
+                           del producto: contiene `49198876`, que es un id de
+                           archivo de medios y puede cambiar al re-subir la imagen.
+                           El campo `imagen_url` NO existe en el contrato del
+                           brief: ver seccion 5.4.
+
+--------------------------------------------------------------------------------
+4.10 Controles asociados al producto (FUERA DE ALCANCE)
+--------------------------------------------------------------------------------
+En cada tarjeta hay un formulario completo de compra:
+   <form data-role="tocart-form"
+         data-product-sku="FF-0000012528"
+         action="https://ferricentro.com/checkout/cart/add/uenc/aHR0.../product/244383/"
+         data-mage-init='{"catalogAddToCart": {}}' method="post">
+       <input type="hidden" name="product" value="244383">
+       <input name="uenc" value="aHR0cHM6...">
+       <input name="form_key" type="hidden" value="KRo22fqWT1MNNy8y" />
+       <button type="submit" title="Agregar al carro"
+               class="action tocart primary" disabled>
+           <span class="action_text hidden-responsive">Agregar al carro</span>
+Verificacion              : `form[data-role=tocart-form]` = 24 en la grilla.
+                           `button.tocart` con `disabled` = 24/24.
+                           El texto visible del boton es SIEMPRE
+                           "Agregar al carro" y su `title` tambien (24/24).
+                           Un unico boton `tocart` SIN `disabled` existe en el
+                           documento y pertenece a una plantilla oculta.
+ESTADO: el boton NO es informacion de inventario. Ver seccion 8.5 y 9.5.
+La extension NO debe enviar este formulario, NO debe leer `form_key`, NO debe
+leer `uenc` y NO debe hacer clic en el boton. El unico uso admisible de este
+subarbol es leer el atributo `data-product-sku` como comprobacion del SKU.
+
+--------------------------------------------------------------------------------
+4.11 Controles de la pagina (paginacion, orden, modo, cantidad)
+--------------------------------------------------------------------------------
+Contenedor               : dos bloques `div.toolbar.toolbar-products`
+                           (uno arriba de la grilla, otro debajo)
+Contenido superior       :
+   - `.modes` con "Ver como" Grilla (activa) / Lista
+   - `p.toolbar-amount#toolbar-amount`:
+         "24 artículos de 2147"
+     es decir `span.toolbar-number` x2: el primero es la cantidad de la pagina,
+     el segundo el total de la categoria.
+   - `select#sorter[data-role=sorter]` con 4 opciones:
+         position ("Posicion"), name ("Nombre del Producto", SELECTADA),
+         sku ("SKU"), price ("Precio")
+Contenido inferior        :
+   - `div.pages` > `strong#paging-label` "Pagina"
+   - `ul.items.pages-items` > `li.item`
+       - actual:  `<li class="item current"><strong class="page">`
+                   `<span class="label">You're currently reading page</span>`
+                   `<span>1</span></strong>`
+       - enlace:  `<li class="item"><a class="page"
+                   href="https://ferricentro.com/productos/herramienta-manual?p=2">`
+                   `<span class="label">Pagina</span><span>2</span></a>`
+                   Se observaron los enlaces de las paginas 2, 3, 4, 5 y 6.
+                   (El listado visual de la pagina tambien mostraba "Pagina1" a
+                   "Pagina5"; la paginacion esta truncada por Magento.)
+Selector de paginacion   : `.toolbar .pages a.page`   -> enlaces navegables
+Selector de la actual    : `.toolbar .pages li.item.current strong.page`
+Selector del total       : `p.toolbar-amount span.toolbar-number` (indice 1)
+Limite por pagina        : `limitDefault: 24` dentro del `data-mage-init` del
+                           toolbar (configuracion de Magento, no un elemento)
+Alcance de la extension  : FUERA DE ALCANCE. El brief limita la extension a la
+                           PAGINA ACTUAL. La extension no debe paginar. Ver
+                           seccion 9.7.
+Causas de falla o cambio  : el texto "You're currently reading page" esta en
+                           INGLES en una pagina localizada a es_CO. Indica texto
+                           sin traducir en el tema. No usarlo como criterio.
+
+--------------------------------------------------------------------------------
+4.12 Elementos exigidos por el enunciado y NO OBSERVADOS
+--------------------------------------------------------------------------------
+  - Cantidad de inventario por producto   : NO EXISTE ELEMENTO (ver 4.7)
+  - Estado de disponibilidad textual      : NO EXISTE ELEMENTO (ver 4.7)
+  - Precio tachado / precio de lista      : NO OBSERVADO (solo hay `finalPrice`)
+  - Descuento o porcentaje de descuento   : NO OBSERVADO (ningun elemento)
+  - Numero de reseñas / calificacion      : NO OBSERVADO (4 apariciones de la
+                                             palabra "review", todas de scripts
+                                             del tema, sin datos de producto)
+  - Etiquetas de envio ("Llega gratis")    : NO OBSERVADO
+  - Cuotas de financing                   : NO OBSERVADO
+  - Codigo de barras / EAN / UPC           : NO OBSERVADO
+  - Peso / dimensiones / especificacion    : NO OBSERVADO en la grilla
+  - JSON-LD o microdata de producto        : NO EXISTE (ver seccion 2)
+
+
+================================================================================
+5. MAPA DE CAMPOS DEL CONTRATO
+================================================================================
+
+Los diez campos del brief, con el origen real de cada uno.
+
+5.1 Tabla de correspondencia
+----------------------------
+  CAMPO            ORIGEN OBSERVADO                          ESTADO
+  ---------------  ----------------------------------------  ------------------
+  proveedor        Constante de la ejecucion: "Ferricentro"  DEFINIDO POR DISENO
+  sku              #availability-product-<SKU>  (24/24)       VERIFICADO
+  nombre           a.product-item-link  (24/24)               VERIFICADO
+  marca            span.product-item-brand  (24/24)           VERIFICADO
+  precio_cop       span[data-price-amount]  (24/24)           VERIFICADO COMO
+                                                             ENTERO; MONEDA
+                                                             AMBIGUA (5.3)
+  inventario       NO EXISTE ELEMENTO                         NO OBSERVADO
+  activo           NO EXISTE REGLA DOCUMENTADA                REQUIERE REGLA
+  fuente_url       URL de la pestana, leida por la extension  DEFINIDO POR DISENO
+  fecha_consulta   Metadato generado en el momento             DEFINIDO POR DISENO
+  estado_revision  Calculado por reglas de este documento      DEFINIDO POR DISENO
+
+Resumen: 4 de 10 con dato verificado en el DOM, 3 metadatos, 1 entero de precio
+con moneda ambigua, 2 sin base observational (inventario y activo).
+
+5.2 sku - REGLA
+----------------
+Se conserva EXACTAMENTE el codigo del atributo `id`, quitando el prefijo
+literal `availability-product-`. Ejemplo: `availability-product-FF-0000012528`
+-> `FF-0000012528`. Sin normalizar, sin quitar ceros, sin cambiar mayusculas.
+Comprobacion obligatoria: el texto visible "SKU: X" debe coincidir con X. En esta
+observacion coincide 24/24. Si no coincide, marcar el registro
+`requiere_revision` y reportar la discrepancia en `excepciones.csv`; NO elegir
+ninguna de las dos fuentes por intuicion.
+
+5.3 precio_cop - PUNTO DELIBERADO, REQUIERE DECISION DE LA PERSONA
+------------------------------------------------------------------
+Lo que SI se observo:
+  - El entero del precio en `data-price-amount`, verificado 24/24 contra el texto
+    visible. Formato: entero sin decimales ni separadores. Rango 6.100-155.000.
+  - El simbolo "$" como unico marcador de moneda.
+
+Lo que NO se observo:
+  - Ningun codigo ISO de moneda. Ninguna palabra "pesos", "colombiano" ni
+    "Colombia" en todo el HTML. Ningun `<meta>` de region o locale.
+
+Lo que se INFERIRIA (y por tanto no es observacion):
+  Que `$` en un sitio llamado ferricentro.com, con assets en `es_CO`, sea pesos
+  colombianos. Es una inferencia muy solida, pero es una INFERENCIA. El brief
+  prohibe inventar; el prompt de OpenCode prohibe convertir una moneda de forma
+  silenciosa y ordena marcar para revision cuando la moneda no permite cumplir el
+  contrato con seguridad.
+
+Las tres decisiones posibles (NINGUNA se elige en este documento):
+
+  OPCION A - Registrar el entero y marcar para revision
+      precio_cop = <entero de data-price-amount>
+      estado_revision = requiere_revision
+      motivo en excepciones.csv = "moneda no explicita en la pagina; se asume COP
+                                   por locale es_CO y simbolo $, sin codigo
+                                   observable"
+      -> Se conserva el dato, queda marcada la duda. 24 filas marcadas.
+
+  OPCION B - Dejar el precio vacio
+      precio_cop = ""
+      estado_revision = requiere_revision
+      -> Maxima honestidad, pero se pierde el 100% del precio y el CSV queda
+         inservible para un ERP.
+
+  OPCION C - Fijar la regla y documentarla
+      Regla: "el sitio opera en Colombia (locale es_CO, dominio .com sin pais,
+      precios con punto de miles y sin decimales); el entero observado se
+      registra como precio_cop". estado_revision segun los demas campos.
+      -> Requiere que la persona acepte la regla por escrito y la revise.
+      Advertencia: sigue siendo una inferencia sobre la MONEDA, no sobre el
+      numero. El numero SI esta verificado.
+
+Recomendacion del analista: la OPCION A. Es la unica que cumple las tres cosas a
+la vez: no inventa (el numero es observado), no oculta la duda (queda en el CSV
+y en excepciones) y no destruye el dato. La OPCION C es valida si y solo si la
+persona la suscribe.
+REQUIERE REVISION. No se construye la extension sin decidir esto.
+
+5.4 Campos fuera del contrato - REQUIERE DECISION
+--------------------------------------------------
+  - `referencia` (4.2): observada en 22/24 con codigo de fabricante, distinto del
+    SKU. El brief NO define una columna para ella.
+  - `imagen_url` (4.9): observada 24/24. El brief NO define una columna para ella.
+  Opciones: (a) descartar; (b) anadir dos columnas al CSV, lo que cambia los
+  encabezados que el brief declara estables; (c) dejarlas solo en el registro de
+  evidencia.
+  REQUIERE REVISION. No se inventa una columna que el brief no pide.
+
+5.5 inventario - REGLA
+-----------------------
+El campo queda VACIO en los 24 registros. No se escribira 0.
+Motivo: no existe ninguna cantidad explicita en el HTML servido.
+Lo que se observo y NO prueba inventario:
+  - El boton "Agregar al carro" esta `disabled` en 24/24. Un boton deshabilitado
+    indica que la compra no puede iniciarse desde la grilla; NO dice cuantas
+    unidades hay. Ademas el enunciado prohibe comprar y usar el carrito.
+  - El contenedor `#availability-product-<SKU>` existe y su nombre sugiere
+    disponibilidad, pero llega VACIO de datos: solo trae la etiqueta "SKU:".
+    Que el nombre del scope mencione disponibilidad no es evidencia de que exista
+    una cantidad.
+  - Cero coincidencias de cualquier texto de disponibilidad (ver 4.7).
+Por lo tanto, segun el brief seccion 7 y el prompt de OpenWork, estos tres
+elementos NO se interpretan como cantidad. `inventario=""` en los 24 registros.
+
+5.6 activo - REQUIERE REGLA DOCUMENTADA
+----------------------------------------
+Lo observado que PODRIA permitir una regla:
+  - `button.tocart` con `disabled` en 24/24.
+  - La clase `price-final_price` en 24/24.
+Lo observado que NO permite establecer una regla:
+  - No hay ningun producto con el boton habilitado, ni con el boton deshabilitado
+    de otra manera. La variacion es CERO. Con una sola valoracion no se puede
+    deducir que el estado del boton signifique disponibilidad o no: puede
+    significar cualquier cosa (politica del B2C, sesion, configuracion regional).
+  - No hay ningun campo de fecha de actualizacion, de estado, ni de publicación.
+  - No hay productos agotados ni productos con existencias con los que comparar.
+ESTADO: REQUIERE REGLA DOCUMENTADA / OBSERVACION ADICIONAL.
+No se inventa la regla. Hasta que exista, `activo` no se puede marcar como
+`true` ni `false` por observacion.
+Recomendacion del analista: hasta que haya evidencia, tratar `activo` como un
+campo derivado de una regla EXPLICITA que la persona firme, y si no hay regla
+firmada, dejar `activo=""` y anadir el motivo en `excepciones.csv`. Un `true`
+inventado es exactamente el tipo de dato que el modulo busca evitar.
+
+5.7 estado_revision - REGLAS PROPUESTAS (derivadas de lo observado)
+-------------------------------------------------------------------
+Estas reglas se deducen del brief (seccion 9) y de lo observado. Se proponen para
+que la persona las revise; no son un hallazgo del sitio.
+
+  verificado         si: hay nombre Y sku Y precio, y no hay ninguna ambiguedad
+                         pendiente (incluida la decision 5.3)
+  incompleto         si: falta un campo que la FUENTE NO MUESTRA. En esta fuente
+                         el unico campo que falta legitimamente es `inventario`
+                         (5.5), ausente en los 24. Por definicion del brief, un
+                         campo que la fuente no muestra es "incompleto". Como
+                         `inventario` falta en el 100% de los registros, TODOS
+                         los registros seran `incompleto` salvo que la persona
+                         decida que la ausencia de inventario no compte como
+                         carencia. ESTA ES OTRA DECISION DE LA PERSONA (9.8).
+  requiere_revision  si: hay una condicion ambigua, inconsistente o inesperada.
+                         Casos reales de esta observacion:
+                           - sku: el texto visible no coincide con el id (0 de 24)
+                           - precio: mas de un `data-price-amount` en la tarjeta
+                           - marca: vacia
+                           - referencia: vacia (2 de 24) [solo si se decide
+                                     incluir la referencia]
+                           - moneda: no hay codigo observable (24 de 24)
+                           - la persona navego a otra URL durante la extraccion
+
+
+================================================================================
+6. SELECTORES VERIFICADOS
+================================================================================
+
+6.1 Nota sobre la jerarquia de preferencia
+------------------------------------------
+El prompt de OpenWork pide preferir roles, nombres accesibles y atributos
+estables antes que clases generadas. Se verifico el estado real de esta fuente:
+
+  - NO existe `application/ld+json`, ni `itemscope`, ni `itemtype`, ni `itemprop`.
+    No hay datos estructurados. No hay semantic a de producto.
+  - NO hay `data-testid` en ningun elemento de producto. Magento 2 no los usa.
+  - NO hay roles ARIA ni `aria-label` en la tarjeta, el titulo, la marca, la
+    SKU ni el precio. El unico elemento con ARIA es el boton
+    (`title="Agregar al carro"`).
+  - NO hay `id` estables y utilizables: los `id` que existen son
+    `product-item-info_<entity_id>` y `product-price-<entity_id>` (dependen del
+    producto) y `availability-product-<SKU>` (utilizable SOLO como prefijo).
+  - Los nombres de clase comes de un tema de Magento. Son la unica opcion real.
+
+CONSECUENCIA: en esta fuente los selectores DEBEN apoyarse en clases CSS, y el
+documento lo declara explicitamente en vez de fingir que hay algo mas estable.
+Donde existe un atributo de datos (`data-price-amount`, `data-price-type`,
+`data-role`, `data-product-id`, `data-container`) se prefiere ese atributo
+dentro del alcance de clases. Esa combinacion es la mas estable posible aqui.
+
+6.2 Alcance obligatorio
+------------------------
+Todos los selectores de la tabla siguiente están verificados ASI, acotados a la
+grilla. La columna "global" indica el conteo sin acotar, para que se vea por que
+el acotamiento es obligatorio y no opcional.
+
+6.3 Tabla de selectores con conteos verificados
+-----------------------------------------------
+  ELEMENTO              SELECTOR PRINCIPAL (acotado)               EN GRILLA  GLOBAL
+  --------------------  ----------------------------------------  --------  ------
+  Grilla                div.products-grid                                 1       1
+  Lista                 div.products-grid ol.product-items               1       3
+  Tarjeta               div.products-grid ol.product-items > li.product-item  24    26
+  Contenedor info       li.product-item > div.product-item-info          24      25
+  Ancla entity_id       li.product-item > div.product-item-info          24      25
+  Marca                 li.product-item span.product-item-brand          24      24
+  Referencia            li.product-item span.product-item-reference      24      24
+  Nombre                li.product-item a.product-item-link              24      26
+  Nombre (2)            li.product-item strong.product-item-name a         24      26
+  SKU (id)              li.product-item div[id^="availability-product-"]  24      24
+  SKU (texto)           li.product-item span.product-item-row_label       24      24
+  SKU (form)            li.product-item form[data-role=tocart-form]       24      24
+  Precio (contenedor)   li.product-item div[data-role=priceBox]           24      24
+  Precio (entero)       li.product-item span[data-price-amount]           24      24
+  Precio (visible)      li.product-item div[data-role=priceBox] span.price 24     43
+  Imagen                li.product-item img.product-image-photo          24      24
+  Foto (enlace)         li.product-item a.product-item-photo              24      25
+  Boton carro           li.product-item button.tocart                     24      26
+  Total categoria       p.toolbar-amount span.toolbar-number              2       2
+  Paginacion enlace     .toolbar .pages a.page                            5       5
+  Paginacion actual     .toolbar .pages li.item.current strong.page        1       1
+
+6.4 Selector principal y alternativo por elemento
+--------------------------------------------------
+  MARCA
+    principal : span.product-item-brand dentro de la tarjeta
+    alternativ: NO SE OBSERVO ALTERNATIVO
+  REFERENCIA
+    principal : span.product-item-reference dentro de la tarjeta
+    alternativ: NO SE OBSERVO ALTERNATIVO
+  NOMBRE
+    principal : a.product-item-link dentro de la tarjeta
+    alternativ: strong.product-item-name > a.product-item-link
+                (mismo elemento; el `strong` solo anade contexto)
+  SKU
+    principal : el VALOR de div[id^="availability-product-"], sin el prefijo
+    alternativ: texto de span.product-item-row_label, quitando el prefijo "SKU: "
+    tercer   : atributo data-product-sku de form[data-role=tocart-form]
+                (solo lectura; no enviar el formulario)
+    cuarto   : el slug de la URL. NO RECOMENDADO (derivado).
+  PRECIO
+    principal : el VALOR de span[data-price-amount]
+    alternativ: texto de div[data-role=priceBox] span.price, limpiando "$",
+                espacios y el punto de miles
+  ENLACE
+    principal : atributo href de a.product-item-link
+    alternativ: atributo href de a.product-item-photo (verificado IDENTICO al
+                principal en 24/24)
+  IMAGEN
+    principal : atributo src de img.product-image-photo
+    alternativ: NO SE OBSERVO ALTERNATIVO (srcset estaba vacio)
+
+6.5 Por que se consideran estables
+-----------------------------------
+  div.products-grid / ol.product-items / li.product-item
+      Nombres de clase del modulo grid de Magento 2. Son la convencion del
+      framework y los cambia el proveedor de magento, no el contenido del sitio.
+
+  span.product-item-brand / span.product-item-reference
+      Extensiones PROPIAS del tema Ferricentro (no son nomenclatura estandar de
+      Magento). Estabilidad MEDIA: si el rediseña el tema, se caen. Se deben
+      acortar por el hecho de que el listado y la ficha comparten marcado, pero
+      no se puede garantizar que sobrevivan a un cambio de diseno.
+
+  a.product-item-link / img.product-image-photo / strong.product-item-name
+      Forman parte del esquema `product-item-*` que Magento aplica a la tarjeta de
+      producto. Estabilidad MEDIA-ALTA.
+
+  div[id^="availability-product-"]
+      El PREFIJO es estable aunque el valor cambie. Es el patron mas seguro
+      observado en toda la pagina porque no depende de la estetica del tema.
+
+  span[data-price-amount] / [data-price-type="finalPrice"]
+      Atributos de datos de Magento, independientes del tema visual. El atributo
+      `data-price-amount` esta en la API publica de Magento y el tema no lo
+      redefine. Estabilidad ALTA.
+
+  a.product-item-photo
+      Clase `product-item-photo` del tema. Coincide con el enlace de la foto;
+      se verificó que su href es identico al del titulo.
+
+  ESTABILIDAD NO VERIFICADA (riesgo asumido): ninguna clase `product-item-*` de
+  esta pagina fue probada contra otro tema, otra version de Magento ni otra
+  categoria con otro tipo de producto. La unica verificacion de estabilidad que
+  SI se hizo esta en la seccion 6.6.
+
+6.6 PRUEBA DE ESTABILIDAD REALMENTE EJECUTADA
+----------------------------------------------
+No se dio por supuesto que los selectores funcionan en otra pagina. Se descargo
+`https://ferricentro.com/productos/herramienta-manual?p=2` y se midio lo mismo:
+
+  MEDICION                                  PAGINA 1   PAGINA 2
+  li.product-item dentro de la grilla             24          24
+  div.product-item-info                           24          24
+  span.product-item-brand                         24          24
+  span.product-item-reference                     24          24
+  a.product-item-link                             24          24
+  img.product-image-photo                         24          24
+  data-price-amount                               24          24
+  data-price-type="finalPrice"                    24          24
+  id="availability-product-"                      24          24
+  texto "SKU: "                                   24          24
+  form[data-role="tocart-form"]                   24          24
+  button.tocart con disabled                     24          24
+  cualquier texto de stock/Disponible              0           0
+  Codigo HTTP                                   200         200
+
+DEDUCCION DE ESTA PRUEBA: los selectores de la 6.3 son estables al menos entre
+paginas de la misma categoria. Ademas:
+  - Los 24 SKU de la pagina 1 y los 24 de la pagina 2 son DISJUNTOS
+    (0 coincidencias, 48 SKU distintos). Confirma que el SKU es clave de
+    deduplicacion fiable y que la paginacion no repite productos.
+  - En la pagina 2 tambien hay 24 botones deshabilitados y cero texto de
+    disponibilidad. El hallazgo de 4.7 no es un accidentede la pagina 1.
+
+
+================================================================================
+7. CONTEOS OBSERVADOS
+================================================================================
+
+7.1 Conteo de productos
+-----------------------
+  Tarjetas `li.product-item` dentro de la grilla              24
+  Tarjetas `li.product-item` en el documento completo          26
+      -> 2 son plantillas ocultas (comparar, lista de deseados), con texto vacio
+  Productos de la pagina actual segun el sitio              24
+  Total declarado en la categoria ("24 articulos de 2147")  2147
+  Limite por pagina (limitDefault)                           24
+  Paginas necesarias para cubrir la categoria              ~90
+  SKUs distintos pagina 1 + pagina 2                        48
+  SKUs repetidos entre pagina 1 y pagina 2                   0
+  URLs de producto unicas                                    24
+
+7.2 Conteo por elemento (acotado a la grilla)
+----------------------------------------------
+  Marca presente y no vacia                     24 / 24
+  Referencia: elemento presente                 24 / 24
+  Referencia: elemento con texto                 22 / 24   <- 2 vacios
+  Nombre presente y no vacio                    24 / 24
+  SKU presente (las 3 fuentes coinciden)         24 / 24
+  Precio: elemento presente                      24 / 24
+  Precio: entero no vacio y positivo            24 / 24
+  Precio: coincide atributo vs texto visible     24 / 24
+  Precio: data-price-type="finalPrice"           24 / 24
+  Precio: mas de un bloque por producto           0 / 24   <- un solo precio
+  Inventario / cantidad                            0 / 24   <- NO EXISTE
+  Texto de disponibilidad                          0 / 24   <- NO EXISTE
+  Boton "Agregar al carro" presente              24 / 24
+  Boton "Agregar al carro" deshabilitado         24 / 24
+  Enlace a ficha presente                         24 / 24
+  Enlace del titulo == enlace de la foto         24 / 24
+  URL con query string                             0 / 24
+  URL con fragmento                                 0 / 24
+  URL en formato https                            24 / 24
+  Imagen con src                                   24 / 24
+  Imagen con alt no vacio                         24 / 24
+  img con srcset                                   0 / 24   <- vacio
+  Precio tachado / precio de lista                 0 / 24   <- NO OBSERVADO
+  Descuento / porcentaje                            0 / 24   <- NO OBSERVADO
+  SKU duplicado dentro de la pagina                0 / 24
+
+7.3 Discrepancias entre conteos (documentadas, no resueltas por intuicion)
+--------------------------------------------------------------------------
+  DISCREPANCIA 1 - `li.product-item`: 24 en la grilla vs 26 en el documento.
+      Causa: 2 plantillas ocultas. Resolucion: acotar a la grilla. Documentada.
+  DISCREPANCIA 2 - `span.price`: 24 en la grilla vs 43 en el documento.
+      Causa: 19 elementos en plantillas ocultas y bloques laterales.
+      Resolucion: acotar. Documentada.
+  DISCREPANCIA 3 - `span.product-item-reference`: 24 elementos vs 22 con dato.
+      Causa: 2 elementos existen pero VACIOS (productos 12 y 13).
+      Resolucion: campo vacio, NO 0, NO "Desconocida". Documentada.
+  DISCREPANCIA 4 - el texto "articulos de 2147" incluye DOS numeros
+      (`span.toolbar-number` x2). Una lectura ingenua concatenaria "242147".
+      Se leyo correctamente: primero 24, luego 2147. Documentada.
+
+7.4 Distribucion de marcas (24 productos)
+------------------------------------------
+  MIKELS 8 | STANLEY 4 | SURTEK 3 | EDUARDODO 3 | FORCE 3 | SATA 3
+  Nota: "EDUARDODO" se observa tal cual. Posible error de catalogo. Ver 8.1.
+
+
+================================================================================
+8. CASOS ESPECIALES
+================================================================================
+
+8.1 Marca "EDUARDODO" - posible error de catalogo OBSERVADO
+------------------------------------------------------------
+3 de los 24 productos muestran la marca exactamente como "EDUARDODO" (diez
+caracteres). Las otras marcas del sitio son palabras reales (SURTEK, MIKELS,
+STANLEY, SATA, FORCE). "EDUARDODO" es probablemente un error de carga en el
+catalogo de origen.
+ESTADO: AMBIGUO.
+La extension debe copiar el texto EXACTAMENTE como aparece. NO debe corregirlo,
+normalizarlo niSuppose que es "EDUARDO". Si en el futuro se decide limpiar
+marcas, es una regla nueva que la persona debe aprobar, no una correccion
+silenciosa.
+
+8.2 Referencia presente pero vacia (2 de 24)
+---------------------------------------------
+Productos 12 y 13 ("Aceitera Metalica 1000Ml Tubo Flexible",
+"Aceitera Metalica 160Ml Tubo Flexible"). El elemento existe:
+    <span class="product-item-reference">
+                                                                              </span>
+contiene solo espacios en blanco.
+Distinguir dos casos que la extension debe tratar IGUAL (vacio) pero que conviene
+no confundir al depurar:
+  (a) el elemento no existe      -> NO OBSERVADO
+  (b) el elemento existe y vacio -> OBSERVADO COMO VACIO
+En ambos casos el campo queda vacio y el registro se marca segun 5.7. Si se
+quiere distinguir en `excepciones.csv`, `referencia` no esta en el contrato y
+habria que decidirlo primero (5.4).
+
+8.3 Riesgo de escape en el CSV - comillas dobles, NO comas
+-------------------------------------------------------------
+Analisis de los 24 nombres observados:
+  nombres que contienen una coma (,)            0
+  nombres que contienen punto y coma (;)        0
+  nombres que contienen salto de linea          0
+  nombres que contienen comilla doble (")       11
+      productos 14, 17, 18, 19, 20, 21, 22, 23, 24
+Ejemplos reales que deben escaparse correctamente:
+      Acolilladora Manual 12" Con Serrucho De 14"
+      Adaptador 3/4" Hembra X 1/2" Macho
+      Adaptador H1" X M3/4"
+      Adaptador Para Copas Hembra 1/4"X3/8" Macho
+      Adaptador Para Copas Hembra 3/8" Macho 1/2
+      Adaptador Para Copas Hembra 3/8" Macho 1/4
+      Adaptador Para Copas Hembra De 1/2" X 3/4" M
+      Adaptador Para Copas Hembra De 1/2" X 3/8" M
+El nombre "Aceitera Metalica 160Ml Tubo Flexible" y otros terminan en espacio.
+NOTA IMPORTANTE PARA LA PRUEBA DEL CSV: en esta fuente el riesgo real de escape
+es la COMILLA DOBLE, no la coma. Una prueba de CSV que solo verifique comas NO
+cubriria esta fuente. Ademas hay que comprobar el estandar CSV completo:
+  - un valor con `"` debe ir dentro de `"` y duplicar la `"` interna:
+      Acolilladora Manual 12" Con Serrucho De 14"
+    ->  "Acolilladora Manual 12"" Con Serrucho De 14"
+  - el texto visible del precio "$ 66.000" y las URLs NO contienen comas, pero
+    las URLs SI contienen `&`, `?`, `=` en el caso de la imagen:
+    ...imagen_0000012528_49198876.jpg?optimize=low&fit=bounds&height=300&width=240
+    (el `&` no es separador CSV, pero conviene verificarlo en un lector).
+    En la URL del PRODUCTO no hay query, asi que este riesgo afecta solo a la
+    imagen, que ademas no esta en el contrato (5.4).
+
+8.4 El precio entero no tiene decimales EN ESTA MUESTRA
+---------------------------------------------------------
+Los 24 `data-price-amount` observados son enteros: sin punto decimal y sin
+separador de miles. Rango 6.100 a 155.000.
+ESTADO: VERIFICADO PARA ESTA MUESTRA, NO PARA TODO EL CATALOGO.
+Riesgo real: si un producto tuviera un precio con centavos, `data-price-amount`
+podria traer "12345.67". El contrato `precio_cop` exige un ENTERO.
+Regla recomendada: leer el valor, y si contiene ".", separar la parte entera,
+descartar la decimal SOLO si el site's formato lo hace legitimo, y marcar el
+registro `requiere_revision` informando el valor original. No redondear en
+silencio. Requiere la regla de la persona.
+
+8.5 "Agregar al carro" deshabilitado NO es inventario
+---------------------------------------------------------
+En las dos paginas observadas, los 24 botones estan `disabled`.
+Lo que se observo exactamente: `<button type="submit" title="Agregar al carro"
+class="action tocart primary" disabled>`.
+INTERPRETACION PROHIBIDA por el brief (seccion 7) y por el prompt de OpenWork:
+un boton de carrito, habilitado o deshabilitado, NO es una cantidad de
+inventario. Tampoco lo es un boton que HABILITADO ("disponible"). El enunciado
+prohibe usar el carrito como fuente.
+Ademas, la extension esta fuera de alcance para comprar: no debe enviar ese
+formulario ni hacer clic.
+Que esten los 24 deshabilitados no dice nada sobre existencias: podria ser que
+el B2C de Ferricentro no permita compra directa desde la grilla, o que el boton
+se habilite por JavaScript tras una peticion, o que la sesion influya. No se
+puede distinguir sin observar la ficha, lo cual esta fuera de alcance.
+
+8.6 El contenedor de disponibilidad llega vacio
+-------------------------------------------------
+`div#availability-product-<SKU>` con
+`data-bind="scope: 'availability_catalog_list_<SKU>'"` existe 24/24, y su unico
+contenido es la etiqueta "SKU: <SKU>".
+Este es el punto donde Magento insertaria un texto de stock, y ese texto no llego
+en el HTML servido. Como se observo HTML sin ejecutar JavaScript, esta es una
+limitacion del METODO de observacion, no necesariamente del sitio.
+CONSECUENCIA PARA LA EXTENSION: cuando la extension corra en un navegador CON
+JavaScript, este contenedor puede aparecer POBLADO con texto de disponibilidad
+que aqui no se vio. La extension NO debe asumir que seguira vacio, y NO debe
+parsear como cantidad lo que encuentre sin una regla aprobada (5.5). Si la
+persona decide inspeccionar ese texto, es una OBSERVACION ADICIONAL pendiente.
+
+8.7 Aviso sobre la diferencia entre esta fuente y la del ejercicio anterior
+----------------------------------------------------------------------------
+El documento previo del modulo (`proceso-extension-mercadolibre.txt`, de otra
+ejecucion y otra fuente) usaba `aria-label` en el precio y no tenia marca ni SKU
+en la grilla. Aqui la situacion es la inversa: hay SKU y marca explicitos, pero
+el precio NO tiene representacion accesible y no hay ningun codigo de moneda.
+Los selectores de una fuente NO son trasladables a la otra. No se mezclo nada.
+
+
+================================================================================
+9. FALLAS Y RIESGOS
+================================================================================
+
+9.1 Plantillas ocultas que contaminan los conteos  (RIESGO ALTO, YA DOCUMENTADO)
+   `li.product-item` devuelve 26 en vez de 24 por las listas de comparar y de
+   deseos. `span.price` devuelve 43 en vez de 24. Una iteracion global produciria
+   2 productos sin nombre y mezclaria precios.
+   MITIGACION: acotar todos los iteradores a
+   `div.products-grid ol.product-items > li.product-item` y hacer la extraccion
+   SIEMPRE por tarjeta, nunca por ventana de caracteres en el documento.
+
+9.2 Sin datos estructurados ni data-testid  (RIESGO MEDIO)
+   No hay JSON-LD, ni microdata, ni un solo `data-testid` en la pagina. No hay
+   identificadores estables de producto ni semantica. Cualquier cambio del tema
+   afecta a TODOS los selectores a la vez.
+   MITIGACION: la deteccion de cambio estructural (seccion 10) es obligatoria, no
+   opcional.
+
+9.3 Marca sin selector alternativo  (RIESGO MEDIO)
+   La marca solo existe como `span.product-item-brand`. Si el tema la renombra,
+   la marca se pierde en silencio y el CSV saldria con la columna vacia sin avisar.
+   MITIGACION: contar las marcas encontradas por pagina y avisar en la vista
+   previa si el conteo es 0 mientras hay productos. Un 0 de marcas con 24 de
+   productos es senal de cambio, no de que no haya marcas.
+
+9.4 Campos observados que NO estan en el contrato  (RIESGO DE ALCANCE)
+   `referencia` (22/24) e `imagen_url` (24/24) se observaron y el brief no define
+   columnas para ellas. Anadirlas cambia los encabezados que el brief declara
+   estables. Decidir antes de construir (5.4).
+
+9.5 Datos sensibles presentes en la pagina que NO deben tocarse  (RIESGO ALTO)
+   Cada tarjeta contiene un `input[name="form_key"]` y un `input[name="uenc"]`, y
+   el toolbar contiene `formKey` en su `data-mage-init`. Ademas hay un
+   `[data-product-sku]` y una `action` que apunta a `/checkout/cart/add/`.
+   La extension no debe leer, copiar, registrar ni enviar ninguno de esos
+   valores. `form_key` es un token anti-CSRF; registrarlo en un CSV o en un log
+   seria filtrar un token del sitio. La extension solo necesita el DOM de lectura.
+
+9.6 La URL de la pestana  (RIESGO MEDIO)
+   La pagina observada no tiene query ni fragmento. Las paginas 2 y siguientes
+   llevan `?p=N`. La extension debe registrar en `fuente_url` la URL REAL de la
+   pestana que la persona autorizo, sin modificarla, para que cada fila sea
+   trazable a la pagina de la que salio. No se ha observado ninguna URL con
+   fragmento en esta fuente, asi que no hay que recortar nada.
+
+9.7 Limite de 24 productos por pagina frente a 2147  (RIESGO DE ALCANCE)
+   El sitio declara 2147 articulos en la categoria y muestra 24 por pagina
+   (`limitDefault: 24`). La extension, por el alcance del brief, solo analiza la
+   pagina actual. Por tanto extraera como maximo 24 de 2147 productos (1.1%).
+   Esto NO es un error: es el alcance acordado. Pero debe documentarse en el
+   README para que nadie espere un catalogo completo, y la vista previa debe
+   mostrar el total declarado (2147) junto al conteo de la pagina (24) para que
+   la diferencia sea visible y no se esconda.
+
+9.8 Que cuenta como "incompleto" cuando falta el inventario  (RIESGO DE SEMANTICA)
+   El brief define `incompleto` como "falta uno o mas datos que la fuente no
+   muestra". El inventario falta en los 24 registros porque la fuente no lo
+   muestra. Leido al pie de la letra, el 100% de las filas seria `incompleto`, y
+   el estado de revision no distinguiria nada util.
+   La extension NO debe decidir esto sola. La persona debe elegir entre:
+     (a) `incompleto` para todos, por lectura literal del brief;
+     (b) considerar la ausencia de inventario como normal para esta fuente y no
+         degradar el estado por eso, dejandolo vacio y documentandolo;
+     (c) una regla intermedia.
+   Con (b) o (c), quedan affectedos por `requiere_revision` por la moneda (5.3).
+   REQUIERE REVISION.
+
+9.9 Coincidencia entre el numero de entidad y los estilos en linea  (RIESGO BAJO)
+   Cada tarjeta incrusta un `<style>` con el selector
+   `.product-image-container-244383`. Son 24 estilos embebidos. No afectan al DOM
+   del producto, pero hacen que `document.querySelectorAll('style')` devuelva
+   muchos nodos. No usarlos. La extension no debe inyectar estilos ni leerlos.
+
+9.10 El nombre de la imagen no identifica al producto  (RIESGO BAJO)
+   `alt="imagen_0000012528_49198876"` contiene el nombre de archivo del recurso.
+   El prefijo `imagen_0000012528` coincide con el SKU y `49198876` es un id de
+   medios. Si la imagen se reemplaza, el id cambia. No usar para deduplicar ni
+   para identificar.
+
+
+================================================================================
+10. CONDICIONES DE PARADA
+================================================================================
+
+La futura extension debe DETENERSE y mostrar un estado de revision, sin exportar
+un CSV que pueda ser engañoso, si se cumple CUALQUIERA de estas condiciones.
+Cada una tiene su deteccion verificable a partir de lo observado.
+
+10.1 La grilla no existe
+   Si `div.products-grid` o `div.products-grid ol.product-items` no aparece.
+   Explica: se abrio la portada, una pagina de error, una ficha, una pagina de
+   mantenimiento, o el sitio cambio de tema.
+   En esta observacion la grilla es 1 y la lista es 1. Cero o mas de una lista
+   principal es senal de problema.
+
+10.2 La lista de productos esta vacia
+   Si `div.products-grid ol.product-items > li.product-item` devuelve 0.
+   EXAMEN IMPORTANTISIMO: hay que distinguir DOS casos que en el enunciado se
+   piden por separado.
+     CASO C - pagina compatible con cero productos: la grilla EXISTE y hay 0
+              tarjetas. Es un resultado valido. Mostrar conteo 0, explicar que
+              la categoria no tiene productos visibles. NO es un error tecnico.
+     CASO B - pagina no compatible: ni siquiera existe `div.products-grid`.
+              Mostrar la explicacion y NO exportar.
+   La distincion se hace por la existencia del contenedor, nunca por el conteo.
+
+10.3 Hay mas de una lista principal
+   Si `div.products-grid ol.product-items` devuelve mas de 1. En esta
+   observacion devuelve exactamente 1. Dos o mas indicaria que el anidamiento de
+   las listas cambio y que el alcance ya no es el esperado.
+
+10.4 Las tarjetas no tienen la forma esperada
+   Si una tarjeta existe pero NO contiene `div.product-item-info`. En esta
+   observacion 24/24 tarjetas lo tienen y el conteo global es 25 (una plantilla).
+   Si el conteo de `product-item-info` dentro de las tarjetas de la grilla no
+   coincide con el conteo de tarjetas, la estructura cambio.
+
+10.5 Un producto tiene mas de un precio
+   Si dentro de una misma tarjeta hay mas de un `span[data-price-amount]`.
+   En esta observacion hay exactamente 1 por producto y `data-price-type` es
+   `finalPrice` en los 24. Mas de uno indicaria un desglose de impuestos o un
+   precio tachado, y el selector leeria el equivocado silenciosamente.
+   Si ademas apareciera un `data-price-type` distinto de `finalPrice`, es un
+   tipo de precio que nadie ha observado: requiere revision, no una regla
+   inventada.
+
+10.6 El SKU no coincide entre sus fuentes
+   Si el `id="availability-product-X"` no coincide con el texto "SKU: X" ni con
+   el `data-product-sku`. En esta observacion coinciden 24/24. Una discrepancia
+   significa que la pagina cambio o que hay dos productos con el mismo codigo:
+   marcar el registro `requiere_revision` y reportar ambas valeurs en
+   `excepciones.csv`. No elegir una por intuicion.
+
+10.7 El nombre esta vacio
+   Si `a.product-item-link` no tiene texto tras limpiar espacios. El nombre es
+   obligatorio segun el brief. Un producto sin nombre no debe registrarse como
+   verificado; se marca `requiere_revision` y se explica en `excepciones.csv`.
+   No se rellena con el `alt` de la imagen ni con el slug de la URL: seriam datos
+   distintos del nombre.
+
+10.8 El precio esta vacio o no es numerico
+   Si `span[data-price-amount]` no existe, o su valor no es un entero positivo,
+   o no coincide con los digitos del texto visible. En esta observacion coincide
+   24/24. Una discrepancia entre atributo y texto visible se registra como
+   `requiere_revision` con ambos valores; no se elige el "mas verosimil".
+
+10.9 La pagina cambio de URL durante la extraccion
+   Si la URL de la pestana deja de coincidir con la que la persona autorizo
+   (distinto dominio, distinto host, o distinto camino de categoria). El alcance
+   es una sola fuente y una sola pagina. No se debe continuar si la persona navego
+   a otro sitio a mitad del analisis.
+
+10.10 Aparece un control de acceso o un bloqueo
+   Si aparece una pantalla de inicio de sesion, un CAPTCHA, un muro de trafico o
+   cualquier pagina que pida accion fuera de alcance. En esta observacion NO
+   occurred en ninguna de las dos peticiones. Si apareciera, la extension debe
+   detenerse, NO reintentar, NO recargar en bucle, NO intentar sortearlo y
+   pedir intervencion manual. No se debe exportar nada en ese estado.
+
+10.11 El numero de productos es absurdo
+   Si el conteo de tarjetas supera un limite de seguridad que la persona defina
+   (por ejemplo 200), es una senal de que el alcance cambio o de que se esta
+   capturando una pagina distinta. Se detiene y se avisa. En esta observacion el
+   valor de referencia es 24.
+
+10.12 No inventar nunca
+   Ante cualquier ambiguedad no prevista aqui, la extension NO completa el dato.
+   Lo deja vacio y lo registra en `excepciones.csv` con el motivo. Un campo vacio
+   es un dato honesto; un campo llenado por intuccion es un error que el modulo
+   existe para evitar.
+
+
+================================================================================
+11. DATOS QUE NO PUDIERON OBSERVARSE
+================================================================================
+
+Se listan explicitamente para que ninguna persona los asuma.
+
+11.1 NO OBSERVADO - no existe en el HTML servido
+  - Cantidad de inventario por producto. Cero elementos, cero textos. (4.7)
+  - Estado o disponibilidad textual. Cero elementos. (4.7)
+  - Precio de lista / precio tachado / precio anterior. No hay segundo bloque de
+    precio ni `s.andes-money-amount--previous` como en la fuente anterior.
+  - Descuento o porcentaje de descuento. Ningun elemento.
+  - Codigo de moneda. Ninguna coincidencia de COP, MXN, USD, "pesos",
+    "colombiana" ni ningun `<meta>` de region. (4.6)
+  - Precio con decimales. En los 24 observados el precio es entero. No se puede
+    afirmar que todo el catalogo lo sea. (8.4)
+  - Etiquetas de envio, cuotas, financiamiento oality. Ninguna.
+  - Numero de opiniones o calificacion. Ninguna por producto.
+  - EAN / UPC / codigo de barras. Ninguno.
+  - Peso, dimensiones o especificacion tecnica en la grilla. Ninguna.
+  - JSON-LD o microdata de producto. Cero ocurrencias.
+  - Cualquier `data-testid`. Cero ocurrencias en toda la pagina.
+
+11.2 NO OBSERVADO - requiere otra accion, fuera de alcance
+  - La ficha de producto (`.../productos/herramienta-manual/<slug>`). No se abrio.
+    El brief limita el alcance al listado y prohibe seguir enlaces para comprar
+    o completar datos. La ficha contendria descripcion,Especificaciones y quizas
+    stock, pero NO se documenta ningun selector porque no se observo ninguno.
+  - Los controles para avanzar, volver o cerrar avisos dentro de la ficha. No
+    existen en el listado. En el listado solo se observo el control de modo
+    Grilla/Lista y el selector de orden.
+  - El comportamiento con sesion iniciada. Toda la observacion fue anonima.
+    Con sesin, el boton "Agregar al carro" podria habilitarse y el contenedor de
+    disponibilidad llenarse. ESTO ES UNA DIFERENCIA REAL Y NO SE HA OBSERVADO.
+    La extension debe tratar lo que encuentre como no observado hasta que alguien
+    lo documente.
+  - Si el contenedor `#availability-product-<SKU>` se puebla con texto al
+    ejecutarse JavaScript. No se pudo comprobar sin ejecutar scripts.
+
+11.3 NO OBSERVADO - otras categorias
+  - Solo se observo UNA categoria: `herramienta-manual` (24 productos, pagina 1 y
+    pagina 2). No se observo ninguna otra. En MercadoLibre el mismo selector
+    fallaba entre categorias; aqui no se puede saber. Las clases
+    `product-item-brand` y `product-item-reference` son extensiones del tema y
+    podrian no existir en todas las categorias o productos.
+  - No se observaron categorias de productos simples, configurables (con
+    variantes), digitales, packs, ni productos con precio "Desde" (rango). Si
+    una categoria tiene productos configurables, la estructura de la tarjeta
+    puede incluir un `<a>` por variante y el conteo y el nombre pueden cambiar.
+  - No se observo el comportamiento en Chrome ni en Edge. Esta observacion se
+    hizo con peticiones HTTP, sin navegador.
+  - No se observo el modo "Lista" del toolbar, aunque el control es visible.
+
+11.4 AMBIGUO - se observo pero su interpretacion no esta cerrada
+  - MONEDA (5.3). El entero esta verificado; que sea COP es una INFERENCIA.
+    DECISION PENDIENTE DE LA PERSONA. Es el punto mas importante de esta
+    observacion.
+  - ACTIVO (5.6). No hay variacion observada que permita deducir una regla.
+    REQUIERE REGLA DOCUMENTADA.
+  - Marca "EDUARDODO" (8.1). Se copiara tal cual. Posible error de catalogo.
+  - Referencia vacia en 2 de 24 (8.2): elemento presente pero sin texto.
+  - El significado de `button.tocart[disabled]` (8.5). No se puede deducir con
+    una sola valoracion.
+  - Si `product-item-reference` y `data-product-sku` pueden coincidir en alguna
+    categoria. En esta categoria nunca coinciden (24/24 distintos).
+
+11.5 REQUIERE REVISION - decisiones que la extension NO puede tomar
+  1. Que hacer con la moneda no explicita (5.3).                  -> OPCION A/B/C
+  2. Que hacer con la referencia y la imagen, fuera de contrato (5.4).
+  3. Que regla aplica a `activo` (5.6).
+  4. Si la ausencia de inventario degrada el estado a `incompleto` (9.8).
+  5. Si la extension debeavisar del total 2147 frente a los 24 de la pagina (9.7).
+  6. Que formato exacto lleva `fuente_url` (9.6).
+  Los cinco primeros puntos bloquean la construccion del CSV. La regla final del
+  prompt de OpenCode es explicita: si una decision necesaria no esta respaldada
+  por el brief o por este documento, no se inventa; se detiene y se pide revision.
+
+
+================================================================================
+12. RECOMENDACIONES PARA LA CONSTRUCCION POSTERIOR
+================================================================================
+
+12.1 Lo que la extension YA PUEDE hacer con base verificada
+------------------------------------------------------------
+  - Iterar `div.products-grid ol.product-items > li.product-item` y contar. Base:
+    verificado 24, estable entre paginas (6.6).
+  - Leer la marca. Base: `span.product-item-brand`, 24/24.
+  - Leer el nombre. Base: `a.product-item-link`, 24/24, con limpieza de espacios.
+  - Leer el SKU. Base: `div[id^="availability-product-"]`, con triple comprobacion
+    contra el texto visible y `data-product-sku`. 24/24 coinciden.
+  - Leer el precio como ENTERO. Base: `span[data-price-amount]`, 24/24
+    verificados contra el texto visible.
+  - Leer la URL del producto. Base: `a.product-item-link[href]`, 24/24 unicas,
+    verificadas identicas al enlace de la foto.
+  - Detectar pagina no compatible, grilla vacia y cambio estructural con las
+    condiciones de la seccion 10.
+  - Generar `productos_erp.csv` con escape de comillas dobles (riesgo real
+    observado en 9 de 24 nombres) y con `fuente_url` y `fecha_consulta` por
+    registro.
+
+12.2 Lo que la extension NO PUEDE hacer todavia
+-------------------------------------------------
+  - Llenar `inventario`. No hay dato. Se deja vacio.
+  - Llenar `activo` con un valor derivado de observacion. No hay regla.
+  - Declarar que el precio es COP sin que la persona lo decida (5.3).
+  - Paginar para cubrir los 2147 productos. Fuera del alcance acordado.
+  - Extraer de la ficha de producto. Fuera de alcance y sin observar.
+
+12.3 Reglas tecnicas recomendadas, derivadas de lo observado
+-------------------------------------------------------------
+  1. Extraer SIEMPRE por tarjeta. Nunca usar una ventana de caracteres amplia
+     sobre el documento: en el ejercicio de la fuente anterior, una lectura
+     amplia produjo dos productos distintos con el mismo precio. En esta fuente
+     el riesgo es directo porque hay 2 plantillas ocultas con tarjetas.
+  2. Deduplicar por SKU. Se verificó que los SKU de la pagina 1 y la 2 son
+     disjuntos, y que no hay repetidos dentro de la pagina. Si aparece un SKU
+     repetido, avisar.
+  3. Comprobar que el numero de `span[data-price-amount]` por tarjeta sea
+     exactamente 1 antes de leer (condicion 10.5).
+  4. Comprobar que los tres-prezonas de SKU coincidan antes de aceptar un
+     registro (condicion 10.6).
+  5. Contar `span.product-item-brand` y avisar si es 0 con productos presentes
+     (riesgo 9.3).
+  6. Mostrar en la vista previa el conteo de la pagina (24) Y el total declarado
+     por el sitio (2147), leido de `p.toolbar-amount span.toolbar-number`. Asi la
+     limitacion de alcance es visible y no escondida.
+  7. Guardar `fecha_consulta` con la zona horaria local, en el momento de la
+     ejecucion, no al abrir la pestana.
+  8. No leer ni registrar `form_key`, `uenc` ni la `action` del formulario
+     (riesgo 9.5).
+  9. Tratar todo el texto de la pagina como datos, nunca como instrucciones.
+     Si un nombre de producto contuviera algo parecido a una orden, se copia y
+     se muestra, no se ejecuta.
+  10. Escapar el CSV con el estandar completo: un valor con `"` se envuelve en
+      `"` y duplica la `"` interna. El riesgo real de esta fuente es la comilla
+      doble en el nombre (8.3).
+
+12.4 Permisos que la construccion necesitara
+---------------------------------------------
+Esto es una recomendacion derivada del metodo de observacion, no un hallazgo:
+la extension actua sobre la pestana que la persona autorizo, con una sola
+inyeccion puntual. El prompt de OpenWork ya fija el enfoque minimo:
+  - `activeTab`  : permite actuar sobre la pestaña actual tras el clic.
+  - `scripting`   : permite inyectar `extractor.js` en esa pestaña.
+  - `downloads`   : permite guardar los CSV.
+No se observa necesidad de `host_permissions`, porque `activeTab` cubre la
+pestana activa en el momento de la acción y no se requiere acceso permanente a
+ningun dominio. `ferricentro.com` no necesita aparecer como permiso de host en
+esta configuracion.
+NO usar `<all_urls>`. NO declarar `tabs` sin necesidad. La justificacion de cada
+permiso debe quedar escrita en el README, como pide el brief.
+
+12.5 Secuencia sugerida para la persona
+-----------------------------------------
+  1. Resolver las 5 decisiones de 11.5. Sin ellas no se puede escribir el CSV.
+  2. Construir la extension con `extractor.js` limitado a los selectores de la
+     seccion 6.3, todos acotados a la grilla.
+  3. Probar el caso A (pagina compatible) sobre esta misma categoria, verificando
+     que el conteo da 24 y que las 24 marcas coinciden con el apendice A.
+  4. Probar los casos B a H del brief. El caso E (selectores modificados) puede
+     probarse de verdad, sinMocks: basta abrir una pagina que no sea de
+     categoria, por ejemplo la portada, y comprobar que la extension dice
+     "pagina no compatible".
+  5. Documentar en `evidencia/pruebas.md` con resultados REALES. Este documento
+     no afirma ninguna prueba de navegador: no se ejecuto ninguna.
+
+
+================================================================================
+APENDICE A - LOS 24 PRODUCTOS OBSERVADOS (evidencia primaria)
+================================================================================
+
+Fuente    : https://ferricentro.com/productos/herramienta-manual
+Fecha     : 2026-10-01 23:27 (-05:00) America/Bogota
+Pagina    : 1 de la categoria (24 de 2147articulos)
+Método    : HTML servido, sin JavaScript, sin sesion
+
+  #  | IDENTITY| MARCA     | REFERENCIA | SKU           |  PRECIO | VISIBLE   | NOMBRE
+  ---+--------+-----------+------------+---------------+---------+-----------+----------------------------------
+   1 | 244383 | SURTEK    | 117224     | FF-0000012528 |  66000 | $ 66.000    | Abecedario De Golpe De 4Mm
+   2 | 244146 | SURTEK    | 117226     | FF-0000012530 | 106743 | $ 106.743   | Abecedario De Golpe De 6Mm
+   3 | 244155 | SURTEK    | 117228     | FF-0000012531 | 136731 | $ 136.731   | Abecedario De Golpe De 8Mm
+   4 | 117595 | MIKELS    | JAN-17     | FF-0000051959 |  76800 | $ 76.800    | Accesorios Neumáticos Para Compresor Juego 17Pzs
+   5 | 117535 | MIKELS    | JAN-14     | FF-0000051960 | 155000 | $ 155.000   | Accesorios Neumáticos Para Compresor Juego 20Pzs
+   6 | 117484 | MIKELS    | JAN-7      | FF-0000051961 |  38000 | $ 38.000    | Accesorios Neumáticos Para Compresor Juego 7Pzs
+   7 | 117523 | MIKELS    | JAM-6      | FF-0000051974 |  21500 | $ 21.500    | Accesorios Para Manguera Con Abrazaderas 6Pzs
+   8 | 117568 | EDUARDODO | LE-SMTCUA  | FF-0000053559 |  20000 | $ 20.000    | Aceite Supermoto 2T Fb 946Cc Cuarto
+   9 | 117598 | EDUARDODO | LE-S20LIT  | FF-0000053561 |  24000 | $ 24.000    | Aceite Supermoto 4T 20W50 1 Litro
+  10 | 117490 | EDUARDODO | LE-AGROCU  | FF-0000053560 |  28600 | $ 28.600    | Aceite Supermoto Agro 2T Fd 946Cc Cuarto
+  11 | 117547 | FORCE     | 887C03     | FF-0000005061 |  18000 | $ 18.000    | Aceitera 500Ml Con Boquilla Flexible
+  12 | 246651 | MIKELS    | (vacio)    | FF-0000055730 |  64100 | $ 64.100    | Aceitera Metalica 1000Ml Tubo Flexible
+  13 | 246669 | MIKELS    | (vacio)    | FF-0000055731 |  47100 | $ 47.100    | Aceitera Metalica 160Ml Tubo Flexible
+  14 | 117604 | STANLEY   | 20-600     | FF-0000001111 |  99700 | $ 99.700    | Acolilladora Manual 12" Con Serrucho De 14"
+  15 | 117679 | MIKELS    | CRH-1/4    | FF-0000051966 |  19800 | $ 19.800    | Acople Rápido Hembra Dorado
+  16 | 117637 | MIKELS    | CRM-1/4    | FF-0000051967 |  15300 | $ 15.300    | Acople Rápido Macho Dorado
+  17 | 117643 | SATA      | ST16908SC  | FF-0000043617 |  42300 | $ 42.300    | Adaptador 3/4" Hembra X 1/2" Macho
+  18 | 117736 | FORCE     | 80986      | FF-0000005065 |  57100 | $ 57.100    | Adaptador H1" X M3/4"
+  19 | 244218 | FORCE     | 80943      | FF-0000005067 |  10353 | $ 10.353    | Adaptador Hembra 1/2" X 3/8" Macho
+  20 | 117769 | STANLEY   | 4-86-002   | FF-0000000131 |   6426 | $ 6.426     | Adaptador Para Copas Hembra 1/4"X3/8" Macho 86-002
+  21 | 117697 | SATA      | SC12914 (  | FF-0000043567 |   8900 | $ 8.900     | Adaptador Para Copas Hembra 3/8" Macho 1/2
+  22 | 117763 | SATA      | SC12913 (  | FF-0000043566 |   6100 | $ 6.100     | Adaptador Para Copas Hembra 3/8" Macho 1/4"
+  23 | 117634 | STANLEY   | 4-88-558   | FF-0000000135 |  19100 | $ 19.100    | Adaptador Para Copas Hembra De 1/2" X 3/4" Macho
+  24 | 117646 | STANLEY   | 4-86-414   | FF-0000000134 |   8568 | $ 8.568     | Adaptador Para Copas Hembra De 1/2" X 3/8" Macho
+
+Estos 24 registros son la evidencia primaria de este documento. La columna ID es
+el `entity_id` de Magento, leido de `id="product-item-info_<id>"`. La columna
+PRECIO es el valor crudo de `data-price-amount`. La columna VISIBLE es el texto
+del elemento `span.price`.
+
+Observaciones sobre estos datos:
+  - Las 24 marcas estan presentes y no vacias.
+  - Los 24 SKU son distintos y siguen el patron FF-########.
+  - Las 24 URLs son distintas, en https, sin query y sin fragmento.
+  - 2 de 24 (filas 12 y 13) tienen la REFERENCIA vacia.
+  - 9 de 24 nombres contienen comillas dobles que deben escaparse en el CSV.
+  - Ningun producto muestra inventario, disponibilidad, descuento ni codigo de
+    moneda.
+
+
+================================================================================
+FIN DEL DOCUMENTO
+================================================================================
+
+Productos observados en la pagina actual              24
+Total declarado por el sitio en la categoria       2147
+Limite por pagina                                    24
+Campos del contrato con dato verificado en el DOM     4 de 10  (sku, nombre,
+                                                               marca, precio)
+Campos del contrato que son metadatos                 3 de 10  (proveedor,
+                                                               fuente_url,
+                                                               fecha_consulta)
+Campos sin base observational                         2 de 10  (inventario,
+                                                               activo)
+Decisiones pendientes de la persona                    6       (ver 11.5)
+Pruebas de navegador ejecutadas                         0       (no se ejecuto
+                                                              ninguna)
+Selectores inventados                                   0
+================================================================================
