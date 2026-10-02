@@ -1,0 +1,127 @@
+:root {
+  --borde: #d4d4d8;
+  --fondo: #ffffff;
+  --tinta: #18181b;
+  --apagado: #52525b;
+  --acento: #1d4ed8;
+  --acento-texto: #ffffff;
+  --ok: #15803d;
+  --aviso: #a16207;
+  --error: #b91c1c;
+  --fondo-ok: #f0fdf4;
+  --fondo-aviso: #fefce8;
+  --fondo-error: #fef2f2;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  width: 720px;
+  max-height: 580px;
+  overflow-y: auto;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-size: 13px;
+  line-height: 1.45;
+  color: var(--tinta);
+  background: var(--fondo);
+}
+
+.app { padding: 14px 16px 18px; }
+
+.app__head { margin-bottom: 12px; }
+.app__title { margin: 0; font-size: 15px; font-weight: 650; }
+.app__sub { margin: 2px 0 0; font-size: 12px; color: var(--apagado); }
+
+.seccion__titulo {
+  margin: 0 0 6px;
+  font-size: 12px;
+  font-weight: 650;
+  text-transform: uppercase;
+  letter-spacing: .03em;
+  color: var(--apagado);
+}
+
+.step { margin-bottom: 12px; }
+.step__hint { margin: 6px 0 0; font-size: 11.5px; color: var(--apagado); }
+
+.btn {
+  font: inherit;
+  border-radius: 6px;
+  padding: 7px 13px;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+.btn:focus-visible { outline: 2px solid var(--acento); outline-offset: 2px; }
+.btn--primary { background: var(--acento); color: var(--acento-texto); font-weight: 600; }
+.btn--primary:hover:not(:disabled) { background: #1e40af; }
+.btn--ghost { background: var(--fondo); color: var(--tinta); border-color: var(--borde); }
+.btn--ghost:hover:not(:disabled) { background: #f4f4f5; }
+.btn:disabled { opacity: .5; cursor: not-allowed; }
+
+.estado {
+  border: 1px solid var(--borde);
+  border-radius: 6px;
+  padding: 9px 11px;
+  margin-bottom: 12px;
+  background: #fafafa;
+}
+.estado__texto { margin: 0; }
+.estado[data-nivel="ok"] { background: var(--fondo-ok); border-color: #bbf7d0; color: var(--ok); }
+.estado[data-nivel="aviso"] { background: var(--fondo-aviso); border-color: #fde68a; color: var(--aviso); }
+.estado[data-nivel="error"] { background: var(--fondo-error); border-color: #fecaca; color: var(--error); }
+.estado__detalle { margin: 5px 0 0; font-size: 11.5px; color: var(--apagado); }
+
+.cifras { display: flex; gap: 8px; margin-bottom: 12px; }
+.cifra {
+  flex: 1;
+  border: 1px solid var(--borde);
+  border-radius: 6px;
+  padding: 8px 10px;
+  display: flex;
+  flex-direction: column;
+}
+.cifra__valor { font-size: 19px; font-weight: 680; font-variant-numeric: tabular-nums; }
+.cifra__etiqueta { font-size: 11px; color: var(--apagado); }
+
+.avisos { margin-bottom: 12px; display: flex; flex-direction: column; gap: 6px; }
+.aviso {
+  border-left: 3px solid var(--aviso);
+  background: var(--fondo-aviso);
+  padding: 7px 10px;
+  font-size: 11.5px;
+}
+.aviso--error { border-left-color: var(--error); background: var(--fondo-error); }
+
+.faltantes { margin-bottom: 12px; }
+.faltantes__lista { margin: 0; padding-left: 18px; font-size: 11.5px; }
+.faltantes__lista li { margin-bottom: 2px; }
+.faltantes__campo { font-family: ui-monospace, Consolas, monospace; }
+.faltantes__motivo { color: var(--apagado); }
+
+.tabla__envoltura { max-height: 220px; overflow: auto; border: 1px solid var(--borde); border-radius: 6px; }
+.tabla { width: 100%; border-collapse: collapse; font-size: 11.5px; }
+.tabla th, .tabla td {
+  text-align: left;
+  padding: 5px 7px;
+  border-bottom: 1px solid #eee;
+  vertical-align: top;
+}
+.tabla thead th {
+  position: sticky;
+  top: 0;
+  background: #f4f4f5;
+  font-weight: 620;
+  border-bottom: 1px solid var(--borde);
+}
+.tabla td:nth-child(4), .tabla td:nth-child(5), .tabla td:nth-child(6) {
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.vacio { color: #a1a1aa; }
+.estado-pila { font-family: ui-monospace, Consolas, monospace; font-size: 11px; }
+
+.vista__nota { margin: 0 0 6px; font-size: 11.5px; color: var(--apagado); }
+
+.descarga { margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--borde); }
+code { font-family: ui-monospace, Consolas, monospace; font-size: 11px; }

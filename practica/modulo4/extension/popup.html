@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Inventario Ferricentro</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <main class="app">
+    <header class="app__head">
+      <h1 class="app__title">Inventario Ferricentro</h1>
+      <p class="app__sub">Lectura local de la pagina actual. No envia datos.</p>
+    </header>
+
+    <section class="step">
+      <button id="analizar" type="button" class="btn btn--primary">
+        Analizar pagina actual
+      </button>
+      <p class="step__hint">
+        Requiere que la persona abra la pagina y pulse aqui. No hay analisis automatico.
+      </p>
+    </section>
+
+    <section id="estado" class="estado" role="status" aria-live="polite">
+      <p class="estado__texto">Sin analizar.</p>
+    </section>
+
+    <section id="cifras" class="cifras" hidden>
+      <div class="cifra">
+        <span class="cifra__valor" id="conteo">0</span>
+        <span class="cifra__etiqueta">productos en esta pagina</span>
+      </div>
+      <div class="cifra">
+        <span class="cifra__valor" id="total">?</span>
+        <span class="cifra__etiqueta">declarados en la categoria</span>
+      </div>
+      <div class="cifra">
+        <span class="cifra__valor" id="verificados">0</span>
+        <span class="cifra__etiqueta">sin observaciones</span>
+      </div>
+    </section>
+
+    <section id="avisos" class="avisos" hidden></section>
+
+    <section id="faltantes" class="faltantes" hidden>
+      <h2 class="seccion__titulo">Campos que la fuente no muestra</h2>
+      <ul id="faltantes-lista" class="faltantes__lista"></ul>
+    </section>
+
+    <section id="vista" class="vista" hidden>
+      <h2 class="seccion__titulo">Vista previa</h2>
+      <p class="vista__nota" id="vista-nota"></p>
+      <div class="tabla__envoltura">
+        <table class="tabla">
+          <thead>
+            <tr>
+              <th scope="col">SKU</th>
+              <th scope="col">Nombre</th>
+              <th scope="col">Marca</th>
+              <th scope="col">Precio</th>
+              <th scope="col">Inv.</th>
+              <th scope="col">Activo</th>
+              <th scope="col">Estado</th>
+            </tr>
+          </thead>
+          <tbody id="vista-cuerpo"></tbody>
+        </table>
+      </div>
+      <p class="vista__nota" id="vista-rango"></p>
+    </section>
+
+    <section class="descarga" hidden>
+      <button id="descargar" type="button" class="btn btn--ghost" disabled>
+        Descargar CSV
+      </button>
+      <p class="step__hint">
+        Se habilita despues de revisar la vista previa. Genera dos archivos:
+        <code>productos_erp.csv</code> y <code>excepciones.csv</code>.
+      </p>
+    </section>
+  </main>
+
+  <script src="popup.js"></script>
+</body>
+</html>

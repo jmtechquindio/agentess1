@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Inventario Ferricentro (local)",
+  "version": "1.0.0",
+  "description": "Lee los productos visibles de una pagina de categoria autorizada de ferricentro.com y permite descargar un CSV para revision. Todo ocurre en el navegador, sin enviar datos a ningun servidor.",
+  "minimum_chrome_version": "102",
+
+  "action": {
+    "default_title": "Inventario Ferricentro",
+    "default_popup": "popup.html"
+  },
+
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "downloads"
+  ]
+}
