@@ -1,0 +1,18 @@
+# Módulo 5 · Bot de Telegram para el Spa Manos y Pies
+#
+# Configuración de Supabase para este taller.
+# OpenCode ya creó este archivo: NO ejecutes `supabase init` sobre la carpeta.
+#
+# Se aplica junto con la migración 202610020001_spa.sql y la publicación
+# de la función con:
+#   npx --yes supabase@latest functions deploy spa-telegram \
+#     --project-ref TU_PROJECT_ID --use-api
+
+project_id = "spa-manos-pies"
+
+[functions.spa-telegram]
+# Telegram NO envía un JWT de Supabase al webhook. La autenticación real de esta
+# función es TELEGRAM_WEBHOOK_SECRET, verificada dentro del código comparando la
+# cabecera X-Telegram-Bot-Api-Secret-Token.
+# No subas esto a true: el bot dejaría de recibir mensajes.
+verify_jwt = false

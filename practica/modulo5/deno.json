@@ -1,0 +1,28 @@
+{
+  "imports": {
+    "@supabase/supabase-js": "npm:@supabase/supabase-js@2"
+  },
+  "tasks": {
+    "telegram:identificar": "deno run --allow-env --allow-net --allow-read=. scripts/telegram-identificar.ts",
+    "telegram:conectar": "deno run --allow-env --allow-net --allow-read=. scripts/telegram-conectar.ts",
+    "telegram:estado": "deno run --allow-env --allow-net --allow-read=. scripts/telegram-estado.ts",
+    "check": "deno check scripts/entorno.ts scripts/telegram-api.ts scripts/telegram-config.ts scripts/telegram-conectar.ts scripts/telegram-estado.ts scripts/telegram-identificar.ts scripts/telegram-config_test.ts supabase/functions/spa-telegram/index.ts",
+    "lint": "deno lint",
+    "fmt": "deno fmt --check",
+    "test": "deno test scripts/ supabase/functions/spa-telegram/",
+    "verificar": "deno task check && deno task lint && deno task fmt && deno task test"
+  },
+  "fmt": {
+    "lineWidth": 100,
+    "indentWidth": 2,
+    "semiColons": true,
+    "singleQuote": false,
+    "exclude": ["**/*.md"]
+  },
+  "lint": {
+    "rules": {
+      "tags": ["recommended"]
+    }
+  },
+  "exclude": ["supabase/functions/vendor"]
+}
