@@ -2091,6 +2091,6 @@ platforms:
     enabled: true
     home_channel:
       platform: telegram
-      chat_id: 'REDACTED_CHAT_ID'
-      name: Jorge Aristizabal
-      user_id: 'REDACTED_CHAT_ID'
+      chat_id: 'your_telegram_chat_id_here'
+      name: your_name
+      user_id: 'your_telegram_user_id_here'

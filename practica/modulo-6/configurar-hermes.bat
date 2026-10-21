@@ -43,15 +43,15 @@ if exist "%SESSIONS_FILE%" (
 :: ------------------------------------------------------------------
 :: 3) Escribir .env
 :: ------------------------------------------------------------------
-echo EMAIL_ADDRESS=REDACTED_EMAIL> "%ENV_FILE%"
+echo EMAIL_ADDRESS=your_email@gmail.com> "%ENV_FILE%"
 echo EMAIL_PASSWORD=%EMAIL...D%>> "%ENV_FILE%"
 echo EMAIL_IMAP_HOST=imap.gmail.com>> "%ENV_FILE%"
 echo EMAIL_SMTP_HOST=smtp.gmail.com>> "%ENV_FILE%"
 echo EMAIL_IMAP_PORT=993>> "%ENV_FILE%"
 echo EMAIL_SMTP_PORT=587>> "%ENV_FILE%"
-echo EMAIL_ALLOWED_USERS=REDACTED_EMAIL>> "%ENV_FILE%"
+echo EMAIL_ALLOWED_USERS=your_email@gmail.com>> "%ENV_FILE%"
 echo TELEGRAM_BOT_TOKEN=%TELEGRAM_BOT_TOKEN%>> "%ENV_FILE%"
-echo TELEGRAM_HOME_CHANNEL=REDACTED_CHAT_ID>> "%ENV_FILE%"
+echo TELEGRAM_HOME_CHANNEL=your_telegram_chat_id_here>> "%ENV_FILE%"
 echo TELEGRAM_HOME_CHANNEL_THREAD_ID=>> "%ENV_FILE%"
 echo GOOGLE_API_KEY=%GOOGL...Y%>> "%ENV_FILE%"
 :: ------------------------------------------------------------------
