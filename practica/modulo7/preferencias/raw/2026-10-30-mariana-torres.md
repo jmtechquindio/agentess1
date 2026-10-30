@@ -1,0 +1,6 @@
+# Mensaje Original: Mariana Torres
+**Fecha:** 2026-10-30T07:45:00-05:00  
+**Canal:** Conversación directa de prueba
+
+## Texto recibido:
+> Soy Mariana Torres, analista de datos y estudiante de IA. Trabajo en una consultora; por la mañana analizo proyectos y por la tarde tengo reuniones. Me gusta caminar y leer. Uso mariana.personal@example.com para asuntos personales, mariana.trabajo@example.com para trabajo y mariana.estudios@example.com para clases y formación. Prefiero mantener cada correo asociado a su propio tema. Tengo clase de IA los martes de 6 a 8 p. m. y seguimiento los jueves a las 9 a. m., en hora de Colombia. Prefiero explicaciones claras, breves y con ejemplos prácticos.

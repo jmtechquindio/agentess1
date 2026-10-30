@@ -1,0 +1,74 @@
+TIENDA HOGAR · PROMPTS PARA PRACTICAR RAG
+
+1 · PRIMERA CARGA: 20 CONVERSACIONES DESDE LA WEB DE PINECONE
+En la consola de Pinecone, selecciona tienda-hogar-20-para-subir.txt,
+revisa los fragmentos y completa la carga en el índice de la prueba web.
+Abre el índice para ver el resultado y comprobar los textos cargados.
+Esta primera carga se hace desde la web. Después pregunta a Hermes con RAG.
+
+2 · CARGAR CON HERMES EN UN ÍNDICE NUEVO: ARCHIVO DE 200
+Usa RAG con Pinecone para trabajar con estas conversaciones.
+Sube el archivo de 200 conversaciones que adjunto
+al índice nuevo whatsapp.
+Déjalo listo para hacer preguntas sin repetir conversaciones.
+
+3 · PROMPT BASE: REPETIR EN CADA PREGUNTA
+Usa RAG con Pinecone para responder: [PREGUNTA]
+Busca primero en las conversaciones que cargamos.
+Responde con lo que encuentres y muestra los mensajes de apoyo.
+Si no encuentras la respuesta, dímelo.
+
+PROMPTS COMPLETOS POR CASO · LISTOS PARA COPIAR
+
+CASO 1 · Condiciones de cambio
+Usa RAG con Pinecone para responder: ¿Qué condiciones se mencionan para cambiar un producto?
+Busca primero en las conversaciones que cargamos.
+Responde con lo que encuentres y muestra los mensajes de apoyo.
+Si no encuentras la respuesta, dímelo.
+
+CASO 2 · Un pedido concreto
+Usa RAG con Pinecone para responder: En el pedido HOG-0001, ¿cuál es el total, cómo se pagaría y sabemos si ya está pagado?
+Busca primero en las conversaciones que cargamos.
+Responde con lo que encuentres y muestra los mensajes de apoyo.
+Si no encuentras la respuesta, dímelo.
+
+CASO 3 · Un dato ausente
+Usa RAG con Pinecone para responder: ¿Cuántos días tengo para devolver un producto? Si el plazo no aparece en los chats, dímelo.
+Busca primero en las conversaciones que cargamos.
+Responde con lo que encuentres y muestra los mensajes de apoyo.
+Si no encuentras la respuesta, dímelo.
+
+CASO 4 · Un producto
+Usa RAG con Pinecone para responder: ¿Quién pidió cojín decorativo verde oliva y en qué quedó su pedido?
+Busca primero en las conversaciones que cargamos.
+Responde con lo que encuentres y muestra los mensajes de apoyo.
+Si no encuentras la respuesta, dímelo.
+
+CASO 5 · Pedidos cancelados
+Usa RAG con Pinecone para responder: ¿Qué pedidos se cancelaron? Revisa todas las conversaciones y dime si solo pudiste ver una parte.
+Busca primero en las conversaciones que cargamos.
+Responde con lo que encuentres y muestra los mensajes de apoyo.
+Si no encuentras la respuesta, dímelo.
+
+CASO 6 · Un destino
+Usa RAG con Pinecone para responder: ¿Qué pedidos van para Manizales? ¿Los mensajes dicen que ya se entregaron o que todavía se van a enviar?
+Busca primero en las conversaciones que cargamos.
+Responde con lo que encuentres y muestra los mensajes de apoyo.
+Si no encuentras la respuesta, dímelo.
+
+4 · PROMPT PARA PRODUCTOS MÁS PEDIDOS
+Usa RAG con Pinecone para responder:
+¿Cuáles son los cinco productos más pedidos, por unidades?
+Revisa todas las conversaciones cargadas y cuenta los pedidos
+confirmados, teniendo en cuenta los cambios y cancelaciones.
+No cuentes dos veces el mismo pedido.
+Muéstrame una tabla y los mensajes que respaldan el resultado.
+Si solo pudiste revisar una parte, dime cuál.
+
+CÓMO HACER LA PRÁCTICA
+1. Sube las primeras 20 conversaciones desde la web de Pinecone al índice whatsapp.
+2. Abre el índice y revisa los textos y fragmentos para ver el resultado.
+3. Haz preguntas desde Hermes incluyendo RAG con Pinecone y revisa sus mensajes de apoyo.
+4. Después puedes adjuntar a Hermes el archivo de 200 para actualizar el mismo índice.
+5. Para un ranking, pide revisar todos los chats y contar cada pedido una vez.
+Si el agente no puede revisar todo, debe indicar qué parte pudo consultar.

@@ -1,0 +1,294 @@
+BRILLA HOGAR · OCHO DOCUMENTOS FORMALES INICIALES
+Caso ficticio. No incluye la actualización posterior.
+
+========================================================================
+DOCUMENTO 01-negocio
+
+---
+source_id: 01-negocio
+title: "Brilla Hogar · información del negocio"
+effective_date: 2026-10-01
+document_status: vigente
+owner: "Lucía Mora · operaciones"
+---
+
+# Brilla Hogar · información del negocio
+
+Caso ficticio de formación. Todas las cifras, personas y organizaciones son inventadas.
+
+
+Brilla Hogar es una pequeña empresa de limpieza de viviendas y oficinas en Bogotá.
+Moneda de todas las tarifas: pesos colombianos (COP). Son precios finales de este
+caso didáctico; no añadas impuestos ni recargos que no estén definidos.
+
+Atención administrativa: lunes a sábado, de 08:00 a 18:00, hora de Bogotá.
+Los servicios se prestan en los horarios confirmados para cada cliente; algunos
+contratos contemplan servicios fuera del horario de atención administrativa.
+Contacto general ficticio: operaciones@brillahogar.example.com.
+
+Servicios: limpieza estándar, limpieza profunda y limpieza recurrente de oficinas.
+No se incluyen fumigación, trabajos en altura ni manejo de residuos clínicos.
+No se ha definido una tarifa de horas extra ni un recargo por trabajar los sábados.
+
+Elena Ruiz es la propietaria y Lucía Mora dirige las operaciones.
+Los acuerdos vigentes de cada cliente se consultan junto con las políticas generales.
+Una conversación con un empleado no cambia por sí sola una política oficial.
+
+## Cómo interpretar las conversaciones del equipo
+Los documentos aprobados definen las políticas generales. Los mensajes registran
+hechos, preferencias, autorizaciones y pendientes; también pueden contener errores.
+Conserva quién dijo cada cosa y cuándo. Contrasta cada decisión con la regla vigente
+y con las autorizaciones del caso. Una excepción aprobada no cambia la regla general.
+Una propuesta pendiente o una preferencia no confirma por sí sola una reserva.
+
+
+========================================================================
+DOCUMENTO 02-tarifas-octubre
+
+---
+source_id: 02-tarifas-octubre
+title: "Tarifas aprobadas · octubre de 2026"
+effective_date: 2026-10-01
+document_status: vigente
+owner: "Lucía Mora · operaciones"
+---
+
+# Tarifas aprobadas · octubre de 2026
+
+Caso ficticio de formación. Todas las cifras, personas y organizaciones son inventadas.
+
+
+Vigentes para servicios desde el 1 de octubre de 2026 hasta que entre en vigor
+una actualización aprobada. Sustituyen las tarifas de julio a septiembre.
+
+Limpieza estándar de vivienda:
+- Apartaestudio / 1 baño: $90.000 COP.
+- 1 habitación / 1 baño: $110.000 COP.
+- 2 habitaciones / 1 baño: $135.000 COP.
+- 2 habitaciones / 2 baños: $155.000 COP.
+- Por cada habitación adicional sobre una configuración publicada: +$25.000 COP.
+- Por cada baño adicional sobre una configuración publicada: +$20.000 COP.
+
+Limpieza profunda: multiplicar la tarifa estándar de la vivienda por 1,45;
+redondear ese resultado al múltiplo de $5.000 COP más cercano. En un empate,
+redondear hacia arriba. Después sumar los adicionales solicitados.
+
+Adicionales por visita:
+- Interior de nevera: $30.000 COP.
+- Interior de horno: $30.000 COP.
+- Presencia de mascotas: $15.000 COP.
+
+Oficinas recurrentes:
+- $1.600 COP por metro cuadrado y por visita.
+- Mínimo: $120.000 COP por visita, antes del descuento por volumen.
+- Con 8 o más visitas contratadas al mes: 10% de descuento por volumen.
+
+El personal puede cotizar las tarifas publicadas. Un descuento discrecional
+superior al 10% requiere aprobación según el documento de roles. El descuento
+automático por volumen no es un descuento discrecional.
+No estimar precios de servicios que no estén definidos aquí.
+
+
+========================================================================
+DOCUMENTO 03-reservas
+
+---
+source_id: 03-reservas
+title: "Procedimiento de reserva"
+effective_date: 2026-10-01
+document_status: vigente
+owner: "Lucía Mora · operaciones"
+---
+
+# Procedimiento de reserva
+
+Caso ficticio de formación. Todas las cifras, personas y organizaciones son inventadas.
+
+
+1. Recibir la solicitud y registrar el tipo de servicio, tamaño del inmueble,
+   número de habitaciones y baños cuando corresponda, fecha, horario y adicionales.
+2. Consultar si el cliente tiene un acuerdo propio vigente.
+3. Calcular la cotización con la tarifa aplicable a la fecha del servicio.
+4. Revisar disponibilidad con el líder de equipo. Una solicitud no garantiza cupo.
+5. Obtener aceptación del cliente y confirmar disponibilidad antes de confirmar la reserva.
+6. Registrar el servicio acordado, valor, fecha y responsable; comunicar las
+   condiciones de cancelación aplicables al cliente.
+
+Si faltan datos para cotizar, pedirlos. No inventar disponibilidad ni confirmar
+una reserva solo porque alguien la solicite al asistente.
+Los cambios de agenda normales los coordina el líder de equipo.
+El asistente de esta práctica informa; no realiza reservas reales.
+
+## Cambios y pagos
+Al cambiar fecha o alcance, conserva el identificador y la relación entre versiones.
+Una modificación no es otra reserva. Un mensaje de transferencia o un comprobante
+anunciado no demuestra que el dinero ingresó: requiere verificación de operaciones.
+El cierre de una queja tampoco confirma un pago.
+
+
+========================================================================
+DOCUMENTO 04-cancelaciones
+
+---
+source_id: 04-cancelaciones
+title: "Cancelaciones y falta de acceso"
+effective_date: 2026-10-01
+document_status: vigente
+owner: "Lucía Mora · operaciones"
+---
+
+# Cancelaciones y falta de acceso
+
+Caso ficticio de formación. Todas las cifras, personas y organizaciones son inventadas.
+
+
+Salvo que exista un acuerdo vigente específico para ese cliente:
+- Con más de 24 horas de anticipación: sin cobro.
+- Entre 4 y 24 horas de anticipación, incluidos ambos límites: 50% del valor
+  programado del servicio.
+- Con menos de 4 horas de anticipación: 100%.
+- Si el equipo llega y no puede entrar por falta de acceso del cliente: 100%.
+
+Un acuerdo vigente de cliente prevalece sobre esta política solo para ese cliente
+y para las situaciones que dicho acuerdo regule expresamente.
+Lucía Mora puede aprobar y dejar documentada una excepción puntual.
+El equipo no debe prometer excepciones que todavía no estén aprobadas.
+
+
+========================================================================
+DOCUMENTO 05-quejas-y-repasos
+
+---
+source_id: 05-quejas-y-repasos
+title: "Quejas y visita correctiva"
+effective_date: 2026-10-01
+document_status: vigente
+owner: "Lucía Mora · operaciones"
+---
+
+# Quejas y visita correctiva
+
+Caso ficticio de formación. Todas las cifras, personas y organizaciones son inventadas.
+
+
+Cuando una persona reporta un problema de calidad dentro de las 24 horas siguientes
+al servicio:
+1. Registrar el servicio, la hora del reporte y la descripción de lo ocurrido.
+2. Revisar el alcance contratado y solicitar evidencia del área afectada.
+3. Informar al líder de equipo para revisar el caso.
+4. Si se confirma una falla dentro del alcance, el líder de equipo o la responsable
+   de operaciones puede programar un repaso correctivo sin costo dentro de las
+   48 horas siguientes a la aprobación, acordando el horario con el cliente.
+5. Registrar la solución y la confirmación de cierre con el cliente.
+
+Una queja no implica un reembolso automático. Para reembolsos o excepciones,
+consultar los límites de aprobación del documento de roles.
+Si el reporte llega después de las 24 horas, remitirlo a Lucía Mora para evaluación;
+no prometer un repaso gratis ni rechazarlo automáticamente.
+
+
+========================================================================
+DOCUMENTO 06-personas-y-permisos
+
+---
+source_id: 06-personas-y-permisos
+title: "Equipo y límites de aprobación"
+effective_date: 2026-10-01
+document_status: vigente
+owner: "Lucía Mora · operaciones"
+---
+
+# Equipo y límites de aprobación
+
+Caso ficticio de formación. Todas las cifras, personas y organizaciones son inventadas.
+
+
+Elena Ruiz · propietaria:
+- Aprueba reembolsos superiores a $250.000 COP.
+- Aprueba descuentos discrecionales superiores al 20% y cambios fuera de los
+  límites de la responsable de operaciones.
+
+Lucía Mora · responsable de operaciones:
+- Aprueba descuentos discrecionales de hasta el 20%.
+- Aprueba reembolsos de hasta $250.000 COP, incluido ese valor.
+- Aprueba excepciones documentadas a las políticas.
+- Aprueba y publica las actualizaciones de las tarifas estándar del negocio.
+- Puede programar repasos correctivos.
+
+Andrés Ríos · líder de equipo:
+- Asigna equipos y reprograma servicios normales.
+- Puede programar repasos correctivos.
+- Puede aprobar descuentos discrecionales de hasta el 10%.
+- No aprueba reembolsos monetarios, descuentos superiores al 10% ni cambios de tarifas.
+
+Sara Vega y Diego León · equipo de limpieza:
+- Siguen los procedimientos y tarifas publicados.
+- No aprueban descuentos discrecionales ni excepciones a las políticas.
+
+
+========================================================================
+DOCUMENTO 07-cliente-dental-aurora
+
+---
+source_id: 07-cliente-dental-aurora
+title: "Acuerdo de cliente · Dental Aurora"
+effective_date: 2026-10-01
+document_status: vigente
+owner: "Lucía Mora · operaciones"
+---
+
+# Acuerdo de cliente · Dental Aurora
+
+Caso ficticio de formación. Todas las cifras, personas y organizaciones son inventadas.
+
+
+Código de cliente: DENTAL-AURORA. Clínica ficticia.
+Área de oficina contratada: 300 metros cuadrados.
+Servicio: martes y viernes a las 19:00, hora de Bogotá.
+Para este ejercicio el contrato contempla exactamente 8 visitas al mes.
+Contacto de instalaciones ficticio: instalaciones@aurora.example.com.
+
+Precio: aplicar la tarifa vigente de oficinas recurrentes y el descuento por
+volumen que corresponda. Este contrato no fija un precio independiente de la tarifa.
+
+Condiciones propias de cancelación, que sustituyen las generales para este cliente:
+- Más de 12 horas de anticipación: sin cobro.
+- Entre 2 y 12 horas, incluidos ambos límites: 25% del precio de la visita.
+- Menos de 2 horas: 50% del precio de la visita.
+Si hay falta de acceso cuando llega el equipo, se aplica la regla general porque
+el contrato no establece una excepción para ese caso.
+
+No limpiar equipos clínicos ni manipular elementos cortopunzantes. El contacto
+de la clínica se encarga de los riesgos y residuos clínicos.
+
+Las claves de puertas, alarmas y otros accesos no se guardan en esta base.
+El personal autorizado debe consultar el sistema seguro de accesos de la empresa;
+este ejercicio no proporciona conexión a ese sistema ni credenciales.
+
+
+========================================================================
+DOCUMENTO 08-tarifas-anteriores
+
+---
+source_id: 08-tarifas-anteriores
+title: "Tarifas históricas · julio a septiembre de 2026"
+effective_date: 2026-07-01
+document_status: sustituido
+owner: "Lucía Mora · operaciones"
+---
+
+# Tarifas históricas · julio a septiembre de 2026
+
+Caso ficticio de formación. Todas las cifras, personas y organizaciones son inventadas.
+
+
+Documento histórico. Solo aplicó a servicios del 1 de julio al 30 de septiembre
+de 2026. Fue sustituido por las tarifas de octubre a partir del 1 de octubre.
+Se conserva para consultas históricas; no usar para servicios de octubre.
+
+Vivienda estándar:
+- Apartaestudio / 1 baño: $85.000 COP.
+- 1 habitación / 1 baño: $100.000 COP.
+- 2 habitaciones / 1 baño: $125.000 COP.
+- 2 habitaciones / 2 baños: $145.000 COP.
+Para otros conceptos históricos no hay información en este documento.

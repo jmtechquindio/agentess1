@@ -1,0 +1,54 @@
+BRILLA HOGAR · PROMPTS DE APOYO
+Revisa un solo caso, guarda lo aprendido y consulta la memoria en otra sesión.
+
+1 · Preparar los documentos y conversaciones
+Usa el skill de Pinecone para trabajar con los ocho documentos
+y las 24 conversaciones ficticias de Brilla Hogar que adjunto.
+Cárgalos en el índice brilla-hogar y conserva los identificadores,
+fechas y autores para poder citar las fuentes.
+Si ya están cargados, comprueba el contenido sin duplicarlo.
+Deja el documento 09 de actualización para el final.
+Confirma que puedes buscar en los documentos y los chats.
+
+2 · Encontrar y explicar un caso
+Usa RAG con Pinecone para revisar los documentos y conversaciones de Brilla Hogar.
+Ayúdame a encontrar UN caso donde una decisión del equipo
+parezca diferente de las reglas del negocio. Muéstrame sus fuentes.
+Trabajaremos solo ese caso.
+
+Para explicarlo, responde:
+1. ¿Qué pasó?
+2. ¿Qué regla aplicaba en esa fecha?
+3. ¿Hubo un error o una excepción autorizada?
+4. ¿Qué mensajes y documentos respaldan la respuesta?
+
+Revisa si existe un acuerdo o una autorización que justifique la decisión.
+Si hay cifras, muestra el cálculo. Si falta información, explica qué debemos confirmar.
+Propón qué debería hacer el equipo, sin ejecutar cobros, devoluciones ni reservas.
+
+3 · Guardar lo aprendido en la wiki
+Usa LLM Wiki para guardar lo aprendido sobre este caso en
+[RUTA COMPLETA DE LA BÓVEDA], la misma carpeta que abriré en Obsidian.
+Confirma que puedes leer y escribir allí.
+Crea una nota que explique qué pasó, qué regla aplicaba y qué concluimos.
+Enlázala con el cliente, la regla y los documentos o mensajes recuperados con RAG.
+Si hay preferencias del cliente relacionadas con el caso, inclúyelas con su fuente.
+Distingue una excepción de la regla general y deja claro lo que falta confirmar.
+Conserva los originales y el historial; actualiza SCHEMA.md, index.md y log.md.
+Guarda con memory la ruta y la instrucción de consultar esta wiki para Brilla Hogar.
+Muéstrame las notas y sus enlaces.
+
+4 · Consultar en una sesión nueva
+Consulta con LLM Wiki el caso de Brilla Hogar que guardamos.
+¿Qué pasó, qué regla aplicaba y qué concluimos?
+¿Qué debería hacer el equipo si vuelve a ocurrir algo parecido?
+Abre las notas y cita sus fuentes. Distingue la regla general de una excepción.
+Si algo quedó sin confirmar, indícalo. No vuelvo a adjuntar los archivos.
+
+5 · Comprobación final: actualizar una regla
+Incorpora el documento 09 autorizado a la wiki y al RAG de Brilla Hogar.
+Conserva las fuentes anteriores y la fecha desde la que aplica el cambio.
+¿Cuánto vale la limpieza estándar de dos habitaciones y un baño
+para el 23 de octubre y para el 3 de noviembre de 2026?
+Explica si esta actualización afecta el caso que ya revisamos.
+Muéstrame la nota actualizada y sus fuentes, conservando el historial.

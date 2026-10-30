@@ -1,0 +1,4339 @@
+TIENDA HOGAR — CONVERSACIONES DE PRÁCTICA
+Colección completa del Módulo 2: 200 conversaciones y 1.178 mensajes.
+Datos sintéticos. Contenido de referencia para el ejercicio de búsqueda.
+Cada conversación conserva los identificadores, fechas, roles y textos completos de sus mensajes.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0001
+Cliente: Ana Gómez
+
+[wa-hogar-0001-msg-01] 2026-08-02T14:03:00.000Z | Cliente
+Hola 😊 necesito 2 unidades de cojín decorativo verde oliva y 3 unidades de juego de toallas blancas x3. ¿Cuánto queda para Manizales?
+
+[wa-hogar-0001-msg-02] 2026-08-02T14:06:00.000Z | Tienda
+¡Hola! Te atiende Casa Ficticia. Sí tenemos. ¿La entrega sería en Palermo y a nombre de quién queda el pedido?
+
+[wa-hogar-0001-msg-03] 2026-08-02T14:08:00.000Z | Cliente
+Sí, barrio Palermo. Punto de entrega de prueba HOG-0001. Queda a nombre de Ana Gómez.
+
+[wa-hogar-0001-msg-04] 2026-08-02T14:12:00.000Z | Tienda
+El subtotal es $242.000, domicilio $14.000. Total: $256.000. ¿Confirmas?
+
+[wa-hogar-0001-msg-05] 2026-08-02T14:14:00.000Z | Cliente
+perfecto, confirmo el pedido. Pago por Nequi.
+
+[wa-hogar-0001-msg-06] 2026-08-02T14:17:00.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0002
+Cliente: Carlos Gómez
+
+[wa-hogar-0002-msg-01] 2026-08-03T15:06:00.000Z | Cliente
+ola, quiero comprar 3 unidades de protector de colchón sencillo y 1 unidades de cobija térmica queen beige y 2 unidades de juego de sábanas doble algodón. ¿Cuánto queda para Cartagena?
+
+[wa-hogar-0002-msg-02] 2026-08-03T15:10:00.000Z | Tienda
+¡Hola! Te atiende Hogar Demo Colombia. Sí tenemos. ¿La entrega sería en Manga y a nombre de quién queda el pedido?
+
+[wa-hogar-0002-msg-03] 2026-08-03T15:13:00.000Z | Cliente
+Sí, barrio Manga. Punto de entrega de prueba HOG-0002. Queda a nombre de Carlos Gómez.
+
+[wa-hogar-0002-msg-04] 2026-08-03T15:18:00.000Z | Tienda
+El subtotal es $413.000, domicilio $18.000. Total: $431.000. ¿Confirmas?
+
+[wa-hogar-0002-msg-05] 2026-08-03T15:21:00.000Z | Cliente
+listo, queda así. Pago por pago contraentrega.
+
+[wa-hogar-0002-msg-06] 2026-08-03T15:21:30.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0003
+Cliente: Diana Gómez
+
+[wa-hogar-0003-msg-01] 2026-08-04T16:09:00.000Z | Cliente
+Buenas tardes, estoy buscando 1 unidades de cortina blackout 140x220 gris. ¿Cuánto queda para Medellín?
+
+[wa-hogar-0003-msg-02] 2026-08-04T16:09:30.000Z | Tienda
+¡Hola! Te atiende Almacén Hogar Ejemplo. Sí tenemos. ¿La entrega sería en Laureles y a nombre de quién queda el pedido?
+
+[wa-hogar-0003-msg-03] 2026-08-04T16:13:30.000Z | Cliente
+Sí, barrio Laureles. Punto de entrega de prueba HOG-0003. Queda a nombre de Diana Gómez.
+
+[wa-hogar-0003-msg-04] 2026-08-04T16:19:30.000Z | Tienda
+El subtotal es $115.000, domicilio $10.000. Total: $125.000. ¿Confirmas?
+
+[wa-hogar-0003-msg-05] 2026-08-04T16:23:30.000Z | Cliente
+dale, hagámosle. Pago por transferencia bancaria.
+
+[wa-hogar-0003-msg-06] 2026-08-04T16:28:30.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0004
+Cliente: Felipe Gómez
+
+[wa-hogar-0004-msg-01] 2026-08-05T17:12:00.000Z | Cliente
+Buen día, quisiera 2 unidades de tapete de baño gris y 3 unidades de protector de colchón doble. ¿Cuánto queda para Ibagué?
+
+[wa-hogar-0004-msg-02] 2026-08-05T17:18:00.000Z | Tienda
+¡Hola! Te atiende Textiles de Prueba. Sí tenemos. ¿La entrega sería en La Pola y a nombre de quién queda el pedido?
+
+[wa-hogar-0004-msg-03] 2026-08-05T17:18:19.800Z | Cliente
+Sí, barrio La Pola. Punto de entrega de prueba HOG-0004. Queda a nombre de Felipe Gómez.
+
+[wa-hogar-0004-msg-04] 2026-08-05T17:25:19.800Z | Tienda
+El subtotal es $232.000, domicilio $14.000. Total: $246.000. ¿Confirmas?
+
+[wa-hogar-0004-msg-05] 2026-08-05T17:30:19.800Z | Cliente
+sí, confirmado. Pago por Daviplata.
+
+[wa-hogar-0004-msg-06] 2026-08-05T17:30:49.800Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0005
+Cliente: Laura Gómez
+
+[wa-hogar-0005-msg-01] 2026-08-06T18:15:00.000Z | Cliente
+Hola, si almohada hotelera no me sirve, ¿lo puedo cambiar?
+
+[wa-hogar-0005-msg-02] 2026-08-06T18:22:00.000Z | Tienda
+Sí, aceptamos cambios sin uso y con el empaque dentro del plazo informado.
+
+[wa-hogar-0005-msg-03] 2026-08-06T18:28:00.000Z | Cliente
+Perfecto, muchas gracias por la información.
+
+[wa-hogar-0005-msg-04] 2026-08-06T18:28:45.000Z | Tienda
+Con gusto. Escríbenos cuando quieras hacer el pedido.
+
+[wa-hogar-0005-msg-05] 2026-08-06T18:34:45.000Z | Cliente
+Por ahora no, solo estaba averiguando. Gracias.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0006
+Cliente: Mateo Gómez
+
+[wa-hogar-0006-msg-01] 2026-08-07T19:18:00.000Z | Cliente
+Holaa, necesito 1 unidades de juego de sábanas doble algodón. ¿Cuánto queda para Cali?
+
+[wa-hogar-0006-msg-02] 2026-08-07T19:18:30.000Z | Tienda
+¡Hola! Te atiende Hogar Demo Colombia. Sí tenemos. ¿La entrega sería en San Fernando y a nombre de quién queda el pedido?
+
+[wa-hogar-0006-msg-03] 2026-08-07T19:25:30.000Z | Cliente
+Sí, barrio San Fernando. Punto de entrega de prueba HOG-0006. Queda a nombre de Mateo Gómez.
+
+[wa-hogar-0006-msg-04] 2026-08-07T19:34:30.000Z | Tienda
+El subtotal es $78.000, domicilio $11.000. Total: $89.000. ¿Confirmas?
+
+[wa-hogar-0006-msg-05] 2026-08-07T20:19:30.000Z | Cliente
+listo, queda así. Pago por pago contraentrega.
+
+[wa-hogar-0006-msg-06] 2026-08-07T20:20:00.000Z | Tienda
+Pedido confirmado y enviado. Entrega estimada: 1 días hábiles.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0007
+Cliente: Natalia Gómez
+
+[wa-hogar-0007-msg-01] 2026-08-08T13:21:00.000Z | Cliente
+Buenas, me regalas 2 unidades de juego de toallas gris x3 y 3 unidades de almohada hotelera firme. ¿Cuánto queda para Santa Marta?
+
+[wa-hogar-0007-msg-02] 2026-08-08T14:16:00.000Z | Tienda
+¡Hola! Te atiende Almacén Hogar Ejemplo. Sí tenemos. ¿La entrega sería en Bavaria y a nombre de quién queda el pedido?
+
+[wa-hogar-0007-msg-03] 2026-08-08T14:24:00.000Z | Cliente
+Sí, barrio Bavaria. Punto de entrega de prueba HOG-0007. Queda a nombre de Natalia Gómez.
+
+[wa-hogar-0007-msg-04] 2026-08-08T14:34:00.000Z | Tienda
+El subtotal es $241.000, domicilio $16.000. Total: $257.000. ¿Confirmas?
+
+[wa-hogar-0007-msg-05] 2026-08-08T14:42:00.000Z | Cliente
+dale, hagámosle. Pago por transferencia bancaria.
+
+[wa-hogar-0007-msg-06] 2026-08-08T14:51:00.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0008
+Cliente: Santiago Gómez
+
+[wa-hogar-0008-msg-01] 2026-08-09T14:24:00.000Z | Cliente
+Hola, quiero pedir 3 unidades de cobija térmica sencilla azul y 1 unidades de juego de sábanas queen blancas y 2 unidades de tapete de baño verde. ¿Cuánto queda para Pereira?
+
+[wa-hogar-0008-msg-02] 2026-08-09T14:34:00.000Z | Tienda
+¡Hola! Te atiende Textiles de Prueba. Sí tenemos. ¿La entrega sería en Álamos y a nombre de quién queda el pedido?
+
+[wa-hogar-0008-msg-03] 2026-08-09T14:34:19.800Z | Cliente
+Sí, en Álamos, a nombre de Santiago Gómez. Perdón: la cobija térmica la quiero en otra referencia, doble gris.
+
+[wa-hogar-0008-msg-04] 2026-08-09T14:45:19.800Z | Tienda
+El subtotal es $409.000, domicilio $16.000. Total: $425.000. ¿Confirmas?
+
+[wa-hogar-0008-msg-05] 2026-08-09T14:54:19.800Z | Cliente
+sí, confirmado. Pago por Daviplata.
+
+[wa-hogar-0008-msg-06] 2026-08-09T15:24:19.800Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0009
+Cliente: Valentina Gómez
+
+[wa-hogar-0009-msg-01] 2026-08-10T15:27:00.000Z | Cliente
+Hola 😊 necesito 1 unidades de cojín decorativo terracota. ¿Cuánto queda para Barranquilla?
+
+[wa-hogar-0009-msg-02] 2026-08-10T15:27:15.000Z | Cliente
+Ah y si hay color crema mejor 🙏
+
+[wa-hogar-0009-msg-03] 2026-08-10T15:27:30.000Z | Tienda
+¡Hola! Te atiende Casa Ficticia. Sí tenemos. ¿La entrega sería en El Prado y a nombre de quién queda el pedido?
+
+[wa-hogar-0009-msg-04] 2026-08-10T15:37:30.000Z | Cliente
+Sí, barrio El Prado. Punto de entrega de prueba HOG-0009. Queda a nombre de Valentina Gómez.
+
+[wa-hogar-0009-msg-05] 2026-08-10T15:49:30.000Z | Tienda
+El subtotal es $28.000, domicilio $13.000. Total: $41.000. ¿Confirmas?
+
+[wa-hogar-0009-msg-06] 2026-08-10T15:59:30.000Z | Cliente
+perfecto, confirmo el pedido. Pago por Nequi.
+
+[wa-hogar-0009-msg-07] 2026-08-10T16:02:30.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0010
+Cliente: Andrés Gómez
+
+[wa-hogar-0010-msg-01] 2026-08-11T16:30:00.000Z | Cliente
+Hola, si protector de colchón no me sirve, ¿lo puedo cambiar?
+
+[wa-hogar-0010-msg-02] 2026-08-11T16:33:00.000Z | Tienda
+Sí, aceptamos cambios sin uso y con el empaque dentro del plazo informado.
+
+[wa-hogar-0010-msg-03] 2026-08-11T16:44:00.000Z | Cliente
+¿Y el domicilio a Suba queda en $11.000?
+
+[wa-hogar-0010-msg-04] 2026-08-11T16:44:45.000Z | Tienda
+Sí, el envío estándar cuesta $11.000. ¿Deseas hacer el pedido?
+
+[wa-hogar-0010-msg-05] 2026-08-11T16:55:45.000Z | Cliente
+Por ahora no, solo estaba averiguando. Gracias.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0011
+Cliente: Camila Gómez
+
+[wa-hogar-0011-msg-01] 2026-08-12T17:33:00.000Z | Cliente
+Buenas tardes, estoy buscando 3 unidades de cortina blackout 200x220 azul y 1 unidades de cojín decorativo verde oliva y 2 unidades de juego de toallas blancas x3. ¿Cuánto queda para Manizales?
+
+[wa-hogar-0011-msg-02] 2026-08-12T20:33:00.000Z | Tienda
+¡Hola! Te atiende Almacén Hogar Ejemplo. Sí tenemos. ¿La entrega sería en Palermo y a nombre de quién queda el pedido?
+
+[wa-hogar-0011-msg-03] 2026-08-12T20:45:00.000Z | Cliente
+Sí, barrio Palermo. Punto de entrega de prueba HOG-0011. Queda a nombre de Camila Gómez.
+
+[wa-hogar-0011-msg-04] 2026-08-12T20:59:00.000Z | Tienda
+El subtotal es $497.000, domicilio $16.000. Total: $513.000. ¿Confirmas?
+
+[wa-hogar-0011-msg-05] 2026-08-12T21:11:00.000Z | Cliente
+dale, hagámosle. Pago por transferencia bancaria.
+
+[wa-hogar-0011-msg-06] 2026-08-12T21:16:00.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0012
+Cliente: Julián Gómez
+
+[wa-hogar-0012-msg-01] 2026-08-13T18:36:00.000Z | Cliente
+Buen día, quisiera 1 unidades de tapete de baño verde. ¿Cuánto queda para Cartagena?
+
+[wa-hogar-0012-msg-02] 2026-08-13T18:36:30.000Z | Tienda
+¡Hola! Te atiende Textiles de Prueba. Sí tenemos. ¿La entrega sería en Manga y a nombre de quién queda el pedido?
+
+[wa-hogar-0012-msg-03] 2026-08-13T18:36:49.800Z | Cliente
+Sí, barrio Manga. Punto de entrega de prueba HOG-0012. Queda a nombre de Julián Gómez.
+
+[wa-hogar-0012-msg-04] 2026-08-13T18:51:49.800Z | Tienda
+El subtotal es $32.000, domicilio $14.000. Total: $46.000. ¿Confirmas?
+
+[wa-hogar-0012-msg-05] 2026-08-13T19:36:49.800Z | Cliente
+sí, confirmado. Pago por Daviplata.
+
+[wa-hogar-0012-msg-06] 2026-08-13T19:37:19.800Z | Tienda
+Pedido confirmado y enviado. Entrega estimada: 1 días hábiles.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0013
+Cliente: Marcela Gómez
+
+[wa-hogar-0013-msg-01] 2026-08-14T19:39:00.000Z | Cliente
+Hola! tienen disponible 2 unidades de almohada hotelera media y 3 unidades de cortina blackout 140x220 gris. ¿Cuánto queda para Medellín?
+
+[wa-hogar-0013-msg-02] 2026-08-14T19:45:00.000Z | Tienda
+¡Hola! Te atiende Casa Ficticia. Sí tenemos. ¿La entrega sería en Laureles y a nombre de quién queda el pedido?
+
+[wa-hogar-0013-msg-03] 2026-08-14T19:47:00.000Z | Cliente
+Sí, barrio Laureles. Punto de entrega de prueba HOG-0013. Queda a nombre de Marcela Gómez.
+
+[wa-hogar-0013-msg-04] 2026-08-14T21:47:00.000Z | Tienda
+El subtotal es $423.000, domicilio $12.000. Total: $435.000. ¿Confirmas?
+
+[wa-hogar-0013-msg-05] 2026-08-14T22:01:00.000Z | Cliente
+Déjamelo pendiente mientras confirmo la dirección, porfa.
+
+[wa-hogar-0013-msg-06] 2026-08-14T22:08:00.000Z | Tienda
+Claro, queda pendiente y no se despacha todavía.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0014
+Cliente: Nicolás Gómez
+
+[wa-hogar-0014-msg-01] 2026-08-15T13:42:00.000Z | Cliente
+Holaa, necesito 3 unidades de juego de sábanas sencillas estampadas y 1 unidades de tapete de baño gris y 2 unidades de protector de colchón doble. ¿Cuánto queda para Ibagué?
+
+[wa-hogar-0014-msg-02] 2026-08-15T14:37:00.000Z | Tienda
+¡Hola! Te atiende Hogar Demo Colombia. Sí tenemos. ¿La entrega sería en La Pola y a nombre de quién queda el pedido?
+
+[wa-hogar-0014-msg-03] 2026-08-15T14:40:00.000Z | Cliente
+Sí, barrio La Pola. Punto de entrega de prueba HOG-0014. Queda a nombre de Nicolás Gómez.
+
+[wa-hogar-0014-msg-04] 2026-08-15T14:57:00.000Z | Tienda
+El subtotal es $378.000, domicilio $16.000. Total: $394.000. ¿Confirmas?
+
+[wa-hogar-0014-msg-05] 2026-08-15T15:12:00.000Z | Cliente
+listo, queda así. Pago por pago contraentrega.
+
+[wa-hogar-0014-msg-06] 2026-08-15T15:12:30.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0015
+Cliente: Paola Gómez
+
+[wa-hogar-0015-msg-01] 2026-08-16T14:45:00.000Z | Cliente
+Hola, si juego de toallas no me sirve, ¿lo puedo cambiar?
+
+[wa-hogar-0015-msg-02] 2026-08-16T14:45:30.000Z | Tienda
+Sí, aceptamos cambios sin uso y con el empaque dentro del plazo informado.
+
+[wa-hogar-0015-msg-03] 2026-08-16T14:49:30.000Z | Cliente
+Perfecto, muchas gracias por la información.
+
+[wa-hogar-0015-msg-04] 2026-08-16T14:50:15.000Z | Tienda
+Con gusto. Escríbenos cuando quieras hacer el pedido.
+
+[wa-hogar-0015-msg-05] 2026-08-16T15:06:15.000Z | Cliente
+Por ahora no, solo estaba averiguando. Gracias.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0016
+Cliente: Sebastián Gómez
+
+[wa-hogar-0016-msg-01] 2026-08-17T15:48:00.000Z | Cliente
+Hola, quiero pedir 2 unidades de cobija térmica queen beige y 3 unidades de juego de sábanas doble algodón. ¿Cuánto queda para Cali?
+
+[wa-hogar-0016-msg-02] 2026-08-17T15:57:00.000Z | Tienda
+¡Hola! Te atiende Textiles de Prueba. Sí tenemos. ¿La entrega sería en San Fernando y a nombre de quién queda el pedido?
+
+[wa-hogar-0016-msg-03] 2026-08-17T15:57:19.800Z | Cliente
+Sí, en San Fernando, a nombre de Sebastián Gómez. Perdón: la cobija térmica la quiero en otra referencia, sencilla azul.
+
+[wa-hogar-0016-msg-04] 2026-08-17T16:01:19.800Z | Tienda
+El subtotal es $412.000, domicilio $13.000. Total: $425.000. ¿Confirmas?
+
+[wa-hogar-0016-msg-05] 2026-08-17T16:18:19.800Z | Cliente
+sí, confirmado. Pago por Daviplata.
+
+[wa-hogar-0016-msg-06] 2026-08-17T16:48:19.800Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0017
+Cliente: Tatiana Gómez
+
+[wa-hogar-0017-msg-01] 2026-08-18T16:51:00.000Z | Cliente
+Hola 😊 necesito 3 unidades de cojín decorativo crema y 1 unidades de juego de toallas gris x3 y 2 unidades de almohada hotelera firme. ¿Cuánto queda para Santa Marta?
+
+[wa-hogar-0017-msg-02] 2026-08-18T17:01:00.000Z | Tienda
+¡Hola! Te atiende Casa Ficticia. Sí tenemos. ¿La entrega sería en Bavaria y a nombre de quién queda el pedido?
+
+[wa-hogar-0017-msg-03] 2026-08-18T17:07:00.000Z | Cliente
+Sí, barrio Bavaria. Punto de entrega de prueba HOG-0017. Queda a nombre de Tatiana Gómez.
+
+[wa-hogar-0017-msg-04] 2026-08-18T17:12:00.000Z | Tienda
+El subtotal es $224.000, domicilio $18.000. Total: $242.000. ¿Confirmas?
+
+[wa-hogar-0017-msg-05] 2026-08-18T17:30:00.000Z | Cliente
+No, mejor cancélalo por ahora. Gracias.
+
+[wa-hogar-0017-msg-06] 2026-08-18T17:33:00.000Z | Tienda
+Entendido, no se genera el pedido.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0018
+Cliente: Daniel Gómez
+
+[wa-hogar-0018-msg-01] 2026-08-19T17:54:00.000Z | Cliente
+ola, quiero comprar 1 unidades de protector de colchón doble. ¿Cuánto queda para Pereira?
+
+[wa-hogar-0018-msg-02] 2026-08-19T17:54:15.000Z | Cliente
+Ah y si hay color crema mejor 🙏
+
+[wa-hogar-0018-msg-03] 2026-08-19T17:54:30.000Z | Tienda
+¡Hola! Te atiende Hogar Demo Colombia. Sí tenemos. ¿La entrega sería en Álamos y a nombre de quién queda el pedido?
+
+[wa-hogar-0018-msg-04] 2026-08-19T18:01:30.000Z | Cliente
+Sí, barrio Álamos. Punto de entrega de prueba HOG-0018. Queda a nombre de Daniel Gómez.
+
+[wa-hogar-0018-msg-05] 2026-08-19T18:07:30.000Z | Tienda
+El subtotal es $56.000, domicilio $12.000. Total: $68.000. ¿Confirmas?
+
+[wa-hogar-0018-msg-06] 2026-08-19T18:52:30.000Z | Cliente
+listo, queda así. Pago por pago contraentrega.
+
+[wa-hogar-0018-msg-07] 2026-08-19T18:53:00.000Z | Tienda
+Pedido confirmado y enviado. Entrega estimada: 1 días hábiles.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0019
+Cliente: Gabriela Gómez
+
+[wa-hogar-0019-msg-01] 2026-08-20T18:57:00.000Z | Cliente
+Buenas tardes, estoy buscando 2 unidades de cortina blackout 140x220 beige y 3 unidades de cojín decorativo terracota. ¿Cuánto queda para Barranquilla?
+
+[wa-hogar-0019-msg-02] 2026-08-20T19:00:00.000Z | Tienda
+¡Hola! Te atiende Almacén Hogar Ejemplo. Sí tenemos. ¿La entrega sería en El Prado y a nombre de quién queda el pedido?
+
+[wa-hogar-0019-msg-03] 2026-08-20T19:08:00.000Z | Cliente
+Sí, barrio El Prado. Punto de entrega de prueba HOG-0019. Queda a nombre de Gabriela Gómez.
+
+[wa-hogar-0019-msg-04] 2026-08-20T19:15:00.000Z | Tienda
+El subtotal es $314.000, domicilio $15.000. Total: $329.000. ¿Confirmas?
+
+[wa-hogar-0019-msg-05] 2026-08-20T19:35:00.000Z | Cliente
+dale, hagámosle. Pago por transferencia bancaria.
+
+[wa-hogar-0019-msg-06] 2026-08-20T19:40:00.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0020
+Cliente: Ricardo Gómez
+
+[wa-hogar-0020-msg-01] 2026-08-21T19:00:00.000Z | Cliente
+Hola, si tapete de baño no me sirve, ¿lo puedo cambiar?
+
+[wa-hogar-0020-msg-02] 2026-08-21T19:04:00.000Z | Tienda
+Sí, aceptamos cambios sin uso y con el empaque dentro del plazo informado.
+
+[wa-hogar-0020-msg-03] 2026-08-21T19:04:19.800Z | Cliente
+¿Y el domicilio a Suba queda en $13.000?
+
+[wa-hogar-0020-msg-04] 2026-08-21T19:05:04.800Z | Tienda
+Sí, el envío estándar cuesta $13.000. ¿Deseas hacer el pedido?
+
+[wa-hogar-0020-msg-05] 2026-08-21T19:06:04.800Z | Cliente
+Por ahora no, solo estaba averiguando. Gracias.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0021
+Cliente: Ana Rodríguez
+
+[wa-hogar-0021-msg-01] 2026-08-22T13:03:00.000Z | Cliente
+Hola! tienen disponible 1 unidades de almohada hotelera firme. ¿Cuánto queda para Manizales?
+
+[wa-hogar-0021-msg-02] 2026-08-22T13:58:00.000Z | Tienda
+¡Hola! Te atiende Casa Ficticia. Sí tenemos. ¿La entrega sería en Palermo y a nombre de quién queda el pedido?
+
+[wa-hogar-0021-msg-03] 2026-08-22T14:08:00.000Z | Cliente
+Sí, barrio Palermo. Punto de entrega de prueba HOG-0021. Queda a nombre de Ana Rodríguez.
+
+[wa-hogar-0021-msg-04] 2026-08-22T14:17:00.000Z | Tienda
+El subtotal es $39.000, domicilio $12.000. Total: $51.000. ¿Confirmas?
+
+[wa-hogar-0021-msg-05] 2026-08-22T14:19:00.000Z | Cliente
+perfecto, confirmo el pedido. Pago por Nequi.
+
+[wa-hogar-0021-msg-06] 2026-08-22T14:26:00.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0022
+Cliente: Carlos Rodríguez
+
+[wa-hogar-0022-msg-01] 2026-08-23T14:06:00.000Z | Cliente
+Holaa, necesito 2 unidades de juego de sábanas queen blancas y 3 unidades de tapete de baño verde. ¿Cuánto queda para Cartagena?
+
+[wa-hogar-0022-msg-02] 2026-08-23T17:06:00.000Z | Tienda
+¡Hola! Te atiende Hogar Demo Colombia. Sí tenemos. ¿La entrega sería en Manga y a nombre de quién queda el pedido?
+
+[wa-hogar-0022-msg-03] 2026-08-23T17:17:00.000Z | Cliente
+Sí, barrio Manga. Punto de entrega de prueba HOG-0022. Queda a nombre de Carlos Rodríguez.
+
+[wa-hogar-0022-msg-04] 2026-08-23T17:27:00.000Z | Tienda
+El subtotal es $252.000, domicilio $16.000. Total: $268.000. ¿Confirmas?
+
+[wa-hogar-0022-msg-05] 2026-08-23T17:30:00.000Z | Cliente
+listo, queda así. Pago por pago contraentrega.
+
+[wa-hogar-0022-msg-06] 2026-08-23T17:30:30.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0023
+Cliente: Diana Rodríguez
+
+[wa-hogar-0023-msg-01] 2026-08-24T15:09:00.000Z | Cliente
+Buenas, me regalas 3 unidades de juego de toallas arena x2 y 1 unidades de almohada hotelera media y 2 unidades de cortina blackout 140x220 gris. ¿Cuánto queda para Medellín?
+
+[wa-hogar-0023-msg-02] 2026-08-24T15:16:00.000Z | Tienda
+¡Hola! Te atiende Almacén Hogar Ejemplo. Sí tenemos. ¿La entrega sería en Laureles y a nombre de quién queda el pedido?
+
+[wa-hogar-0023-msg-03] 2026-08-24T15:28:00.000Z | Cliente
+Sí, barrio Laureles. Punto de entrega de prueba HOG-0023. Queda a nombre de Diana Rodríguez.
+
+[wa-hogar-0023-msg-04] 2026-08-24T15:39:00.000Z | Tienda
+El subtotal es $455.000, domicilio $14.000. Total: $469.000. ¿Confirmas?
+
+[wa-hogar-0023-msg-05] 2026-08-24T15:43:00.000Z | Cliente
+dale, hagámosle. Pago por transferencia bancaria.
+
+[wa-hogar-0023-msg-06] 2026-08-24T15:52:00.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0024
+Cliente: Felipe Rodríguez
+
+[wa-hogar-0024-msg-01] 2026-08-25T16:12:00.000Z | Cliente
+Hola, quiero pedir 1 unidades de cobija térmica doble gris. ¿Cuánto queda para Ibagué?
+
+[wa-hogar-0024-msg-02] 2026-08-25T16:12:30.000Z | Tienda
+¡Hola! Te atiende Textiles de Prueba. Sí tenemos. ¿La entrega sería en La Pola y a nombre de quién queda el pedido?
+
+[wa-hogar-0024-msg-03] 2026-08-25T16:12:49.800Z | Cliente
+Sí, en La Pola, a nombre de Felipe Rodríguez. Perdón: la cobija térmica la quiero en otra referencia, queen beige.
+
+[wa-hogar-0024-msg-04] 2026-08-25T16:24:49.800Z | Tienda
+El subtotal es $89.000, domicilio $12.000. Total: $101.000. ¿Confirmas?
+
+[wa-hogar-0024-msg-05] 2026-08-25T17:09:49.800Z | Cliente
+sí, confirmado. Pago por Daviplata.
+
+[wa-hogar-0024-msg-06] 2026-08-25T17:39:49.800Z | Tienda
+Pedido confirmado y enviado. Entrega estimada: 1 días hábiles.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0025
+Cliente: Laura Rodríguez
+
+[wa-hogar-0025-msg-01] 2026-08-26T17:15:00.000Z | Cliente
+Hola, si cojín decorativo no me sirve, ¿lo puedo cambiar?
+
+[wa-hogar-0025-msg-02] 2026-08-26T17:24:00.000Z | Tienda
+Sí, aceptamos cambios sin uso y con el empaque dentro del plazo informado.
+
+[wa-hogar-0025-msg-03] 2026-08-26T17:26:00.000Z | Cliente
+Perfecto, muchas gracias por la información.
+
+[wa-hogar-0025-msg-04] 2026-08-26T17:26:45.000Z | Tienda
+Con gusto. Escríbenos cuando quieras hacer el pedido.
+
+[wa-hogar-0025-msg-05] 2026-08-26T17:32:45.000Z | Cliente
+Por ahora no, solo estaba averiguando. Gracias.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0026
+Cliente: Mateo Rodríguez
+
+[wa-hogar-0026-msg-01] 2026-08-27T18:18:00.000Z | Cliente
+ola, quiero comprar 3 unidades de protector de colchón sencillo y 1 unidades de cobija térmica queen beige y 2 unidades de juego de sábanas doble algodón. ¿Cuánto queda para Cali?
+
+[wa-hogar-0026-msg-02] 2026-08-27T18:28:00.000Z | Tienda
+¡Hola! Te atiende Hogar Demo Colombia. Sí tenemos. ¿La entrega sería en San Fernando y a nombre de quién queda el pedido?
+
+[wa-hogar-0026-msg-03] 2026-08-27T18:31:00.000Z | Cliente
+Sí, barrio San Fernando. Punto de entrega de prueba HOG-0026. Queda a nombre de Mateo Rodríguez.
+
+[wa-hogar-0026-msg-04] 2026-08-27T20:31:00.000Z | Tienda
+El subtotal es $413.000, domicilio $15.000. Total: $428.000. ¿Confirmas?
+
+[wa-hogar-0026-msg-05] 2026-08-27T20:38:00.000Z | Cliente
+Déjamelo pendiente mientras confirmo la dirección, porfa.
+
+[wa-hogar-0026-msg-06] 2026-08-27T20:38:30.000Z | Tienda
+Claro, queda pendiente y no se despacha todavía.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0027
+Cliente: Natalia Rodríguez
+
+[wa-hogar-0027-msg-01] 2026-08-28T19:21:00.000Z | Cliente
+Buenas tardes, estoy buscando 1 unidades de cortina blackout 140x220 gris. ¿Cuánto queda para Santa Marta?
+
+[wa-hogar-0027-msg-02] 2026-08-28T19:21:15.000Z | Cliente
+Ah y si hay color crema mejor 🙏
+
+[wa-hogar-0027-msg-03] 2026-08-28T19:21:30.000Z | Tienda
+¡Hola! Te atiende Almacén Hogar Ejemplo. Sí tenemos. ¿La entrega sería en Bavaria y a nombre de quién queda el pedido?
+
+[wa-hogar-0027-msg-04] 2026-08-28T19:25:30.000Z | Cliente
+Sí, barrio Bavaria. Punto de entrega de prueba HOG-0027. Queda a nombre de Natalia Rodríguez.
+
+[wa-hogar-0027-msg-05] 2026-08-28T19:40:30.000Z | Tienda
+El subtotal es $115.000, domicilio $14.000. Total: $129.000. ¿Confirmas?
+
+[wa-hogar-0027-msg-06] 2026-08-28T19:48:30.000Z | Cliente
+dale, hagámosle. Pago por transferencia bancaria.
+
+[wa-hogar-0027-msg-07] 2026-08-28T19:53:30.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0028
+Cliente: Santiago Rodríguez
+
+[wa-hogar-0028-msg-01] 2026-08-01T13:24:00.000Z | Cliente
+Buen día, quisiera 2 unidades de tapete de baño gris y 3 unidades de protector de colchón doble. ¿Cuánto queda para Pereira?
+
+[wa-hogar-0028-msg-02] 2026-08-01T14:19:00.000Z | Tienda
+¡Hola! Te atiende Textiles de Prueba. Sí tenemos. ¿La entrega sería en Álamos y a nombre de quién queda el pedido?
+
+[wa-hogar-0028-msg-03] 2026-08-01T14:19:19.800Z | Cliente
+Sí, barrio Álamos. Punto de entrega de prueba HOG-0028. Queda a nombre de Santiago Rodríguez.
+
+[wa-hogar-0028-msg-04] 2026-08-01T14:35:19.800Z | Tienda
+El subtotal es $232.000, domicilio $14.000. Total: $246.000. ¿Confirmas?
+
+[wa-hogar-0028-msg-05] 2026-08-01T14:44:19.800Z | Cliente
+sí, confirmado. Pago por Daviplata.
+
+[wa-hogar-0028-msg-06] 2026-08-01T14:44:49.800Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0029
+Cliente: Valentina Rodríguez
+
+[wa-hogar-0029-msg-01] 2026-08-02T14:27:00.000Z | Cliente
+Hola! tienen disponible 3 unidades de almohada hotelera suave y 1 unidades de cortina blackout 140x220 beige y 2 unidades de cojín decorativo terracota. ¿Cuánto queda para Barranquilla?
+
+[wa-hogar-0029-msg-02] 2026-08-02T14:31:00.000Z | Tienda
+¡Hola! Te atiende Casa Ficticia. Sí tenemos. ¿La entrega sería en El Prado y a nombre de quién queda el pedido?
+
+[wa-hogar-0029-msg-03] 2026-08-02T14:37:00.000Z | Cliente
+Sí, barrio El Prado. Punto de entrega de prueba HOG-0029. Queda a nombre de Valentina Rodríguez.
+
+[wa-hogar-0029-msg-04] 2026-08-02T14:54:00.000Z | Tienda
+El subtotal es $288.000, domicilio $17.000. Total: $305.000. ¿Confirmas?
+
+[wa-hogar-0029-msg-05] 2026-08-02T15:04:00.000Z | Cliente
+perfecto, confirmo el pedido. Pago por Nequi.
+
+[wa-hogar-0029-msg-06] 2026-08-02T15:11:00.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0030
+Cliente: Andrés Rodríguez
+
+[wa-hogar-0030-msg-01] 2026-08-03T15:30:00.000Z | Cliente
+Hola, si juego de sábanas no me sirve, ¿lo puedo cambiar?
+
+[wa-hogar-0030-msg-02] 2026-08-03T15:30:30.000Z | Tienda
+Sí, aceptamos cambios sin uso y con el empaque dentro del plazo informado.
+
+[wa-hogar-0030-msg-03] 2026-08-03T15:37:30.000Z | Cliente
+¿Y el domicilio a Suba queda en $9.000?
+
+[wa-hogar-0030-msg-04] 2026-08-03T15:38:15.000Z | Tienda
+Sí, el envío estándar cuesta $9.000. ¿Deseas hacer el pedido?
+
+[wa-hogar-0030-msg-05] 2026-08-03T16:23:15.000Z | Cliente
+Por ahora no, solo estaba averiguando. Gracias.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0031
+Cliente: Camila Rodríguez
+
+[wa-hogar-0031-msg-01] 2026-08-04T16:33:00.000Z | Cliente
+Buenas, me regalas 2 unidades de juego de toallas gris x3 y 3 unidades de almohada hotelera firme. ¿Cuánto queda para Manizales?
+
+[wa-hogar-0031-msg-02] 2026-08-04T16:39:00.000Z | Tienda
+¡Hola! Te atiende Almacén Hogar Ejemplo. Sí tenemos. ¿La entrega sería en Palermo y a nombre de quién queda el pedido?
+
+[wa-hogar-0031-msg-03] 2026-08-04T16:47:00.000Z | Cliente
+Sí, barrio Palermo. Punto de entrega de prueba HOG-0031. Queda a nombre de Camila Rodríguez.
+
+[wa-hogar-0031-msg-04] 2026-08-04T16:51:00.000Z | Tienda
+El subtotal es $241.000, domicilio $14.000. Total: $255.000. ¿Confirmas?
+
+[wa-hogar-0031-msg-05] 2026-08-04T17:03:00.000Z | Cliente
+dale, hagámosle. Pago por transferencia bancaria.
+
+[wa-hogar-0031-msg-06] 2026-08-04T17:12:00.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0032
+Cliente: Julián Rodríguez
+
+[wa-hogar-0032-msg-01] 2026-08-05T17:36:00.000Z | Cliente
+Hola, quiero pedir 3 unidades de cobija térmica sencilla azul y 1 unidades de juego de sábanas queen blancas y 2 unidades de tapete de baño verde. ¿Cuánto queda para Cartagena?
+
+[wa-hogar-0032-msg-02] 2026-08-05T17:43:00.000Z | Tienda
+¡Hola! Te atiende Textiles de Prueba. Sí tenemos. ¿La entrega sería en Manga y a nombre de quién queda el pedido?
+
+[wa-hogar-0032-msg-03] 2026-08-05T17:43:19.800Z | Cliente
+Sí, en Manga, a nombre de Julián Rodríguez. Perdón: la cobija térmica la quiero en otra referencia, doble gris.
+
+[wa-hogar-0032-msg-04] 2026-08-05T17:48:19.800Z | Tienda
+El subtotal es $409.000, domicilio $18.000. Total: $427.000. ¿Confirmas?
+
+[wa-hogar-0032-msg-05] 2026-08-05T18:01:19.800Z | Cliente
+sí, confirmado. Pago por Daviplata.
+
+[wa-hogar-0032-msg-06] 2026-08-05T18:31:19.800Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0033
+Cliente: Marcela Rodríguez
+
+[wa-hogar-0033-msg-01] 2026-08-06T18:39:00.000Z | Cliente
+Hola 😊 necesito 1 unidades de cojín decorativo terracota. ¿Cuánto queda para Medellín?
+
+[wa-hogar-0033-msg-02] 2026-08-06T21:39:00.000Z | Tienda
+¡Hola! Te atiende Casa Ficticia. Sí tenemos. ¿La entrega sería en Laureles y a nombre de quién queda el pedido?
+
+[wa-hogar-0033-msg-03] 2026-08-06T21:49:00.000Z | Cliente
+Sí, barrio Laureles. Punto de entrega de prueba HOG-0033. Queda a nombre de Marcela Rodríguez.
+
+[wa-hogar-0033-msg-04] 2026-08-06T21:55:00.000Z | Tienda
+El subtotal es $28.000, domicilio $10.000. Total: $38.000. ¿Confirmas?
+
+[wa-hogar-0033-msg-05] 2026-08-06T22:09:00.000Z | Cliente
+perfecto, confirmo el pedido. Pago por Nequi.
+
+[wa-hogar-0033-msg-06] 2026-08-06T22:12:00.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0034
+Cliente: Nicolás Rodríguez
+
+[wa-hogar-0034-msg-01] 2026-08-07T19:42:00.000Z | Cliente
+ola, quiero comprar 2 unidades de protector de colchón queen y 3 unidades de cobija térmica doble gris. ¿Cuánto queda para Ibagué?
+
+[wa-hogar-0034-msg-02] 2026-08-07T19:51:00.000Z | Tienda
+¡Hola! Te atiende Hogar Demo Colombia. Sí tenemos. ¿La entrega sería en La Pola y a nombre de quién queda el pedido?
+
+[wa-hogar-0034-msg-03] 2026-08-07T20:02:00.000Z | Cliente
+Sí, barrio La Pola. Punto de entrega de prueba HOG-0034. Queda a nombre de Nicolás Rodríguez.
+
+[wa-hogar-0034-msg-04] 2026-08-07T20:09:00.000Z | Tienda
+El subtotal es $379.000, domicilio $14.000. Total: $393.000. ¿Confirmas?
+
+[wa-hogar-0034-msg-05] 2026-08-07T20:24:00.000Z | Cliente
+No, mejor cancélalo por ahora. Gracias.
+
+[wa-hogar-0034-msg-06] 2026-08-07T20:24:30.000Z | Tienda
+Entendido, no se genera el pedido.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0035
+Cliente: Paola Rodríguez
+
+[wa-hogar-0035-msg-01] 2026-08-08T13:45:00.000Z | Cliente
+Hola, si cortina blackout no me sirve, ¿lo puedo cambiar?
+
+[wa-hogar-0035-msg-02] 2026-08-08T14:40:00.000Z | Tienda
+Sí, aceptamos cambios sin uso y con el empaque dentro del plazo informado.
+
+[wa-hogar-0035-msg-03] 2026-08-08T14:52:00.000Z | Cliente
+Perfecto, muchas gracias por la información.
+
+[wa-hogar-0035-msg-04] 2026-08-08T14:52:45.000Z | Tienda
+Con gusto. Escríbenos cuando quieras hacer el pedido.
+
+[wa-hogar-0035-msg-05] 2026-08-08T15:08:45.000Z | Cliente
+Por ahora no, solo estaba averiguando. Gracias.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0036
+Cliente: Sebastián Rodríguez
+
+[wa-hogar-0036-msg-01] 2026-08-09T14:48:00.000Z | Cliente
+Buen día, quisiera 1 unidades de tapete de baño verde. ¿Cuánto queda para Cali?
+
+[wa-hogar-0036-msg-02] 2026-08-09T14:48:15.000Z | Cliente
+Ah y si hay color crema mejor 🙏
+
+[wa-hogar-0036-msg-03] 2026-08-09T14:48:30.000Z | Tienda
+¡Hola! Te atiende Textiles de Prueba. Sí tenemos. ¿La entrega sería en San Fernando y a nombre de quién queda el pedido?
+
+[wa-hogar-0036-msg-04] 2026-08-09T14:48:49.800Z | Cliente
+Sí, barrio San Fernando. Punto de entrega de prueba HOG-0036. Queda a nombre de Sebastián Rodríguez.
+
+[wa-hogar-0036-msg-05] 2026-08-09T14:57:49.800Z | Tienda
+El subtotal es $32.000, domicilio $11.000. Total: $43.000. ¿Confirmas?
+
+[wa-hogar-0036-msg-06] 2026-08-09T15:42:49.800Z | Cliente
+sí, confirmado. Pago por Daviplata.
+
+[wa-hogar-0036-msg-07] 2026-08-09T15:43:19.800Z | Tienda
+Pedido confirmado y enviado. Entrega estimada: 1 días hábiles.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0037
+Cliente: Tatiana Rodríguez
+
+[wa-hogar-0037-msg-01] 2026-08-10T15:51:00.000Z | Cliente
+Hola! tienen disponible 2 unidades de almohada hotelera media y 3 unidades de cortina blackout 140x220 gris. ¿Cuánto queda para Santa Marta?
+
+[wa-hogar-0037-msg-02] 2026-08-10T15:54:00.000Z | Tienda
+¡Hola! Te atiende Casa Ficticia. Sí tenemos. ¿La entrega sería en Bavaria y a nombre de quién queda el pedido?
+
+[wa-hogar-0037-msg-03] 2026-08-10T15:56:00.000Z | Cliente
+Sí, barrio Bavaria. Punto de entrega de prueba HOG-0037. Queda a nombre de Tatiana Rodríguez.
+
+[wa-hogar-0037-msg-04] 2026-08-10T16:06:00.000Z | Tienda
+El subtotal es $423.000, domicilio $16.000. Total: $439.000. ¿Confirmas?
+
+[wa-hogar-0037-msg-05] 2026-08-10T16:24:00.000Z | Cliente
+perfecto, confirmo el pedido. Pago por Nequi.
+
+[wa-hogar-0037-msg-06] 2026-08-10T16:31:00.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0038
+Cliente: Daniel Rodríguez
+
+[wa-hogar-0038-msg-01] 2026-08-11T16:54:00.000Z | Cliente
+Holaa, necesito 3 unidades de juego de sábanas sencillas estampadas y 1 unidades de tapete de baño gris y 2 unidades de protector de colchón doble. ¿Cuánto queda para Pereira?
+
+[wa-hogar-0038-msg-02] 2026-08-11T16:58:00.000Z | Tienda
+¡Hola! Te atiende Hogar Demo Colombia. Sí tenemos. ¿La entrega sería en Álamos y a nombre de quién queda el pedido?
+
+[wa-hogar-0038-msg-03] 2026-08-11T17:01:00.000Z | Cliente
+Sí, barrio Álamos. Punto de entrega de prueba HOG-0038. Queda a nombre de Daniel Rodríguez.
+
+[wa-hogar-0038-msg-04] 2026-08-11T17:12:00.000Z | Tienda
+El subtotal es $378.000, domicilio $16.000. Total: $394.000. ¿Confirmas?
+
+[wa-hogar-0038-msg-05] 2026-08-11T17:31:00.000Z | Cliente
+listo, queda así. Pago por pago contraentrega.
+
+[wa-hogar-0038-msg-06] 2026-08-11T17:31:30.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0039
+Cliente: Gabriela Rodríguez
+
+[wa-hogar-0039-msg-01] 2026-08-12T17:57:00.000Z | Cliente
+Buenas, me regalas 1 unidades de juego de toallas blancas x3. ¿Cuánto queda para Barranquilla?
+
+[wa-hogar-0039-msg-02] 2026-08-12T17:57:30.000Z | Tienda
+¡Hola! Te atiende Almacén Hogar Ejemplo. Sí tenemos. ¿La entrega sería en El Prado y a nombre de quién queda el pedido?
+
+[wa-hogar-0039-msg-03] 2026-08-12T18:01:30.000Z | Cliente
+Sí, barrio El Prado. Punto de entrega de prueba HOG-0039. Queda a nombre de Gabriela Rodríguez.
+
+[wa-hogar-0039-msg-04] 2026-08-12T20:01:30.000Z | Tienda
+El subtotal es $62.000, domicilio $13.000. Total: $75.000. ¿Confirmas?
+
+[wa-hogar-0039-msg-05] 2026-08-12T20:21:30.000Z | Cliente
+Déjamelo pendiente mientras confirmo la dirección, porfa.
+
+[wa-hogar-0039-msg-06] 2026-08-12T20:30:30.000Z | Tienda
+Claro, queda pendiente y no se despacha todavía.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0040
+Cliente: Ricardo Rodríguez
+
+[wa-hogar-0040-msg-01] 2026-08-13T18:00:00.000Z | Cliente
+Hola, si cobija térmica no me sirve, ¿lo puedo cambiar?
+
+[wa-hogar-0040-msg-02] 2026-08-13T18:06:00.000Z | Tienda
+Sí, aceptamos cambios sin uso y con el empaque dentro del plazo informado.
+
+[wa-hogar-0040-msg-03] 2026-08-13T18:06:19.800Z | Cliente
+¿Y el domicilio a Suba queda en $11.000?
+
+[wa-hogar-0040-msg-04] 2026-08-13T18:07:04.800Z | Tienda
+Sí, el envío estándar cuesta $11.000. ¿Deseas hacer el pedido?
+
+[wa-hogar-0040-msg-05] 2026-08-13T18:08:04.800Z | Cliente
+Por ahora no, solo estaba averiguando. Gracias.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0041
+Cliente: Ana Martínez
+
+[wa-hogar-0041-msg-01] 2026-08-14T19:03:00.000Z | Cliente
+Hola 😊 necesito 3 unidades de cojín decorativo crema y 1 unidades de juego de toallas gris x3 y 2 unidades de almohada hotelera firme. ¿Cuánto queda para Manizales?
+
+[wa-hogar-0041-msg-02] 2026-08-14T19:10:00.000Z | Tienda
+¡Hola! Te atiende Casa Ficticia. Sí tenemos. ¿La entrega sería en Palermo y a nombre de quién queda el pedido?
+
+[wa-hogar-0041-msg-03] 2026-08-14T19:16:00.000Z | Cliente
+Sí, barrio Palermo. Punto de entrega de prueba HOG-0041. Queda a nombre de Ana Martínez.
+
+[wa-hogar-0041-msg-04] 2026-08-14T19:30:00.000Z | Tienda
+El subtotal es $224.000, domicilio $16.000. Total: $240.000. ¿Confirmas?
+
+[wa-hogar-0041-msg-05] 2026-08-14T19:32:00.000Z | Cliente
+perfecto, confirmo el pedido. Pago por Nequi.
+
+[wa-hogar-0041-msg-06] 2026-08-14T19:35:00.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0042
+Cliente: Carlos Martínez
+
+[wa-hogar-0042-msg-01] 2026-08-15T13:06:00.000Z | Cliente
+ola, quiero comprar 1 unidades de protector de colchón doble. ¿Cuánto queda para Cartagena?
+
+[wa-hogar-0042-msg-02] 2026-08-15T14:01:00.000Z | Tienda
+¡Hola! Te atiende Hogar Demo Colombia. Sí tenemos. ¿La entrega sería en Manga y a nombre de quién queda el pedido?
+
+[wa-hogar-0042-msg-03] 2026-08-15T14:08:00.000Z | Cliente
+Sí, barrio Manga. Punto de entrega de prueba HOG-0042. Queda a nombre de Carlos Martínez.
+
+[wa-hogar-0042-msg-04] 2026-08-15T14:23:00.000Z | Tienda
+El subtotal es $56.000, domicilio $14.000. Total: $70.000. ¿Confirmas?
+
+[wa-hogar-0042-msg-05] 2026-08-15T15:08:00.000Z | Cliente
+listo, queda así. Pago por pago contraentrega.
+
+[wa-hogar-0042-msg-06] 2026-08-15T15:08:30.000Z | Tienda
+Pedido confirmado y enviado. Entrega estimada: 1 días hábiles.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0043
+Cliente: Diana Martínez
+
+[wa-hogar-0043-msg-01] 2026-08-16T14:09:00.000Z | Cliente
+Buenas tardes, estoy buscando 2 unidades de cortina blackout 140x220 beige y 3 unidades de cojín decorativo terracota. ¿Cuánto queda para Medellín?
+
+[wa-hogar-0043-msg-02] 2026-08-16T14:18:00.000Z | Tienda
+¡Hola! Te atiende Almacén Hogar Ejemplo. Sí tenemos. ¿La entrega sería en Laureles y a nombre de quién queda el pedido?
+
+[wa-hogar-0043-msg-03] 2026-08-16T14:26:00.000Z | Cliente
+Sí, barrio Laureles. Punto de entrega de prueba HOG-0043. Queda a nombre de Diana Martínez.
+
+[wa-hogar-0043-msg-04] 2026-08-16T14:42:00.000Z | Tienda
+El subtotal es $314.000, domicilio $12.000. Total: $326.000. ¿Confirmas?
+
+[wa-hogar-0043-msg-05] 2026-08-16T14:46:00.000Z | Cliente
+dale, hagámosle. Pago por transferencia bancaria.
+
+[wa-hogar-0043-msg-06] 2026-08-16T14:51:00.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0044
+Cliente: Felipe Martínez
+
+[wa-hogar-0044-msg-01] 2026-08-17T15:12:00.000Z | Cliente
+Buen día, quisiera 3 unidades de tapete de baño beige y 1 unidades de protector de colchón queen y 2 unidades de cobija térmica doble gris. ¿Cuánto queda para Ibagué?
+
+[wa-hogar-0044-msg-02] 2026-08-17T18:12:00.000Z | Tienda
+¡Hola! Te atiende Textiles de Prueba. Sí tenemos. ¿La entrega sería en La Pola y a nombre de quién queda el pedido?
+
+[wa-hogar-0044-msg-03] 2026-08-17T18:12:19.800Z | Cliente
+Sí, barrio La Pola. Punto de entrega de prueba HOG-0044. Queda a nombre de Felipe Martínez.
+
+[wa-hogar-0044-msg-04] 2026-08-17T18:29:19.800Z | Tienda
+El subtotal es $330.000, domicilio $16.000. Total: $346.000. ¿Confirmas?
+
+[wa-hogar-0044-msg-05] 2026-08-17T18:34:19.800Z | Cliente
+sí, confirmado. Pago por Daviplata.
+
+[wa-hogar-0044-msg-06] 2026-08-17T18:34:49.800Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0045
+Cliente: Laura Martínez
+
+[wa-hogar-0045-msg-01] 2026-08-18T16:15:00.000Z | Cliente
+Hola, si almohada hotelera no me sirve, ¿lo puedo cambiar?
+
+[wa-hogar-0045-msg-02] 2026-08-18T16:15:30.000Z | Tienda
+Sí, aceptamos cambios sin uso y con el empaque dentro del plazo informado.
+
+[wa-hogar-0045-msg-03] 2026-08-18T16:25:30.000Z | Cliente
+Perfecto, muchas gracias por la información.
+
+[wa-hogar-0045-msg-04] 2026-08-18T16:26:15.000Z | Tienda
+Con gusto. Escríbenos cuando quieras hacer el pedido.
+
+[wa-hogar-0045-msg-05] 2026-08-18T16:32:15.000Z | Cliente
+Por ahora no, solo estaba averiguando. Gracias.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0046
+Cliente: Mateo Martínez
+
+[wa-hogar-0046-msg-01] 2026-08-19T17:18:00.000Z | Cliente
+Holaa, necesito 2 unidades de juego de sábanas queen blancas y 3 unidades de tapete de baño verde. ¿Cuánto queda para Cali?
+
+[wa-hogar-0046-msg-02] 2026-08-19T17:21:00.000Z | Tienda
+¡Hola! Te atiende Hogar Demo Colombia. Sí tenemos. ¿La entrega sería en San Fernando y a nombre de quién queda el pedido?
+
+[wa-hogar-0046-msg-03] 2026-08-19T17:32:00.000Z | Cliente
+Sí, barrio San Fernando. Punto de entrega de prueba HOG-0046. Queda a nombre de Mateo Martínez.
+
+[wa-hogar-0046-msg-04] 2026-08-19T17:36:00.000Z | Tienda
+El subtotal es $252.000, domicilio $13.000. Total: $265.000. ¿Confirmas?
+
+[wa-hogar-0046-msg-05] 2026-08-19T17:43:00.000Z | Cliente
+listo, queda así. Pago por pago contraentrega.
+
+[wa-hogar-0046-msg-06] 2026-08-19T17:43:30.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0047
+Cliente: Natalia Martínez
+
+[wa-hogar-0047-msg-01] 2026-08-20T18:21:00.000Z | Cliente
+Buenas, me regalas 3 unidades de juego de toallas arena x2 y 1 unidades de almohada hotelera media y 2 unidades de cortina blackout 140x220 gris. ¿Cuánto queda para Santa Marta?
+
+[wa-hogar-0047-msg-02] 2026-08-20T18:25:00.000Z | Tienda
+¡Hola! Te atiende Almacén Hogar Ejemplo. Sí tenemos. ¿La entrega sería en Bavaria y a nombre de quién queda el pedido?
+
+[wa-hogar-0047-msg-03] 2026-08-20T18:37:00.000Z | Cliente
+Sí, barrio Bavaria. Punto de entrega de prueba HOG-0047. Queda a nombre de Natalia Martínez.
+
+[wa-hogar-0047-msg-04] 2026-08-20T18:42:00.000Z | Tienda
+El subtotal es $455.000, domicilio $18.000. Total: $473.000. ¿Confirmas?
+
+[wa-hogar-0047-msg-05] 2026-08-20T18:50:00.000Z | Cliente
+dale, hagámosle. Pago por transferencia bancaria.
+
+[wa-hogar-0047-msg-06] 2026-08-20T18:59:00.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0048
+Cliente: Santiago Martínez
+
+[wa-hogar-0048-msg-01] 2026-08-21T19:24:00.000Z | Cliente
+Hola, quiero pedir 1 unidades de cobija térmica doble gris. ¿Cuánto queda para Pereira?
+
+[wa-hogar-0048-msg-02] 2026-08-21T19:24:30.000Z | Tienda
+¡Hola! Te atiende Textiles de Prueba. Sí tenemos. ¿La entrega sería en Álamos y a nombre de quién queda el pedido?
+
+[wa-hogar-0048-msg-03] 2026-08-21T19:24:49.800Z | Cliente
+Sí, en Álamos, a nombre de Santiago Martínez. Perdón: la cobija térmica la quiero en otra referencia, queen beige.
+
+[wa-hogar-0048-msg-04] 2026-08-21T19:30:49.800Z | Tienda
+El subtotal es $89.000, domicilio $12.000. Total: $101.000. ¿Confirmas?
+
+[wa-hogar-0048-msg-05] 2026-08-21T20:15:49.800Z | Cliente
+sí, confirmado. Pago por Daviplata.
+
+[wa-hogar-0048-msg-06] 2026-08-21T20:45:49.800Z | Tienda
+Pedido confirmado y enviado. Entrega estimada: 1 días hábiles.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0049
+Cliente: Valentina Martínez
+
+[wa-hogar-0049-msg-01] 2026-08-22T13:27:00.000Z | Cliente
+Hola 😊 necesito 2 unidades de cojín decorativo verde oliva y 3 unidades de juego de toallas blancas x3. ¿Cuánto queda para Barranquilla?
+
+[wa-hogar-0049-msg-02] 2026-08-22T14:22:00.000Z | Tienda
+¡Hola! Te atiende Casa Ficticia. Sí tenemos. ¿La entrega sería en El Prado y a nombre de quién queda el pedido?
+
+[wa-hogar-0049-msg-03] 2026-08-22T14:24:00.000Z | Cliente
+Sí, barrio El Prado. Punto de entrega de prueba HOG-0049. Queda a nombre de Valentina Martínez.
+
+[wa-hogar-0049-msg-04] 2026-08-22T14:31:00.000Z | Tienda
+El subtotal es $242.000, domicilio $15.000. Total: $257.000. ¿Confirmas?
+
+[wa-hogar-0049-msg-05] 2026-08-22T14:41:00.000Z | Cliente
+perfecto, confirmo el pedido. Pago por Nequi.
+
+[wa-hogar-0049-msg-06] 2026-08-22T14:44:00.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0050
+Cliente: Andrés Martínez
+
+[wa-hogar-0050-msg-01] 2026-08-23T14:30:00.000Z | Cliente
+Hola, si protector de colchón no me sirve, ¿lo puedo cambiar?
+
+[wa-hogar-0050-msg-02] 2026-08-23T14:37:00.000Z | Tienda
+Sí, aceptamos cambios sin uso y con el empaque dentro del plazo informado.
+
+[wa-hogar-0050-msg-03] 2026-08-23T14:40:00.000Z | Cliente
+¿Y el domicilio a Suba queda en $13.000?
+
+[wa-hogar-0050-msg-04] 2026-08-23T14:40:45.000Z | Tienda
+Sí, el envío estándar cuesta $13.000. ¿Deseas hacer el pedido?
+
+[wa-hogar-0050-msg-05] 2026-08-23T14:51:45.000Z | Cliente
+Por ahora no, solo estaba averiguando. Gracias.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0051
+Cliente: Camila Martínez
+
+[wa-hogar-0051-msg-01] 2026-08-24T15:33:00.000Z | Cliente
+Buenas tardes, estoy buscando 1 unidades de cortina blackout 140x220 gris. ¿Cuánto queda para Manizales?
+
+[wa-hogar-0051-msg-02] 2026-08-24T15:33:30.000Z | Tienda
+¡Hola! Te atiende Almacén Hogar Ejemplo. Sí tenemos. ¿La entrega sería en Palermo y a nombre de quién queda el pedido?
+
+[wa-hogar-0051-msg-03] 2026-08-24T15:37:30.000Z | Cliente
+Sí, barrio Palermo. Punto de entrega de prueba HOG-0051. Queda a nombre de Camila Martínez.
+
+[wa-hogar-0051-msg-04] 2026-08-24T15:46:30.000Z | Tienda
+El subtotal es $115.000, domicilio $12.000. Total: $127.000. ¿Confirmas?
+
+[wa-hogar-0051-msg-05] 2026-08-24T15:58:30.000Z | Cliente
+No, mejor cancélalo por ahora. Gracias.
+
+[wa-hogar-0051-msg-06] 2026-08-24T16:03:30.000Z | Tienda
+Entendido, no se genera el pedido.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0052
+Cliente: Julián Martínez
+
+[wa-hogar-0052-msg-01] 2026-08-25T16:36:00.000Z | Cliente
+Buen día, quisiera 2 unidades de tapete de baño gris y 3 unidades de protector de colchón doble. ¿Cuánto queda para Cartagena?
+
+[wa-hogar-0052-msg-02] 2026-08-25T16:45:00.000Z | Tienda
+¡Hola! Te atiende Textiles de Prueba. Sí tenemos. ¿La entrega sería en Manga y a nombre de quién queda el pedido?
+
+[wa-hogar-0052-msg-03] 2026-08-25T16:45:19.800Z | Cliente
+Sí, barrio Manga. Punto de entrega de prueba HOG-0052. Queda a nombre de Julián Martínez.
+
+[wa-hogar-0052-msg-04] 2026-08-25T18:45:19.800Z | Tienda
+El subtotal es $232.000, domicilio $16.000. Total: $248.000. ¿Confirmas?
+
+[wa-hogar-0052-msg-05] 2026-08-25T18:58:19.800Z | Cliente
+Déjamelo pendiente mientras confirmo la dirección, porfa.
+
+[wa-hogar-0052-msg-06] 2026-08-25T18:58:49.800Z | Tienda
+Claro, queda pendiente y no se despacha todavía.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0053
+Cliente: Marcela Martínez
+
+[wa-hogar-0053-msg-01] 2026-08-26T17:39:00.000Z | Cliente
+Hola! tienen disponible 3 unidades de almohada hotelera suave y 1 unidades de cortina blackout 140x220 beige y 2 unidades de cojín decorativo terracota. ¿Cuánto queda para Medellín?
+
+[wa-hogar-0053-msg-02] 2026-08-26T17:49:00.000Z | Tienda
+¡Hola! Te atiende Casa Ficticia. Sí tenemos. ¿La entrega sería en Laureles y a nombre de quién queda el pedido?
+
+[wa-hogar-0053-msg-03] 2026-08-26T17:55:00.000Z | Cliente
+Sí, barrio Laureles. Punto de entrega de prueba HOG-0053. Queda a nombre de Marcela Martínez.
+
+[wa-hogar-0053-msg-04] 2026-08-26T18:06:00.000Z | Tienda
+El subtotal es $288.000, domicilio $14.000. Total: $302.000. ¿Confirmas?
+
+[wa-hogar-0053-msg-05] 2026-08-26T18:20:00.000Z | Cliente
+perfecto, confirmo el pedido. Pago por Nequi.
+
+[wa-hogar-0053-msg-06] 2026-08-26T18:27:00.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0054
+Cliente: Nicolás Martínez
+
+[wa-hogar-0054-msg-01] 2026-08-27T18:42:00.000Z | Cliente
+Holaa, necesito 1 unidades de juego de sábanas doble algodón. ¿Cuánto queda para Ibagué?
+
+[wa-hogar-0054-msg-02] 2026-08-27T18:42:15.000Z | Cliente
+Ah y si hay color crema mejor 🙏
+
+[wa-hogar-0054-msg-03] 2026-08-27T18:42:30.000Z | Tienda
+¡Hola! Te atiende Hogar Demo Colombia. Sí tenemos. ¿La entrega sería en La Pola y a nombre de quién queda el pedido?
+
+[wa-hogar-0054-msg-04] 2026-08-27T18:49:30.000Z | Cliente
+Sí, barrio La Pola. Punto de entrega de prueba HOG-0054. Queda a nombre de Nicolás Martínez.
+
+[wa-hogar-0054-msg-05] 2026-08-27T19:01:30.000Z | Tienda
+El subtotal es $78.000, domicilio $12.000. Total: $90.000. ¿Confirmas?
+
+[wa-hogar-0054-msg-06] 2026-08-27T19:46:30.000Z | Cliente
+listo, queda así. Pago por pago contraentrega.
+
+[wa-hogar-0054-msg-07] 2026-08-27T19:47:00.000Z | Tienda
+Pedido confirmado y enviado. Entrega estimada: 1 días hábiles.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0055
+Cliente: Paola Martínez
+
+[wa-hogar-0055-msg-01] 2026-08-28T19:45:00.000Z | Cliente
+Hola, si juego de toallas no me sirve, ¿lo puedo cambiar?
+
+[wa-hogar-0055-msg-02] 2026-08-28T22:45:00.000Z | Tienda
+Sí, aceptamos cambios sin uso y con el empaque dentro del plazo informado.
+
+[wa-hogar-0055-msg-03] 2026-08-28T22:53:00.000Z | Cliente
+Perfecto, muchas gracias por la información.
+
+[wa-hogar-0055-msg-04] 2026-08-28T22:53:45.000Z | Tienda
+Con gusto. Escríbenos cuando quieras hacer el pedido.
+
+[wa-hogar-0055-msg-05] 2026-08-28T23:09:45.000Z | Cliente
+Por ahora no, solo estaba averiguando. Gracias.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0056
+Cliente: Sebastián Martínez
+
+[wa-hogar-0056-msg-01] 2026-08-01T13:48:00.000Z | Cliente
+Hola, quiero pedir 3 unidades de cobija térmica sencilla azul y 1 unidades de juego de sábanas queen blancas y 2 unidades de tapete de baño verde. ¿Cuánto queda para Cali?
+
+[wa-hogar-0056-msg-02] 2026-08-01T14:43:00.000Z | Tienda
+¡Hola! Te atiende Textiles de Prueba. Sí tenemos. ¿La entrega sería en San Fernando y a nombre de quién queda el pedido?
+
+[wa-hogar-0056-msg-03] 2026-08-01T14:43:19.800Z | Cliente
+Sí, en San Fernando, a nombre de Sebastián Martínez. Perdón: la cobija térmica la quiero en otra referencia, doble gris.
+
+[wa-hogar-0056-msg-04] 2026-08-01T14:57:19.800Z | Tienda
+El subtotal es $409.000, domicilio $15.000. Total: $424.000. ¿Confirmas?
+
+[wa-hogar-0056-msg-05] 2026-08-01T15:14:19.800Z | Cliente
+sí, confirmado. Pago por Daviplata.
+
+[wa-hogar-0056-msg-06] 2026-08-01T15:44:19.800Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0057
+Cliente: Tatiana Martínez
+
+[wa-hogar-0057-msg-01] 2026-08-02T14:51:00.000Z | Cliente
+Hola 😊 necesito 1 unidades de cojín decorativo terracota. ¿Cuánto queda para Santa Marta?
+
+[wa-hogar-0057-msg-02] 2026-08-02T14:51:30.000Z | Tienda
+¡Hola! Te atiende Casa Ficticia. Sí tenemos. ¿La entrega sería en Bavaria y a nombre de quién queda el pedido?
+
+[wa-hogar-0057-msg-03] 2026-08-02T15:01:30.000Z | Cliente
+Sí, barrio Bavaria. Punto de entrega de prueba HOG-0057. Queda a nombre de Tatiana Martínez.
+
+[wa-hogar-0057-msg-04] 2026-08-02T15:16:30.000Z | Tienda
+El subtotal es $28.000, domicilio $14.000. Total: $42.000. ¿Confirmas?
+
+[wa-hogar-0057-msg-05] 2026-08-02T15:34:30.000Z | Cliente
+perfecto, confirmo el pedido. Pago por Nequi.
+
+[wa-hogar-0057-msg-06] 2026-08-02T15:37:30.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0058
+Cliente: Daniel Martínez
+
+[wa-hogar-0058-msg-01] 2026-08-03T15:54:00.000Z | Cliente
+ola, quiero comprar 2 unidades de protector de colchón queen y 3 unidades de cobija térmica doble gris. ¿Cuánto queda para Pereira?
+
+[wa-hogar-0058-msg-02] 2026-08-03T16:00:00.000Z | Tienda
+¡Hola! Te atiende Hogar Demo Colombia. Sí tenemos. ¿La entrega sería en Álamos y a nombre de quién queda el pedido?
+
+[wa-hogar-0058-msg-03] 2026-08-03T16:11:00.000Z | Cliente
+Sí, barrio Álamos. Punto de entrega de prueba HOG-0058. Queda a nombre de Daniel Martínez.
+
+[wa-hogar-0058-msg-04] 2026-08-03T16:27:00.000Z | Tienda
+El subtotal es $379.000, domicilio $14.000. Total: $393.000. ¿Confirmas?
+
+[wa-hogar-0058-msg-05] 2026-08-03T16:46:00.000Z | Cliente
+listo, queda así. Pago por pago contraentrega.
+
+[wa-hogar-0058-msg-06] 2026-08-03T16:46:30.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0059
+Cliente: Gabriela Martínez
+
+[wa-hogar-0059-msg-01] 2026-08-04T16:57:00.000Z | Cliente
+Buenas tardes, estoy buscando 3 unidades de cortina blackout 200x220 azul y 1 unidades de cojín decorativo verde oliva y 2 unidades de juego de toallas blancas x3. ¿Cuánto queda para Barranquilla?
+
+[wa-hogar-0059-msg-02] 2026-08-04T17:04:00.000Z | Tienda
+¡Hola! Te atiende Almacén Hogar Ejemplo. Sí tenemos. ¿La entrega sería en El Prado y a nombre de quién queda el pedido?
+
+[wa-hogar-0059-msg-03] 2026-08-04T17:16:00.000Z | Cliente
+Sí, barrio El Prado. Punto de entrega de prueba HOG-0059. Queda a nombre de Gabriela Martínez.
+
+[wa-hogar-0059-msg-04] 2026-08-04T17:33:00.000Z | Tienda
+El subtotal es $497.000, domicilio $17.000. Total: $514.000. ¿Confirmas?
+
+[wa-hogar-0059-msg-05] 2026-08-04T17:53:00.000Z | Cliente
+dale, hagámosle. Pago por transferencia bancaria.
+
+[wa-hogar-0059-msg-06] 2026-08-04T17:58:00.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0060
+Cliente: Ricardo Martínez
+
+[wa-hogar-0060-msg-01] 2026-08-05T17:00:00.000Z | Cliente
+Hola, si tapete de baño no me sirve, ¿lo puedo cambiar?
+
+[wa-hogar-0060-msg-02] 2026-08-05T17:00:30.000Z | Tienda
+Sí, aceptamos cambios sin uso y con el empaque dentro del plazo informado.
+
+[wa-hogar-0060-msg-03] 2026-08-05T17:00:49.800Z | Cliente
+¿Y el domicilio a Suba queda en $9.000?
+
+[wa-hogar-0060-msg-04] 2026-08-05T17:01:34.800Z | Tienda
+Sí, el envío estándar cuesta $9.000. ¿Deseas hacer el pedido?
+
+[wa-hogar-0060-msg-05] 2026-08-05T17:46:34.800Z | Cliente
+Por ahora no, solo estaba averiguando. Gracias.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0061
+Cliente: Ana López
+
+[wa-hogar-0061-msg-01] 2026-08-06T18:03:00.000Z | Cliente
+Hola! tienen disponible 2 unidades de almohada hotelera media y 3 unidades de cortina blackout 140x220 gris. ¿Cuánto queda para Manizales?
+
+[wa-hogar-0061-msg-02] 2026-08-06T18:12:00.000Z | Tienda
+¡Hola! Te atiende Casa Ficticia. Sí tenemos. ¿La entrega sería en Palermo y a nombre de quién queda el pedido?
+
+[wa-hogar-0061-msg-03] 2026-08-06T18:14:00.000Z | Cliente
+Sí, barrio Palermo. Punto de entrega de prueba HOG-0061. Queda a nombre de Ana López.
+
+[wa-hogar-0061-msg-04] 2026-08-06T18:18:00.000Z | Tienda
+El subtotal es $423.000, domicilio $14.000. Total: $437.000. ¿Confirmas?
+
+[wa-hogar-0061-msg-05] 2026-08-06T18:20:00.000Z | Cliente
+perfecto, confirmo el pedido. Pago por Nequi.
+
+[wa-hogar-0061-msg-06] 2026-08-06T18:27:00.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0062
+Cliente: Carlos López
+
+[wa-hogar-0062-msg-01] 2026-08-07T19:06:00.000Z | Cliente
+Holaa, necesito 3 unidades de juego de sábanas sencillas estampadas y 1 unidades de tapete de baño gris y 2 unidades de protector de colchón doble. ¿Cuánto queda para Cartagena?
+
+[wa-hogar-0062-msg-02] 2026-08-07T19:16:00.000Z | Tienda
+¡Hola! Te atiende Hogar Demo Colombia. Sí tenemos. ¿La entrega sería en Manga y a nombre de quién queda el pedido?
+
+[wa-hogar-0062-msg-03] 2026-08-07T19:19:00.000Z | Cliente
+Sí, barrio Manga. Punto de entrega de prueba HOG-0062. Queda a nombre de Carlos López.
+
+[wa-hogar-0062-msg-04] 2026-08-07T19:24:00.000Z | Tienda
+El subtotal es $378.000, domicilio $18.000. Total: $396.000. ¿Confirmas?
+
+[wa-hogar-0062-msg-05] 2026-08-07T19:27:00.000Z | Cliente
+listo, queda así. Pago por pago contraentrega.
+
+[wa-hogar-0062-msg-06] 2026-08-07T19:27:30.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0063
+Cliente: Diana López
+
+[wa-hogar-0063-msg-01] 2026-08-08T13:09:00.000Z | Cliente
+Buenas, me regalas 1 unidades de juego de toallas blancas x3. ¿Cuánto queda para Medellín?
+
+[wa-hogar-0063-msg-02] 2026-08-08T13:36:30.000Z | Cliente
+Ah y si hay color crema mejor 🙏
+
+[wa-hogar-0063-msg-03] 2026-08-08T14:04:00.000Z | Tienda
+¡Hola! Te atiende Almacén Hogar Ejemplo. Sí tenemos. ¿La entrega sería en Laureles y a nombre de quién queda el pedido?
+
+[wa-hogar-0063-msg-04] 2026-08-08T14:08:00.000Z | Cliente
+Sí, barrio Laureles. Punto de entrega de prueba HOG-0063. Queda a nombre de Diana López.
+
+[wa-hogar-0063-msg-05] 2026-08-08T14:14:00.000Z | Tienda
+El subtotal es $62.000, domicilio $10.000. Total: $72.000. ¿Confirmas?
+
+[wa-hogar-0063-msg-06] 2026-08-08T14:18:00.000Z | Cliente
+dale, hagámosle. Pago por transferencia bancaria.
+
+[wa-hogar-0063-msg-07] 2026-08-08T14:27:00.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0064
+Cliente: Felipe López
+
+[wa-hogar-0064-msg-01] 2026-08-09T14:12:00.000Z | Cliente
+Hola, quiero pedir 2 unidades de cobija térmica queen beige y 3 unidades de juego de sábanas doble algodón. ¿Cuánto queda para Ibagué?
+
+[wa-hogar-0064-msg-02] 2026-08-09T14:15:00.000Z | Tienda
+¡Hola! Te atiende Textiles de Prueba. Sí tenemos. ¿La entrega sería en La Pola y a nombre de quién queda el pedido?
+
+[wa-hogar-0064-msg-03] 2026-08-09T14:15:19.800Z | Cliente
+Sí, en La Pola, a nombre de Felipe López. Perdón: la cobija térmica la quiero en otra referencia, sencilla azul.
+
+[wa-hogar-0064-msg-04] 2026-08-09T14:22:19.800Z | Tienda
+El subtotal es $412.000, domicilio $14.000. Total: $426.000. ¿Confirmas?
+
+[wa-hogar-0064-msg-05] 2026-08-09T14:27:19.800Z | Cliente
+sí, confirmado. Pago por Daviplata.
+
+[wa-hogar-0064-msg-06] 2026-08-09T14:57:19.800Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0065
+Cliente: Laura López
+
+[wa-hogar-0065-msg-01] 2026-08-10T15:15:00.000Z | Cliente
+Hola, si cojín decorativo no me sirve, ¿lo puedo cambiar?
+
+[wa-hogar-0065-msg-02] 2026-08-10T15:19:00.000Z | Tienda
+Sí, aceptamos cambios sin uso y con el empaque dentro del plazo informado.
+
+[wa-hogar-0065-msg-03] 2026-08-10T15:25:00.000Z | Cliente
+Perfecto, muchas gracias por la información.
+
+[wa-hogar-0065-msg-04] 2026-08-10T17:25:00.000Z | Tienda
+Con gusto. Escríbenos cuando quieras hacer el pedido.
+
+[wa-hogar-0065-msg-05] 2026-08-10T17:31:00.000Z | Cliente
+Por ahora no, solo estaba averiguando. Gracias.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0066
+Cliente: Mateo López
+
+[wa-hogar-0066-msg-01] 2026-08-11T16:18:00.000Z | Cliente
+ola, quiero comprar 1 unidades de protector de colchón doble. ¿Cuánto queda para Cali?
+
+[wa-hogar-0066-msg-02] 2026-08-11T19:18:00.000Z | Tienda
+¡Hola! Te atiende Hogar Demo Colombia. Sí tenemos. ¿La entrega sería en San Fernando y a nombre de quién queda el pedido?
+
+[wa-hogar-0066-msg-03] 2026-08-11T19:25:00.000Z | Cliente
+Sí, barrio San Fernando. Punto de entrega de prueba HOG-0066. Queda a nombre de Mateo López.
+
+[wa-hogar-0066-msg-04] 2026-08-11T19:34:00.000Z | Tienda
+El subtotal es $56.000, domicilio $11.000. Total: $67.000. ¿Confirmas?
+
+[wa-hogar-0066-msg-05] 2026-08-11T20:19:00.000Z | Cliente
+listo, queda así. Pago por pago contraentrega.
+
+[wa-hogar-0066-msg-06] 2026-08-11T20:19:30.000Z | Tienda
+Pedido confirmado y enviado. Entrega estimada: 1 días hábiles.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0067
+Cliente: Natalia López
+
+[wa-hogar-0067-msg-01] 2026-08-12T17:21:00.000Z | Cliente
+Buenas tardes, estoy buscando 2 unidades de cortina blackout 140x220 beige y 3 unidades de cojín decorativo terracota. ¿Cuánto queda para Santa Marta?
+
+[wa-hogar-0067-msg-02] 2026-08-12T17:27:00.000Z | Tienda
+¡Hola! Te atiende Almacén Hogar Ejemplo. Sí tenemos. ¿La entrega sería en Bavaria y a nombre de quién queda el pedido?
+
+[wa-hogar-0067-msg-03] 2026-08-12T17:35:00.000Z | Cliente
+Sí, barrio Bavaria. Punto de entrega de prueba HOG-0067. Queda a nombre de Natalia López.
+
+[wa-hogar-0067-msg-04] 2026-08-12T17:45:00.000Z | Tienda
+El subtotal es $314.000, domicilio $16.000. Total: $330.000. ¿Confirmas?
+
+[wa-hogar-0067-msg-05] 2026-08-12T17:53:00.000Z | Cliente
+dale, hagámosle. Pago por transferencia bancaria.
+
+[wa-hogar-0067-msg-06] 2026-08-12T17:58:00.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0068
+Cliente: Santiago López
+
+[wa-hogar-0068-msg-01] 2026-08-13T18:24:00.000Z | Cliente
+Buen día, quisiera 3 unidades de tapete de baño beige y 1 unidades de protector de colchón queen y 2 unidades de cobija térmica doble gris. ¿Cuánto queda para Pereira?
+
+[wa-hogar-0068-msg-02] 2026-08-13T18:31:00.000Z | Tienda
+¡Hola! Te atiende Textiles de Prueba. Sí tenemos. ¿La entrega sería en Álamos y a nombre de quién queda el pedido?
+
+[wa-hogar-0068-msg-03] 2026-08-13T18:31:19.800Z | Cliente
+Sí, barrio Álamos. Punto de entrega de prueba HOG-0068. Queda a nombre de Santiago López.
+
+[wa-hogar-0068-msg-04] 2026-08-13T18:42:19.800Z | Tienda
+El subtotal es $330.000, domicilio $16.000. Total: $346.000. ¿Confirmas?
+
+[wa-hogar-0068-msg-05] 2026-08-13T18:51:19.800Z | Cliente
+No, mejor cancélalo por ahora. Gracias.
+
+[wa-hogar-0068-msg-06] 2026-08-13T18:51:49.800Z | Tienda
+Entendido, no se genera el pedido.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0069
+Cliente: Valentina López
+
+[wa-hogar-0069-msg-01] 2026-08-14T19:27:00.000Z | Cliente
+Hola! tienen disponible 1 unidades de almohada hotelera firme. ¿Cuánto queda para Barranquilla?
+
+[wa-hogar-0069-msg-02] 2026-08-14T19:27:30.000Z | Tienda
+¡Hola! Te atiende Casa Ficticia. Sí tenemos. ¿La entrega sería en El Prado y a nombre de quién queda el pedido?
+
+[wa-hogar-0069-msg-03] 2026-08-14T19:37:30.000Z | Cliente
+Sí, barrio El Prado. Punto de entrega de prueba HOG-0069. Queda a nombre de Valentina López.
+
+[wa-hogar-0069-msg-04] 2026-08-14T19:49:30.000Z | Tienda
+El subtotal es $39.000, domicilio $13.000. Total: $52.000. ¿Confirmas?
+
+[wa-hogar-0069-msg-05] 2026-08-14T19:59:30.000Z | Cliente
+perfecto, confirmo el pedido. Pago por Nequi.
+
+[wa-hogar-0069-msg-06] 2026-08-14T20:06:30.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0070
+Cliente: Andrés López
+
+[wa-hogar-0070-msg-01] 2026-08-15T13:30:00.000Z | Cliente
+Hola, si juego de sábanas no me sirve, ¿lo puedo cambiar?
+
+[wa-hogar-0070-msg-02] 2026-08-15T14:25:00.000Z | Tienda
+Sí, aceptamos cambios sin uso y con el empaque dentro del plazo informado.
+
+[wa-hogar-0070-msg-03] 2026-08-15T14:36:00.000Z | Cliente
+¿Y el domicilio a Suba queda en $11.000?
+
+[wa-hogar-0070-msg-04] 2026-08-15T14:36:45.000Z | Tienda
+Sí, el envío estándar cuesta $11.000. ¿Deseas hacer el pedido?
+
+[wa-hogar-0070-msg-05] 2026-08-15T14:47:45.000Z | Cliente
+Por ahora no, solo estaba averiguando. Gracias.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0071
+Cliente: Camila López
+
+[wa-hogar-0071-msg-01] 2026-08-16T14:33:00.000Z | Cliente
+Buenas, me regalas 3 unidades de juego de toallas arena x2 y 1 unidades de almohada hotelera media y 2 unidades de cortina blackout 140x220 gris. ¿Cuánto queda para Manizales?
+
+[wa-hogar-0071-msg-02] 2026-08-16T14:43:00.000Z | Tienda
+¡Hola! Te atiende Almacén Hogar Ejemplo. Sí tenemos. ¿La entrega sería en Palermo y a nombre de quién queda el pedido?
+
+[wa-hogar-0071-msg-03] 2026-08-16T14:55:00.000Z | Cliente
+Sí, barrio Palermo. Punto de entrega de prueba HOG-0071. Queda a nombre de Camila López.
+
+[wa-hogar-0071-msg-04] 2026-08-16T15:09:00.000Z | Tienda
+El subtotal es $455.000, domicilio $16.000. Total: $471.000. ¿Confirmas?
+
+[wa-hogar-0071-msg-05] 2026-08-16T15:21:00.000Z | Cliente
+dale, hagámosle. Pago por transferencia bancaria.
+
+[wa-hogar-0071-msg-06] 2026-08-16T15:30:00.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0072
+Cliente: Julián López
+
+[wa-hogar-0072-msg-01] 2026-08-17T15:36:00.000Z | Cliente
+Hola, quiero pedir 1 unidades de cobija térmica doble gris. ¿Cuánto queda para Cartagena?
+
+[wa-hogar-0072-msg-02] 2026-08-17T15:36:15.000Z | Cliente
+Ah y si hay color crema mejor 🙏
+
+[wa-hogar-0072-msg-03] 2026-08-17T15:36:30.000Z | Tienda
+¡Hola! Te atiende Textiles de Prueba. Sí tenemos. ¿La entrega sería en Manga y a nombre de quién queda el pedido?
+
+[wa-hogar-0072-msg-04] 2026-08-17T15:36:49.800Z | Cliente
+Sí, en Manga, a nombre de Julián López. Perdón: la cobija térmica la quiero en otra referencia, queen beige.
+
+[wa-hogar-0072-msg-05] 2026-08-17T15:51:49.800Z | Tienda
+El subtotal es $89.000, domicilio $14.000. Total: $103.000. ¿Confirmas?
+
+[wa-hogar-0072-msg-06] 2026-08-17T16:36:49.800Z | Cliente
+sí, confirmado. Pago por Daviplata.
+
+[wa-hogar-0072-msg-07] 2026-08-17T17:06:49.800Z | Tienda
+Pedido confirmado y enviado. Entrega estimada: 1 días hábiles.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0073
+Cliente: Marcela López
+
+[wa-hogar-0073-msg-01] 2026-08-18T16:39:00.000Z | Cliente
+Hola 😊 necesito 2 unidades de cojín decorativo verde oliva y 3 unidades de juego de toallas blancas x3. ¿Cuánto queda para Medellín?
+
+[wa-hogar-0073-msg-02] 2026-08-18T16:42:00.000Z | Tienda
+¡Hola! Te atiende Casa Ficticia. Sí tenemos. ¿La entrega sería en Laureles y a nombre de quién queda el pedido?
+
+[wa-hogar-0073-msg-03] 2026-08-18T16:44:00.000Z | Cliente
+Sí, barrio Laureles. Punto de entrega de prueba HOG-0073. Queda a nombre de Marcela López.
+
+[wa-hogar-0073-msg-04] 2026-08-18T17:00:00.000Z | Tienda
+El subtotal es $242.000, domicilio $12.000. Total: $254.000. ¿Confirmas?
+
+[wa-hogar-0073-msg-05] 2026-08-18T17:14:00.000Z | Cliente
+perfecto, confirmo el pedido. Pago por Nequi.
+
+[wa-hogar-0073-msg-06] 2026-08-18T17:17:00.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0074
+Cliente: Nicolás López
+
+[wa-hogar-0074-msg-01] 2026-08-19T17:42:00.000Z | Cliente
+ola, quiero comprar 3 unidades de protector de colchón sencillo y 1 unidades de cobija térmica queen beige y 2 unidades de juego de sábanas doble algodón. ¿Cuánto queda para Ibagué?
+
+[wa-hogar-0074-msg-02] 2026-08-19T17:46:00.000Z | Tienda
+¡Hola! Te atiende Hogar Demo Colombia. Sí tenemos. ¿La entrega sería en La Pola y a nombre de quién queda el pedido?
+
+[wa-hogar-0074-msg-03] 2026-08-19T17:49:00.000Z | Cliente
+Sí, barrio La Pola. Punto de entrega de prueba HOG-0074. Queda a nombre de Nicolás López.
+
+[wa-hogar-0074-msg-04] 2026-08-19T18:06:00.000Z | Tienda
+El subtotal es $413.000, domicilio $16.000. Total: $429.000. ¿Confirmas?
+
+[wa-hogar-0074-msg-05] 2026-08-19T18:21:00.000Z | Cliente
+listo, queda así. Pago por pago contraentrega.
+
+[wa-hogar-0074-msg-06] 2026-08-19T18:21:30.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0075
+Cliente: Paola López
+
+[wa-hogar-0075-msg-01] 2026-08-20T18:45:00.000Z | Cliente
+Hola, si cortina blackout no me sirve, ¿lo puedo cambiar?
+
+[wa-hogar-0075-msg-02] 2026-08-20T18:45:30.000Z | Tienda
+Sí, aceptamos cambios sin uso y con el empaque dentro del plazo informado.
+
+[wa-hogar-0075-msg-03] 2026-08-20T18:49:30.000Z | Cliente
+Perfecto, muchas gracias por la información.
+
+[wa-hogar-0075-msg-04] 2026-08-20T18:50:15.000Z | Tienda
+Con gusto. Escríbenos cuando quieras hacer el pedido.
+
+[wa-hogar-0075-msg-05] 2026-08-20T19:06:15.000Z | Cliente
+Por ahora no, solo estaba averiguando. Gracias.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0076
+Cliente: Sebastián López
+
+[wa-hogar-0076-msg-01] 2026-08-21T19:48:00.000Z | Cliente
+Buen día, quisiera 2 unidades de tapete de baño gris y 3 unidades de protector de colchón doble. ¿Cuánto queda para Cali?
+
+[wa-hogar-0076-msg-02] 2026-08-21T19:54:00.000Z | Tienda
+¡Hola! Te atiende Textiles de Prueba. Sí tenemos. ¿La entrega sería en San Fernando y a nombre de quién queda el pedido?
+
+[wa-hogar-0076-msg-03] 2026-08-21T19:54:19.800Z | Cliente
+Sí, barrio San Fernando. Punto de entrega de prueba HOG-0076. Queda a nombre de Sebastián López.
+
+[wa-hogar-0076-msg-04] 2026-08-21T19:58:19.800Z | Tienda
+El subtotal es $232.000, domicilio $13.000. Total: $245.000. ¿Confirmas?
+
+[wa-hogar-0076-msg-05] 2026-08-21T20:15:19.800Z | Cliente
+sí, confirmado. Pago por Daviplata.
+
+[wa-hogar-0076-msg-06] 2026-08-21T20:15:49.800Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0077
+Cliente: Tatiana López
+
+[wa-hogar-0077-msg-01] 2026-08-22T13:51:00.000Z | Cliente
+Hola! tienen disponible 3 unidades de almohada hotelera suave y 1 unidades de cortina blackout 140x220 beige y 2 unidades de cojín decorativo terracota. ¿Cuánto queda para Santa Marta?
+
+[wa-hogar-0077-msg-02] 2026-08-22T16:51:00.000Z | Tienda
+¡Hola! Te atiende Casa Ficticia. Sí tenemos. ¿La entrega sería en Bavaria y a nombre de quién queda el pedido?
+
+[wa-hogar-0077-msg-03] 2026-08-22T16:57:00.000Z | Cliente
+Sí, barrio Bavaria. Punto de entrega de prueba HOG-0077. Queda a nombre de Tatiana López.
+
+[wa-hogar-0077-msg-04] 2026-08-22T17:02:00.000Z | Tienda
+El subtotal es $288.000, domicilio $18.000. Total: $306.000. ¿Confirmas?
+
+[wa-hogar-0077-msg-05] 2026-08-22T17:20:00.000Z | Cliente
+perfecto, confirmo el pedido. Pago por Nequi.
+
+[wa-hogar-0077-msg-06] 2026-08-22T17:27:00.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0078
+Cliente: Daniel López
+
+[wa-hogar-0078-msg-01] 2026-08-23T14:54:00.000Z | Cliente
+Holaa, necesito 1 unidades de juego de sábanas doble algodón. ¿Cuánto queda para Pereira?
+
+[wa-hogar-0078-msg-02] 2026-08-23T14:54:30.000Z | Tienda
+¡Hola! Te atiende Hogar Demo Colombia. Sí tenemos. ¿La entrega sería en Álamos y a nombre de quién queda el pedido?
+
+[wa-hogar-0078-msg-03] 2026-08-23T15:01:30.000Z | Cliente
+Sí, barrio Álamos. Punto de entrega de prueba HOG-0078. Queda a nombre de Daniel López.
+
+[wa-hogar-0078-msg-04] 2026-08-23T17:01:30.000Z | Tienda
+El subtotal es $78.000, domicilio $12.000. Total: $90.000. ¿Confirmas?
+
+[wa-hogar-0078-msg-05] 2026-08-23T17:46:30.000Z | Cliente
+Déjamelo pendiente mientras confirmo la dirección, porfa.
+
+[wa-hogar-0078-msg-06] 2026-08-23T17:47:00.000Z | Tienda
+Claro, queda pendiente y no se despacha todavía.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0079
+Cliente: Gabriela López
+
+[wa-hogar-0079-msg-01] 2026-08-24T15:57:00.000Z | Cliente
+Buenas, me regalas 2 unidades de juego de toallas gris x3 y 3 unidades de almohada hotelera firme. ¿Cuánto queda para Barranquilla?
+
+[wa-hogar-0079-msg-02] 2026-08-24T16:06:00.000Z | Tienda
+¡Hola! Te atiende Almacén Hogar Ejemplo. Sí tenemos. ¿La entrega sería en El Prado y a nombre de quién queda el pedido?
+
+[wa-hogar-0079-msg-03] 2026-08-24T16:14:00.000Z | Cliente
+Sí, barrio El Prado. Punto de entrega de prueba HOG-0079. Queda a nombre de Gabriela López.
+
+[wa-hogar-0079-msg-04] 2026-08-24T16:21:00.000Z | Tienda
+El subtotal es $241.000, domicilio $15.000. Total: $256.000. ¿Confirmas?
+
+[wa-hogar-0079-msg-05] 2026-08-24T16:41:00.000Z | Cliente
+dale, hagámosle. Pago por transferencia bancaria.
+
+[wa-hogar-0079-msg-06] 2026-08-24T16:50:00.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0080
+Cliente: Ricardo López
+
+[wa-hogar-0080-msg-01] 2026-08-25T16:00:00.000Z | Cliente
+Hola, si cobija térmica no me sirve, ¿lo puedo cambiar?
+
+[wa-hogar-0080-msg-02] 2026-08-25T16:10:00.000Z | Tienda
+Sí, aceptamos cambios sin uso y con el empaque dentro del plazo informado.
+
+[wa-hogar-0080-msg-03] 2026-08-25T16:10:19.800Z | Cliente
+¿Y el domicilio a Suba queda en $13.000?
+
+[wa-hogar-0080-msg-04] 2026-08-25T16:11:04.800Z | Tienda
+Sí, el envío estándar cuesta $13.000. ¿Deseas hacer el pedido?
+
+[wa-hogar-0080-msg-05] 2026-08-25T16:12:04.800Z | Cliente
+Por ahora no, solo estaba averiguando. Gracias.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0081
+Cliente: Ana Hernández
+
+[wa-hogar-0081-msg-01] 2026-08-26T17:03:00.000Z | Cliente
+Hola 😊 necesito 1 unidades de cojín decorativo terracota. ¿Cuánto queda para Manizales?
+
+[wa-hogar-0081-msg-02] 2026-08-26T17:03:15.000Z | Cliente
+Ah y si hay color crema mejor 🙏
+
+[wa-hogar-0081-msg-03] 2026-08-26T17:03:30.000Z | Tienda
+¡Hola! Te atiende Casa Ficticia. Sí tenemos. ¿La entrega sería en Palermo y a nombre de quién queda el pedido?
+
+[wa-hogar-0081-msg-04] 2026-08-26T17:13:30.000Z | Cliente
+Sí, barrio Palermo. Punto de entrega de prueba HOG-0081. Queda a nombre de Ana Hernández.
+
+[wa-hogar-0081-msg-05] 2026-08-26T17:22:30.000Z | Tienda
+El subtotal es $28.000, domicilio $12.000. Total: $40.000. ¿Confirmas?
+
+[wa-hogar-0081-msg-06] 2026-08-26T17:24:30.000Z | Cliente
+perfecto, confirmo el pedido. Pago por Nequi.
+
+[wa-hogar-0081-msg-07] 2026-08-26T17:27:30.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0082
+Cliente: Carlos Hernández
+
+[wa-hogar-0082-msg-01] 2026-08-27T18:06:00.000Z | Cliente
+ola, quiero comprar 2 unidades de protector de colchón queen y 3 unidades de cobija térmica doble gris. ¿Cuánto queda para Cartagena?
+
+[wa-hogar-0082-msg-02] 2026-08-27T18:09:00.000Z | Tienda
+¡Hola! Te atiende Hogar Demo Colombia. Sí tenemos. ¿La entrega sería en Manga y a nombre de quién queda el pedido?
+
+[wa-hogar-0082-msg-03] 2026-08-27T18:20:00.000Z | Cliente
+Sí, barrio Manga. Punto de entrega de prueba HOG-0082. Queda a nombre de Carlos Hernández.
+
+[wa-hogar-0082-msg-04] 2026-08-27T18:30:00.000Z | Tienda
+El subtotal es $379.000, domicilio $16.000. Total: $395.000. ¿Confirmas?
+
+[wa-hogar-0082-msg-05] 2026-08-27T18:33:00.000Z | Cliente
+listo, queda así. Pago por pago contraentrega.
+
+[wa-hogar-0082-msg-06] 2026-08-27T18:33:30.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0083
+Cliente: Diana Hernández
+
+[wa-hogar-0083-msg-01] 2026-08-28T19:09:00.000Z | Cliente
+Buenas tardes, estoy buscando 3 unidades de cortina blackout 200x220 azul y 1 unidades de cojín decorativo verde oliva y 2 unidades de juego de toallas blancas x3. ¿Cuánto queda para Medellín?
+
+[wa-hogar-0083-msg-02] 2026-08-28T19:13:00.000Z | Tienda
+¡Hola! Te atiende Almacén Hogar Ejemplo. Sí tenemos. ¿La entrega sería en Laureles y a nombre de quién queda el pedido?
+
+[wa-hogar-0083-msg-03] 2026-08-28T19:25:00.000Z | Cliente
+Sí, barrio Laureles. Punto de entrega de prueba HOG-0083. Queda a nombre de Diana Hernández.
+
+[wa-hogar-0083-msg-04] 2026-08-28T19:36:00.000Z | Tienda
+El subtotal es $497.000, domicilio $14.000. Total: $511.000. ¿Confirmas?
+
+[wa-hogar-0083-msg-05] 2026-08-28T19:40:00.000Z | Cliente
+dale, hagámosle. Pago por transferencia bancaria.
+
+[wa-hogar-0083-msg-06] 2026-08-28T19:45:00.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0084
+Cliente: Felipe Hernández
+
+[wa-hogar-0084-msg-01] 2026-08-01T13:12:00.000Z | Cliente
+Buen día, quisiera 1 unidades de tapete de baño verde. ¿Cuánto queda para Ibagué?
+
+[wa-hogar-0084-msg-02] 2026-08-01T14:07:00.000Z | Tienda
+¡Hola! Te atiende Textiles de Prueba. Sí tenemos. ¿La entrega sería en La Pola y a nombre de quién queda el pedido?
+
+[wa-hogar-0084-msg-03] 2026-08-01T14:07:19.800Z | Cliente
+Sí, barrio La Pola. Punto de entrega de prueba HOG-0084. Queda a nombre de Felipe Hernández.
+
+[wa-hogar-0084-msg-04] 2026-08-01T14:19:19.800Z | Tienda
+El subtotal es $32.000, domicilio $12.000. Total: $44.000. ¿Confirmas?
+
+[wa-hogar-0084-msg-05] 2026-08-01T15:04:19.800Z | Cliente
+sí, confirmado. Pago por Daviplata.
+
+[wa-hogar-0084-msg-06] 2026-08-01T15:04:49.800Z | Tienda
+Pedido confirmado y enviado. Entrega estimada: 1 días hábiles.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0085
+Cliente: Laura Hernández
+
+[wa-hogar-0085-msg-01] 2026-08-02T14:15:00.000Z | Cliente
+Hola, si almohada hotelera no me sirve, ¿lo puedo cambiar?
+
+[wa-hogar-0085-msg-02] 2026-08-02T14:21:00.000Z | Tienda
+Sí, aceptamos cambios sin uso y con el empaque dentro del plazo informado.
+
+[wa-hogar-0085-msg-03] 2026-08-02T14:23:00.000Z | Cliente
+Perfecto, muchas gracias por la información.
+
+[wa-hogar-0085-msg-04] 2026-08-02T14:23:45.000Z | Tienda
+Con gusto. Escríbenos cuando quieras hacer el pedido.
+
+[wa-hogar-0085-msg-05] 2026-08-02T14:29:45.000Z | Cliente
+Por ahora no, solo estaba averiguando. Gracias.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0086
+Cliente: Mateo Hernández
+
+[wa-hogar-0086-msg-01] 2026-08-03T15:18:00.000Z | Cliente
+Holaa, necesito 3 unidades de juego de sábanas sencillas estampadas y 1 unidades de tapete de baño gris y 2 unidades de protector de colchón doble. ¿Cuánto queda para Cali?
+
+[wa-hogar-0086-msg-02] 2026-08-03T15:25:00.000Z | Tienda
+¡Hola! Te atiende Hogar Demo Colombia. Sí tenemos. ¿La entrega sería en San Fernando y a nombre de quién queda el pedido?
+
+[wa-hogar-0086-msg-03] 2026-08-03T15:28:00.000Z | Cliente
+Sí, barrio San Fernando. Punto de entrega de prueba HOG-0086. Queda a nombre de Mateo Hernández.
+
+[wa-hogar-0086-msg-04] 2026-08-03T15:42:00.000Z | Tienda
+El subtotal es $378.000, domicilio $15.000. Total: $393.000. ¿Confirmas?
+
+[wa-hogar-0086-msg-05] 2026-08-03T15:49:00.000Z | Cliente
+listo, queda así. Pago por pago contraentrega.
+
+[wa-hogar-0086-msg-06] 2026-08-03T15:49:30.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0087
+Cliente: Natalia Hernández
+
+[wa-hogar-0087-msg-01] 2026-08-04T16:21:00.000Z | Cliente
+Buenas, me regalas 1 unidades de juego de toallas blancas x3. ¿Cuánto queda para Santa Marta?
+
+[wa-hogar-0087-msg-02] 2026-08-04T16:21:30.000Z | Tienda
+¡Hola! Te atiende Almacén Hogar Ejemplo. Sí tenemos. ¿La entrega sería en Bavaria y a nombre de quién queda el pedido?
+
+[wa-hogar-0087-msg-03] 2026-08-04T16:25:30.000Z | Cliente
+Sí, barrio Bavaria. Punto de entrega de prueba HOG-0087. Queda a nombre de Natalia Hernández.
+
+[wa-hogar-0087-msg-04] 2026-08-04T16:40:30.000Z | Tienda
+El subtotal es $62.000, domicilio $14.000. Total: $76.000. ¿Confirmas?
+
+[wa-hogar-0087-msg-05] 2026-08-04T16:48:30.000Z | Cliente
+dale, hagámosle. Pago por transferencia bancaria.
+
+[wa-hogar-0087-msg-06] 2026-08-04T16:57:30.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0088
+Cliente: Santiago Hernández
+
+[wa-hogar-0088-msg-01] 2026-08-05T17:24:00.000Z | Cliente
+Hola, quiero pedir 2 unidades de cobija térmica queen beige y 3 unidades de juego de sábanas doble algodón. ¿Cuánto queda para Pereira?
+
+[wa-hogar-0088-msg-02] 2026-08-05T20:24:00.000Z | Tienda
+¡Hola! Te atiende Textiles de Prueba. Sí tenemos. ¿La entrega sería en Álamos y a nombre de quién queda el pedido?
+
+[wa-hogar-0088-msg-03] 2026-08-05T20:24:19.800Z | Cliente
+Sí, en Álamos, a nombre de Santiago Hernández. Perdón: la cobija térmica la quiero en otra referencia, sencilla azul.
+
+[wa-hogar-0088-msg-04] 2026-08-05T20:40:19.800Z | Tienda
+El subtotal es $412.000, domicilio $14.000. Total: $426.000. ¿Confirmas?
+
+[wa-hogar-0088-msg-05] 2026-08-05T20:49:19.800Z | Cliente
+sí, confirmado. Pago por Daviplata.
+
+[wa-hogar-0088-msg-06] 2026-08-05T21:19:19.800Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0089
+Cliente: Valentina Hernández
+
+[wa-hogar-0089-msg-01] 2026-08-06T18:27:00.000Z | Cliente
+Hola 😊 necesito 3 unidades de cojín decorativo crema y 1 unidades de juego de toallas gris x3 y 2 unidades de almohada hotelera firme. ¿Cuánto queda para Barranquilla?
+
+[wa-hogar-0089-msg-02] 2026-08-06T18:37:00.000Z | Tienda
+¡Hola! Te atiende Casa Ficticia. Sí tenemos. ¿La entrega sería en El Prado y a nombre de quién queda el pedido?
+
+[wa-hogar-0089-msg-03] 2026-08-06T18:43:00.000Z | Cliente
+Sí, barrio El Prado. Punto de entrega de prueba HOG-0089. Queda a nombre de Valentina Hernández.
+
+[wa-hogar-0089-msg-04] 2026-08-06T19:00:00.000Z | Tienda
+El subtotal es $224.000, domicilio $17.000. Total: $241.000. ¿Confirmas?
+
+[wa-hogar-0089-msg-05] 2026-08-06T19:10:00.000Z | Cliente
+perfecto, confirmo el pedido. Pago por Nequi.
+
+[wa-hogar-0089-msg-06] 2026-08-06T19:13:00.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0090
+Cliente: Andrés Hernández
+
+[wa-hogar-0090-msg-01] 2026-08-07T19:30:00.000Z | Cliente
+Hola, si protector de colchón no me sirve, ¿lo puedo cambiar?
+
+[wa-hogar-0090-msg-02] 2026-08-07T19:30:30.000Z | Tienda
+Sí, aceptamos cambios sin uso y con el empaque dentro del plazo informado.
+
+[wa-hogar-0090-msg-03] 2026-08-07T19:37:30.000Z | Cliente
+¿Y el domicilio a Suba queda en $9.000?
+
+[wa-hogar-0090-msg-04] 2026-08-07T19:38:15.000Z | Tienda
+Sí, el envío estándar cuesta $9.000. ¿Deseas hacer el pedido?
+
+[wa-hogar-0090-msg-05] 2026-08-07T20:23:15.000Z | Cliente
+Por ahora no, solo estaba averiguando. Gracias.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0091
+Cliente: Camila Hernández
+
+[wa-hogar-0091-msg-01] 2026-08-08T13:33:00.000Z | Cliente
+Buenas tardes, estoy buscando 2 unidades de cortina blackout 140x220 beige y 3 unidades de cojín decorativo terracota. ¿Cuánto queda para Manizales?
+
+[wa-hogar-0091-msg-02] 2026-08-08T14:28:00.000Z | Tienda
+¡Hola! Te atiende Almacén Hogar Ejemplo. Sí tenemos. ¿La entrega sería en Palermo y a nombre de quién queda el pedido?
+
+[wa-hogar-0091-msg-03] 2026-08-08T14:36:00.000Z | Cliente
+Sí, barrio Palermo. Punto de entrega de prueba HOG-0091. Queda a nombre de Camila Hernández.
+
+[wa-hogar-0091-msg-04] 2026-08-08T16:36:00.000Z | Tienda
+El subtotal es $314.000, domicilio $14.000. Total: $328.000. ¿Confirmas?
+
+[wa-hogar-0091-msg-05] 2026-08-08T16:48:00.000Z | Cliente
+Déjamelo pendiente mientras confirmo la dirección, porfa.
+
+[wa-hogar-0091-msg-06] 2026-08-08T16:53:00.000Z | Tienda
+Claro, queda pendiente y no se despacha todavía.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0092
+Cliente: Julián Hernández
+
+[wa-hogar-0092-msg-01] 2026-08-09T14:36:00.000Z | Cliente
+Buen día, quisiera 3 unidades de tapete de baño beige y 1 unidades de protector de colchón queen y 2 unidades de cobija térmica doble gris. ¿Cuánto queda para Cartagena?
+
+[wa-hogar-0092-msg-02] 2026-08-09T14:40:00.000Z | Tienda
+¡Hola! Te atiende Textiles de Prueba. Sí tenemos. ¿La entrega sería en Manga y a nombre de quién queda el pedido?
+
+[wa-hogar-0092-msg-03] 2026-08-09T14:40:19.800Z | Cliente
+Sí, barrio Manga. Punto de entrega de prueba HOG-0092. Queda a nombre de Julián Hernández.
+
+[wa-hogar-0092-msg-04] 2026-08-09T14:45:19.800Z | Tienda
+El subtotal es $330.000, domicilio $18.000. Total: $348.000. ¿Confirmas?
+
+[wa-hogar-0092-msg-05] 2026-08-09T14:58:19.800Z | Cliente
+sí, confirmado. Pago por Daviplata.
+
+[wa-hogar-0092-msg-06] 2026-08-09T14:58:49.800Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0093
+Cliente: Marcela Hernández
+
+[wa-hogar-0093-msg-01] 2026-08-10T15:39:00.000Z | Cliente
+Hola! tienen disponible 1 unidades de almohada hotelera firme. ¿Cuánto queda para Medellín?
+
+[wa-hogar-0093-msg-02] 2026-08-10T15:39:30.000Z | Tienda
+¡Hola! Te atiende Casa Ficticia. Sí tenemos. ¿La entrega sería en Laureles y a nombre de quién queda el pedido?
+
+[wa-hogar-0093-msg-03] 2026-08-10T15:49:30.000Z | Cliente
+Sí, barrio Laureles. Punto de entrega de prueba HOG-0093. Queda a nombre de Marcela Hernández.
+
+[wa-hogar-0093-msg-04] 2026-08-10T15:55:30.000Z | Tienda
+El subtotal es $39.000, domicilio $10.000. Total: $49.000. ¿Confirmas?
+
+[wa-hogar-0093-msg-05] 2026-08-10T16:09:30.000Z | Cliente
+perfecto, confirmo el pedido. Pago por Nequi.
+
+[wa-hogar-0093-msg-06] 2026-08-10T16:16:30.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0094
+Cliente: Nicolás Hernández
+
+[wa-hogar-0094-msg-01] 2026-08-11T16:42:00.000Z | Cliente
+Holaa, necesito 2 unidades de juego de sábanas queen blancas y 3 unidades de tapete de baño verde. ¿Cuánto queda para Ibagué?
+
+[wa-hogar-0094-msg-02] 2026-08-11T16:48:00.000Z | Tienda
+¡Hola! Te atiende Hogar Demo Colombia. Sí tenemos. ¿La entrega sería en La Pola y a nombre de quién queda el pedido?
+
+[wa-hogar-0094-msg-03] 2026-08-11T16:59:00.000Z | Cliente
+Sí, barrio La Pola. Punto de entrega de prueba HOG-0094. Queda a nombre de Nicolás Hernández.
+
+[wa-hogar-0094-msg-04] 2026-08-11T17:06:00.000Z | Tienda
+El subtotal es $252.000, domicilio $14.000. Total: $266.000. ¿Confirmas?
+
+[wa-hogar-0094-msg-05] 2026-08-11T17:21:00.000Z | Cliente
+listo, queda así. Pago por pago contraentrega.
+
+[wa-hogar-0094-msg-06] 2026-08-11T17:21:30.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0095
+Cliente: Paola Hernández
+
+[wa-hogar-0095-msg-01] 2026-08-12T17:45:00.000Z | Cliente
+Hola, si juego de toallas no me sirve, ¿lo puedo cambiar?
+
+[wa-hogar-0095-msg-02] 2026-08-12T17:52:00.000Z | Tienda
+Sí, aceptamos cambios sin uso y con el empaque dentro del plazo informado.
+
+[wa-hogar-0095-msg-03] 2026-08-12T18:04:00.000Z | Cliente
+Perfecto, muchas gracias por la información.
+
+[wa-hogar-0095-msg-04] 2026-08-12T18:04:45.000Z | Tienda
+Con gusto. Escríbenos cuando quieras hacer el pedido.
+
+[wa-hogar-0095-msg-05] 2026-08-12T18:20:45.000Z | Cliente
+Por ahora no, solo estaba averiguando. Gracias.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0096
+Cliente: Sebastián Hernández
+
+[wa-hogar-0096-msg-01] 2026-08-13T18:48:00.000Z | Cliente
+Hola, quiero pedir 1 unidades de cobija térmica doble gris. ¿Cuánto queda para Cali?
+
+[wa-hogar-0096-msg-02] 2026-08-13T18:48:30.000Z | Tienda
+¡Hola! Te atiende Textiles de Prueba. Sí tenemos. ¿La entrega sería en San Fernando y a nombre de quién queda el pedido?
+
+[wa-hogar-0096-msg-03] 2026-08-13T18:48:49.800Z | Cliente
+Sí, en San Fernando, a nombre de Sebastián Hernández. Perdón: la cobija térmica la quiero en otra referencia, queen beige.
+
+[wa-hogar-0096-msg-04] 2026-08-13T18:57:49.800Z | Tienda
+El subtotal es $89.000, domicilio $11.000. Total: $100.000. ¿Confirmas?
+
+[wa-hogar-0096-msg-05] 2026-08-13T19:42:49.800Z | Cliente
+sí, confirmado. Pago por Daviplata.
+
+[wa-hogar-0096-msg-06] 2026-08-13T20:12:49.800Z | Tienda
+Pedido confirmado y enviado. Entrega estimada: 1 días hábiles.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0097
+Cliente: Tatiana Hernández
+
+[wa-hogar-0097-msg-01] 2026-08-14T19:51:00.000Z | Cliente
+Hola 😊 necesito 2 unidades de cojín decorativo verde oliva y 3 unidades de juego de toallas blancas x3. ¿Cuánto queda para Santa Marta?
+
+[wa-hogar-0097-msg-02] 2026-08-14T20:00:00.000Z | Tienda
+¡Hola! Te atiende Casa Ficticia. Sí tenemos. ¿La entrega sería en Bavaria y a nombre de quién queda el pedido?
+
+[wa-hogar-0097-msg-03] 2026-08-14T20:02:00.000Z | Cliente
+Sí, barrio Bavaria. Punto de entrega de prueba HOG-0097. Queda a nombre de Tatiana Hernández.
+
+[wa-hogar-0097-msg-04] 2026-08-14T20:12:00.000Z | Tienda
+El subtotal es $242.000, domicilio $16.000. Total: $258.000. ¿Confirmas?
+
+[wa-hogar-0097-msg-05] 2026-08-14T20:30:00.000Z | Cliente
+perfecto, confirmo el pedido. Pago por Nequi.
+
+[wa-hogar-0097-msg-06] 2026-08-14T20:33:00.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0098
+Cliente: Daniel Hernández
+
+[wa-hogar-0098-msg-01] 2026-08-15T13:54:00.000Z | Cliente
+ola, quiero comprar 3 unidades de protector de colchón sencillo y 1 unidades de cobija térmica queen beige y 2 unidades de juego de sábanas doble algodón. ¿Cuánto queda para Pereira?
+
+[wa-hogar-0098-msg-02] 2026-08-15T14:49:00.000Z | Tienda
+¡Hola! Te atiende Hogar Demo Colombia. Sí tenemos. ¿La entrega sería en Álamos y a nombre de quién queda el pedido?
+
+[wa-hogar-0098-msg-03] 2026-08-15T14:52:00.000Z | Cliente
+Sí, barrio Álamos. Punto de entrega de prueba HOG-0098. Queda a nombre de Daniel Hernández.
+
+[wa-hogar-0098-msg-04] 2026-08-15T15:03:00.000Z | Tienda
+El subtotal es $413.000, domicilio $16.000. Total: $429.000. ¿Confirmas?
+
+[wa-hogar-0098-msg-05] 2026-08-15T15:22:00.000Z | Cliente
+listo, queda así. Pago por pago contraentrega.
+
+[wa-hogar-0098-msg-06] 2026-08-15T15:22:30.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0099
+Cliente: Gabriela Hernández
+
+[wa-hogar-0099-msg-01] 2026-08-16T14:57:00.000Z | Cliente
+Buenas tardes, estoy buscando 1 unidades de cortina blackout 140x220 gris. ¿Cuánto queda para Barranquilla?
+
+[wa-hogar-0099-msg-02] 2026-08-16T16:27:00.000Z | Cliente
+Ah y si hay color crema mejor 🙏
+
+[wa-hogar-0099-msg-03] 2026-08-16T17:57:00.000Z | Tienda
+¡Hola! Te atiende Almacén Hogar Ejemplo. Sí tenemos. ¿La entrega sería en El Prado y a nombre de quién queda el pedido?
+
+[wa-hogar-0099-msg-04] 2026-08-16T18:01:00.000Z | Cliente
+Sí, barrio El Prado. Punto de entrega de prueba HOG-0099. Queda a nombre de Gabriela Hernández.
+
+[wa-hogar-0099-msg-05] 2026-08-16T18:13:00.000Z | Tienda
+El subtotal es $115.000, domicilio $13.000. Total: $128.000. ¿Confirmas?
+
+[wa-hogar-0099-msg-06] 2026-08-16T18:33:00.000Z | Cliente
+dale, hagámosle. Pago por transferencia bancaria.
+
+[wa-hogar-0099-msg-07] 2026-08-16T18:38:00.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0100
+Cliente: Ricardo Hernández
+
+[wa-hogar-0100-msg-01] 2026-08-17T15:00:00.000Z | Cliente
+Hola, si tapete de baño no me sirve, ¿lo puedo cambiar?
+
+[wa-hogar-0100-msg-02] 2026-08-17T15:03:00.000Z | Tienda
+Sí, aceptamos cambios sin uso y con el empaque dentro del plazo informado.
+
+[wa-hogar-0100-msg-03] 2026-08-17T15:03:19.800Z | Cliente
+¿Y el domicilio a Suba queda en $11.000?
+
+[wa-hogar-0100-msg-04] 2026-08-17T15:04:04.800Z | Tienda
+Sí, el envío estándar cuesta $11.000. ¿Deseas hacer el pedido?
+
+[wa-hogar-0100-msg-05] 2026-08-17T15:05:04.800Z | Cliente
+Por ahora no, solo estaba averiguando. Gracias.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0101
+Cliente: Ana Ramírez
+
+[wa-hogar-0101-msg-01] 2026-08-18T16:03:00.000Z | Cliente
+Hola! tienen disponible 3 unidades de almohada hotelera suave y 1 unidades de cortina blackout 140x220 beige y 2 unidades de cojín decorativo terracota. ¿Cuánto queda para Manizales?
+
+[wa-hogar-0101-msg-02] 2026-08-18T16:07:00.000Z | Tienda
+¡Hola! Te atiende Casa Ficticia. Sí tenemos. ¿La entrega sería en Palermo y a nombre de quién queda el pedido?
+
+[wa-hogar-0101-msg-03] 2026-08-18T16:13:00.000Z | Cliente
+Sí, barrio Palermo. Punto de entrega de prueba HOG-0101. Queda a nombre de Ana Ramírez.
+
+[wa-hogar-0101-msg-04] 2026-08-18T16:27:00.000Z | Tienda
+El subtotal es $288.000, domicilio $16.000. Total: $304.000. ¿Confirmas?
+
+[wa-hogar-0101-msg-05] 2026-08-18T16:29:00.000Z | Cliente
+perfecto, confirmo el pedido. Pago por Nequi.
+
+[wa-hogar-0101-msg-06] 2026-08-18T16:36:00.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0102
+Cliente: Carlos Ramírez
+
+[wa-hogar-0102-msg-01] 2026-08-19T17:06:00.000Z | Cliente
+Holaa, necesito 1 unidades de juego de sábanas doble algodón. ¿Cuánto queda para Cartagena?
+
+[wa-hogar-0102-msg-02] 2026-08-19T17:06:30.000Z | Tienda
+¡Hola! Te atiende Hogar Demo Colombia. Sí tenemos. ¿La entrega sería en Manga y a nombre de quién queda el pedido?
+
+[wa-hogar-0102-msg-03] 2026-08-19T17:13:30.000Z | Cliente
+Sí, barrio Manga. Punto de entrega de prueba HOG-0102. Queda a nombre de Carlos Ramírez.
+
+[wa-hogar-0102-msg-04] 2026-08-19T17:28:30.000Z | Tienda
+El subtotal es $78.000, domicilio $14.000. Total: $92.000. ¿Confirmas?
+
+[wa-hogar-0102-msg-05] 2026-08-19T18:13:30.000Z | Cliente
+No, mejor cancélalo por ahora. Gracias.
+
+[wa-hogar-0102-msg-06] 2026-08-19T18:14:00.000Z | Tienda
+Entendido, no se genera el pedido.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0103
+Cliente: Diana Ramírez
+
+[wa-hogar-0103-msg-01] 2026-08-20T18:09:00.000Z | Cliente
+Buenas, me regalas 2 unidades de juego de toallas gris x3 y 3 unidades de almohada hotelera firme. ¿Cuánto queda para Medellín?
+
+[wa-hogar-0103-msg-02] 2026-08-20T18:15:00.000Z | Tienda
+¡Hola! Te atiende Almacén Hogar Ejemplo. Sí tenemos. ¿La entrega sería en Laureles y a nombre de quién queda el pedido?
+
+[wa-hogar-0103-msg-03] 2026-08-20T18:23:00.000Z | Cliente
+Sí, barrio Laureles. Punto de entrega de prueba HOG-0103. Queda a nombre de Diana Ramírez.
+
+[wa-hogar-0103-msg-04] 2026-08-20T18:39:00.000Z | Tienda
+El subtotal es $241.000, domicilio $12.000. Total: $253.000. ¿Confirmas?
+
+[wa-hogar-0103-msg-05] 2026-08-20T18:43:00.000Z | Cliente
+dale, hagámosle. Pago por transferencia bancaria.
+
+[wa-hogar-0103-msg-06] 2026-08-20T18:52:00.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0104
+Cliente: Felipe Ramírez
+
+[wa-hogar-0104-msg-01] 2026-08-21T19:12:00.000Z | Cliente
+Hola, quiero pedir 3 unidades de cobija térmica sencilla azul y 1 unidades de juego de sábanas queen blancas y 2 unidades de tapete de baño verde. ¿Cuánto queda para Ibagué?
+
+[wa-hogar-0104-msg-02] 2026-08-21T19:19:00.000Z | Tienda
+¡Hola! Te atiende Textiles de Prueba. Sí tenemos. ¿La entrega sería en La Pola y a nombre de quién queda el pedido?
+
+[wa-hogar-0104-msg-03] 2026-08-21T19:19:19.800Z | Cliente
+Sí, en La Pola, a nombre de Felipe Ramírez. Perdón: la cobija térmica la quiero en otra referencia, doble gris.
+
+[wa-hogar-0104-msg-04] 2026-08-21T21:19:19.800Z | Tienda
+El subtotal es $409.000, domicilio $16.000. Total: $425.000. ¿Confirmas?
+
+[wa-hogar-0104-msg-05] 2026-08-21T21:24:19.800Z | Cliente
+Déjamelo pendiente mientras confirmo la dirección, porfa.
+
+[wa-hogar-0104-msg-06] 2026-08-21T21:54:19.800Z | Tienda
+Claro, queda pendiente y no se despacha todavía.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0105
+Cliente: Laura Ramírez
+
+[wa-hogar-0105-msg-01] 2026-08-22T13:15:00.000Z | Cliente
+Hola, si cojín decorativo no me sirve, ¿lo puedo cambiar?
+
+[wa-hogar-0105-msg-02] 2026-08-22T14:10:00.000Z | Tienda
+Sí, aceptamos cambios sin uso y con el empaque dentro del plazo informado.
+
+[wa-hogar-0105-msg-03] 2026-08-22T14:20:00.000Z | Cliente
+Perfecto, muchas gracias por la información.
+
+[wa-hogar-0105-msg-04] 2026-08-22T14:20:45.000Z | Tienda
+Con gusto. Escríbenos cuando quieras hacer el pedido.
+
+[wa-hogar-0105-msg-05] 2026-08-22T14:26:45.000Z | Cliente
+Por ahora no, solo estaba averiguando. Gracias.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0106
+Cliente: Mateo Ramírez
+
+[wa-hogar-0106-msg-01] 2026-08-23T14:18:00.000Z | Cliente
+ola, quiero comprar 2 unidades de protector de colchón queen y 3 unidades de cobija térmica doble gris. ¿Cuánto queda para Cali?
+
+[wa-hogar-0106-msg-02] 2026-08-23T14:27:00.000Z | Tienda
+¡Hola! Te atiende Hogar Demo Colombia. Sí tenemos. ¿La entrega sería en San Fernando y a nombre de quién queda el pedido?
+
+[wa-hogar-0106-msg-03] 2026-08-23T14:38:00.000Z | Cliente
+Sí, barrio San Fernando. Punto de entrega de prueba HOG-0106. Queda a nombre de Mateo Ramírez.
+
+[wa-hogar-0106-msg-04] 2026-08-23T14:42:00.000Z | Tienda
+El subtotal es $379.000, domicilio $13.000. Total: $392.000. ¿Confirmas?
+
+[wa-hogar-0106-msg-05] 2026-08-23T14:49:00.000Z | Cliente
+listo, queda así. Pago por pago contraentrega.
+
+[wa-hogar-0106-msg-06] 2026-08-23T14:49:30.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0107
+Cliente: Natalia Ramírez
+
+[wa-hogar-0107-msg-01] 2026-08-24T15:21:00.000Z | Cliente
+Buenas tardes, estoy buscando 3 unidades de cortina blackout 200x220 azul y 1 unidades de cojín decorativo verde oliva y 2 unidades de juego de toallas blancas x3. ¿Cuánto queda para Santa Marta?
+
+[wa-hogar-0107-msg-02] 2026-08-24T15:31:00.000Z | Tienda
+¡Hola! Te atiende Almacén Hogar Ejemplo. Sí tenemos. ¿La entrega sería en Bavaria y a nombre de quién queda el pedido?
+
+[wa-hogar-0107-msg-03] 2026-08-24T15:43:00.000Z | Cliente
+Sí, barrio Bavaria. Punto de entrega de prueba HOG-0107. Queda a nombre de Natalia Ramírez.
+
+[wa-hogar-0107-msg-04] 2026-08-24T15:48:00.000Z | Tienda
+El subtotal es $497.000, domicilio $18.000. Total: $515.000. ¿Confirmas?
+
+[wa-hogar-0107-msg-05] 2026-08-24T15:56:00.000Z | Cliente
+dale, hagámosle. Pago por transferencia bancaria.
+
+[wa-hogar-0107-msg-06] 2026-08-24T16:01:00.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0108
+Cliente: Santiago Ramírez
+
+[wa-hogar-0108-msg-01] 2026-08-25T16:24:00.000Z | Cliente
+Buen día, quisiera 1 unidades de tapete de baño verde. ¿Cuánto queda para Pereira?
+
+[wa-hogar-0108-msg-02] 2026-08-25T16:24:15.000Z | Cliente
+Ah y si hay color crema mejor 🙏
+
+[wa-hogar-0108-msg-03] 2026-08-25T16:24:30.000Z | Tienda
+¡Hola! Te atiende Textiles de Prueba. Sí tenemos. ¿La entrega sería en Álamos y a nombre de quién queda el pedido?
+
+[wa-hogar-0108-msg-04] 2026-08-25T16:24:49.800Z | Cliente
+Sí, barrio Álamos. Punto de entrega de prueba HOG-0108. Queda a nombre de Santiago Ramírez.
+
+[wa-hogar-0108-msg-05] 2026-08-25T16:30:49.800Z | Tienda
+El subtotal es $32.000, domicilio $12.000. Total: $44.000. ¿Confirmas?
+
+[wa-hogar-0108-msg-06] 2026-08-25T17:15:49.800Z | Cliente
+sí, confirmado. Pago por Daviplata.
+
+[wa-hogar-0108-msg-07] 2026-08-25T17:16:19.800Z | Tienda
+Pedido confirmado y enviado. Entrega estimada: 1 días hábiles.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0109
+Cliente: Valentina Ramírez
+
+[wa-hogar-0109-msg-01] 2026-08-26T17:27:00.000Z | Cliente
+Hola! tienen disponible 2 unidades de almohada hotelera media y 3 unidades de cortina blackout 140x220 gris. ¿Cuánto queda para Barranquilla?
+
+[wa-hogar-0109-msg-02] 2026-08-26T17:30:00.000Z | Tienda
+¡Hola! Te atiende Casa Ficticia. Sí tenemos. ¿La entrega sería en El Prado y a nombre de quién queda el pedido?
+
+[wa-hogar-0109-msg-03] 2026-08-26T17:32:00.000Z | Cliente
+Sí, barrio El Prado. Punto de entrega de prueba HOG-0109. Queda a nombre de Valentina Ramírez.
+
+[wa-hogar-0109-msg-04] 2026-08-26T17:39:00.000Z | Tienda
+El subtotal es $423.000, domicilio $15.000. Total: $438.000. ¿Confirmas?
+
+[wa-hogar-0109-msg-05] 2026-08-26T17:49:00.000Z | Cliente
+perfecto, confirmo el pedido. Pago por Nequi.
+
+[wa-hogar-0109-msg-06] 2026-08-26T17:56:00.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0110
+Cliente: Andrés Ramírez
+
+[wa-hogar-0110-msg-01] 2026-08-27T18:30:00.000Z | Cliente
+Hola, si juego de sábanas no me sirve, ¿lo puedo cambiar?
+
+[wa-hogar-0110-msg-02] 2026-08-27T21:30:00.000Z | Tienda
+Sí, aceptamos cambios sin uso y con el empaque dentro del plazo informado.
+
+[wa-hogar-0110-msg-03] 2026-08-27T21:33:00.000Z | Cliente
+¿Y el domicilio a Suba queda en $13.000?
+
+[wa-hogar-0110-msg-04] 2026-08-27T21:33:45.000Z | Tienda
+Sí, el envío estándar cuesta $13.000. ¿Deseas hacer el pedido?
+
+[wa-hogar-0110-msg-05] 2026-08-27T21:44:45.000Z | Cliente
+Por ahora no, solo estaba averiguando. Gracias.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0111
+Cliente: Camila Ramírez
+
+[wa-hogar-0111-msg-01] 2026-08-28T19:33:00.000Z | Cliente
+Buenas, me regalas 1 unidades de juego de toallas blancas x3. ¿Cuánto queda para Manizales?
+
+[wa-hogar-0111-msg-02] 2026-08-28T19:33:30.000Z | Tienda
+¡Hola! Te atiende Almacén Hogar Ejemplo. Sí tenemos. ¿La entrega sería en Palermo y a nombre de quién queda el pedido?
+
+[wa-hogar-0111-msg-03] 2026-08-28T19:37:30.000Z | Cliente
+Sí, barrio Palermo. Punto de entrega de prueba HOG-0111. Queda a nombre de Camila Ramírez.
+
+[wa-hogar-0111-msg-04] 2026-08-28T19:46:30.000Z | Tienda
+El subtotal es $62.000, domicilio $12.000. Total: $74.000. ¿Confirmas?
+
+[wa-hogar-0111-msg-05] 2026-08-28T19:58:30.000Z | Cliente
+dale, hagámosle. Pago por transferencia bancaria.
+
+[wa-hogar-0111-msg-06] 2026-08-28T20:07:30.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0112
+Cliente: Julián Ramírez
+
+[wa-hogar-0112-msg-01] 2026-08-01T13:36:00.000Z | Cliente
+Hola, quiero pedir 2 unidades de cobija térmica queen beige y 3 unidades de juego de sábanas doble algodón. ¿Cuánto queda para Cartagena?
+
+[wa-hogar-0112-msg-02] 2026-08-01T14:31:00.000Z | Tienda
+¡Hola! Te atiende Textiles de Prueba. Sí tenemos. ¿La entrega sería en Manga y a nombre de quién queda el pedido?
+
+[wa-hogar-0112-msg-03] 2026-08-01T14:31:19.800Z | Cliente
+Sí, en Manga, a nombre de Julián Ramírez. Perdón: la cobija térmica la quiero en otra referencia, sencilla azul.
+
+[wa-hogar-0112-msg-04] 2026-08-01T14:41:19.800Z | Tienda
+El subtotal es $412.000, domicilio $16.000. Total: $428.000. ¿Confirmas?
+
+[wa-hogar-0112-msg-05] 2026-08-01T14:54:19.800Z | Cliente
+sí, confirmado. Pago por Daviplata.
+
+[wa-hogar-0112-msg-06] 2026-08-01T15:24:19.800Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0113
+Cliente: Marcela Ramírez
+
+[wa-hogar-0113-msg-01] 2026-08-02T14:39:00.000Z | Cliente
+Hola 😊 necesito 3 unidades de cojín decorativo crema y 1 unidades de juego de toallas gris x3 y 2 unidades de almohada hotelera firme. ¿Cuánto queda para Medellín?
+
+[wa-hogar-0113-msg-02] 2026-08-02T14:46:00.000Z | Tienda
+¡Hola! Te atiende Casa Ficticia. Sí tenemos. ¿La entrega sería en Laureles y a nombre de quién queda el pedido?
+
+[wa-hogar-0113-msg-03] 2026-08-02T14:52:00.000Z | Cliente
+Sí, barrio Laureles. Punto de entrega de prueba HOG-0113. Queda a nombre de Marcela Ramírez.
+
+[wa-hogar-0113-msg-04] 2026-08-02T15:03:00.000Z | Tienda
+El subtotal es $224.000, domicilio $14.000. Total: $238.000. ¿Confirmas?
+
+[wa-hogar-0113-msg-05] 2026-08-02T15:17:00.000Z | Cliente
+perfecto, confirmo el pedido. Pago por Nequi.
+
+[wa-hogar-0113-msg-06] 2026-08-02T15:20:00.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0114
+Cliente: Nicolás Ramírez
+
+[wa-hogar-0114-msg-01] 2026-08-03T15:42:00.000Z | Cliente
+ola, quiero comprar 1 unidades de protector de colchón doble. ¿Cuánto queda para Ibagué?
+
+[wa-hogar-0114-msg-02] 2026-08-03T15:42:30.000Z | Tienda
+¡Hola! Te atiende Hogar Demo Colombia. Sí tenemos. ¿La entrega sería en La Pola y a nombre de quién queda el pedido?
+
+[wa-hogar-0114-msg-03] 2026-08-03T15:49:30.000Z | Cliente
+Sí, barrio La Pola. Punto de entrega de prueba HOG-0114. Queda a nombre de Nicolás Ramírez.
+
+[wa-hogar-0114-msg-04] 2026-08-03T16:01:30.000Z | Tienda
+El subtotal es $56.000, domicilio $12.000. Total: $68.000. ¿Confirmas?
+
+[wa-hogar-0114-msg-05] 2026-08-03T16:46:30.000Z | Cliente
+listo, queda así. Pago por pago contraentrega.
+
+[wa-hogar-0114-msg-06] 2026-08-03T16:47:00.000Z | Tienda
+Pedido confirmado y enviado. Entrega estimada: 1 días hábiles.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0115
+Cliente: Paola Ramírez
+
+[wa-hogar-0115-msg-01] 2026-08-04T16:45:00.000Z | Cliente
+Hola, si cortina blackout no me sirve, ¿lo puedo cambiar?
+
+[wa-hogar-0115-msg-02] 2026-08-04T16:54:00.000Z | Tienda
+Sí, aceptamos cambios sin uso y con el empaque dentro del plazo informado.
+
+[wa-hogar-0115-msg-03] 2026-08-04T17:02:00.000Z | Cliente
+Perfecto, muchas gracias por la información.
+
+[wa-hogar-0115-msg-04] 2026-08-04T17:02:45.000Z | Tienda
+Con gusto. Escríbenos cuando quieras hacer el pedido.
+
+[wa-hogar-0115-msg-05] 2026-08-04T17:18:45.000Z | Cliente
+Por ahora no, solo estaba averiguando. Gracias.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0116
+Cliente: Sebastián Ramírez
+
+[wa-hogar-0116-msg-01] 2026-08-05T17:48:00.000Z | Cliente
+Buen día, quisiera 3 unidades de tapete de baño beige y 1 unidades de protector de colchón queen y 2 unidades de cobija térmica doble gris. ¿Cuánto queda para Cali?
+
+[wa-hogar-0116-msg-02] 2026-08-05T17:58:00.000Z | Tienda
+¡Hola! Te atiende Textiles de Prueba. Sí tenemos. ¿La entrega sería en San Fernando y a nombre de quién queda el pedido?
+
+[wa-hogar-0116-msg-03] 2026-08-05T17:58:19.800Z | Cliente
+Sí, barrio San Fernando. Punto de entrega de prueba HOG-0116. Queda a nombre de Sebastián Ramírez.
+
+[wa-hogar-0116-msg-04] 2026-08-05T18:12:19.800Z | Tienda
+El subtotal es $330.000, domicilio $15.000. Total: $345.000. ¿Confirmas?
+
+[wa-hogar-0116-msg-05] 2026-08-05T18:29:19.800Z | Cliente
+sí, confirmado. Pago por Daviplata.
+
+[wa-hogar-0116-msg-06] 2026-08-05T18:29:49.800Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0117
+Cliente: Tatiana Ramírez
+
+[wa-hogar-0117-msg-01] 2026-08-06T18:51:00.000Z | Cliente
+Hola! tienen disponible 1 unidades de almohada hotelera firme. ¿Cuánto queda para Santa Marta?
+
+[wa-hogar-0117-msg-02] 2026-08-06T18:51:15.000Z | Cliente
+Ah y si hay color crema mejor 🙏
+
+[wa-hogar-0117-msg-03] 2026-08-06T18:51:30.000Z | Tienda
+¡Hola! Te atiende Casa Ficticia. Sí tenemos. ¿La entrega sería en Bavaria y a nombre de quién queda el pedido?
+
+[wa-hogar-0117-msg-04] 2026-08-06T19:01:30.000Z | Cliente
+Sí, barrio Bavaria. Punto de entrega de prueba HOG-0117. Queda a nombre de Tatiana Ramírez.
+
+[wa-hogar-0117-msg-05] 2026-08-06T21:01:30.000Z | Tienda
+El subtotal es $39.000, domicilio $14.000. Total: $53.000. ¿Confirmas?
+
+[wa-hogar-0117-msg-06] 2026-08-06T21:19:30.000Z | Cliente
+Déjamelo pendiente mientras confirmo la dirección, porfa.
+
+[wa-hogar-0117-msg-07] 2026-08-06T21:26:30.000Z | Tienda
+Claro, queda pendiente y no se despacha todavía.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0118
+Cliente: Daniel Ramírez
+
+[wa-hogar-0118-msg-01] 2026-08-07T19:54:00.000Z | Cliente
+Holaa, necesito 2 unidades de juego de sábanas queen blancas y 3 unidades de tapete de baño verde. ¿Cuánto queda para Pereira?
+
+[wa-hogar-0118-msg-02] 2026-08-07T19:57:00.000Z | Tienda
+¡Hola! Te atiende Hogar Demo Colombia. Sí tenemos. ¿La entrega sería en Álamos y a nombre de quién queda el pedido?
+
+[wa-hogar-0118-msg-03] 2026-08-07T20:08:00.000Z | Cliente
+Sí, barrio Álamos. Punto de entrega de prueba HOG-0118. Queda a nombre de Daniel Ramírez.
+
+[wa-hogar-0118-msg-04] 2026-08-07T20:24:00.000Z | Tienda
+El subtotal es $252.000, domicilio $14.000. Total: $266.000. ¿Confirmas?
+
+[wa-hogar-0118-msg-05] 2026-08-07T20:43:00.000Z | Cliente
+listo, queda así. Pago por pago contraentrega.
+
+[wa-hogar-0118-msg-06] 2026-08-07T20:43:30.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0119
+Cliente: Gabriela Ramírez
+
+[wa-hogar-0119-msg-01] 2026-08-08T13:57:00.000Z | Cliente
+Buenas, me regalas 3 unidades de juego de toallas arena x2 y 1 unidades de almohada hotelera media y 2 unidades de cortina blackout 140x220 gris. ¿Cuánto queda para Barranquilla?
+
+[wa-hogar-0119-msg-02] 2026-08-08T14:52:00.000Z | Tienda
+¡Hola! Te atiende Almacén Hogar Ejemplo. Sí tenemos. ¿La entrega sería en El Prado y a nombre de quién queda el pedido?
+
+[wa-hogar-0119-msg-03] 2026-08-08T15:04:00.000Z | Cliente
+Sí, barrio El Prado. Punto de entrega de prueba HOG-0119. Queda a nombre de Gabriela Ramírez.
+
+[wa-hogar-0119-msg-04] 2026-08-08T15:21:00.000Z | Tienda
+El subtotal es $455.000, domicilio $17.000. Total: $472.000. ¿Confirmas?
+
+[wa-hogar-0119-msg-05] 2026-08-08T15:41:00.000Z | Cliente
+No, mejor cancélalo por ahora. Gracias.
+
+[wa-hogar-0119-msg-06] 2026-08-08T15:50:00.000Z | Tienda
+Entendido, no se genera el pedido.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0120
+Cliente: Ricardo Ramírez
+
+[wa-hogar-0120-msg-01] 2026-08-09T14:00:00.000Z | Cliente
+Hola, si cobija térmica no me sirve, ¿lo puedo cambiar?
+
+[wa-hogar-0120-msg-02] 2026-08-09T14:00:30.000Z | Tienda
+Sí, aceptamos cambios sin uso y con el empaque dentro del plazo informado.
+
+[wa-hogar-0120-msg-03] 2026-08-09T14:00:49.800Z | Cliente
+¿Y el domicilio a Suba queda en $9.000?
+
+[wa-hogar-0120-msg-04] 2026-08-09T14:01:34.800Z | Tienda
+Sí, el envío estándar cuesta $9.000. ¿Deseas hacer el pedido?
+
+[wa-hogar-0120-msg-05] 2026-08-09T14:46:34.800Z | Cliente
+Por ahora no, solo estaba averiguando. Gracias.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0121
+Cliente: Ana Torres
+
+[wa-hogar-0121-msg-01] 2026-08-10T15:03:00.000Z | Cliente
+Hola 😊 necesito 2 unidades de cojín decorativo verde oliva y 3 unidades de juego de toallas blancas x3. ¿Cuánto queda para Manizales?
+
+[wa-hogar-0121-msg-02] 2026-08-10T18:03:00.000Z | Tienda
+¡Hola! Te atiende Casa Ficticia. Sí tenemos. ¿La entrega sería en Palermo y a nombre de quién queda el pedido?
+
+[wa-hogar-0121-msg-03] 2026-08-10T18:05:00.000Z | Cliente
+Sí, barrio Palermo. Punto de entrega de prueba HOG-0121. Queda a nombre de Ana Torres.
+
+[wa-hogar-0121-msg-04] 2026-08-10T18:09:00.000Z | Tienda
+El subtotal es $242.000, domicilio $14.000. Total: $256.000. ¿Confirmas?
+
+[wa-hogar-0121-msg-05] 2026-08-10T18:11:00.000Z | Cliente
+perfecto, confirmo el pedido. Pago por Nequi.
+
+[wa-hogar-0121-msg-06] 2026-08-10T18:14:00.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0122
+Cliente: Carlos Torres
+
+[wa-hogar-0122-msg-01] 2026-08-11T16:06:00.000Z | Cliente
+ola, quiero comprar 3 unidades de protector de colchón sencillo y 1 unidades de cobija térmica queen beige y 2 unidades de juego de sábanas doble algodón. ¿Cuánto queda para Cartagena?
+
+[wa-hogar-0122-msg-02] 2026-08-11T16:13:00.000Z | Tienda
+¡Hola! Te atiende Hogar Demo Colombia. Sí tenemos. ¿La entrega sería en Manga y a nombre de quién queda el pedido?
+
+[wa-hogar-0122-msg-03] 2026-08-11T16:16:00.000Z | Cliente
+Sí, barrio Manga. Punto de entrega de prueba HOG-0122. Queda a nombre de Carlos Torres.
+
+[wa-hogar-0122-msg-04] 2026-08-11T16:21:00.000Z | Tienda
+El subtotal es $413.000, domicilio $18.000. Total: $431.000. ¿Confirmas?
+
+[wa-hogar-0122-msg-05] 2026-08-11T16:24:00.000Z | Cliente
+listo, queda así. Pago por pago contraentrega.
+
+[wa-hogar-0122-msg-06] 2026-08-11T16:24:30.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0123
+Cliente: Diana Torres
+
+[wa-hogar-0123-msg-01] 2026-08-12T17:09:00.000Z | Cliente
+Buenas tardes, estoy buscando 1 unidades de cortina blackout 140x220 gris. ¿Cuánto queda para Medellín?
+
+[wa-hogar-0123-msg-02] 2026-08-12T17:09:30.000Z | Tienda
+¡Hola! Te atiende Almacén Hogar Ejemplo. Sí tenemos. ¿La entrega sería en Laureles y a nombre de quién queda el pedido?
+
+[wa-hogar-0123-msg-03] 2026-08-12T17:13:30.000Z | Cliente
+Sí, barrio Laureles. Punto de entrega de prueba HOG-0123. Queda a nombre de Diana Torres.
+
+[wa-hogar-0123-msg-04] 2026-08-12T17:19:30.000Z | Tienda
+El subtotal es $115.000, domicilio $10.000. Total: $125.000. ¿Confirmas?
+
+[wa-hogar-0123-msg-05] 2026-08-12T17:23:30.000Z | Cliente
+dale, hagámosle. Pago por transferencia bancaria.
+
+[wa-hogar-0123-msg-06] 2026-08-12T17:28:30.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0124
+Cliente: Felipe Torres
+
+[wa-hogar-0124-msg-01] 2026-08-13T18:12:00.000Z | Cliente
+Buen día, quisiera 2 unidades de tapete de baño gris y 3 unidades de protector de colchón doble. ¿Cuánto queda para Ibagué?
+
+[wa-hogar-0124-msg-02] 2026-08-13T18:21:00.000Z | Tienda
+¡Hola! Te atiende Textiles de Prueba. Sí tenemos. ¿La entrega sería en La Pola y a nombre de quién queda el pedido?
+
+[wa-hogar-0124-msg-03] 2026-08-13T18:21:19.800Z | Cliente
+Sí, barrio La Pola. Punto de entrega de prueba HOG-0124. Queda a nombre de Felipe Torres.
+
+[wa-hogar-0124-msg-04] 2026-08-13T18:28:19.800Z | Tienda
+El subtotal es $232.000, domicilio $14.000. Total: $246.000. ¿Confirmas?
+
+[wa-hogar-0124-msg-05] 2026-08-13T18:33:19.800Z | Cliente
+sí, confirmado. Pago por Daviplata.
+
+[wa-hogar-0124-msg-06] 2026-08-13T18:33:49.800Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0125
+Cliente: Laura Torres
+
+[wa-hogar-0125-msg-01] 2026-08-14T19:15:00.000Z | Cliente
+Hola, si almohada hotelera no me sirve, ¿lo puedo cambiar?
+
+[wa-hogar-0125-msg-02] 2026-08-14T19:25:00.000Z | Tienda
+Sí, aceptamos cambios sin uso y con el empaque dentro del plazo informado.
+
+[wa-hogar-0125-msg-03] 2026-08-14T19:31:00.000Z | Cliente
+Perfecto, muchas gracias por la información.
+
+[wa-hogar-0125-msg-04] 2026-08-14T19:31:45.000Z | Tienda
+Con gusto. Escríbenos cuando quieras hacer el pedido.
+
+[wa-hogar-0125-msg-05] 2026-08-14T19:37:45.000Z | Cliente
+Por ahora no, solo estaba averiguando. Gracias.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0126
+Cliente: Mateo Torres
+
+[wa-hogar-0126-msg-01] 2026-08-15T13:18:00.000Z | Cliente
+Holaa, necesito 1 unidades de juego de sábanas doble algodón. ¿Cuánto queda para Cali?
+
+[wa-hogar-0126-msg-02] 2026-08-15T13:45:30.000Z | Cliente
+Ah y si hay color crema mejor 🙏
+
+[wa-hogar-0126-msg-03] 2026-08-15T14:13:00.000Z | Tienda
+¡Hola! Te atiende Hogar Demo Colombia. Sí tenemos. ¿La entrega sería en San Fernando y a nombre de quién queda el pedido?
+
+[wa-hogar-0126-msg-04] 2026-08-15T14:20:00.000Z | Cliente
+Sí, barrio San Fernando. Punto de entrega de prueba HOG-0126. Queda a nombre de Mateo Torres.
+
+[wa-hogar-0126-msg-05] 2026-08-15T14:29:00.000Z | Tienda
+El subtotal es $78.000, domicilio $11.000. Total: $89.000. ¿Confirmas?
+
+[wa-hogar-0126-msg-06] 2026-08-15T15:14:00.000Z | Cliente
+listo, queda así. Pago por pago contraentrega.
+
+[wa-hogar-0126-msg-07] 2026-08-15T15:14:30.000Z | Tienda
+Pedido confirmado y enviado. Entrega estimada: 1 días hábiles.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0127
+Cliente: Natalia Torres
+
+[wa-hogar-0127-msg-01] 2026-08-16T14:21:00.000Z | Cliente
+Buenas, me regalas 2 unidades de juego de toallas gris x3 y 3 unidades de almohada hotelera firme. ¿Cuánto queda para Santa Marta?
+
+[wa-hogar-0127-msg-02] 2026-08-16T14:24:00.000Z | Tienda
+¡Hola! Te atiende Almacén Hogar Ejemplo. Sí tenemos. ¿La entrega sería en Bavaria y a nombre de quién queda el pedido?
+
+[wa-hogar-0127-msg-03] 2026-08-16T14:32:00.000Z | Cliente
+Sí, barrio Bavaria. Punto de entrega de prueba HOG-0127. Queda a nombre de Natalia Torres.
+
+[wa-hogar-0127-msg-04] 2026-08-16T14:42:00.000Z | Tienda
+El subtotal es $241.000, domicilio $16.000. Total: $257.000. ¿Confirmas?
+
+[wa-hogar-0127-msg-05] 2026-08-16T14:50:00.000Z | Cliente
+dale, hagámosle. Pago por transferencia bancaria.
+
+[wa-hogar-0127-msg-06] 2026-08-16T14:59:00.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0128
+Cliente: Santiago Torres
+
+[wa-hogar-0128-msg-01] 2026-08-17T15:24:00.000Z | Cliente
+Hola, quiero pedir 3 unidades de cobija térmica sencilla azul y 1 unidades de juego de sábanas queen blancas y 2 unidades de tapete de baño verde. ¿Cuánto queda para Pereira?
+
+[wa-hogar-0128-msg-02] 2026-08-17T15:28:00.000Z | Tienda
+¡Hola! Te atiende Textiles de Prueba. Sí tenemos. ¿La entrega sería en Álamos y a nombre de quién queda el pedido?
+
+[wa-hogar-0128-msg-03] 2026-08-17T15:28:19.800Z | Cliente
+Sí, en Álamos, a nombre de Santiago Torres. Perdón: la cobija térmica la quiero en otra referencia, doble gris.
+
+[wa-hogar-0128-msg-04] 2026-08-17T15:39:19.800Z | Tienda
+El subtotal es $409.000, domicilio $16.000. Total: $425.000. ¿Confirmas?
+
+[wa-hogar-0128-msg-05] 2026-08-17T15:48:19.800Z | Cliente
+sí, confirmado. Pago por Daviplata.
+
+[wa-hogar-0128-msg-06] 2026-08-17T16:18:19.800Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0129
+Cliente: Valentina Torres
+
+[wa-hogar-0129-msg-01] 2026-08-18T16:27:00.000Z | Cliente
+Hola 😊 necesito 1 unidades de cojín decorativo terracota. ¿Cuánto queda para Barranquilla?
+
+[wa-hogar-0129-msg-02] 2026-08-18T16:27:30.000Z | Tienda
+¡Hola! Te atiende Casa Ficticia. Sí tenemos. ¿La entrega sería en El Prado y a nombre de quién queda el pedido?
+
+[wa-hogar-0129-msg-03] 2026-08-18T16:37:30.000Z | Cliente
+Sí, barrio El Prado. Punto de entrega de prueba HOG-0129. Queda a nombre de Valentina Torres.
+
+[wa-hogar-0129-msg-04] 2026-08-18T16:49:30.000Z | Tienda
+El subtotal es $28.000, domicilio $13.000. Total: $41.000. ¿Confirmas?
+
+[wa-hogar-0129-msg-05] 2026-08-18T16:59:30.000Z | Cliente
+perfecto, confirmo el pedido. Pago por Nequi.
+
+[wa-hogar-0129-msg-06] 2026-08-18T17:02:30.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0130
+Cliente: Andrés Torres
+
+[wa-hogar-0130-msg-01] 2026-08-19T17:30:00.000Z | Cliente
+Hola, si protector de colchón no me sirve, ¿lo puedo cambiar?
+
+[wa-hogar-0130-msg-02] 2026-08-19T17:36:00.000Z | Tienda
+Sí, aceptamos cambios sin uso y con el empaque dentro del plazo informado.
+
+[wa-hogar-0130-msg-03] 2026-08-19T17:47:00.000Z | Cliente
+¿Y el domicilio a Suba queda en $11.000?
+
+[wa-hogar-0130-msg-04] 2026-08-19T19:47:00.000Z | Tienda
+Sí, el envío estándar cuesta $11.000. ¿Deseas hacer el pedido?
+
+[wa-hogar-0130-msg-05] 2026-08-19T19:58:00.000Z | Cliente
+Por ahora no, solo estaba averiguando. Gracias.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0131
+Cliente: Camila Torres
+
+[wa-hogar-0131-msg-01] 2026-08-20T18:33:00.000Z | Cliente
+Buenas tardes, estoy buscando 3 unidades de cortina blackout 200x220 azul y 1 unidades de cojín decorativo verde oliva y 2 unidades de juego de toallas blancas x3. ¿Cuánto queda para Manizales?
+
+[wa-hogar-0131-msg-02] 2026-08-20T18:40:00.000Z | Tienda
+¡Hola! Te atiende Almacén Hogar Ejemplo. Sí tenemos. ¿La entrega sería en Palermo y a nombre de quién queda el pedido?
+
+[wa-hogar-0131-msg-03] 2026-08-20T18:52:00.000Z | Cliente
+Sí, barrio Palermo. Punto de entrega de prueba HOG-0131. Queda a nombre de Camila Torres.
+
+[wa-hogar-0131-msg-04] 2026-08-20T19:06:00.000Z | Tienda
+El subtotal es $497.000, domicilio $16.000. Total: $513.000. ¿Confirmas?
+
+[wa-hogar-0131-msg-05] 2026-08-20T19:18:00.000Z | Cliente
+dale, hagámosle. Pago por transferencia bancaria.
+
+[wa-hogar-0131-msg-06] 2026-08-20T19:23:00.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0132
+Cliente: Julián Torres
+
+[wa-hogar-0132-msg-01] 2026-08-21T19:36:00.000Z | Cliente
+Buen día, quisiera 1 unidades de tapete de baño verde. ¿Cuánto queda para Cartagena?
+
+[wa-hogar-0132-msg-02] 2026-08-21T22:36:00.000Z | Tienda
+¡Hola! Te atiende Textiles de Prueba. Sí tenemos. ¿La entrega sería en Manga y a nombre de quién queda el pedido?
+
+[wa-hogar-0132-msg-03] 2026-08-21T22:36:19.800Z | Cliente
+Sí, barrio Manga. Punto de entrega de prueba HOG-0132. Queda a nombre de Julián Torres.
+
+[wa-hogar-0132-msg-04] 2026-08-21T22:51:19.800Z | Tienda
+El subtotal es $32.000, domicilio $14.000. Total: $46.000. ¿Confirmas?
+
+[wa-hogar-0132-msg-05] 2026-08-21T23:36:19.800Z | Cliente
+sí, confirmado. Pago por Daviplata.
+
+[wa-hogar-0132-msg-06] 2026-08-21T23:36:49.800Z | Tienda
+Pedido confirmado y enviado. Entrega estimada: 1 días hábiles.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0133
+Cliente: Marcela Torres
+
+[wa-hogar-0133-msg-01] 2026-08-22T13:39:00.000Z | Cliente
+Hola! tienen disponible 2 unidades de almohada hotelera media y 3 unidades de cortina blackout 140x220 gris. ¿Cuánto queda para Medellín?
+
+[wa-hogar-0133-msg-02] 2026-08-22T14:34:00.000Z | Tienda
+¡Hola! Te atiende Casa Ficticia. Sí tenemos. ¿La entrega sería en Laureles y a nombre de quién queda el pedido?
+
+[wa-hogar-0133-msg-03] 2026-08-22T14:36:00.000Z | Cliente
+Sí, barrio Laureles. Punto de entrega de prueba HOG-0133. Queda a nombre de Marcela Torres.
+
+[wa-hogar-0133-msg-04] 2026-08-22T14:52:00.000Z | Tienda
+El subtotal es $423.000, domicilio $12.000. Total: $435.000. ¿Confirmas?
+
+[wa-hogar-0133-msg-05] 2026-08-22T15:06:00.000Z | Cliente
+perfecto, confirmo el pedido. Pago por Nequi.
+
+[wa-hogar-0133-msg-06] 2026-08-22T15:13:00.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0134
+Cliente: Nicolás Torres
+
+[wa-hogar-0134-msg-01] 2026-08-23T14:42:00.000Z | Cliente
+Holaa, necesito 3 unidades de juego de sábanas sencillas estampadas y 1 unidades de tapete de baño gris y 2 unidades de protector de colchón doble. ¿Cuánto queda para Ibagué?
+
+[wa-hogar-0134-msg-02] 2026-08-23T14:52:00.000Z | Tienda
+¡Hola! Te atiende Hogar Demo Colombia. Sí tenemos. ¿La entrega sería en La Pola y a nombre de quién queda el pedido?
+
+[wa-hogar-0134-msg-03] 2026-08-23T14:55:00.000Z | Cliente
+Sí, barrio La Pola. Punto de entrega de prueba HOG-0134. Queda a nombre de Nicolás Torres.
+
+[wa-hogar-0134-msg-04] 2026-08-23T15:12:00.000Z | Tienda
+El subtotal es $378.000, domicilio $16.000. Total: $394.000. ¿Confirmas?
+
+[wa-hogar-0134-msg-05] 2026-08-23T15:27:00.000Z | Cliente
+listo, queda así. Pago por pago contraentrega.
+
+[wa-hogar-0134-msg-06] 2026-08-23T15:27:30.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0135
+Cliente: Paola Torres
+
+[wa-hogar-0135-msg-01] 2026-08-24T15:45:00.000Z | Cliente
+Hola, si juego de toallas no me sirve, ¿lo puedo cambiar?
+
+[wa-hogar-0135-msg-02] 2026-08-24T15:45:30.000Z | Tienda
+Sí, aceptamos cambios sin uso y con el empaque dentro del plazo informado.
+
+[wa-hogar-0135-msg-03] 2026-08-24T15:49:30.000Z | Cliente
+Perfecto, muchas gracias por la información.
+
+[wa-hogar-0135-msg-04] 2026-08-24T15:50:15.000Z | Tienda
+Con gusto. Escríbenos cuando quieras hacer el pedido.
+
+[wa-hogar-0135-msg-05] 2026-08-24T16:06:15.000Z | Cliente
+Por ahora no, solo estaba averiguando. Gracias.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0136
+Cliente: Sebastián Torres
+
+[wa-hogar-0136-msg-01] 2026-08-25T16:48:00.000Z | Cliente
+Hola, quiero pedir 2 unidades de cobija térmica queen beige y 3 unidades de juego de sábanas doble algodón. ¿Cuánto queda para Cali?
+
+[wa-hogar-0136-msg-02] 2026-08-25T16:51:00.000Z | Tienda
+¡Hola! Te atiende Textiles de Prueba. Sí tenemos. ¿La entrega sería en San Fernando y a nombre de quién queda el pedido?
+
+[wa-hogar-0136-msg-03] 2026-08-25T16:51:19.800Z | Cliente
+Sí, en San Fernando, a nombre de Sebastián Torres. Perdón: la cobija térmica la quiero en otra referencia, sencilla azul.
+
+[wa-hogar-0136-msg-04] 2026-08-25T16:55:19.800Z | Tienda
+El subtotal es $412.000, domicilio $13.000. Total: $425.000. ¿Confirmas?
+
+[wa-hogar-0136-msg-05] 2026-08-25T17:12:19.800Z | Cliente
+No, mejor cancélalo por ahora. Gracias.
+
+[wa-hogar-0136-msg-06] 2026-08-25T17:42:19.800Z | Tienda
+Entendido, no se genera el pedido.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0137
+Cliente: Tatiana Torres
+
+[wa-hogar-0137-msg-01] 2026-08-26T17:51:00.000Z | Cliente
+Hola 😊 necesito 3 unidades de cojín decorativo crema y 1 unidades de juego de toallas gris x3 y 2 unidades de almohada hotelera firme. ¿Cuánto queda para Santa Marta?
+
+[wa-hogar-0137-msg-02] 2026-08-26T17:55:00.000Z | Tienda
+¡Hola! Te atiende Casa Ficticia. Sí tenemos. ¿La entrega sería en Bavaria y a nombre de quién queda el pedido?
+
+[wa-hogar-0137-msg-03] 2026-08-26T18:01:00.000Z | Cliente
+Sí, barrio Bavaria. Punto de entrega de prueba HOG-0137. Queda a nombre de Tatiana Torres.
+
+[wa-hogar-0137-msg-04] 2026-08-26T18:06:00.000Z | Tienda
+El subtotal es $224.000, domicilio $18.000. Total: $242.000. ¿Confirmas?
+
+[wa-hogar-0137-msg-05] 2026-08-26T18:24:00.000Z | Cliente
+perfecto, confirmo el pedido. Pago por Nequi.
+
+[wa-hogar-0137-msg-06] 2026-08-26T18:27:00.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0138
+Cliente: Daniel Torres
+
+[wa-hogar-0138-msg-01] 2026-08-27T18:54:00.000Z | Cliente
+ola, quiero comprar 1 unidades de protector de colchón doble. ¿Cuánto queda para Pereira?
+
+[wa-hogar-0138-msg-02] 2026-08-27T18:54:30.000Z | Tienda
+¡Hola! Te atiende Hogar Demo Colombia. Sí tenemos. ¿La entrega sería en Álamos y a nombre de quién queda el pedido?
+
+[wa-hogar-0138-msg-03] 2026-08-27T19:01:30.000Z | Cliente
+Sí, barrio Álamos. Punto de entrega de prueba HOG-0138. Queda a nombre de Daniel Torres.
+
+[wa-hogar-0138-msg-04] 2026-08-27T19:07:30.000Z | Tienda
+El subtotal es $56.000, domicilio $12.000. Total: $68.000. ¿Confirmas?
+
+[wa-hogar-0138-msg-05] 2026-08-27T19:52:30.000Z | Cliente
+listo, queda así. Pago por pago contraentrega.
+
+[wa-hogar-0138-msg-06] 2026-08-27T19:53:00.000Z | Tienda
+Pedido confirmado y enviado. Entrega estimada: 1 días hábiles.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0139
+Cliente: Gabriela Torres
+
+[wa-hogar-0139-msg-01] 2026-08-28T19:57:00.000Z | Cliente
+Buenas tardes, estoy buscando 2 unidades de cortina blackout 140x220 beige y 3 unidades de cojín decorativo terracota. ¿Cuánto queda para Barranquilla?
+
+[wa-hogar-0139-msg-02] 2026-08-28T20:03:00.000Z | Tienda
+¡Hola! Te atiende Almacén Hogar Ejemplo. Sí tenemos. ¿La entrega sería en El Prado y a nombre de quién queda el pedido?
+
+[wa-hogar-0139-msg-03] 2026-08-28T20:11:00.000Z | Cliente
+Sí, barrio El Prado. Punto de entrega de prueba HOG-0139. Queda a nombre de Gabriela Torres.
+
+[wa-hogar-0139-msg-04] 2026-08-28T20:18:00.000Z | Tienda
+El subtotal es $314.000, domicilio $15.000. Total: $329.000. ¿Confirmas?
+
+[wa-hogar-0139-msg-05] 2026-08-28T20:38:00.000Z | Cliente
+dale, hagámosle. Pago por transferencia bancaria.
+
+[wa-hogar-0139-msg-06] 2026-08-28T20:43:00.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0140
+Cliente: Ricardo Torres
+
+[wa-hogar-0140-msg-01] 2026-08-01T13:00:00.000Z | Cliente
+Hola, si tapete de baño no me sirve, ¿lo puedo cambiar?
+
+[wa-hogar-0140-msg-02] 2026-08-01T13:55:00.000Z | Tienda
+Sí, aceptamos cambios sin uso y con el empaque dentro del plazo informado.
+
+[wa-hogar-0140-msg-03] 2026-08-01T13:55:19.800Z | Cliente
+¿Y el domicilio a Suba queda en $13.000?
+
+[wa-hogar-0140-msg-04] 2026-08-01T13:56:04.800Z | Tienda
+Sí, el envío estándar cuesta $13.000. ¿Deseas hacer el pedido?
+
+[wa-hogar-0140-msg-05] 2026-08-01T13:57:04.800Z | Cliente
+Por ahora no, solo estaba averiguando. Gracias.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0141
+Cliente: Ana Vargas
+
+[wa-hogar-0141-msg-01] 2026-08-02T14:03:00.000Z | Cliente
+Hola! tienen disponible 1 unidades de almohada hotelera firme. ¿Cuánto queda para Manizales?
+
+[wa-hogar-0141-msg-02] 2026-08-02T14:03:30.000Z | Tienda
+¡Hola! Te atiende Casa Ficticia. Sí tenemos. ¿La entrega sería en Palermo y a nombre de quién queda el pedido?
+
+[wa-hogar-0141-msg-03] 2026-08-02T14:13:30.000Z | Cliente
+Sí, barrio Palermo. Punto de entrega de prueba HOG-0141. Queda a nombre de Ana Vargas.
+
+[wa-hogar-0141-msg-04] 2026-08-02T14:22:30.000Z | Tienda
+El subtotal es $39.000, domicilio $12.000. Total: $51.000. ¿Confirmas?
+
+[wa-hogar-0141-msg-05] 2026-08-02T14:24:30.000Z | Cliente
+perfecto, confirmo el pedido. Pago por Nequi.
+
+[wa-hogar-0141-msg-06] 2026-08-02T14:31:30.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0142
+Cliente: Carlos Vargas
+
+[wa-hogar-0142-msg-01] 2026-08-03T15:06:00.000Z | Cliente
+Holaa, necesito 2 unidades de juego de sábanas queen blancas y 3 unidades de tapete de baño verde. ¿Cuánto queda para Cartagena?
+
+[wa-hogar-0142-msg-02] 2026-08-03T15:15:00.000Z | Tienda
+¡Hola! Te atiende Hogar Demo Colombia. Sí tenemos. ¿La entrega sería en Manga y a nombre de quién queda el pedido?
+
+[wa-hogar-0142-msg-03] 2026-08-03T15:26:00.000Z | Cliente
+Sí, barrio Manga. Punto de entrega de prueba HOG-0142. Queda a nombre de Carlos Vargas.
+
+[wa-hogar-0142-msg-04] 2026-08-03T15:36:00.000Z | Tienda
+El subtotal es $252.000, domicilio $16.000. Total: $268.000. ¿Confirmas?
+
+[wa-hogar-0142-msg-05] 2026-08-03T15:39:00.000Z | Cliente
+listo, queda así. Pago por pago contraentrega.
+
+[wa-hogar-0142-msg-06] 2026-08-03T15:39:30.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0143
+Cliente: Diana Vargas
+
+[wa-hogar-0143-msg-01] 2026-08-04T16:09:00.000Z | Cliente
+Buenas, me regalas 3 unidades de juego de toallas arena x2 y 1 unidades de almohada hotelera media y 2 unidades de cortina blackout 140x220 gris. ¿Cuánto queda para Medellín?
+
+[wa-hogar-0143-msg-02] 2026-08-04T19:09:00.000Z | Tienda
+¡Hola! Te atiende Almacén Hogar Ejemplo. Sí tenemos. ¿La entrega sería en Laureles y a nombre de quién queda el pedido?
+
+[wa-hogar-0143-msg-03] 2026-08-04T19:21:00.000Z | Cliente
+Sí, barrio Laureles. Punto de entrega de prueba HOG-0143. Queda a nombre de Diana Vargas.
+
+[wa-hogar-0143-msg-04] 2026-08-04T21:21:00.000Z | Tienda
+El subtotal es $455.000, domicilio $14.000. Total: $469.000. ¿Confirmas?
+
+[wa-hogar-0143-msg-05] 2026-08-04T21:25:00.000Z | Cliente
+Déjamelo pendiente mientras confirmo la dirección, porfa.
+
+[wa-hogar-0143-msg-06] 2026-08-04T21:34:00.000Z | Tienda
+Claro, queda pendiente y no se despacha todavía.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0144
+Cliente: Felipe Vargas
+
+[wa-hogar-0144-msg-01] 2026-08-05T17:12:00.000Z | Cliente
+Hola, quiero pedir 1 unidades de cobija térmica doble gris. ¿Cuánto queda para Ibagué?
+
+[wa-hogar-0144-msg-02] 2026-08-05T17:12:15.000Z | Cliente
+Ah y si hay color crema mejor 🙏
+
+[wa-hogar-0144-msg-03] 2026-08-05T17:12:30.000Z | Tienda
+¡Hola! Te atiende Textiles de Prueba. Sí tenemos. ¿La entrega sería en La Pola y a nombre de quién queda el pedido?
+
+[wa-hogar-0144-msg-04] 2026-08-05T17:12:49.800Z | Cliente
+Sí, en La Pola, a nombre de Felipe Vargas. Perdón: la cobija térmica la quiero en otra referencia, queen beige.
+
+[wa-hogar-0144-msg-05] 2026-08-05T17:24:49.800Z | Tienda
+El subtotal es $89.000, domicilio $12.000. Total: $101.000. ¿Confirmas?
+
+[wa-hogar-0144-msg-06] 2026-08-05T18:09:49.800Z | Cliente
+sí, confirmado. Pago por Daviplata.
+
+[wa-hogar-0144-msg-07] 2026-08-05T18:39:49.800Z | Tienda
+Pedido confirmado y enviado. Entrega estimada: 1 días hábiles.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0145
+Cliente: Laura Vargas
+
+[wa-hogar-0145-msg-01] 2026-08-06T18:15:00.000Z | Cliente
+Hola, si cojín decorativo no me sirve, ¿lo puedo cambiar?
+
+[wa-hogar-0145-msg-02] 2026-08-06T18:18:00.000Z | Tienda
+Sí, aceptamos cambios sin uso y con el empaque dentro del plazo informado.
+
+[wa-hogar-0145-msg-03] 2026-08-06T18:20:00.000Z | Cliente
+Perfecto, muchas gracias por la información.
+
+[wa-hogar-0145-msg-04] 2026-08-06T18:20:45.000Z | Tienda
+Con gusto. Escríbenos cuando quieras hacer el pedido.
+
+[wa-hogar-0145-msg-05] 2026-08-06T18:26:45.000Z | Cliente
+Por ahora no, solo estaba averiguando. Gracias.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0146
+Cliente: Mateo Vargas
+
+[wa-hogar-0146-msg-01] 2026-08-07T19:18:00.000Z | Cliente
+ola, quiero comprar 3 unidades de protector de colchón sencillo y 1 unidades de cobija térmica queen beige y 2 unidades de juego de sábanas doble algodón. ¿Cuánto queda para Cali?
+
+[wa-hogar-0146-msg-02] 2026-08-07T19:22:00.000Z | Tienda
+¡Hola! Te atiende Hogar Demo Colombia. Sí tenemos. ¿La entrega sería en San Fernando y a nombre de quién queda el pedido?
+
+[wa-hogar-0146-msg-03] 2026-08-07T19:25:00.000Z | Cliente
+Sí, barrio San Fernando. Punto de entrega de prueba HOG-0146. Queda a nombre de Mateo Vargas.
+
+[wa-hogar-0146-msg-04] 2026-08-07T19:39:00.000Z | Tienda
+El subtotal es $413.000, domicilio $15.000. Total: $428.000. ¿Confirmas?
+
+[wa-hogar-0146-msg-05] 2026-08-07T19:46:00.000Z | Cliente
+listo, queda así. Pago por pago contraentrega.
+
+[wa-hogar-0146-msg-06] 2026-08-07T19:46:30.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0147
+Cliente: Natalia Vargas
+
+[wa-hogar-0147-msg-01] 2026-08-08T13:21:00.000Z | Cliente
+Buenas tardes, estoy buscando 1 unidades de cortina blackout 140x220 gris. ¿Cuánto queda para Santa Marta?
+
+[wa-hogar-0147-msg-02] 2026-08-08T14:16:00.000Z | Tienda
+¡Hola! Te atiende Almacén Hogar Ejemplo. Sí tenemos. ¿La entrega sería en Bavaria y a nombre de quién queda el pedido?
+
+[wa-hogar-0147-msg-03] 2026-08-08T14:20:00.000Z | Cliente
+Sí, barrio Bavaria. Punto de entrega de prueba HOG-0147. Queda a nombre de Natalia Vargas.
+
+[wa-hogar-0147-msg-04] 2026-08-08T14:35:00.000Z | Tienda
+El subtotal es $115.000, domicilio $14.000. Total: $129.000. ¿Confirmas?
+
+[wa-hogar-0147-msg-05] 2026-08-08T14:43:00.000Z | Cliente
+dale, hagámosle. Pago por transferencia bancaria.
+
+[wa-hogar-0147-msg-06] 2026-08-08T14:48:00.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0148
+Cliente: Santiago Vargas
+
+[wa-hogar-0148-msg-01] 2026-08-09T14:24:00.000Z | Cliente
+Buen día, quisiera 2 unidades de tapete de baño gris y 3 unidades de protector de colchón doble. ¿Cuánto queda para Pereira?
+
+[wa-hogar-0148-msg-02] 2026-08-09T14:30:00.000Z | Tienda
+¡Hola! Te atiende Textiles de Prueba. Sí tenemos. ¿La entrega sería en Álamos y a nombre de quién queda el pedido?
+
+[wa-hogar-0148-msg-03] 2026-08-09T14:30:19.800Z | Cliente
+Sí, barrio Álamos. Punto de entrega de prueba HOG-0148. Queda a nombre de Santiago Vargas.
+
+[wa-hogar-0148-msg-04] 2026-08-09T14:46:19.800Z | Tienda
+El subtotal es $232.000, domicilio $14.000. Total: $246.000. ¿Confirmas?
+
+[wa-hogar-0148-msg-05] 2026-08-09T14:55:19.800Z | Cliente
+sí, confirmado. Pago por Daviplata.
+
+[wa-hogar-0148-msg-06] 2026-08-09T14:55:49.800Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0149
+Cliente: Valentina Vargas
+
+[wa-hogar-0149-msg-01] 2026-08-10T15:27:00.000Z | Cliente
+Hola! tienen disponible 3 unidades de almohada hotelera suave y 1 unidades de cortina blackout 140x220 beige y 2 unidades de cojín decorativo terracota. ¿Cuánto queda para Barranquilla?
+
+[wa-hogar-0149-msg-02] 2026-08-10T15:34:00.000Z | Tienda
+¡Hola! Te atiende Casa Ficticia. Sí tenemos. ¿La entrega sería en El Prado y a nombre de quién queda el pedido?
+
+[wa-hogar-0149-msg-03] 2026-08-10T15:40:00.000Z | Cliente
+Sí, barrio El Prado. Punto de entrega de prueba HOG-0149. Queda a nombre de Valentina Vargas.
+
+[wa-hogar-0149-msg-04] 2026-08-10T15:57:00.000Z | Tienda
+El subtotal es $288.000, domicilio $17.000. Total: $305.000. ¿Confirmas?
+
+[wa-hogar-0149-msg-05] 2026-08-10T16:07:00.000Z | Cliente
+perfecto, confirmo el pedido. Pago por Nequi.
+
+[wa-hogar-0149-msg-06] 2026-08-10T16:14:00.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0150
+Cliente: Andrés Vargas
+
+[wa-hogar-0150-msg-01] 2026-08-11T16:30:00.000Z | Cliente
+Hola, si juego de sábanas no me sirve, ¿lo puedo cambiar?
+
+[wa-hogar-0150-msg-02] 2026-08-11T16:30:30.000Z | Tienda
+Sí, aceptamos cambios sin uso y con el empaque dentro del plazo informado.
+
+[wa-hogar-0150-msg-03] 2026-08-11T16:37:30.000Z | Cliente
+¿Y el domicilio a Suba queda en $9.000?
+
+[wa-hogar-0150-msg-04] 2026-08-11T16:38:15.000Z | Tienda
+Sí, el envío estándar cuesta $9.000. ¿Deseas hacer el pedido?
+
+[wa-hogar-0150-msg-05] 2026-08-11T17:23:15.000Z | Cliente
+Por ahora no, solo estaba averiguando. Gracias.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0151
+Cliente: Camila Vargas
+
+[wa-hogar-0151-msg-01] 2026-08-12T17:33:00.000Z | Cliente
+Buenas, me regalas 2 unidades de juego de toallas gris x3 y 3 unidades de almohada hotelera firme. ¿Cuánto queda para Manizales?
+
+[wa-hogar-0151-msg-02] 2026-08-12T17:42:00.000Z | Tienda
+¡Hola! Te atiende Almacén Hogar Ejemplo. Sí tenemos. ¿La entrega sería en Palermo y a nombre de quién queda el pedido?
+
+[wa-hogar-0151-msg-03] 2026-08-12T17:50:00.000Z | Cliente
+Sí, barrio Palermo. Punto de entrega de prueba HOG-0151. Queda a nombre de Camila Vargas.
+
+[wa-hogar-0151-msg-04] 2026-08-12T17:54:00.000Z | Tienda
+El subtotal es $241.000, domicilio $14.000. Total: $255.000. ¿Confirmas?
+
+[wa-hogar-0151-msg-05] 2026-08-12T18:06:00.000Z | Cliente
+dale, hagámosle. Pago por transferencia bancaria.
+
+[wa-hogar-0151-msg-06] 2026-08-12T18:15:00.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0152
+Cliente: Julián Vargas
+
+[wa-hogar-0152-msg-01] 2026-08-13T18:36:00.000Z | Cliente
+Hola, quiero pedir 3 unidades de cobija térmica sencilla azul y 1 unidades de juego de sábanas queen blancas y 2 unidades de tapete de baño verde. ¿Cuánto queda para Cartagena?
+
+[wa-hogar-0152-msg-02] 2026-08-13T18:46:00.000Z | Tienda
+¡Hola! Te atiende Textiles de Prueba. Sí tenemos. ¿La entrega sería en Manga y a nombre de quién queda el pedido?
+
+[wa-hogar-0152-msg-03] 2026-08-13T18:46:19.800Z | Cliente
+Sí, en Manga, a nombre de Julián Vargas. Perdón: la cobija térmica la quiero en otra referencia, doble gris.
+
+[wa-hogar-0152-msg-04] 2026-08-13T18:51:19.800Z | Tienda
+El subtotal es $409.000, domicilio $18.000. Total: $427.000. ¿Confirmas?
+
+[wa-hogar-0152-msg-05] 2026-08-13T19:04:19.800Z | Cliente
+sí, confirmado. Pago por Daviplata.
+
+[wa-hogar-0152-msg-06] 2026-08-13T19:34:19.800Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0153
+Cliente: Marcela Vargas
+
+[wa-hogar-0153-msg-01] 2026-08-14T19:39:00.000Z | Cliente
+Hola 😊 necesito 1 unidades de cojín decorativo terracota. ¿Cuánto queda para Medellín?
+
+[wa-hogar-0153-msg-02] 2026-08-14T19:39:15.000Z | Cliente
+Ah y si hay color crema mejor 🙏
+
+[wa-hogar-0153-msg-03] 2026-08-14T19:39:30.000Z | Tienda
+¡Hola! Te atiende Casa Ficticia. Sí tenemos. ¿La entrega sería en Laureles y a nombre de quién queda el pedido?
+
+[wa-hogar-0153-msg-04] 2026-08-14T19:49:30.000Z | Cliente
+Sí, barrio Laureles. Punto de entrega de prueba HOG-0153. Queda a nombre de Marcela Vargas.
+
+[wa-hogar-0153-msg-05] 2026-08-14T19:55:30.000Z | Tienda
+El subtotal es $28.000, domicilio $10.000. Total: $38.000. ¿Confirmas?
+
+[wa-hogar-0153-msg-06] 2026-08-14T20:09:30.000Z | Cliente
+No, mejor cancélalo por ahora. Gracias.
+
+[wa-hogar-0153-msg-07] 2026-08-14T20:12:30.000Z | Tienda
+Entendido, no se genera el pedido.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0154
+Cliente: Nicolás Vargas
+
+[wa-hogar-0154-msg-01] 2026-08-15T13:42:00.000Z | Cliente
+ola, quiero comprar 2 unidades de protector de colchón queen y 3 unidades de cobija térmica doble gris. ¿Cuánto queda para Ibagué?
+
+[wa-hogar-0154-msg-02] 2026-08-15T16:42:00.000Z | Tienda
+¡Hola! Te atiende Hogar Demo Colombia. Sí tenemos. ¿La entrega sería en La Pola y a nombre de quién queda el pedido?
+
+[wa-hogar-0154-msg-03] 2026-08-15T16:53:00.000Z | Cliente
+Sí, barrio La Pola. Punto de entrega de prueba HOG-0154. Queda a nombre de Nicolás Vargas.
+
+[wa-hogar-0154-msg-04] 2026-08-15T17:00:00.000Z | Tienda
+El subtotal es $379.000, domicilio $14.000. Total: $393.000. ¿Confirmas?
+
+[wa-hogar-0154-msg-05] 2026-08-15T17:15:00.000Z | Cliente
+listo, queda así. Pago por pago contraentrega.
+
+[wa-hogar-0154-msg-06] 2026-08-15T17:15:30.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0155
+Cliente: Paola Vargas
+
+[wa-hogar-0155-msg-01] 2026-08-16T14:45:00.000Z | Cliente
+Hola, si cortina blackout no me sirve, ¿lo puedo cambiar?
+
+[wa-hogar-0155-msg-02] 2026-08-16T14:49:00.000Z | Tienda
+Sí, aceptamos cambios sin uso y con el empaque dentro del plazo informado.
+
+[wa-hogar-0155-msg-03] 2026-08-16T15:01:00.000Z | Cliente
+Perfecto, muchas gracias por la información.
+
+[wa-hogar-0155-msg-04] 2026-08-16T15:01:45.000Z | Tienda
+Con gusto. Escríbenos cuando quieras hacer el pedido.
+
+[wa-hogar-0155-msg-05] 2026-08-16T15:17:45.000Z | Cliente
+Por ahora no, solo estaba averiguando. Gracias.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0156
+Cliente: Sebastián Vargas
+
+[wa-hogar-0156-msg-01] 2026-08-17T15:48:00.000Z | Cliente
+Buen día, quisiera 1 unidades de tapete de baño verde. ¿Cuánto queda para Cali?
+
+[wa-hogar-0156-msg-02] 2026-08-17T15:48:30.000Z | Tienda
+¡Hola! Te atiende Textiles de Prueba. Sí tenemos. ¿La entrega sería en San Fernando y a nombre de quién queda el pedido?
+
+[wa-hogar-0156-msg-03] 2026-08-17T15:48:49.800Z | Cliente
+Sí, barrio San Fernando. Punto de entrega de prueba HOG-0156. Queda a nombre de Sebastián Vargas.
+
+[wa-hogar-0156-msg-04] 2026-08-17T17:48:49.800Z | Tienda
+El subtotal es $32.000, domicilio $11.000. Total: $43.000. ¿Confirmas?
+
+[wa-hogar-0156-msg-05] 2026-08-17T18:33:49.800Z | Cliente
+Déjamelo pendiente mientras confirmo la dirección, porfa.
+
+[wa-hogar-0156-msg-06] 2026-08-17T18:34:19.800Z | Tienda
+Claro, queda pendiente y no se despacha todavía.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0157
+Cliente: Tatiana Vargas
+
+[wa-hogar-0157-msg-01] 2026-08-18T16:51:00.000Z | Cliente
+Hola! tienen disponible 2 unidades de almohada hotelera media y 3 unidades de cortina blackout 140x220 gris. ¿Cuánto queda para Santa Marta?
+
+[wa-hogar-0157-msg-02] 2026-08-18T16:57:00.000Z | Tienda
+¡Hola! Te atiende Casa Ficticia. Sí tenemos. ¿La entrega sería en Bavaria y a nombre de quién queda el pedido?
+
+[wa-hogar-0157-msg-03] 2026-08-18T16:59:00.000Z | Cliente
+Sí, barrio Bavaria. Punto de entrega de prueba HOG-0157. Queda a nombre de Tatiana Vargas.
+
+[wa-hogar-0157-msg-04] 2026-08-18T17:09:00.000Z | Tienda
+El subtotal es $423.000, domicilio $16.000. Total: $439.000. ¿Confirmas?
+
+[wa-hogar-0157-msg-05] 2026-08-18T17:27:00.000Z | Cliente
+perfecto, confirmo el pedido. Pago por Nequi.
+
+[wa-hogar-0157-msg-06] 2026-08-18T17:34:00.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0158
+Cliente: Daniel Vargas
+
+[wa-hogar-0158-msg-01] 2026-08-19T17:54:00.000Z | Cliente
+Holaa, necesito 3 unidades de juego de sábanas sencillas estampadas y 1 unidades de tapete de baño gris y 2 unidades de protector de colchón doble. ¿Cuánto queda para Pereira?
+
+[wa-hogar-0158-msg-02] 2026-08-19T18:01:00.000Z | Tienda
+¡Hola! Te atiende Hogar Demo Colombia. Sí tenemos. ¿La entrega sería en Álamos y a nombre de quién queda el pedido?
+
+[wa-hogar-0158-msg-03] 2026-08-19T18:04:00.000Z | Cliente
+Sí, barrio Álamos. Punto de entrega de prueba HOG-0158. Queda a nombre de Daniel Vargas.
+
+[wa-hogar-0158-msg-04] 2026-08-19T18:15:00.000Z | Tienda
+El subtotal es $378.000, domicilio $16.000. Total: $394.000. ¿Confirmas?
+
+[wa-hogar-0158-msg-05] 2026-08-19T18:34:00.000Z | Cliente
+listo, queda así. Pago por pago contraentrega.
+
+[wa-hogar-0158-msg-06] 2026-08-19T18:34:30.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0159
+Cliente: Gabriela Vargas
+
+[wa-hogar-0159-msg-01] 2026-08-20T18:57:00.000Z | Cliente
+Buenas, me regalas 1 unidades de juego de toallas blancas x3. ¿Cuánto queda para Barranquilla?
+
+[wa-hogar-0159-msg-02] 2026-08-20T18:57:30.000Z | Tienda
+¡Hola! Te atiende Almacén Hogar Ejemplo. Sí tenemos. ¿La entrega sería en El Prado y a nombre de quién queda el pedido?
+
+[wa-hogar-0159-msg-03] 2026-08-20T19:01:30.000Z | Cliente
+Sí, barrio El Prado. Punto de entrega de prueba HOG-0159. Queda a nombre de Gabriela Vargas.
+
+[wa-hogar-0159-msg-04] 2026-08-20T19:13:30.000Z | Tienda
+El subtotal es $62.000, domicilio $13.000. Total: $75.000. ¿Confirmas?
+
+[wa-hogar-0159-msg-05] 2026-08-20T19:33:30.000Z | Cliente
+dale, hagámosle. Pago por transferencia bancaria.
+
+[wa-hogar-0159-msg-06] 2026-08-20T19:42:30.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0160
+Cliente: Ricardo Vargas
+
+[wa-hogar-0160-msg-01] 2026-08-21T19:00:00.000Z | Cliente
+Hola, si cobija térmica no me sirve, ¿lo puedo cambiar?
+
+[wa-hogar-0160-msg-02] 2026-08-21T19:09:00.000Z | Tienda
+Sí, aceptamos cambios sin uso y con el empaque dentro del plazo informado.
+
+[wa-hogar-0160-msg-03] 2026-08-21T19:09:19.800Z | Cliente
+¿Y el domicilio a Suba queda en $11.000?
+
+[wa-hogar-0160-msg-04] 2026-08-21T19:10:04.800Z | Tienda
+Sí, el envío estándar cuesta $11.000. ¿Deseas hacer el pedido?
+
+[wa-hogar-0160-msg-05] 2026-08-21T19:11:04.800Z | Cliente
+Por ahora no, solo estaba averiguando. Gracias.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0161
+Cliente: Ana Castro
+
+[wa-hogar-0161-msg-01] 2026-08-22T13:03:00.000Z | Cliente
+Hola 😊 necesito 3 unidades de cojín decorativo crema y 1 unidades de juego de toallas gris x3 y 2 unidades de almohada hotelera firme. ¿Cuánto queda para Manizales?
+
+[wa-hogar-0161-msg-02] 2026-08-22T13:58:00.000Z | Tienda
+¡Hola! Te atiende Casa Ficticia. Sí tenemos. ¿La entrega sería en Palermo y a nombre de quién queda el pedido?
+
+[wa-hogar-0161-msg-03] 2026-08-22T14:04:00.000Z | Cliente
+Sí, barrio Palermo. Punto de entrega de prueba HOG-0161. Queda a nombre de Ana Castro.
+
+[wa-hogar-0161-msg-04] 2026-08-22T14:18:00.000Z | Tienda
+El subtotal es $224.000, domicilio $16.000. Total: $240.000. ¿Confirmas?
+
+[wa-hogar-0161-msg-05] 2026-08-22T14:20:00.000Z | Cliente
+perfecto, confirmo el pedido. Pago por Nequi.
+
+[wa-hogar-0161-msg-06] 2026-08-22T14:23:00.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0162
+Cliente: Carlos Castro
+
+[wa-hogar-0162-msg-01] 2026-08-23T14:06:00.000Z | Cliente
+ola, quiero comprar 1 unidades de protector de colchón doble. ¿Cuánto queda para Cartagena?
+
+[wa-hogar-0162-msg-02] 2026-08-23T14:06:15.000Z | Cliente
+Ah y si hay color crema mejor 🙏
+
+[wa-hogar-0162-msg-03] 2026-08-23T14:06:30.000Z | Tienda
+¡Hola! Te atiende Hogar Demo Colombia. Sí tenemos. ¿La entrega sería en Manga y a nombre de quién queda el pedido?
+
+[wa-hogar-0162-msg-04] 2026-08-23T14:13:30.000Z | Cliente
+Sí, barrio Manga. Punto de entrega de prueba HOG-0162. Queda a nombre de Carlos Castro.
+
+[wa-hogar-0162-msg-05] 2026-08-23T14:28:30.000Z | Tienda
+El subtotal es $56.000, domicilio $14.000. Total: $70.000. ¿Confirmas?
+
+[wa-hogar-0162-msg-06] 2026-08-23T15:13:30.000Z | Cliente
+listo, queda así. Pago por pago contraentrega.
+
+[wa-hogar-0162-msg-07] 2026-08-23T15:14:00.000Z | Tienda
+Pedido confirmado y enviado. Entrega estimada: 1 días hábiles.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0163
+Cliente: Diana Castro
+
+[wa-hogar-0163-msg-01] 2026-08-24T15:09:00.000Z | Cliente
+Buenas tardes, estoy buscando 2 unidades de cortina blackout 140x220 beige y 3 unidades de cojín decorativo terracota. ¿Cuánto queda para Medellín?
+
+[wa-hogar-0163-msg-02] 2026-08-24T15:12:00.000Z | Tienda
+¡Hola! Te atiende Almacén Hogar Ejemplo. Sí tenemos. ¿La entrega sería en Laureles y a nombre de quién queda el pedido?
+
+[wa-hogar-0163-msg-03] 2026-08-24T15:20:00.000Z | Cliente
+Sí, barrio Laureles. Punto de entrega de prueba HOG-0163. Queda a nombre de Diana Castro.
+
+[wa-hogar-0163-msg-04] 2026-08-24T15:36:00.000Z | Tienda
+El subtotal es $314.000, domicilio $12.000. Total: $326.000. ¿Confirmas?
+
+[wa-hogar-0163-msg-05] 2026-08-24T15:40:00.000Z | Cliente
+dale, hagámosle. Pago por transferencia bancaria.
+
+[wa-hogar-0163-msg-06] 2026-08-24T15:45:00.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0164
+Cliente: Felipe Castro
+
+[wa-hogar-0164-msg-01] 2026-08-25T16:12:00.000Z | Cliente
+Buen día, quisiera 3 unidades de tapete de baño beige y 1 unidades de protector de colchón queen y 2 unidades de cobija térmica doble gris. ¿Cuánto queda para Ibagué?
+
+[wa-hogar-0164-msg-02] 2026-08-25T16:16:00.000Z | Tienda
+¡Hola! Te atiende Textiles de Prueba. Sí tenemos. ¿La entrega sería en La Pola y a nombre de quién queda el pedido?
+
+[wa-hogar-0164-msg-03] 2026-08-25T16:16:19.800Z | Cliente
+Sí, barrio La Pola. Punto de entrega de prueba HOG-0164. Queda a nombre de Felipe Castro.
+
+[wa-hogar-0164-msg-04] 2026-08-25T16:33:19.800Z | Tienda
+El subtotal es $330.000, domicilio $16.000. Total: $346.000. ¿Confirmas?
+
+[wa-hogar-0164-msg-05] 2026-08-25T16:38:19.800Z | Cliente
+sí, confirmado. Pago por Daviplata.
+
+[wa-hogar-0164-msg-06] 2026-08-25T16:38:49.800Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0165
+Cliente: Laura Castro
+
+[wa-hogar-0165-msg-01] 2026-08-26T17:15:00.000Z | Cliente
+Hola, si almohada hotelera no me sirve, ¿lo puedo cambiar?
+
+[wa-hogar-0165-msg-02] 2026-08-26T20:15:00.000Z | Tienda
+Sí, aceptamos cambios sin uso y con el empaque dentro del plazo informado.
+
+[wa-hogar-0165-msg-03] 2026-08-26T20:25:00.000Z | Cliente
+Perfecto, muchas gracias por la información.
+
+[wa-hogar-0165-msg-04] 2026-08-26T20:25:45.000Z | Tienda
+Con gusto. Escríbenos cuando quieras hacer el pedido.
+
+[wa-hogar-0165-msg-05] 2026-08-26T20:31:45.000Z | Cliente
+Por ahora no, solo estaba averiguando. Gracias.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0166
+Cliente: Mateo Castro
+
+[wa-hogar-0166-msg-01] 2026-08-27T18:18:00.000Z | Cliente
+Holaa, necesito 2 unidades de juego de sábanas queen blancas y 3 unidades de tapete de baño verde. ¿Cuánto queda para Cali?
+
+[wa-hogar-0166-msg-02] 2026-08-27T18:24:00.000Z | Tienda
+¡Hola! Te atiende Hogar Demo Colombia. Sí tenemos. ¿La entrega sería en San Fernando y a nombre de quién queda el pedido?
+
+[wa-hogar-0166-msg-03] 2026-08-27T18:35:00.000Z | Cliente
+Sí, barrio San Fernando. Punto de entrega de prueba HOG-0166. Queda a nombre de Mateo Castro.
+
+[wa-hogar-0166-msg-04] 2026-08-27T18:39:00.000Z | Tienda
+El subtotal es $252.000, domicilio $13.000. Total: $265.000. ¿Confirmas?
+
+[wa-hogar-0166-msg-05] 2026-08-27T18:46:00.000Z | Cliente
+listo, queda así. Pago por pago contraentrega.
+
+[wa-hogar-0166-msg-06] 2026-08-27T18:46:30.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0167
+Cliente: Natalia Castro
+
+[wa-hogar-0167-msg-01] 2026-08-28T19:21:00.000Z | Cliente
+Buenas, me regalas 3 unidades de juego de toallas arena x2 y 1 unidades de almohada hotelera media y 2 unidades de cortina blackout 140x220 gris. ¿Cuánto queda para Santa Marta?
+
+[wa-hogar-0167-msg-02] 2026-08-28T19:28:00.000Z | Tienda
+¡Hola! Te atiende Almacén Hogar Ejemplo. Sí tenemos. ¿La entrega sería en Bavaria y a nombre de quién queda el pedido?
+
+[wa-hogar-0167-msg-03] 2026-08-28T19:40:00.000Z | Cliente
+Sí, barrio Bavaria. Punto de entrega de prueba HOG-0167. Queda a nombre de Natalia Castro.
+
+[wa-hogar-0167-msg-04] 2026-08-28T19:45:00.000Z | Tienda
+El subtotal es $455.000, domicilio $18.000. Total: $473.000. ¿Confirmas?
+
+[wa-hogar-0167-msg-05] 2026-08-28T19:53:00.000Z | Cliente
+dale, hagámosle. Pago por transferencia bancaria.
+
+[wa-hogar-0167-msg-06] 2026-08-28T20:02:00.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0168
+Cliente: Santiago Castro
+
+[wa-hogar-0168-msg-01] 2026-08-01T13:24:00.000Z | Cliente
+Hola, quiero pedir 1 unidades de cobija térmica doble gris. ¿Cuánto queda para Pereira?
+
+[wa-hogar-0168-msg-02] 2026-08-01T14:19:00.000Z | Tienda
+¡Hola! Te atiende Textiles de Prueba. Sí tenemos. ¿La entrega sería en Álamos y a nombre de quién queda el pedido?
+
+[wa-hogar-0168-msg-03] 2026-08-01T14:19:19.800Z | Cliente
+Sí, en Álamos, a nombre de Santiago Castro. Perdón: la cobija térmica la quiero en otra referencia, queen beige.
+
+[wa-hogar-0168-msg-04] 2026-08-01T14:25:19.800Z | Tienda
+El subtotal es $89.000, domicilio $12.000. Total: $101.000. ¿Confirmas?
+
+[wa-hogar-0168-msg-05] 2026-08-01T15:10:19.800Z | Cliente
+sí, confirmado. Pago por Daviplata.
+
+[wa-hogar-0168-msg-06] 2026-08-01T15:40:19.800Z | Tienda
+Pedido confirmado y enviado. Entrega estimada: 1 días hábiles.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0169
+Cliente: Valentina Castro
+
+[wa-hogar-0169-msg-01] 2026-08-02T14:27:00.000Z | Cliente
+Hola 😊 necesito 2 unidades de cojín decorativo verde oliva y 3 unidades de juego de toallas blancas x3. ¿Cuánto queda para Barranquilla?
+
+[wa-hogar-0169-msg-02] 2026-08-02T14:36:00.000Z | Tienda
+¡Hola! Te atiende Casa Ficticia. Sí tenemos. ¿La entrega sería en El Prado y a nombre de quién queda el pedido?
+
+[wa-hogar-0169-msg-03] 2026-08-02T14:38:00.000Z | Cliente
+Sí, barrio El Prado. Punto de entrega de prueba HOG-0169. Queda a nombre de Valentina Castro.
+
+[wa-hogar-0169-msg-04] 2026-08-02T16:38:00.000Z | Tienda
+El subtotal es $242.000, domicilio $15.000. Total: $257.000. ¿Confirmas?
+
+[wa-hogar-0169-msg-05] 2026-08-02T16:48:00.000Z | Cliente
+Déjamelo pendiente mientras confirmo la dirección, porfa.
+
+[wa-hogar-0169-msg-06] 2026-08-02T16:51:00.000Z | Tienda
+Claro, queda pendiente y no se despacha todavía.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0170
+Cliente: Andrés Castro
+
+[wa-hogar-0170-msg-01] 2026-08-03T15:30:00.000Z | Cliente
+Hola, si protector de colchón no me sirve, ¿lo puedo cambiar?
+
+[wa-hogar-0170-msg-02] 2026-08-03T15:40:00.000Z | Tienda
+Sí, aceptamos cambios sin uso y con el empaque dentro del plazo informado.
+
+[wa-hogar-0170-msg-03] 2026-08-03T15:43:00.000Z | Cliente
+¿Y el domicilio a Suba queda en $13.000?
+
+[wa-hogar-0170-msg-04] 2026-08-03T15:43:45.000Z | Tienda
+Sí, el envío estándar cuesta $13.000. ¿Deseas hacer el pedido?
+
+[wa-hogar-0170-msg-05] 2026-08-03T15:54:45.000Z | Cliente
+Por ahora no, solo estaba averiguando. Gracias.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0171
+Cliente: Camila Castro
+
+[wa-hogar-0171-msg-01] 2026-08-04T16:33:00.000Z | Cliente
+Buenas tardes, estoy buscando 1 unidades de cortina blackout 140x220 gris. ¿Cuánto queda para Manizales?
+
+[wa-hogar-0171-msg-02] 2026-08-04T16:33:15.000Z | Cliente
+Ah y si hay color crema mejor 🙏
+
+[wa-hogar-0171-msg-03] 2026-08-04T16:33:30.000Z | Tienda
+¡Hola! Te atiende Almacén Hogar Ejemplo. Sí tenemos. ¿La entrega sería en Palermo y a nombre de quién queda el pedido?
+
+[wa-hogar-0171-msg-04] 2026-08-04T16:37:30.000Z | Cliente
+Sí, barrio Palermo. Punto de entrega de prueba HOG-0171. Queda a nombre de Camila Castro.
+
+[wa-hogar-0171-msg-05] 2026-08-04T16:46:30.000Z | Tienda
+El subtotal es $115.000, domicilio $12.000. Total: $127.000. ¿Confirmas?
+
+[wa-hogar-0171-msg-06] 2026-08-04T16:58:30.000Z | Cliente
+dale, hagámosle. Pago por transferencia bancaria.
+
+[wa-hogar-0171-msg-07] 2026-08-04T17:03:30.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0172
+Cliente: Julián Castro
+
+[wa-hogar-0172-msg-01] 2026-08-05T17:36:00.000Z | Cliente
+Buen día, quisiera 2 unidades de tapete de baño gris y 3 unidades de protector de colchón doble. ¿Cuánto queda para Cartagena?
+
+[wa-hogar-0172-msg-02] 2026-08-05T17:39:00.000Z | Tienda
+¡Hola! Te atiende Textiles de Prueba. Sí tenemos. ¿La entrega sería en Manga y a nombre de quién queda el pedido?
+
+[wa-hogar-0172-msg-03] 2026-08-05T17:39:19.800Z | Cliente
+Sí, barrio Manga. Punto de entrega de prueba HOG-0172. Queda a nombre de Julián Castro.
+
+[wa-hogar-0172-msg-04] 2026-08-05T17:49:19.800Z | Tienda
+El subtotal es $232.000, domicilio $16.000. Total: $248.000. ¿Confirmas?
+
+[wa-hogar-0172-msg-05] 2026-08-05T18:02:19.800Z | Cliente
+sí, confirmado. Pago por Daviplata.
+
+[wa-hogar-0172-msg-06] 2026-08-05T18:02:49.800Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0173
+Cliente: Marcela Castro
+
+[wa-hogar-0173-msg-01] 2026-08-06T18:39:00.000Z | Cliente
+Hola! tienen disponible 3 unidades de almohada hotelera suave y 1 unidades de cortina blackout 140x220 beige y 2 unidades de cojín decorativo terracota. ¿Cuánto queda para Medellín?
+
+[wa-hogar-0173-msg-02] 2026-08-06T18:43:00.000Z | Tienda
+¡Hola! Te atiende Casa Ficticia. Sí tenemos. ¿La entrega sería en Laureles y a nombre de quién queda el pedido?
+
+[wa-hogar-0173-msg-03] 2026-08-06T18:49:00.000Z | Cliente
+Sí, barrio Laureles. Punto de entrega de prueba HOG-0173. Queda a nombre de Marcela Castro.
+
+[wa-hogar-0173-msg-04] 2026-08-06T19:00:00.000Z | Tienda
+El subtotal es $288.000, domicilio $14.000. Total: $302.000. ¿Confirmas?
+
+[wa-hogar-0173-msg-05] 2026-08-06T19:14:00.000Z | Cliente
+perfecto, confirmo el pedido. Pago por Nequi.
+
+[wa-hogar-0173-msg-06] 2026-08-06T19:21:00.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0174
+Cliente: Nicolás Castro
+
+[wa-hogar-0174-msg-01] 2026-08-07T19:42:00.000Z | Cliente
+Holaa, necesito 1 unidades de juego de sábanas doble algodón. ¿Cuánto queda para Ibagué?
+
+[wa-hogar-0174-msg-02] 2026-08-07T19:42:30.000Z | Tienda
+¡Hola! Te atiende Hogar Demo Colombia. Sí tenemos. ¿La entrega sería en La Pola y a nombre de quién queda el pedido?
+
+[wa-hogar-0174-msg-03] 2026-08-07T19:49:30.000Z | Cliente
+Sí, barrio La Pola. Punto de entrega de prueba HOG-0174. Queda a nombre de Nicolás Castro.
+
+[wa-hogar-0174-msg-04] 2026-08-07T20:01:30.000Z | Tienda
+El subtotal es $78.000, domicilio $12.000. Total: $90.000. ¿Confirmas?
+
+[wa-hogar-0174-msg-05] 2026-08-07T20:46:30.000Z | Cliente
+listo, queda así. Pago por pago contraentrega.
+
+[wa-hogar-0174-msg-06] 2026-08-07T20:47:00.000Z | Tienda
+Pedido confirmado y enviado. Entrega estimada: 1 días hábiles.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0175
+Cliente: Paola Castro
+
+[wa-hogar-0175-msg-01] 2026-08-08T13:45:00.000Z | Cliente
+Hola, si juego de toallas no me sirve, ¿lo puedo cambiar?
+
+[wa-hogar-0175-msg-02] 2026-08-08T14:40:00.000Z | Tienda
+Sí, aceptamos cambios sin uso y con el empaque dentro del plazo informado.
+
+[wa-hogar-0175-msg-03] 2026-08-08T14:48:00.000Z | Cliente
+Perfecto, muchas gracias por la información.
+
+[wa-hogar-0175-msg-04] 2026-08-08T14:48:45.000Z | Tienda
+Con gusto. Escríbenos cuando quieras hacer el pedido.
+
+[wa-hogar-0175-msg-05] 2026-08-08T15:04:45.000Z | Cliente
+Por ahora no, solo estaba averiguando. Gracias.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0176
+Cliente: Sebastián Castro
+
+[wa-hogar-0176-msg-01] 2026-08-09T14:48:00.000Z | Cliente
+Hola, quiero pedir 3 unidades de cobija térmica sencilla azul y 1 unidades de juego de sábanas queen blancas y 2 unidades de tapete de baño verde. ¿Cuánto queda para Cali?
+
+[wa-hogar-0176-msg-02] 2026-08-09T17:48:00.000Z | Tienda
+¡Hola! Te atiende Textiles de Prueba. Sí tenemos. ¿La entrega sería en San Fernando y a nombre de quién queda el pedido?
+
+[wa-hogar-0176-msg-03] 2026-08-09T17:48:19.800Z | Cliente
+Sí, en San Fernando, a nombre de Sebastián Castro. Perdón: la cobija térmica la quiero en otra referencia, doble gris.
+
+[wa-hogar-0176-msg-04] 2026-08-09T18:02:19.800Z | Tienda
+El subtotal es $409.000, domicilio $15.000. Total: $424.000. ¿Confirmas?
+
+[wa-hogar-0176-msg-05] 2026-08-09T18:19:19.800Z | Cliente
+sí, confirmado. Pago por Daviplata.
+
+[wa-hogar-0176-msg-06] 2026-08-09T18:49:19.800Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0177
+Cliente: Tatiana Castro
+
+[wa-hogar-0177-msg-01] 2026-08-10T15:51:00.000Z | Cliente
+Hola 😊 necesito 1 unidades de cojín decorativo terracota. ¿Cuánto queda para Santa Marta?
+
+[wa-hogar-0177-msg-02] 2026-08-10T15:51:30.000Z | Tienda
+¡Hola! Te atiende Casa Ficticia. Sí tenemos. ¿La entrega sería en Bavaria y a nombre de quién queda el pedido?
+
+[wa-hogar-0177-msg-03] 2026-08-10T16:01:30.000Z | Cliente
+Sí, barrio Bavaria. Punto de entrega de prueba HOG-0177. Queda a nombre de Tatiana Castro.
+
+[wa-hogar-0177-msg-04] 2026-08-10T16:16:30.000Z | Tienda
+El subtotal es $28.000, domicilio $14.000. Total: $42.000. ¿Confirmas?
+
+[wa-hogar-0177-msg-05] 2026-08-10T16:34:30.000Z | Cliente
+perfecto, confirmo el pedido. Pago por Nequi.
+
+[wa-hogar-0177-msg-06] 2026-08-10T16:37:30.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0178
+Cliente: Daniel Castro
+
+[wa-hogar-0178-msg-01] 2026-08-11T16:54:00.000Z | Cliente
+ola, quiero comprar 2 unidades de protector de colchón queen y 3 unidades de cobija térmica doble gris. ¿Cuánto queda para Pereira?
+
+[wa-hogar-0178-msg-02] 2026-08-11T17:03:00.000Z | Tienda
+¡Hola! Te atiende Hogar Demo Colombia. Sí tenemos. ¿La entrega sería en Álamos y a nombre de quién queda el pedido?
+
+[wa-hogar-0178-msg-03] 2026-08-11T17:14:00.000Z | Cliente
+Sí, barrio Álamos. Punto de entrega de prueba HOG-0178. Queda a nombre de Daniel Castro.
+
+[wa-hogar-0178-msg-04] 2026-08-11T17:30:00.000Z | Tienda
+El subtotal es $379.000, domicilio $14.000. Total: $393.000. ¿Confirmas?
+
+[wa-hogar-0178-msg-05] 2026-08-11T17:49:00.000Z | Cliente
+listo, queda así. Pago por pago contraentrega.
+
+[wa-hogar-0178-msg-06] 2026-08-11T17:49:30.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0179
+Cliente: Gabriela Castro
+
+[wa-hogar-0179-msg-01] 2026-08-12T17:57:00.000Z | Cliente
+Buenas tardes, estoy buscando 3 unidades de cortina blackout 200x220 azul y 1 unidades de cojín decorativo verde oliva y 2 unidades de juego de toallas blancas x3. ¿Cuánto queda para Barranquilla?
+
+[wa-hogar-0179-msg-02] 2026-08-12T18:07:00.000Z | Tienda
+¡Hola! Te atiende Almacén Hogar Ejemplo. Sí tenemos. ¿La entrega sería en El Prado y a nombre de quién queda el pedido?
+
+[wa-hogar-0179-msg-03] 2026-08-12T18:19:00.000Z | Cliente
+Sí, barrio El Prado. Punto de entrega de prueba HOG-0179. Queda a nombre de Gabriela Castro.
+
+[wa-hogar-0179-msg-04] 2026-08-12T18:36:00.000Z | Tienda
+El subtotal es $497.000, domicilio $17.000. Total: $514.000. ¿Confirmas?
+
+[wa-hogar-0179-msg-05] 2026-08-12T18:56:00.000Z | Cliente
+dale, hagámosle. Pago por transferencia bancaria.
+
+[wa-hogar-0179-msg-06] 2026-08-12T19:01:00.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0180
+Cliente: Ricardo Castro
+
+[wa-hogar-0180-msg-01] 2026-08-13T18:00:00.000Z | Cliente
+Hola, si tapete de baño no me sirve, ¿lo puedo cambiar?
+
+[wa-hogar-0180-msg-02] 2026-08-13T18:00:30.000Z | Tienda
+Sí, aceptamos cambios sin uso y con el empaque dentro del plazo informado.
+
+[wa-hogar-0180-msg-03] 2026-08-13T18:00:49.800Z | Cliente
+¿Y el domicilio a Suba queda en $9.000?
+
+[wa-hogar-0180-msg-04] 2026-08-13T18:01:34.800Z | Tienda
+Sí, el envío estándar cuesta $9.000. ¿Deseas hacer el pedido?
+
+[wa-hogar-0180-msg-05] 2026-08-13T18:46:34.800Z | Cliente
+Por ahora no, solo estaba averiguando. Gracias.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0181
+Cliente: Ana Moreno
+
+[wa-hogar-0181-msg-01] 2026-08-14T19:03:00.000Z | Cliente
+Hola! tienen disponible 2 unidades de almohada hotelera media y 3 unidades de cortina blackout 140x220 gris. ¿Cuánto queda para Manizales?
+
+[wa-hogar-0181-msg-02] 2026-08-14T19:06:00.000Z | Tienda
+¡Hola! Te atiende Casa Ficticia. Sí tenemos. ¿La entrega sería en Palermo y a nombre de quién queda el pedido?
+
+[wa-hogar-0181-msg-03] 2026-08-14T19:08:00.000Z | Cliente
+Sí, barrio Palermo. Punto de entrega de prueba HOG-0181. Queda a nombre de Ana Moreno.
+
+[wa-hogar-0181-msg-04] 2026-08-14T19:12:00.000Z | Tienda
+El subtotal es $423.000, domicilio $14.000. Total: $437.000. ¿Confirmas?
+
+[wa-hogar-0181-msg-05] 2026-08-14T19:14:00.000Z | Cliente
+perfecto, confirmo el pedido. Pago por Nequi.
+
+[wa-hogar-0181-msg-06] 2026-08-14T19:21:00.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0182
+Cliente: Carlos Moreno
+
+[wa-hogar-0182-msg-01] 2026-08-15T13:06:00.000Z | Cliente
+Holaa, necesito 3 unidades de juego de sábanas sencillas estampadas y 1 unidades de tapete de baño gris y 2 unidades de protector de colchón doble. ¿Cuánto queda para Cartagena?
+
+[wa-hogar-0182-msg-02] 2026-08-15T14:01:00.000Z | Tienda
+¡Hola! Te atiende Hogar Demo Colombia. Sí tenemos. ¿La entrega sería en Manga y a nombre de quién queda el pedido?
+
+[wa-hogar-0182-msg-03] 2026-08-15T14:04:00.000Z | Cliente
+Sí, barrio Manga. Punto de entrega de prueba HOG-0182. Queda a nombre de Carlos Moreno.
+
+[wa-hogar-0182-msg-04] 2026-08-15T16:04:00.000Z | Tienda
+El subtotal es $378.000, domicilio $18.000. Total: $396.000. ¿Confirmas?
+
+[wa-hogar-0182-msg-05] 2026-08-15T16:07:00.000Z | Cliente
+Déjamelo pendiente mientras confirmo la dirección, porfa.
+
+[wa-hogar-0182-msg-06] 2026-08-15T16:07:30.000Z | Tienda
+Claro, queda pendiente y no se despacha todavía.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0183
+Cliente: Diana Moreno
+
+[wa-hogar-0183-msg-01] 2026-08-16T14:09:00.000Z | Cliente
+Buenas, me regalas 1 unidades de juego de toallas blancas x3. ¿Cuánto queda para Medellín?
+
+[wa-hogar-0183-msg-02] 2026-08-16T14:09:30.000Z | Tienda
+¡Hola! Te atiende Almacén Hogar Ejemplo. Sí tenemos. ¿La entrega sería en Laureles y a nombre de quién queda el pedido?
+
+[wa-hogar-0183-msg-03] 2026-08-16T14:13:30.000Z | Cliente
+Sí, barrio Laureles. Punto de entrega de prueba HOG-0183. Queda a nombre de Diana Moreno.
+
+[wa-hogar-0183-msg-04] 2026-08-16T14:19:30.000Z | Tienda
+El subtotal es $62.000, domicilio $10.000. Total: $72.000. ¿Confirmas?
+
+[wa-hogar-0183-msg-05] 2026-08-16T14:23:30.000Z | Cliente
+dale, hagámosle. Pago por transferencia bancaria.
+
+[wa-hogar-0183-msg-06] 2026-08-16T14:32:30.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0184
+Cliente: Felipe Moreno
+
+[wa-hogar-0184-msg-01] 2026-08-17T15:12:00.000Z | Cliente
+Hola, quiero pedir 2 unidades de cobija térmica queen beige y 3 unidades de juego de sábanas doble algodón. ¿Cuánto queda para Ibagué?
+
+[wa-hogar-0184-msg-02] 2026-08-17T15:18:00.000Z | Tienda
+¡Hola! Te atiende Textiles de Prueba. Sí tenemos. ¿La entrega sería en La Pola y a nombre de quién queda el pedido?
+
+[wa-hogar-0184-msg-03] 2026-08-17T15:18:19.800Z | Cliente
+Sí, en La Pola, a nombre de Felipe Moreno. Perdón: la cobija térmica la quiero en otra referencia, sencilla azul.
+
+[wa-hogar-0184-msg-04] 2026-08-17T15:25:19.800Z | Tienda
+El subtotal es $412.000, domicilio $14.000. Total: $426.000. ¿Confirmas?
+
+[wa-hogar-0184-msg-05] 2026-08-17T15:30:19.800Z | Cliente
+sí, confirmado. Pago por Daviplata.
+
+[wa-hogar-0184-msg-06] 2026-08-17T16:00:19.800Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0185
+Cliente: Laura Moreno
+
+[wa-hogar-0185-msg-01] 2026-08-18T16:15:00.000Z | Cliente
+Hola, si cojín decorativo no me sirve, ¿lo puedo cambiar?
+
+[wa-hogar-0185-msg-02] 2026-08-18T16:22:00.000Z | Tienda
+Sí, aceptamos cambios sin uso y con el empaque dentro del plazo informado.
+
+[wa-hogar-0185-msg-03] 2026-08-18T16:28:00.000Z | Cliente
+Perfecto, muchas gracias por la información.
+
+[wa-hogar-0185-msg-04] 2026-08-18T16:28:45.000Z | Tienda
+Con gusto. Escríbenos cuando quieras hacer el pedido.
+
+[wa-hogar-0185-msg-05] 2026-08-18T16:34:45.000Z | Cliente
+Por ahora no, solo estaba averiguando. Gracias.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0186
+Cliente: Mateo Moreno
+
+[wa-hogar-0186-msg-01] 2026-08-19T17:18:00.000Z | Cliente
+ola, quiero comprar 1 unidades de protector de colchón doble. ¿Cuánto queda para Cali?
+
+[wa-hogar-0186-msg-02] 2026-08-19T17:18:30.000Z | Tienda
+¡Hola! Te atiende Hogar Demo Colombia. Sí tenemos. ¿La entrega sería en San Fernando y a nombre de quién queda el pedido?
+
+[wa-hogar-0186-msg-03] 2026-08-19T17:25:30.000Z | Cliente
+Sí, barrio San Fernando. Punto de entrega de prueba HOG-0186. Queda a nombre de Mateo Moreno.
+
+[wa-hogar-0186-msg-04] 2026-08-19T17:34:30.000Z | Tienda
+El subtotal es $56.000, domicilio $11.000. Total: $67.000. ¿Confirmas?
+
+[wa-hogar-0186-msg-05] 2026-08-19T18:19:30.000Z | Cliente
+listo, queda así. Pago por pago contraentrega.
+
+[wa-hogar-0186-msg-06] 2026-08-19T18:20:00.000Z | Tienda
+Pedido confirmado y enviado. Entrega estimada: 1 días hábiles.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0187
+Cliente: Natalia Moreno
+
+[wa-hogar-0187-msg-01] 2026-08-20T18:21:00.000Z | Cliente
+Buenas tardes, estoy buscando 2 unidades de cortina blackout 140x220 beige y 3 unidades de cojín decorativo terracota. ¿Cuánto queda para Santa Marta?
+
+[wa-hogar-0187-msg-02] 2026-08-20T21:21:00.000Z | Tienda
+¡Hola! Te atiende Almacén Hogar Ejemplo. Sí tenemos. ¿La entrega sería en Bavaria y a nombre de quién queda el pedido?
+
+[wa-hogar-0187-msg-03] 2026-08-20T21:29:00.000Z | Cliente
+Sí, barrio Bavaria. Punto de entrega de prueba HOG-0187. Queda a nombre de Natalia Moreno.
+
+[wa-hogar-0187-msg-04] 2026-08-20T21:39:00.000Z | Tienda
+El subtotal es $314.000, domicilio $16.000. Total: $330.000. ¿Confirmas?
+
+[wa-hogar-0187-msg-05] 2026-08-20T21:47:00.000Z | Cliente
+No, mejor cancélalo por ahora. Gracias.
+
+[wa-hogar-0187-msg-06] 2026-08-20T21:52:00.000Z | Tienda
+Entendido, no se genera el pedido.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0188
+Cliente: Santiago Moreno
+
+[wa-hogar-0188-msg-01] 2026-08-21T19:24:00.000Z | Cliente
+Buen día, quisiera 3 unidades de tapete de baño beige y 1 unidades de protector de colchón queen y 2 unidades de cobija térmica doble gris. ¿Cuánto queda para Pereira?
+
+[wa-hogar-0188-msg-02] 2026-08-21T19:34:00.000Z | Tienda
+¡Hola! Te atiende Textiles de Prueba. Sí tenemos. ¿La entrega sería en Álamos y a nombre de quién queda el pedido?
+
+[wa-hogar-0188-msg-03] 2026-08-21T19:34:19.800Z | Cliente
+Sí, barrio Álamos. Punto de entrega de prueba HOG-0188. Queda a nombre de Santiago Moreno.
+
+[wa-hogar-0188-msg-04] 2026-08-21T19:45:19.800Z | Tienda
+El subtotal es $330.000, domicilio $16.000. Total: $346.000. ¿Confirmas?
+
+[wa-hogar-0188-msg-05] 2026-08-21T19:54:19.800Z | Cliente
+sí, confirmado. Pago por Daviplata.
+
+[wa-hogar-0188-msg-06] 2026-08-21T19:54:49.800Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0189
+Cliente: Valentina Moreno
+
+[wa-hogar-0189-msg-01] 2026-08-22T13:27:00.000Z | Cliente
+Hola! tienen disponible 1 unidades de almohada hotelera firme. ¿Cuánto queda para Barranquilla?
+
+[wa-hogar-0189-msg-02] 2026-08-22T13:54:30.000Z | Cliente
+Ah y si hay color crema mejor 🙏
+
+[wa-hogar-0189-msg-03] 2026-08-22T14:22:00.000Z | Tienda
+¡Hola! Te atiende Casa Ficticia. Sí tenemos. ¿La entrega sería en El Prado y a nombre de quién queda el pedido?
+
+[wa-hogar-0189-msg-04] 2026-08-22T14:32:00.000Z | Cliente
+Sí, barrio El Prado. Punto de entrega de prueba HOG-0189. Queda a nombre de Valentina Moreno.
+
+[wa-hogar-0189-msg-05] 2026-08-22T14:44:00.000Z | Tienda
+El subtotal es $39.000, domicilio $13.000. Total: $52.000. ¿Confirmas?
+
+[wa-hogar-0189-msg-06] 2026-08-22T14:54:00.000Z | Cliente
+perfecto, confirmo el pedido. Pago por Nequi.
+
+[wa-hogar-0189-msg-07] 2026-08-22T15:01:00.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0190
+Cliente: Andrés Moreno
+
+[wa-hogar-0190-msg-01] 2026-08-23T14:30:00.000Z | Cliente
+Hola, si juego de sábanas no me sirve, ¿lo puedo cambiar?
+
+[wa-hogar-0190-msg-02] 2026-08-23T14:33:00.000Z | Tienda
+Sí, aceptamos cambios sin uso y con el empaque dentro del plazo informado.
+
+[wa-hogar-0190-msg-03] 2026-08-23T14:44:00.000Z | Cliente
+¿Y el domicilio a Suba queda en $11.000?
+
+[wa-hogar-0190-msg-04] 2026-08-23T14:44:45.000Z | Tienda
+Sí, el envío estándar cuesta $11.000. ¿Deseas hacer el pedido?
+
+[wa-hogar-0190-msg-05] 2026-08-23T14:55:45.000Z | Cliente
+Por ahora no, solo estaba averiguando. Gracias.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0191
+Cliente: Camila Moreno
+
+[wa-hogar-0191-msg-01] 2026-08-24T15:33:00.000Z | Cliente
+Buenas, me regalas 3 unidades de juego de toallas arena x2 y 1 unidades de almohada hotelera media y 2 unidades de cortina blackout 140x220 gris. ¿Cuánto queda para Manizales?
+
+[wa-hogar-0191-msg-02] 2026-08-24T15:37:00.000Z | Tienda
+¡Hola! Te atiende Almacén Hogar Ejemplo. Sí tenemos. ¿La entrega sería en Palermo y a nombre de quién queda el pedido?
+
+[wa-hogar-0191-msg-03] 2026-08-24T15:49:00.000Z | Cliente
+Sí, barrio Palermo. Punto de entrega de prueba HOG-0191. Queda a nombre de Camila Moreno.
+
+[wa-hogar-0191-msg-04] 2026-08-24T16:03:00.000Z | Tienda
+El subtotal es $455.000, domicilio $16.000. Total: $471.000. ¿Confirmas?
+
+[wa-hogar-0191-msg-05] 2026-08-24T16:15:00.000Z | Cliente
+dale, hagámosle. Pago por transferencia bancaria.
+
+[wa-hogar-0191-msg-06] 2026-08-24T16:24:00.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0192
+Cliente: Julián Moreno
+
+[wa-hogar-0192-msg-01] 2026-08-25T16:36:00.000Z | Cliente
+Hola, quiero pedir 1 unidades de cobija térmica doble gris. ¿Cuánto queda para Cartagena?
+
+[wa-hogar-0192-msg-02] 2026-08-25T16:36:30.000Z | Tienda
+¡Hola! Te atiende Textiles de Prueba. Sí tenemos. ¿La entrega sería en Manga y a nombre de quién queda el pedido?
+
+[wa-hogar-0192-msg-03] 2026-08-25T16:36:49.800Z | Cliente
+Sí, en Manga, a nombre de Julián Moreno. Perdón: la cobija térmica la quiero en otra referencia, queen beige.
+
+[wa-hogar-0192-msg-04] 2026-08-25T16:51:49.800Z | Tienda
+El subtotal es $89.000, domicilio $14.000. Total: $103.000. ¿Confirmas?
+
+[wa-hogar-0192-msg-05] 2026-08-25T17:36:49.800Z | Cliente
+sí, confirmado. Pago por Daviplata.
+
+[wa-hogar-0192-msg-06] 2026-08-25T18:06:49.800Z | Tienda
+Pedido confirmado y enviado. Entrega estimada: 1 días hábiles.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0193
+Cliente: Marcela Moreno
+
+[wa-hogar-0193-msg-01] 2026-08-26T17:39:00.000Z | Cliente
+Hola 😊 necesito 2 unidades de cojín decorativo verde oliva y 3 unidades de juego de toallas blancas x3. ¿Cuánto queda para Medellín?
+
+[wa-hogar-0193-msg-02] 2026-08-26T17:45:00.000Z | Tienda
+¡Hola! Te atiende Casa Ficticia. Sí tenemos. ¿La entrega sería en Laureles y a nombre de quién queda el pedido?
+
+[wa-hogar-0193-msg-03] 2026-08-26T17:47:00.000Z | Cliente
+Sí, barrio Laureles. Punto de entrega de prueba HOG-0193. Queda a nombre de Marcela Moreno.
+
+[wa-hogar-0193-msg-04] 2026-08-26T18:03:00.000Z | Tienda
+El subtotal es $242.000, domicilio $12.000. Total: $254.000. ¿Confirmas?
+
+[wa-hogar-0193-msg-05] 2026-08-26T18:17:00.000Z | Cliente
+perfecto, confirmo el pedido. Pago por Nequi.
+
+[wa-hogar-0193-msg-06] 2026-08-26T18:20:00.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0194
+Cliente: Nicolás Moreno
+
+[wa-hogar-0194-msg-01] 2026-08-27T18:42:00.000Z | Cliente
+ola, quiero comprar 3 unidades de protector de colchón sencillo y 1 unidades de cobija térmica queen beige y 2 unidades de juego de sábanas doble algodón. ¿Cuánto queda para Ibagué?
+
+[wa-hogar-0194-msg-02] 2026-08-27T18:49:00.000Z | Tienda
+¡Hola! Te atiende Hogar Demo Colombia. Sí tenemos. ¿La entrega sería en La Pola y a nombre de quién queda el pedido?
+
+[wa-hogar-0194-msg-03] 2026-08-27T18:52:00.000Z | Cliente
+Sí, barrio La Pola. Punto de entrega de prueba HOG-0194. Queda a nombre de Nicolás Moreno.
+
+[wa-hogar-0194-msg-04] 2026-08-27T19:09:00.000Z | Tienda
+El subtotal es $413.000, domicilio $16.000. Total: $429.000. ¿Confirmas?
+
+[wa-hogar-0194-msg-05] 2026-08-27T19:24:00.000Z | Cliente
+listo, queda así. Pago por pago contraentrega.
+
+[wa-hogar-0194-msg-06] 2026-08-27T19:24:30.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0195
+Cliente: Paola Moreno
+
+[wa-hogar-0195-msg-01] 2026-08-28T19:45:00.000Z | Cliente
+Hola, si cortina blackout no me sirve, ¿lo puedo cambiar?
+
+[wa-hogar-0195-msg-02] 2026-08-28T19:45:30.000Z | Tienda
+Sí, aceptamos cambios sin uso y con el empaque dentro del plazo informado.
+
+[wa-hogar-0195-msg-03] 2026-08-28T19:49:30.000Z | Cliente
+Perfecto, muchas gracias por la información.
+
+[wa-hogar-0195-msg-04] 2026-08-28T21:49:30.000Z | Tienda
+Con gusto. Escríbenos cuando quieras hacer el pedido.
+
+[wa-hogar-0195-msg-05] 2026-08-28T22:05:30.000Z | Cliente
+Por ahora no, solo estaba averiguando. Gracias.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0196
+Cliente: Sebastián Moreno
+
+[wa-hogar-0196-msg-01] 2026-08-01T13:48:00.000Z | Cliente
+Buen día, quisiera 2 unidades de tapete de baño gris y 3 unidades de protector de colchón doble. ¿Cuánto queda para Cali?
+
+[wa-hogar-0196-msg-02] 2026-08-01T14:43:00.000Z | Tienda
+¡Hola! Te atiende Textiles de Prueba. Sí tenemos. ¿La entrega sería en San Fernando y a nombre de quién queda el pedido?
+
+[wa-hogar-0196-msg-03] 2026-08-01T14:43:19.800Z | Cliente
+Sí, barrio San Fernando. Punto de entrega de prueba HOG-0196. Queda a nombre de Sebastián Moreno.
+
+[wa-hogar-0196-msg-04] 2026-08-01T14:47:19.800Z | Tienda
+El subtotal es $232.000, domicilio $13.000. Total: $245.000. ¿Confirmas?
+
+[wa-hogar-0196-msg-05] 2026-08-01T15:04:19.800Z | Cliente
+sí, confirmado. Pago por Daviplata.
+
+[wa-hogar-0196-msg-06] 2026-08-01T15:04:49.800Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0197
+Cliente: Tatiana Moreno
+
+[wa-hogar-0197-msg-01] 2026-08-02T14:51:00.000Z | Cliente
+Hola! tienen disponible 3 unidades de almohada hotelera suave y 1 unidades de cortina blackout 140x220 beige y 2 unidades de cojín decorativo terracota. ¿Cuánto queda para Santa Marta?
+
+[wa-hogar-0197-msg-02] 2026-08-02T15:01:00.000Z | Tienda
+¡Hola! Te atiende Casa Ficticia. Sí tenemos. ¿La entrega sería en Bavaria y a nombre de quién queda el pedido?
+
+[wa-hogar-0197-msg-03] 2026-08-02T15:07:00.000Z | Cliente
+Sí, barrio Bavaria. Punto de entrega de prueba HOG-0197. Queda a nombre de Tatiana Moreno.
+
+[wa-hogar-0197-msg-04] 2026-08-02T15:12:00.000Z | Tienda
+El subtotal es $288.000, domicilio $18.000. Total: $306.000. ¿Confirmas?
+
+[wa-hogar-0197-msg-05] 2026-08-02T15:30:00.000Z | Cliente
+perfecto, confirmo el pedido. Pago por Nequi.
+
+[wa-hogar-0197-msg-06] 2026-08-02T15:37:00.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0198
+Cliente: Daniel Moreno
+
+[wa-hogar-0198-msg-01] 2026-08-03T15:54:00.000Z | Cliente
+Holaa, necesito 1 unidades de juego de sábanas doble algodón. ¿Cuánto queda para Pereira?
+
+[wa-hogar-0198-msg-02] 2026-08-03T17:24:00.000Z | Cliente
+Ah y si hay color crema mejor 🙏
+
+[wa-hogar-0198-msg-03] 2026-08-03T18:54:00.000Z | Tienda
+¡Hola! Te atiende Hogar Demo Colombia. Sí tenemos. ¿La entrega sería en Álamos y a nombre de quién queda el pedido?
+
+[wa-hogar-0198-msg-04] 2026-08-03T19:01:00.000Z | Cliente
+Sí, barrio Álamos. Punto de entrega de prueba HOG-0198. Queda a nombre de Daniel Moreno.
+
+[wa-hogar-0198-msg-05] 2026-08-03T19:07:00.000Z | Tienda
+El subtotal es $78.000, domicilio $12.000. Total: $90.000. ¿Confirmas?
+
+[wa-hogar-0198-msg-06] 2026-08-03T19:52:00.000Z | Cliente
+listo, queda así. Pago por pago contraentrega.
+
+[wa-hogar-0198-msg-07] 2026-08-03T19:52:30.000Z | Tienda
+Pedido confirmado y enviado. Entrega estimada: 1 días hábiles.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0199
+Cliente: Gabriela Moreno
+
+[wa-hogar-0199-msg-01] 2026-08-04T16:57:00.000Z | Cliente
+Buenas, me regalas 2 unidades de juego de toallas gris x3 y 3 unidades de almohada hotelera firme. ¿Cuánto queda para Barranquilla?
+
+[wa-hogar-0199-msg-02] 2026-08-04T17:00:00.000Z | Tienda
+¡Hola! Te atiende Almacén Hogar Ejemplo. Sí tenemos. ¿La entrega sería en El Prado y a nombre de quién queda el pedido?
+
+[wa-hogar-0199-msg-03] 2026-08-04T17:08:00.000Z | Cliente
+Sí, barrio El Prado. Punto de entrega de prueba HOG-0199. Queda a nombre de Gabriela Moreno.
+
+[wa-hogar-0199-msg-04] 2026-08-04T17:15:00.000Z | Tienda
+El subtotal es $241.000, domicilio $15.000. Total: $256.000. ¿Confirmas?
+
+[wa-hogar-0199-msg-05] 2026-08-04T17:35:00.000Z | Cliente
+dale, hagámosle. Pago por transferencia bancaria.
+
+[wa-hogar-0199-msg-06] 2026-08-04T17:44:00.000Z | Tienda
+Pedido confirmado. Te avisamos por este chat cuando salga a reparto.
+
+====================================================================
+CONVERSACIÓN wa-hogar-0200
+Cliente: Ricardo Moreno
+
+[wa-hogar-0200-msg-01] 2026-08-05T17:00:00.000Z | Cliente
+Hola, si cobija térmica no me sirve, ¿lo puedo cambiar?
+
+[wa-hogar-0200-msg-02] 2026-08-05T17:04:00.000Z | Tienda
+Sí, aceptamos cambios sin uso y con el empaque dentro del plazo informado.
+
+[wa-hogar-0200-msg-03] 2026-08-05T17:04:19.800Z | Cliente
+¿Y el domicilio a Suba queda en $13.000?
+
+[wa-hogar-0200-msg-04] 2026-08-05T17:05:04.800Z | Tienda
+Sí, el envío estándar cuesta $13.000. ¿Deseas hacer el pedido?
+
+[wa-hogar-0200-msg-05] 2026-08-05T17:06:04.800Z | Cliente
+Por ahora no, solo estaba averiguando. Gracias.
+

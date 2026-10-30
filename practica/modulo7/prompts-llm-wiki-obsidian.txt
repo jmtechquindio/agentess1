@@ -1,0 +1,115 @@
+PARTE II · OBSIDIAN Y WIKI DE PREFERENCIAS
+
+PREPARAR OBSIDIAN
+La práctica es gratuita y no requiere una cuenta de Obsidian.
+1. Descargar e instalar: https://obsidian.md/download
+2. En Create new vault -> Create, poner preferencias como nombre.
+3. Con Browse, elegir la carpeta del módulo (por ejemplo Documentos/memoria).
+4. Pulsar Create. Hermes preparará la wiki en esa misma carpeta preferencias.
+
+RUTAS DE EJEMPLO · SUSTITUIR POR LAS DEL EQUIPO
+Windows nativo:
+  Bóveda: C:/Users/TU_USUARIO/Documents/memoria/preferencias
+  Wiki:   C:/Users/TU_USUARIO/Documents/memoria/preferencias
+macOS:
+  Bóveda: /Users/TU_USUARIO/Documents/memoria/preferencias
+  Wiki:   /Users/TU_USUARIO/Documents/memoria/preferencias
+Linux:
+  Bóveda: /home/TU_USUARIO/Documents/memoria/preferencias
+  Wiki:   /home/TU_USUARIO/Documents/memoria/preferencias
+Windows con Hermes en WSL:
+  Bóveda para Hermes: /mnt/c/Users/TU_USUARIO/Documents/memoria/preferencias
+  Wiki para Hermes:   /mnt/c/Users/TU_USUARIO/Documents/memoria/preferencias
+  Obsidian en Windows abre la carpeta correspondiente C:/Users/...
+
+WIKI_PATH y OBSIDIAN_VAULT_PATH apuntan a la misma carpeta preferencias.
+Esta es la ruta final confirmada en el ensayo. Pregunta a Hermes qué ruta quedó
+y verifica los archivos. Confirma las variables en el
+mismo perfil de Hermes que atiende Telegram. Si el proceso necesita recarga
+para ver las variables, sigue las instrucciones de su instalación.
+Si Hermes está en otro servidor, resuelve el acceso a esa misma carpeta desde
+el equipo con Obsidian antes de seguir. Una ruta de Windows no es accesible
+automáticamente para un agente que está en otro equipo.
+
+1 · Habilitar LLM Wiki dentro de la bóveda preferencias
+Habilita llm-wiki en esta carpeta:
+C:\Users\TU_USUARIO\Documents\memoria\preferencias
+La bóveda que abrí en Obsidian es esa misma carpeta preferencias.
+Revisa los skills llm-wiki y obsidian y lee sus instrucciones.
+Configura WIKI_PATH y OBSIDIAN_VAULT_PATH con esa misma ruta.
+Confirma dónde quedó la wiki y comprueba las rutas resueltas.
+Prepara la wiki para guardar mi perfil, gustos y preferencias,
+con sus fuentes, notas enlazadas, SCHEMA.md, index.md y log.md.
+Conserva las notas existentes y verifica lectura y escritura.
+Si falta un skill o acceso a la carpeta, indícalo.
+
+2 · Guardar información relevante en próximas conversaciones
+Configura Hermes para que, cada vez que comparta información
+relevante sobre mí, la incorpores a esta LLM Wiki:
+mi forma de trabajar, preferencias, gustos personales,
+rutina, correos por tema, horarios y acuerdos de la charla.
+Guarda con memory la ruta y esta regla para próximas sesiones.
+Conserva la fuente con fecha, actualiza las notas relacionadas
+y mantén index.md y log.md al día. Muéstrame los cambios.
+Al responder, consulta esas notas y aplica lo que esté vigente.
+Si cambio un dato, conserva el historial y actualiza el vigente.
+
+3 · Ejemplo ficticio: profesional y estudiante de IA
+Soy Mariana Torres, analista de datos y estudiante de IA.
+Trabajo en una consultora; por la mañana analizo proyectos
+y por la tarde tengo reuniones. Me gusta caminar y leer.
+Uso mariana.personal@example.com para asuntos personales,
+mariana.trabajo@example.com para trabajo y
+mariana.estudios@example.com para clases y formación.
+Prefiero mantener cada correo asociado a su propio tema.
+Tengo clase de IA los martes de 6 a 8 p. m. y seguimiento
+los jueves a las 9 a. m., en hora de Colombia.
+Prefiero explicaciones claras, breves y con ejemplos prácticos.
+Guárdalo en mi wiki y enlaza perfil, correos, agenda y gustos.
+Conserva este mensaje como fuente y muéstrame las notas.
+
+4 · Alternativa ficticia: estudiante y tutor
+Soy Daniel Rojas, estudiante de ingeniería y tutor de matemáticas.
+Estudio por la mañana y doy tutorías dos tardes por semana.
+Me gusta la música y aprender resolviendo ejercicios.
+Uso daniel.personal@example.com para temas personales,
+daniel.universidad@example.com para la universidad y
+daniel.tutorias@example.com para coordinar las tutorías.
+Mantén cada correo asociado a su tema. Tengo laboratorio
+los miércoles a las 2 p. m. y tutorías los lunes y viernes
+a las 5 p. m., en hora de Colombia. Prefiero pasos numerados.
+Guárdalo en mi wiki con sus fuentes y notas enlazadas.
+
+5 · Después de /new, consultar la memoria guardada
+Usa llm-wiki para consultar [PERSONA, PROYECTO O TEMA]
+en la wiki que configuramos.
+Resume los datos, preferencias y acuerdos relevantes.
+Distingue lo vigente de lo que haya cambiado.
+Aplica esa información para responder: [MI PREGUNTA].
+Cita las notas consultadas y sus fuentes.
+Si falta información, indícalo sin inventarla.
+
+6 · Opcional: actualizar horarios y preferencias
+Mi clase de IA cambia a los miércoles de 6 a 8 p. m.,
+en hora de Colombia. Para conceptos complejos ahora prefiero
+más detalle; para comparaciones, tablas.
+Usa llm-wiki para guardar este nuevo mensaje con fecha,
+actualizar los datos vigentes y conservar el historial.
+Muéstrame las notas modificadas y revisa índice y enlaces.
+
+CÓMO USAR LOS EJEMPLOS
+Los perfiles de Mariana y Daniel, sus correos example.com, rutinas y horarios
+son ficticios. Elige un ejemplo o sustitúyelo por tus propios datos.
+Después de /new, adapta las preguntas al perfil que hayas guardado.
+COMPROBACIÓN
+Revisa llamadas reales de lectura/escritura y los archivos en preferencias.
+En otra sesión, el agente debe abrir la wiki y citar las notas leídas.
+El grafo conecta notas mediante enlaces; abre cada nota para revisar su contenido.
+Un resumen de conversación debe identificarse como resumen. Conserva las fuentes
+anteriores al actualizar. Guardar horarios no configura recordatorios automáticos.
+La captura de /restart mantiene la sesión; para probar memoria entre sesiones usa /new.
+
+FUENTES OFICIALES
+https://hermes-agent.nousresearch.com/docs/user-guide/skills/bundled/research/research-llm-wiki
+https://github.com/NousResearch/hermes-agent/blob/main/skills/note-taking/obsidian/SKILL.md
+https://help.obsidian.md/Getting+started/Create+a+vault

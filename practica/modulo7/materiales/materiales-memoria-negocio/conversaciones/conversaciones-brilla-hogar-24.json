@@ -1,0 +1,1643 @@
+{
+  "synthetic": true,
+  "timezone": "America/Bogota",
+  "conversations": [
+    {
+      "conversation_id": "BH-C001",
+      "case_id": "BH-S101",
+      "subject": "Cotización de septiembre",
+      "participants": [
+        "Laura Cárdenas",
+        "Andrés Ríos"
+      ],
+      "messages": [
+        {
+          "message_id": "BH-C001-M001",
+          "timestamp": "2026-09-28T09:00:00-05:00",
+          "participant": "Laura Cárdenas",
+          "role": "clienta",
+          "text": "Hola, buenos días. ¿Cuánto me cobran por limpiar un apartamento de dos habitaciones y un baño?"
+        },
+        {
+          "message_id": "BH-C001-M002",
+          "timestamp": "2026-09-28T09:01:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Buenos días, Laura. ¿Para qué fecha lo necesita y sería limpieza estándar?"
+        },
+        {
+          "message_id": "BH-C001-M003",
+          "timestamp": "2026-09-28T09:02:00-05:00",
+          "participant": "Laura Cárdenas",
+          "role": "clienta",
+          "text": "Estándar, para el 30 de septiembre. No tengo mascotas y no quiero adicionales."
+        },
+        {
+          "message_id": "BH-C001-M004",
+          "timestamp": "2026-09-28T09:03:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Con la tarifa de septiembre queda en $125.000. Voy a revisar el cupo antes de confirmarle."
+        },
+        {
+          "message_id": "BH-C001-M005",
+          "timestamp": "2026-09-28T09:04:00-05:00",
+          "participant": "Laura Cárdenas",
+          "role": "clienta",
+          "text": "Me sirve. ¿Puede ser a las nueve de la mañana?"
+        },
+        {
+          "message_id": "BH-C001-M006",
+          "timestamp": "2026-09-28T09:05:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Sí hay disponibilidad el 30 a las 9 a. m. ¿Confirma el valor y ese horario?"
+        },
+        {
+          "message_id": "BH-C001-M007",
+          "timestamp": "2026-09-28T09:06:00-05:00",
+          "participant": "Laura Cárdenas",
+          "role": "clienta",
+          "text": "Sí, de acuerdo con los $125.000 y el horario."
+        },
+        {
+          "message_id": "BH-C001-M008",
+          "timestamp": "2026-09-28T09:07:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Listo, queda confirmado el servicio BH-S101 para el 30. Si necesita cambiarlo, nos avisa."
+        }
+      ]
+    },
+    {
+      "conversation_id": "BH-C002",
+      "case_id": "BH-S102",
+      "subject": "Nueva reserva de Laura",
+      "participants": [
+        "Laura Cárdenas",
+        "Andrés Ríos"
+      ],
+      "messages": [
+        {
+          "message_id": "BH-C002-M001",
+          "timestamp": "2026-10-02T10:00:00-05:00",
+          "participant": "Laura Cárdenas",
+          "role": "clienta",
+          "text": "Hola, Andrés. Quiero otra limpieza igual a la de septiembre, para el 6 de octubre."
+        },
+        {
+          "message_id": "BH-C002-M002",
+          "timestamp": "2026-10-02T10:01:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Claro. ¿Seguimos con dos habitaciones, un baño, estándar y sin adicionales?"
+        },
+        {
+          "message_id": "BH-C002-M003",
+          "timestamp": "2026-10-02T10:02:00-05:00",
+          "participant": "Laura Cárdenas",
+          "role": "clienta",
+          "text": "Sí, igual. ¿Todavía vale los $125.000 de la vez pasada?"
+        },
+        {
+          "message_id": "BH-C002-M004",
+          "timestamp": "2026-10-02T10:03:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Para octubre la tarifa publicada de ese apartamento es $135.000. La anterior era de septiembre."
+        },
+        {
+          "message_id": "BH-C002-M005",
+          "timestamp": "2026-10-02T10:04:00-05:00",
+          "participant": "Laura Cárdenas",
+          "role": "clienta",
+          "text": "Listo, entiendo. ¿Hay cupo a las nueve?"
+        },
+        {
+          "message_id": "BH-C002-M006",
+          "timestamp": "2026-10-02T10:05:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Revisé con el equipo y sí hay cupo el 6 a las 9 a. m. El valor es $135.000."
+        },
+        {
+          "message_id": "BH-C002-M007",
+          "timestamp": "2026-10-02T10:06:00-05:00",
+          "participant": "Laura Cárdenas",
+          "role": "clienta",
+          "text": "Confirmado, gracias."
+        },
+        {
+          "message_id": "BH-C002-M008",
+          "timestamp": "2026-10-02T10:07:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Queda BH-S102. Le aplican las condiciones generales de cancelación, no tiene un acuerdo especial."
+        }
+      ]
+    },
+    {
+      "conversation_id": "BH-C003",
+      "case_id": "BH-S102",
+      "subject": "Preferencias para atender a Laura",
+      "participants": [
+        "Sara Vega",
+        "Lucía Mora",
+        "Laura Cárdenas"
+      ],
+      "messages": [
+        {
+          "message_id": "BH-C003-M001",
+          "timestamp": "2026-10-03T11:00:00-05:00",
+          "participant": "Sara Vega",
+          "role": "equipo de limpieza",
+          "text": "Lucía, para el servicio de Laura quiero confirmar qué productos llevamos."
+        },
+        {
+          "message_id": "BH-C003-M002",
+          "timestamp": "2026-10-03T11:01:00-05:00",
+          "participant": "Lucía Mora",
+          "role": "responsable de operaciones",
+          "text": "Preguntémosle sus preferencias y dejemos registro para que el siguiente equipo las vea."
+        },
+        {
+          "message_id": "BH-C003-M003",
+          "timestamp": "2026-10-03T11:02:00-05:00",
+          "participant": "Laura Cárdenas",
+          "role": "clienta",
+          "text": "Hola. Porfa, no usen productos con olor fuerte. Me molestan en el estudio donde trabajo."
+        },
+        {
+          "message_id": "BH-C003-M004",
+          "timestamp": "2026-10-03T11:03:00-05:00",
+          "participant": "Sara Vega",
+          "role": "equipo de limpieza",
+          "text": "Entendido. ¿Le confirmamos las cosas por llamada o por mensaje?"
+        },
+        {
+          "message_id": "BH-C003-M005",
+          "timestamp": "2026-10-03T11:04:00-05:00",
+          "participant": "Laura Cárdenas",
+          "role": "clienta",
+          "text": "Por WhatsApp, mejor. En general prefiero las tardes para visitas futuras; esta vez mantengo lo de las nueve."
+        },
+        {
+          "message_id": "BH-C003-M006",
+          "timestamp": "2026-10-03T11:05:00-05:00",
+          "participant": "Lucía Mora",
+          "role": "responsable de operaciones",
+          "text": "Anotado: mensajes, sin fragancias fuertes y preferencia de tardes para futuras solicitudes."
+        },
+        {
+          "message_id": "BH-C003-M007",
+          "timestamp": "2026-10-03T11:06:00-05:00",
+          "participant": "Sara Vega",
+          "role": "equipo de limpieza",
+          "text": "Lo dejo en el caso BH-S102 para el equipo que vaya."
+        },
+        {
+          "message_id": "BH-C003-M008",
+          "timestamp": "2026-10-03T11:07:00-05:00",
+          "participant": "Laura Cárdenas",
+          "role": "clienta",
+          "text": "Gracias. Lo de las tardes no significa que quiera una reserva fija, yo les voy avisando."
+        }
+      ]
+    },
+    {
+      "conversation_id": "BH-C004",
+      "case_id": "BH-S102",
+      "subject": "Cambio de fecha de Laura",
+      "participants": [
+        "Laura Cárdenas",
+        "Andrés Ríos"
+      ],
+      "messages": [
+        {
+          "message_id": "BH-C004-M001",
+          "timestamp": "2026-10-05T08:30:00-05:00",
+          "participant": "Laura Cárdenas",
+          "role": "clienta",
+          "text": "Hola, mañana se me cruzó una reunión. ¿Podemos mover la limpieza del 6 al 7 de octubre?"
+        },
+        {
+          "message_id": "BH-C004-M002",
+          "timestamp": "2026-10-05T08:31:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Sí podemos revisar. ¿El 7 a las dos de la tarde le funciona?"
+        },
+        {
+          "message_id": "BH-C004-M003",
+          "timestamp": "2026-10-05T08:32:00-05:00",
+          "participant": "Laura Cárdenas",
+          "role": "clienta",
+          "text": "Sí, a las dos me queda bien."
+        },
+        {
+          "message_id": "BH-C004-M004",
+          "timestamp": "2026-10-05T08:33:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "El equipo tiene disponibilidad y estamos a más de 24 horas del horario original."
+        },
+        {
+          "message_id": "BH-C004-M005",
+          "timestamp": "2026-10-05T08:34:00-05:00",
+          "participant": "Laura Cárdenas",
+          "role": "clienta",
+          "text": "¿El valor sigue igual o el cambio tiene recargo?"
+        },
+        {
+          "message_id": "BH-C004-M006",
+          "timestamp": "2026-10-05T08:35:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Seguimos con la limpieza estándar de $135.000. No estoy añadiendo ningún recargo."
+        },
+        {
+          "message_id": "BH-C004-M007",
+          "timestamp": "2026-10-05T08:36:00-05:00",
+          "participant": "Laura Cárdenas",
+          "role": "clienta",
+          "text": "Perfecto, confirmo el 7 de octubre a las dos."
+        },
+        {
+          "message_id": "BH-C004-M008",
+          "timestamp": "2026-10-05T08:37:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Actualicé BH-S102: ya no es el 6 a las nueve; queda el 7 a las 14:00. El servicio es el mismo."
+        }
+      ]
+    },
+    {
+      "conversation_id": "BH-C005",
+      "case_id": "BH-S102",
+      "subject": "Cierre de visita y pago por verificar",
+      "participants": [
+        "Sara Vega",
+        "Andrés Ríos",
+        "Laura Cárdenas",
+        "Lucía Mora"
+      ],
+      "messages": [
+        {
+          "message_id": "BH-C005-M001",
+          "timestamp": "2026-10-07T17:00:00-05:00",
+          "participant": "Sara Vega",
+          "role": "equipo de limpieza",
+          "text": "Andrés, terminamos BH-S102 a las 16:30. Se hizo el alcance estándar acordado."
+        },
+        {
+          "message_id": "BH-C005-M002",
+          "timestamp": "2026-10-07T17:01:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Gracias, Sara. Le escribo a Laura para confirmar cómo quedó todo."
+        },
+        {
+          "message_id": "BH-C005-M003",
+          "timestamp": "2026-10-07T17:02:00-05:00",
+          "participant": "Laura Cárdenas",
+          "role": "clienta",
+          "text": "Ya vi el apartamento, gracias. Acabo de hacer la transferencia de los $135.000."
+        },
+        {
+          "message_id": "BH-C005-M004",
+          "timestamp": "2026-10-07T17:03:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "¿Me comparte el comprobante por el canal de pagos? Lo revisa operaciones."
+        },
+        {
+          "message_id": "BH-C005-M005",
+          "timestamp": "2026-10-07T17:04:00-05:00",
+          "participant": "Laura Cárdenas",
+          "role": "clienta",
+          "text": "Sí, lo envío por allá. Me avisa cuando lo vean."
+        },
+        {
+          "message_id": "BH-C005-M006",
+          "timestamp": "2026-10-07T17:05:00-05:00",
+          "participant": "Sara Vega",
+          "role": "equipo de limpieza",
+          "text": "¿Entonces lo marco pagado?"
+        },
+        {
+          "message_id": "BH-C005-M007",
+          "timestamp": "2026-10-07T17:06:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Todavía no. Por ahora solo tenemos el mensaje de Laura; no la confirmación de ingreso."
+        },
+        {
+          "message_id": "BH-C005-M008",
+          "timestamp": "2026-10-07T17:07:00-05:00",
+          "participant": "Lucía Mora",
+          "role": "responsable de operaciones",
+          "text": "Dejemos el servicio realizado y el pago pendiente de verificar. Lo reviso en el control de pagos."
+        }
+      ]
+    },
+    {
+      "conversation_id": "BH-C006",
+      "case_id": "BH-S102",
+      "subject": "Queja de Laura y repaso",
+      "participants": [
+        "Laura Cárdenas",
+        "Andrés Ríos",
+        "Sara Vega",
+        "Lucía Mora"
+      ],
+      "messages": [
+        {
+          "message_id": "BH-C006-M001",
+          "timestamp": "2026-10-08T10:00:00-05:00",
+          "participant": "Laura Cárdenas",
+          "role": "clienta",
+          "text": "Buenos días. Anoche noté que quedó polvo detrás del mueble de la sala."
+        },
+        {
+          "message_id": "BH-C006-M002",
+          "timestamp": "2026-10-08T10:01:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Gracias por avisarnos. El servicio terminó ayer a las 16:30; estamos dentro de las 24 horas."
+        },
+        {
+          "message_id": "BH-C006-M003",
+          "timestamp": "2026-10-08T10:02:00-05:00",
+          "participant": "Laura Cárdenas",
+          "role": "clienta",
+          "text": "Sí, esa parte estaba incluida. Les mando la foto del área por este mismo caso."
+        },
+        {
+          "message_id": "BH-C006-M004",
+          "timestamp": "2026-10-08T10:03:00-05:00",
+          "participant": "Sara Vega",
+          "role": "equipo de limpieza",
+          "text": "Revisé el alcance y la evidencia del área. Esa zona sí correspondía a la limpieza."
+        },
+        {
+          "message_id": "BH-C006-M005",
+          "timestamp": "2026-10-08T10:04:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Confirmamos la falla. Puedo programar un repaso correctivo sin costo, ¿mañana 9 a las diez le sirve?"
+        },
+        {
+          "message_id": "BH-C006-M006",
+          "timestamp": "2026-10-08T10:05:00-05:00",
+          "participant": "Laura Cárdenas",
+          "role": "clienta",
+          "text": "Sí, me sirve a las diez. Sin productos de olor fuerte, porfa."
+        },
+        {
+          "message_id": "BH-C006-M007",
+          "timestamp": "2026-10-08T10:06:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Queda aprobado y agendado el repaso de BH-S102 para el 9 de octubre a las 10:00."
+        },
+        {
+          "message_id": "BH-C006-M008",
+          "timestamp": "2026-10-08T10:07:00-05:00",
+          "participant": "Lucía Mora",
+          "role": "responsable de operaciones",
+          "text": "Registremos la solución y confirmemos con Laura después del repaso; la queja aún no está cerrada."
+        }
+      ]
+    },
+    {
+      "conversation_id": "BH-C007",
+      "case_id": "BH-S102",
+      "subject": "Repaso realizado, cierre pendiente",
+      "participants": [
+        "Sara Vega",
+        "Andrés Ríos",
+        "Laura Cárdenas"
+      ],
+      "messages": [
+        {
+          "message_id": "BH-C007-M001",
+          "timestamp": "2026-10-09T12:00:00-05:00",
+          "participant": "Sara Vega",
+          "role": "equipo de limpieza",
+          "text": "Terminamos el repaso de Laura a las 11:00. Ya limpiamos detrás del mueble."
+        },
+        {
+          "message_id": "BH-C007-M002",
+          "timestamp": "2026-10-09T12:01:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Gracias. ¿Tomaste la evidencia del trabajo para el registro del caso?"
+        },
+        {
+          "message_id": "BH-C007-M003",
+          "timestamp": "2026-10-09T12:02:00-05:00",
+          "participant": "Sara Vega",
+          "role": "equipo de limpieza",
+          "text": "Sí, quedó en el caso. Usamos los productos sin fragancia fuerte que pidió."
+        },
+        {
+          "message_id": "BH-C007-M004",
+          "timestamp": "2026-10-09T12:03:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Laura, el equipo reporta que el repaso terminó. ¿Nos confirma si quedó bien?"
+        },
+        {
+          "message_id": "BH-C007-M005",
+          "timestamp": "2026-10-09T12:04:00-05:00",
+          "participant": "Laura Cárdenas",
+          "role": "clienta",
+          "text": "Estoy fuera de casa. Lo reviso en la noche y les cuento."
+        },
+        {
+          "message_id": "BH-C007-M006",
+          "timestamp": "2026-10-09T12:05:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Perfecto, quedamos pendientes de su confirmación."
+        },
+        {
+          "message_id": "BH-C007-M007",
+          "timestamp": "2026-10-09T12:06:00-05:00",
+          "participant": "Sara Vega",
+          "role": "equipo de limpieza",
+          "text": "¿Puedo cerrar la queja por mi parte?"
+        },
+        {
+          "message_id": "BH-C007-M008",
+          "timestamp": "2026-10-09T12:07:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Marca repaso realizado. El cierre con la clienta sigue pendiente; no son lo mismo."
+        }
+      ]
+    },
+    {
+      "conversation_id": "BH-C008",
+      "case_id": "BH-S102",
+      "subject": "Confirmación de cierre de Laura",
+      "participants": [
+        "Laura Cárdenas",
+        "Andrés Ríos",
+        "Sara Vega",
+        "Lucía Mora"
+      ],
+      "messages": [
+        {
+          "message_id": "BH-C008-M001",
+          "timestamp": "2026-10-10T09:00:00-05:00",
+          "participant": "Laura Cárdenas",
+          "role": "clienta",
+          "text": "Hola, ya revisé. El repaso quedó bien, muchas gracias."
+        },
+        {
+          "message_id": "BH-C008-M002",
+          "timestamp": "2026-10-10T09:01:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Gracias por confirmarnos, Laura. Voy a registrar su respuesta."
+        },
+        {
+          "message_id": "BH-C008-M003",
+          "timestamp": "2026-10-10T09:02:00-05:00",
+          "participant": "Sara Vega",
+          "role": "equipo de limpieza",
+          "text": "Qué bueno. ¿Quedó algún detalle por resolver de la queja?"
+        },
+        {
+          "message_id": "BH-C008-M004",
+          "timestamp": "2026-10-10T09:03:00-05:00",
+          "participant": "Laura Cárdenas",
+          "role": "clienta",
+          "text": "No, con lo del mueble quedé conforme."
+        },
+        {
+          "message_id": "BH-C008-M005",
+          "timestamp": "2026-10-10T09:04:00-05:00",
+          "participant": "Lucía Mora",
+          "role": "responsable de operaciones",
+          "text": "Entonces cerramos la queja de BH-S102 hoy, 10 de octubre."
+        },
+        {
+          "message_id": "BH-C008-M006",
+          "timestamp": "2026-10-10T09:05:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Anoto cierre confirmado por la clienta. Se conservan el reporte y la visita correctiva."
+        },
+        {
+          "message_id": "BH-C008-M007",
+          "timestamp": "2026-10-10T09:06:00-05:00",
+          "participant": "Sara Vega",
+          "role": "equipo de limpieza",
+          "text": "¿Y cómo quedó el pago de la visita original?"
+        },
+        {
+          "message_id": "BH-C008-M008",
+          "timestamp": "2026-10-10T09:07:00-05:00",
+          "participant": "Lucía Mora",
+          "role": "responsable de operaciones",
+          "text": "Ese tema se revisa por separado. En este chat no estoy confirmando que haya ingresado el dinero."
+        }
+      ]
+    },
+    {
+      "conversation_id": "BH-C009",
+      "case_id": "BH-AURORA",
+      "subject": "Precio y alcance de Dental Aurora",
+      "participants": [
+        "Camila Pardo",
+        "Lucía Mora",
+        "Andrés Ríos"
+      ],
+      "messages": [
+        {
+          "message_id": "BH-C009-M001",
+          "timestamp": "2026-10-05T15:00:00-05:00",
+          "participant": "Camila Pardo",
+          "role": "contacto de instalaciones · Dental Aurora",
+          "text": "Hola, Lucía. Necesito confirmar el valor de las visitas de octubre para Dental Aurora."
+        },
+        {
+          "message_id": "BH-C009-M002",
+          "timestamp": "2026-10-05T15:01:00-05:00",
+          "participant": "Lucía Mora",
+          "role": "responsable de operaciones",
+          "text": "El acuerdo registra 300 metros cuadrados y ocho visitas al mes, martes y viernes a las siete de la noche."
+        },
+        {
+          "message_id": "BH-C009-M003",
+          "timestamp": "2026-10-05T15:02:00-05:00",
+          "participant": "Camila Pardo",
+          "role": "contacto de instalaciones · Dental Aurora",
+          "text": "Correcto. ¿El descuento de las ocho visitas ya está incluido?"
+        },
+        {
+          "message_id": "BH-C009-M004",
+          "timestamp": "2026-10-05T15:03:00-05:00",
+          "participant": "Lucía Mora",
+          "role": "responsable de operaciones",
+          "text": "Sí. Son 300 por $1.600: $480.000 antes del descuento. Con el 10% por volumen, $432.000 por visita."
+        },
+        {
+          "message_id": "BH-C009-M005",
+          "timestamp": "2026-10-05T15:04:00-05:00",
+          "participant": "Camila Pardo",
+          "role": "contacto de instalaciones · Dental Aurora",
+          "text": "Listo. Para la factura usemos facturacion@aurora.example.com, no el correo de instalaciones."
+        },
+        {
+          "message_id": "BH-C009-M006",
+          "timestamp": "2026-10-05T15:05:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "¿Y el equipo incluye la limpieza de los equipos clínicos?"
+        },
+        {
+          "message_id": "BH-C009-M007",
+          "timestamp": "2026-10-05T15:06:00-05:00",
+          "participant": "Camila Pardo",
+          "role": "contacto de instalaciones · Dental Aurora",
+          "text": "No, eso lo hace nuestro personal. Ustedes limpian las áreas de oficina del acuerdo."
+        },
+        {
+          "message_id": "BH-C009-M008",
+          "timestamp": "2026-10-05T15:07:00-05:00",
+          "participant": "Lucía Mora",
+          "role": "responsable de operaciones",
+          "text": "Confirmado el alcance y el correo de facturación. El contacto de instalaciones sigue siendo Camila."
+        }
+      ]
+    },
+    {
+      "conversation_id": "BH-C010",
+      "case_id": "BH-AURORA-0610",
+      "subject": "Cancelación de Aurora con ocho horas",
+      "participants": [
+        "Camila Pardo",
+        "Lucía Mora",
+        "Andrés Ríos"
+      ],
+      "messages": [
+        {
+          "message_id": "BH-C010-M001",
+          "timestamp": "2026-10-06T11:00:00-05:00",
+          "participant": "Camila Pardo",
+          "role": "contacto de instalaciones · Dental Aurora",
+          "text": "Lucía, son las once y necesito cancelar la visita de hoy 6 a las siete de la noche."
+        },
+        {
+          "message_id": "BH-C010-M002",
+          "timestamp": "2026-10-06T11:01:00-05:00",
+          "participant": "Lucía Mora",
+          "role": "responsable de operaciones",
+          "text": "La cancelación queda avisada con ocho horas de anticipación. Voy a revisar su acuerdo."
+        },
+        {
+          "message_id": "BH-C010-M003",
+          "timestamp": "2026-10-06T11:02:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Pensé que para diez o menos horas siempre era el 50% general."
+        },
+        {
+          "message_id": "BH-C010-M004",
+          "timestamp": "2026-10-06T11:03:00-05:00",
+          "participant": "Lucía Mora",
+          "role": "responsable de operaciones",
+          "text": "Aurora tiene una condición propia: de dos a doce horas se cobra el 25% de la visita."
+        },
+        {
+          "message_id": "BH-C010-M005",
+          "timestamp": "2026-10-06T11:04:00-05:00",
+          "participant": "Camila Pardo",
+          "role": "contacto de instalaciones · Dental Aurora",
+          "text": "¿Me confirma el valor del cobro para pasarlo a facturación?"
+        },
+        {
+          "message_id": "BH-C010-M006",
+          "timestamp": "2026-10-06T11:05:00-05:00",
+          "participant": "Lucía Mora",
+          "role": "responsable de operaciones",
+          "text": "El 25% de $432.000 son $108.000 por esta cancelación."
+        },
+        {
+          "message_id": "BH-C010-M007",
+          "timestamp": "2026-10-06T11:06:00-05:00",
+          "participant": "Camila Pardo",
+          "role": "contacto de instalaciones · Dental Aurora",
+          "text": "Entendido. Lo paso a facturacion@aurora.example.com. No estoy reportando un pago todavía."
+        },
+        {
+          "message_id": "BH-C010-M008",
+          "timestamp": "2026-10-06T11:07:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Registrado BH-AURORA-0610 como visita cancelada y cobro informado; no la cuento como visita realizada."
+        }
+      ]
+    },
+    {
+      "conversation_id": "BH-C011",
+      "case_id": "BH-AURORA",
+      "subject": "Comunicación y acceso de Aurora",
+      "participants": [
+        "Camila Pardo",
+        "Andrés Ríos",
+        "Sara Vega",
+        "Lucía Mora"
+      ],
+      "messages": [
+        {
+          "message_id": "BH-C011-M001",
+          "timestamp": "2026-10-07T09:00:00-05:00",
+          "participant": "Camila Pardo",
+          "role": "contacto de instalaciones · Dental Aurora",
+          "text": "Andrés, para las próximas visitas avísenme por WhatsApp media hora antes de llegar."
+        },
+        {
+          "message_id": "BH-C011-M002",
+          "timestamp": "2026-10-07T09:01:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Listo. ¿Ese aviso va a instalaciones y la factura al correo que nos dieron?"
+        },
+        {
+          "message_id": "BH-C011-M003",
+          "timestamp": "2026-10-07T09:02:00-05:00",
+          "participant": "Camila Pardo",
+          "role": "contacto de instalaciones · Dental Aurora",
+          "text": "Sí, a mí los avisos de llegada. Las facturas a facturacion@aurora.example.com."
+        },
+        {
+          "message_id": "BH-C011-M004",
+          "timestamp": "2026-10-07T09:03:00-05:00",
+          "participant": "Sara Vega",
+          "role": "equipo de limpieza",
+          "text": "¿Podemos guardar la clave de la puerta en la nota del cliente para tenerla a mano?"
+        },
+        {
+          "message_id": "BH-C011-M005",
+          "timestamp": "2026-10-07T09:04:00-05:00",
+          "participant": "Camila Pardo",
+          "role": "contacto de instalaciones · Dental Aurora",
+          "text": "No, las claves no van en el chat ni en la wiki. El personal autorizado usa el sistema seguro de accesos."
+        },
+        {
+          "message_id": "BH-C011-M006",
+          "timestamp": "2026-10-07T09:05:00-05:00",
+          "participant": "Lucía Mora",
+          "role": "responsable de operaciones",
+          "text": "Correcto. Guardemos la instrucción para obtener acceso, sin guardar ninguna clave."
+        },
+        {
+          "message_id": "BH-C011-M007",
+          "timestamp": "2026-10-07T09:06:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Anoto también que el aviso de llegada es una preferencia operativa de este cliente."
+        },
+        {
+          "message_id": "BH-C011-M008",
+          "timestamp": "2026-10-07T09:07:00-05:00",
+          "participant": "Camila Pardo",
+          "role": "contacto de instalaciones · Dental Aurora",
+          "text": "Gracias. No cambien con esto el horario de martes y viernes a las siete."
+        }
+      ]
+    },
+    {
+      "conversation_id": "BH-C012",
+      "case_id": "BH-AURORA-0910",
+      "subject": "Duda sobre la clave de Aurora",
+      "participants": [
+        "Diego León",
+        "Andrés Ríos",
+        "Camila Pardo",
+        "Sara Vega",
+        "Lucía Mora"
+      ],
+      "messages": [
+        {
+          "message_id": "BH-C012-M001",
+          "timestamp": "2026-10-09T17:30:00-05:00",
+          "participant": "Diego León",
+          "role": "equipo de limpieza",
+          "text": "Estoy preparando la visita de Aurora. ¿Quién me pasa por acá la clave de la puerta?"
+        },
+        {
+          "message_id": "BH-C012-M002",
+          "timestamp": "2026-10-09T17:31:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "No está guardada en la base de conocimiento. Hay que usar el sistema seguro de accesos."
+        },
+        {
+          "message_id": "BH-C012-M003",
+          "timestamp": "2026-10-09T17:32:00-05:00",
+          "participant": "Diego León",
+          "role": "equipo de limpieza",
+          "text": "Busqué en los mensajes anteriores y tampoco veo un código."
+        },
+        {
+          "message_id": "BH-C012-M004",
+          "timestamp": "2026-10-09T17:33:00-05:00",
+          "participant": "Camila Pardo",
+          "role": "contacto de instalaciones · Dental Aurora",
+          "text": "Así debe ser. Por favor no inventen uno ni usen un dato de otra sede."
+        },
+        {
+          "message_id": "BH-C012-M005",
+          "timestamp": "2026-10-09T17:34:00-05:00",
+          "participant": "Sara Vega",
+          "role": "equipo de limpieza",
+          "text": "Si el acceso no queda resuelto antes de salir, ¿le avisamos a Andrés?"
+        },
+        {
+          "message_id": "BH-C012-M006",
+          "timestamp": "2026-10-09T17:35:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Sí, me avisan para coordinar con el contacto de instalaciones."
+        },
+        {
+          "message_id": "BH-C012-M007",
+          "timestamp": "2026-10-09T17:36:00-05:00",
+          "participant": "Lucía Mora",
+          "role": "responsable de operaciones",
+          "text": "Dejemos claro el procedimiento, no un secreto. Este chat no confirma ninguna entrega de credenciales."
+        },
+        {
+          "message_id": "BH-C012-M008",
+          "timestamp": "2026-10-09T17:37:00-05:00",
+          "participant": "Diego León",
+          "role": "equipo de limpieza",
+          "text": "Entendido, lo gestiono por el canal autorizado antes de la visita."
+        }
+      ]
+    },
+    {
+      "conversation_id": "BH-C013",
+      "case_id": "BH-AURORA-1310",
+      "subject": "Cancelación anticipada de Aurora",
+      "participants": [
+        "Camila Pardo",
+        "Andrés Ríos",
+        "Lucía Mora"
+      ],
+      "messages": [
+        {
+          "message_id": "BH-C013-M001",
+          "timestamp": "2026-10-12T18:00:00-05:00",
+          "participant": "Camila Pardo",
+          "role": "contacto de instalaciones · Dental Aurora",
+          "text": "Buenas tardes. Necesito cancelar la visita de mañana 13 de octubre a las siete de la noche."
+        },
+        {
+          "message_id": "BH-C013-M002",
+          "timestamp": "2026-10-12T18:01:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Recibo el aviso hoy 12 a las seis de la tarde. Faltan 25 horas para el servicio."
+        },
+        {
+          "message_id": "BH-C013-M003",
+          "timestamp": "2026-10-12T18:02:00-05:00",
+          "participant": "Camila Pardo",
+          "role": "contacto de instalaciones · Dental Aurora",
+          "text": "Sí. ¿Nos genera cobro de cancelación?"
+        },
+        {
+          "message_id": "BH-C013-M004",
+          "timestamp": "2026-10-12T18:03:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Voy a validar el acuerdo de Dental Aurora antes de responder."
+        },
+        {
+          "message_id": "BH-C013-M005",
+          "timestamp": "2026-10-12T18:04:00-05:00",
+          "participant": "Lucía Mora",
+          "role": "responsable de operaciones",
+          "text": "Con más de doce horas no se cobra según su acuerdo. Esta cancelación no genera cargo."
+        },
+        {
+          "message_id": "BH-C013-M006",
+          "timestamp": "2026-10-12T18:05:00-05:00",
+          "participant": "Camila Pardo",
+          "role": "contacto de instalaciones · Dental Aurora",
+          "text": "Gracias. La visita del viernes sigue igual, no quiero cancelar las demás."
+        },
+        {
+          "message_id": "BH-C013-M007",
+          "timestamp": "2026-10-12T18:06:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Queda cancelada solamente la del 13, BH-AURORA-1310. No se cambia el contrato completo."
+        },
+        {
+          "message_id": "BH-C013-M008",
+          "timestamp": "2026-10-12T18:07:00-05:00",
+          "participant": "Lucía Mora",
+          "role": "responsable de operaciones",
+          "text": "Registremos que la condición se aplicó a esta visita y conservemos el aviso de Camila."
+        }
+      ]
+    },
+    {
+      "conversation_id": "BH-C014",
+      "case_id": "BH-S103",
+      "subject": "Coordinación de la visita de Rosa",
+      "participants": [
+        "Rosa Medina",
+        "Andrés Ríos",
+        "Lucía Mora"
+      ],
+      "messages": [
+        {
+          "message_id": "BH-C014-M001",
+          "timestamp": "2026-10-13T09:00:00-05:00",
+          "participant": "Rosa Medina",
+          "role": "clienta",
+          "text": "Buenos días. Hoy teníamos una limpieza a las siete de la noche, pero necesito cancelarla."
+        },
+        {
+          "message_id": "BH-C014-M002",
+          "timestamp": "2026-10-13T09:01:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Recibo el aviso a las nueve de la mañana: diez horas antes. La reserva BH-S103 es estándar de dos habitaciones y un baño, $135.000."
+        },
+        {
+          "message_id": "BH-C014-M003",
+          "timestamp": "2026-10-13T09:02:00-05:00",
+          "participant": "Rosa Medina",
+          "role": "clienta",
+          "text": "Sí, esa es. ¿Cuánto debo pagar por cancelarla?"
+        },
+        {
+          "message_id": "BH-C014-M004",
+          "timestamp": "2026-10-13T09:03:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Para este aviso dejo el cobro en el 25% de $135.000: $33.750."
+        },
+        {
+          "message_id": "BH-C014-M005",
+          "timestamp": "2026-10-13T09:04:00-05:00",
+          "participant": "Rosa Medina",
+          "role": "clienta",
+          "text": "Recibido. No tengo un acuerdo firmado con ustedes; solo había pedido esta visita."
+        },
+        {
+          "message_id": "BH-C014-M006",
+          "timestamp": "2026-10-13T09:05:00-05:00",
+          "participant": "Lucía Mora",
+          "role": "responsable de operaciones",
+          "text": "Pásame el registro del valor informado y la hora del aviso para la conciliación de la semana."
+        },
+        {
+          "message_id": "BH-C014-M007",
+          "timestamp": "2026-10-13T09:06:00-05:00",
+          "participant": "Rosa Medina",
+          "role": "clienta",
+          "text": "Por favor déjenme claro que cancelé la visita, no que ya pagué ese cobro."
+        },
+        {
+          "message_id": "BH-C014-M008",
+          "timestamp": "2026-10-13T09:07:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Dejo cancelada BH-S103, con $33.750 informado y sin confirmación de pago."
+        }
+      ]
+    },
+    {
+      "conversation_id": "BH-C015",
+      "case_id": "BH-S104",
+      "subject": "Cotización de limpieza profunda de Diana",
+      "participants": [
+        "Diana Salazar",
+        "Andrés Ríos"
+      ],
+      "messages": [
+        {
+          "message_id": "BH-C015-M001",
+          "timestamp": "2026-10-14T10:00:00-05:00",
+          "participant": "Diana Salazar",
+          "role": "clienta",
+          "text": "Hola, ¿me regala una cotización de limpieza profunda? Son dos habitaciones y un baño."
+        },
+        {
+          "message_id": "BH-C015-M002",
+          "timestamp": "2026-10-14T10:01:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Claro. La base estándar de octubre es $135.000. Para profunda se multiplica por 1,45 y se redondea a $5.000."
+        },
+        {
+          "message_id": "BH-C015-M003",
+          "timestamp": "2026-10-14T10:02:00-05:00",
+          "participant": "Diana Salazar",
+          "role": "clienta",
+          "text": "También quiero que limpien la nevera por dentro."
+        },
+        {
+          "message_id": "BH-C015-M004",
+          "timestamp": "2026-10-14T10:03:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "La parte profunda queda en $195.000 después de redondear. La nevera suma $30.000: total $225.000."
+        },
+        {
+          "message_id": "BH-C015-M005",
+          "timestamp": "2026-10-14T10:04:00-05:00",
+          "participant": "Diana Salazar",
+          "role": "clienta",
+          "text": "¿Eso es para el 19 de octubre? Por ahora estoy mirando opciones."
+        },
+        {
+          "message_id": "BH-C015-M006",
+          "timestamp": "2026-10-14T10:05:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Sí, esa cotización sirve para octubre. Todavía no revisamos horario ni confirmó la reserva."
+        },
+        {
+          "message_id": "BH-C015-M007",
+          "timestamp": "2026-10-14T10:06:00-05:00",
+          "participant": "Diana Salazar",
+          "role": "clienta",
+          "text": "Listo, lo pienso y les escribo mañana."
+        },
+        {
+          "message_id": "BH-C015-M008",
+          "timestamp": "2026-10-14T10:07:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Dejo BH-S104 como cotización pendiente. No lo marco como pedido confirmado."
+        }
+      ]
+    },
+    {
+      "conversation_id": "BH-C016",
+      "case_id": "BH-S104",
+      "subject": "Diana añade horno y confirma",
+      "participants": [
+        "Diana Salazar",
+        "Andrés Ríos"
+      ],
+      "messages": [
+        {
+          "message_id": "BH-C016-M001",
+          "timestamp": "2026-10-15T14:00:00-05:00",
+          "participant": "Diana Salazar",
+          "role": "clienta",
+          "text": "Hola, soy Diana, la de la cotización BH-S104. Sí quiero el servicio y también el horno por dentro."
+        },
+        {
+          "message_id": "BH-C016-M002",
+          "timestamp": "2026-10-15T14:01:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Con profunda de $195.000, nevera de $30.000 y horno de $30.000, el total cambia a $255.000."
+        },
+        {
+          "message_id": "BH-C016-M003",
+          "timestamp": "2026-10-15T14:02:00-05:00",
+          "participant": "Diana Salazar",
+          "role": "clienta",
+          "text": "De acuerdo. ¿Podemos el 19 de octubre a las ocho de la mañana?"
+        },
+        {
+          "message_id": "BH-C016-M004",
+          "timestamp": "2026-10-15T14:03:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Acabo de revisar el equipo y sí hay disponibilidad a las ocho."
+        },
+        {
+          "message_id": "BH-C016-M005",
+          "timestamp": "2026-10-15T14:04:00-05:00",
+          "participant": "Diana Salazar",
+          "role": "clienta",
+          "text": "Confirmo los $255.000 y ese horario. No necesito incluir nada más."
+        },
+        {
+          "message_id": "BH-C016-M006",
+          "timestamp": "2026-10-15T14:05:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Queda confirmado BH-S104 para el 19 a las 08:00. Reemplazo la cotización anterior de $225.000 por este alcance."
+        },
+        {
+          "message_id": "BH-C016-M007",
+          "timestamp": "2026-10-15T14:06:00-05:00",
+          "participant": "Diana Salazar",
+          "role": "clienta",
+          "text": "Porfa mantengan identificada la nevera y el horno, para que el equipo no los olvide."
+        },
+        {
+          "message_id": "BH-C016-M008",
+          "timestamp": "2026-10-15T14:07:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Quedan los dos adicionales en la misma reserva. No son dos servicios nuevos."
+        }
+      ]
+    },
+    {
+      "conversation_id": "BH-C017",
+      "case_id": "BH-S104",
+      "subject": "Preparación del servicio de Diana",
+      "participants": [
+        "Diana Salazar",
+        "Andrés Ríos",
+        "Sara Vega",
+        "Lucía Mora"
+      ],
+      "messages": [
+        {
+          "message_id": "BH-C017-M001",
+          "timestamp": "2026-10-16T16:00:00-05:00",
+          "participant": "Diana Salazar",
+          "role": "clienta",
+          "text": "Ya transferí los $255.000 de la limpieza del lunes. Les mandé un comprobante al canal de pagos."
+        },
+        {
+          "message_id": "BH-C017-M002",
+          "timestamp": "2026-10-16T16:01:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Gracias, Diana. Le paso el aviso a operaciones."
+        },
+        {
+          "message_id": "BH-C017-M003",
+          "timestamp": "2026-10-16T16:02:00-05:00",
+          "participant": "Sara Vega",
+          "role": "equipo de limpieza",
+          "text": "Estoy preparando el alcance de BH-S104. Puse pagado en la ficha porque llegó el comprobante."
+        },
+        {
+          "message_id": "BH-C017-M004",
+          "timestamp": "2026-10-16T16:03:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Ya actualicé también el estado del servicio a pagado en el resumen del equipo."
+        },
+        {
+          "message_id": "BH-C017-M005",
+          "timestamp": "2026-10-16T16:04:00-05:00",
+          "participant": "Diana Salazar",
+          "role": "clienta",
+          "text": "Está bien, me avisan. Mantengo la reserva del 19 a las ocho."
+        },
+        {
+          "message_id": "BH-C017-M006",
+          "timestamp": "2026-10-16T16:05:00-05:00",
+          "participant": "Lucía Mora",
+          "role": "responsable de operaciones",
+          "text": "Todavía no he conciliado esa transferencia. La revisaré por el canal de pagos cuando tenga el movimiento."
+        },
+        {
+          "message_id": "BH-C017-M007",
+          "timestamp": "2026-10-16T16:06:00-05:00",
+          "participant": "Sara Vega",
+          "role": "equipo de limpieza",
+          "text": "Para el equipo mantengo profunda, nevera y horno en el mismo servicio."
+        },
+        {
+          "message_id": "BH-C017-M008",
+          "timestamp": "2026-10-16T16:07:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Sí. La visita sigue el 19 a las ocho, sin crear otra reserva."
+        }
+      ]
+    },
+    {
+      "conversation_id": "BH-C018",
+      "case_id": "BH-S105",
+      "subject": "Coordinación del servicio de Mateo",
+      "participants": [
+        "Mateo Rojas",
+        "Andrés Ríos",
+        "Lucía Mora"
+      ],
+      "messages": [
+        {
+          "message_id": "BH-C018-M001",
+          "timestamp": "2026-10-17T10:00:00-05:00",
+          "participant": "Mateo Rojas",
+          "role": "cliente",
+          "text": "Hola, tengo la cotización estándar de $135.000 para el 20. ¿Me pueden dar un descuento del 15%?"
+        },
+        {
+          "message_id": "BH-C018-M002",
+          "timestamp": "2026-10-17T10:01:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Yo puedo aprobar hasta el 10%. Para lo que pide debo consultarle a Lucía."
+        },
+        {
+          "message_id": "BH-C018-M003",
+          "timestamp": "2026-10-17T10:02:00-05:00",
+          "participant": "Lucía Mora",
+          "role": "responsable de operaciones",
+          "text": "Revisé el caso de Mateo BH-S105. Apruebo por esta única vez un descuento del 12%, no del 15%."
+        },
+        {
+          "message_id": "BH-C018-M004",
+          "timestamp": "2026-10-17T10:03:00-05:00",
+          "participant": "Mateo Rojas",
+          "role": "cliente",
+          "text": "¿En cuánto queda con el 12%?"
+        },
+        {
+          "message_id": "BH-C018-M005",
+          "timestamp": "2026-10-17T10:04:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "El descuento es $16.200 y el valor queda en $118.800."
+        },
+        {
+          "message_id": "BH-C018-M006",
+          "timestamp": "2026-10-17T10:05:00-05:00",
+          "participant": "Mateo Rojas",
+          "role": "cliente",
+          "text": "Sí acepto ese valor para el 20 a las nueve, si todavía tienen cupo."
+        },
+        {
+          "message_id": "BH-C018-M007",
+          "timestamp": "2026-10-17T10:06:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Revisé y el cupo sigue disponible. Queda confirmado el 20 a las 09:00 por $118.800."
+        },
+        {
+          "message_id": "BH-C018-M008",
+          "timestamp": "2026-10-17T10:07:00-05:00",
+          "participant": "Lucía Mora",
+          "role": "responsable de operaciones",
+          "text": "Registremos mi aprobación como excepción de BH-S105. No cambia la tarifa general ni el límite de Andrés."
+        }
+      ]
+    },
+    {
+      "conversation_id": "BH-C019",
+      "case_id": "BH-INTERNO-01",
+      "subject": "Rumor sobre una tarifa de $99.000",
+      "participants": [
+        "Diego León",
+        "Sara Vega",
+        "Andrés Ríos",
+        "Lucía Mora"
+      ],
+      "messages": [
+        {
+          "message_id": "BH-C019-M001",
+          "timestamp": "2026-10-18T11:00:00-05:00",
+          "participant": "Diego León",
+          "role": "equipo de limpieza",
+          "text": "Me llegó un volante que dice que la limpieza de dos habitaciones vale $99.000. ¿Actualizo la lista?"
+        },
+        {
+          "message_id": "BH-C019-M002",
+          "timestamp": "2026-10-18T11:01:00-05:00",
+          "participant": "Sara Vega",
+          "role": "equipo de limpieza",
+          "text": "Yo también lo vi, pero no tiene fecha ni quién lo aprobó."
+        },
+        {
+          "message_id": "BH-C019-M003",
+          "timestamp": "2026-10-18T11:02:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "La tarifa publicada de octubre que tenemos dice $135.000 para dos habitaciones y un baño."
+        },
+        {
+          "message_id": "BH-C019-M004",
+          "timestamp": "2026-10-18T11:03:00-05:00",
+          "participant": "Diego León",
+          "role": "equipo de limpieza",
+          "text": "De pronto podemos poner la del volante mientras confirman, para no perder clientes."
+        },
+        {
+          "message_id": "BH-C019-M005",
+          "timestamp": "2026-10-18T11:04:00-05:00",
+          "participant": "Lucía Mora",
+          "role": "responsable de operaciones",
+          "text": "No. No he aprobado esa tarifa y el volante no es una actualización oficial."
+        },
+        {
+          "message_id": "BH-C019-M006",
+          "timestamp": "2026-10-18T11:05:00-05:00",
+          "participant": "Sara Vega",
+          "role": "equipo de limpieza",
+          "text": "Entonces guardamos la duda como pendiente de revisión, sin reemplazar los precios."
+        },
+        {
+          "message_id": "BH-C019-M007",
+          "timestamp": "2026-10-18T11:06:00-05:00",
+          "participant": "Lucía Mora",
+          "role": "responsable de operaciones",
+          "text": "Sí. Para octubre se mantiene la tarifa aprobada; no prometan el valor de $99.000."
+        },
+        {
+          "message_id": "BH-C019-M008",
+          "timestamp": "2026-10-18T11:07:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Aviso al equipo y dejo este caso como antecedente, no como una nueva política."
+        }
+      ]
+    },
+    {
+      "conversation_id": "BH-C020",
+      "case_id": "BH-S106",
+      "subject": "Solicitud incompleta de Nora",
+      "participants": [
+        "Nora Beltrán",
+        "Andrés Ríos"
+      ],
+      "messages": [
+        {
+          "message_id": "BH-C020-M001",
+          "timestamp": "2026-10-19T09:00:00-05:00",
+          "participant": "Nora Beltrán",
+          "role": "clienta",
+          "text": "Hola, quiero una limpieza mañana. ¿Me la pueden confirmar de una vez?"
+        },
+        {
+          "message_id": "BH-C020-M002",
+          "timestamp": "2026-10-19T09:01:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Con gusto revisamos. ¿Es vivienda u oficina, qué tamaño tiene y qué tipo de limpieza necesita?"
+        },
+        {
+          "message_id": "BH-C020-M003",
+          "timestamp": "2026-10-19T09:02:00-05:00",
+          "participant": "Nora Beltrán",
+          "role": "clienta",
+          "text": "Es un apartamento, pero estoy en una reunión. Les paso los datos más tarde."
+        },
+        {
+          "message_id": "BH-C020-M004",
+          "timestamp": "2026-10-19T09:03:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "También necesitamos habitaciones, baños, adicionales y horario para cotizar y revisar disponibilidad."
+        },
+        {
+          "message_id": "BH-C020-M005",
+          "timestamp": "2026-10-19T09:04:00-05:00",
+          "participant": "Nora Beltrán",
+          "role": "clienta",
+          "text": "¿No pueden reservar mientras tanto un cupo cualquiera?"
+        },
+        {
+          "message_id": "BH-C020-M006",
+          "timestamp": "2026-10-19T09:05:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Por ahora queda como solicitud pendiente. Sin esos datos no puedo confirmar ni el precio ni el horario."
+        },
+        {
+          "message_id": "BH-C020-M007",
+          "timestamp": "2026-10-19T09:06:00-05:00",
+          "participant": "Nora Beltrán",
+          "role": "clienta",
+          "text": "Listo, vuelvo a escribir cuando tenga la información."
+        },
+        {
+          "message_id": "BH-C020-M008",
+          "timestamp": "2026-10-19T09:07:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Dejo BH-S106 pendiente de datos de Nora. Este chat no confirma una reserva para el 20."
+        }
+      ]
+    },
+    {
+      "conversation_id": "BH-C021",
+      "case_id": "BH-INTERNO-02",
+      "subject": "Propuesta del equipo sobre los materiales",
+      "participants": [
+        "Diego León",
+        "Sara Vega",
+        "Andrés Ríos",
+        "Lucía Mora"
+      ],
+      "messages": [
+        {
+          "message_id": "BH-C021-M001",
+          "timestamp": "2026-10-20T15:00:00-05:00",
+          "participant": "Diego León",
+          "role": "equipo de limpieza",
+          "text": "Hoy nos faltó una esponja y perdimos tiempo. Propongo revisar el kit antes de salir."
+        },
+        {
+          "message_id": "BH-C021-M002",
+          "timestamp": "2026-10-20T15:01:00-05:00",
+          "participant": "Sara Vega",
+          "role": "equipo de limpieza",
+          "text": "Me gusta. Podríamos tener una lista por tipo de servicio, con los adicionales."
+        },
+        {
+          "message_id": "BH-C021-M003",
+          "timestamp": "2026-10-20T15:02:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "La idea puede servir, pero todavía no existe una lista aprobada ni un responsable asignado."
+        },
+        {
+          "message_id": "BH-C021-M004",
+          "timestamp": "2026-10-20T15:03:00-05:00",
+          "participant": "Diego León",
+          "role": "equipo de limpieza",
+          "text": "¿La dejamos como procedimiento obligatorio desde mañana?"
+        },
+        {
+          "message_id": "BH-C021-M005",
+          "timestamp": "2026-10-20T15:04:00-05:00",
+          "participant": "Lucía Mora",
+          "role": "responsable de operaciones",
+          "text": "Todavía no. Sara, por favor prepara un borrador y lo revisamos el 23 de octubre."
+        },
+        {
+          "message_id": "BH-C021-M006",
+          "timestamp": "2026-10-20T15:05:00-05:00",
+          "participant": "Sara Vega",
+          "role": "equipo de limpieza",
+          "text": "Quedo encargada del borrador. Lo conecto con los alcances de estándar y profunda."
+        },
+        {
+          "message_id": "BH-C021-M007",
+          "timestamp": "2026-10-20T15:06:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Registro el pendiente con responsable Sara y revisión el 23. No voy a decir que ya está aprobado."
+        },
+        {
+          "message_id": "BH-C021-M008",
+          "timestamp": "2026-10-20T15:07:00-05:00",
+          "participant": "Lucía Mora",
+          "role": "responsable de operaciones",
+          "text": "Exactamente. La propuesta puede guardarse en la memoria como pendiente, no como regla vigente."
+        }
+      ]
+    },
+    {
+      "conversation_id": "BH-C022",
+      "case_id": "BH-INTERNO-03",
+      "subject": "Acuerdo operativo para evitar olvidar adicionales",
+      "participants": [
+        "Andrés Ríos",
+        "Sara Vega",
+        "Lucía Mora",
+        "Diego León"
+      ],
+      "messages": [
+        {
+          "message_id": "BH-C022-M001",
+          "timestamp": "2026-10-21T10:00:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Con lo de la cotización de Diana, conviene revisar siempre los adicionales antes de confirmar."
+        },
+        {
+          "message_id": "BH-C022-M002",
+          "timestamp": "2026-10-21T10:01:00-05:00",
+          "participant": "Sara Vega",
+          "role": "equipo de limpieza",
+          "text": "Sí, la primera cotización solo tenía nevera y luego añadió el horno en el mismo servicio."
+        },
+        {
+          "message_id": "BH-C022-M003",
+          "timestamp": "2026-10-21T10:02:00-05:00",
+          "participant": "Lucía Mora",
+          "role": "responsable de operaciones",
+          "text": "Eso ya está cubierto por el procedimiento de reserva: registrar el alcance y confirmar el valor acordado."
+        },
+        {
+          "message_id": "BH-C022-M004",
+          "timestamp": "2026-10-21T10:03:00-05:00",
+          "participant": "Diego León",
+          "role": "equipo de limpieza",
+          "text": "¿Creamos entonces una política nueva de cobrar el horno siempre?"
+        },
+        {
+          "message_id": "BH-C022-M005",
+          "timestamp": "2026-10-21T10:04:00-05:00",
+          "participant": "Lucía Mora",
+          "role": "responsable de operaciones",
+          "text": "No. El horno solo se cobra cuando se solicita; el aprendizaje es revisar el alcance vigente del caso."
+        },
+        {
+          "message_id": "BH-C022-M006",
+          "timestamp": "2026-10-21T10:05:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Dejo una nota práctica con el ejemplo BH-S104 y un enlace al procedimiento que ya existe."
+        },
+        {
+          "message_id": "BH-C022-M007",
+          "timestamp": "2026-10-21T10:06:00-05:00",
+          "participant": "Sara Vega",
+          "role": "equipo de limpieza",
+          "text": "Así otra persona puede entender por qué no debe sumar dos veces las cotizaciones."
+        },
+        {
+          "message_id": "BH-C022-M008",
+          "timestamp": "2026-10-21T10:07:00-05:00",
+          "participant": "Lucía Mora",
+          "role": "responsable de operaciones",
+          "text": "Bien. Mantengamos la evidencia de los mensajes sin convertir el ejemplo en un cobro general."
+        }
+      ]
+    },
+    {
+      "conversation_id": "BH-C023",
+      "case_id": "BH-CLIENTE-LAURA",
+      "subject": "Laura cambia su preferencia de horario",
+      "participants": [
+        "Laura Cárdenas",
+        "Andrés Ríos",
+        "Sara Vega"
+      ],
+      "messages": [
+        {
+          "message_id": "BH-C023-M001",
+          "timestamp": "2026-10-22T08:00:00-05:00",
+          "participant": "Laura Cárdenas",
+          "role": "clienta",
+          "text": "Hola, cambié mi horario de trabajo. Para próximas solicitudes ya no me sirven las tardes."
+        },
+        {
+          "message_id": "BH-C023-M002",
+          "timestamp": "2026-10-22T08:01:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Gracias por avisarnos. ¿Qué horario prefiere de ahora en adelante?"
+        },
+        {
+          "message_id": "BH-C023-M003",
+          "timestamp": "2026-10-22T08:02:00-05:00",
+          "participant": "Laura Cárdenas",
+          "role": "clienta",
+          "text": "Mañanas de martes o jueves, si hay disponibilidad. Y sigamos coordinando por WhatsApp."
+        },
+        {
+          "message_id": "BH-C023-M004",
+          "timestamp": "2026-10-22T08:03:00-05:00",
+          "participant": "Sara Vega",
+          "role": "equipo de limpieza",
+          "text": "¿Sigue la preferencia de no usar productos de olor fuerte?"
+        },
+        {
+          "message_id": "BH-C023-M005",
+          "timestamp": "2026-10-22T08:04:00-05:00",
+          "participant": "Laura Cárdenas",
+          "role": "clienta",
+          "text": "Sí, esa sigue igual. Solo cambia el horario que prefiero."
+        },
+        {
+          "message_id": "BH-C023-M006",
+          "timestamp": "2026-10-22T08:05:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Actualizo su preferencia con fecha de hoy, 22 de octubre, y conservo la anterior como historial."
+        },
+        {
+          "message_id": "BH-C023-M007",
+          "timestamp": "2026-10-22T08:06:00-05:00",
+          "participant": "Laura Cárdenas",
+          "role": "clienta",
+          "text": "Gracias. Esto no es una reserva nueva, solo para que lo tengan en cuenta cuando vuelva a pedir."
+        },
+        {
+          "message_id": "BH-C023-M008",
+          "timestamp": "2026-10-22T08:07:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Entendido. No cambio retroactivamente BH-S102 ni creo una cita con este mensaje."
+        }
+      ]
+    },
+    {
+      "conversation_id": "BH-C024",
+      "case_id": "BH-S107",
+      "subject": "Solicitud de reembolso pendiente de decisión",
+      "participants": [
+        "Felipe Castro",
+        "Andrés Ríos",
+        "Lucía Mora",
+        "Elena Ruiz"
+      ],
+      "messages": [
+        {
+          "message_id": "BH-C024-M001",
+          "timestamp": "2026-10-23T09:00:00-05:00",
+          "participant": "Felipe Castro",
+          "role": "cliente",
+          "text": "Buenos días. Quiero que revisen mi solicitud de reembolso de $300.000 del caso BH-S107."
+        },
+        {
+          "message_id": "BH-C024-M002",
+          "timestamp": "2026-10-23T09:01:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Recibo la solicitud. Yo no puedo aprobar reembolsos monetarios; la paso a operaciones."
+        },
+        {
+          "message_id": "BH-C024-M003",
+          "timestamp": "2026-10-23T09:02:00-05:00",
+          "participant": "Lucía Mora",
+          "role": "responsable de operaciones",
+          "text": "Por ese monto se requiere a Elena, porque supera mi límite de $250.000. Falta revisar el soporte del caso."
+        },
+        {
+          "message_id": "BH-C024-M004",
+          "timestamp": "2026-10-23T09:03:00-05:00",
+          "participant": "Felipe Castro",
+          "role": "cliente",
+          "text": "Entonces, ¿ya queda aprobado porque lo pasaron a la propietaria?"
+        },
+        {
+          "message_id": "BH-C024-M005",
+          "timestamp": "2026-10-23T09:04:00-05:00",
+          "participant": "Lucía Mora",
+          "role": "responsable de operaciones",
+          "text": "No todavía. Enviarlo a revisión no significa que esté aprobado ni que haya un pago programado."
+        },
+        {
+          "message_id": "BH-C024-M006",
+          "timestamp": "2026-10-23T09:05:00-05:00",
+          "participant": "Elena Ruiz",
+          "role": "propietaria",
+          "text": "Lo recibí para revisión. Necesito el detalle del servicio y la evidencia antes de decidir."
+        },
+        {
+          "message_id": "BH-C024-M007",
+          "timestamp": "2026-10-23T09:06:00-05:00",
+          "participant": "Andrés Ríos",
+          "role": "líder de equipo",
+          "text": "Registro como pendiente de decisión de Elena, con soporte por completar. No hay autorización de devolución."
+        },
+        {
+          "message_id": "BH-C024-M008",
+          "timestamp": "2026-10-23T09:07:00-05:00",
+          "participant": "Felipe Castro",
+          "role": "cliente",
+          "text": "Entendido, les envío la información por el caso. Espero la respuesta de Elena."
+        }
+      ]
+    }
+  ]
+}
