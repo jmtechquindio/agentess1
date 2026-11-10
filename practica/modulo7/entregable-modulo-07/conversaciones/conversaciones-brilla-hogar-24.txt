@@ -1,0 +1,772 @@
+BRILLA HOGAR · CONVERSACIONES FICTICIAS DE PRÁCTICA
+Todos los datos son sintéticos. Hora de Bogotá (UTC-05:00).
+Los chats son evidencia de casos, preferencias y decisiones; no reemplazan las políticas oficiales.
+
+
+========================================================================
+
+CONVERSACIÓN BH-C001 · CASO BH-S101
+
+ASUNTO: Cotización de septiembre
+
+PARTICIPANTES: Laura Cárdenas, Andrés Ríos
+
+[BH-C001-M001] 2026-09-28T09:00:00-05:00 | Laura Cárdenas (clienta)
+Hola, buenos días. ¿Cuánto me cobran por limpiar un apartamento de dos habitaciones y un baño?
+
+[BH-C001-M002] 2026-09-28T09:01:00-05:00 | Andrés Ríos (líder de equipo)
+Buenos días, Laura. ¿Para qué fecha lo necesita y sería limpieza estándar?
+
+[BH-C001-M003] 2026-09-28T09:02:00-05:00 | Laura Cárdenas (clienta)
+Estándar, para el 30 de septiembre. No tengo mascotas y no quiero adicionales.
+
+[BH-C001-M004] 2026-09-28T09:03:00-05:00 | Andrés Ríos (líder de equipo)
+Con la tarifa de septiembre queda en $125.000. Voy a revisar el cupo antes de confirmarle.
+
+[BH-C001-M005] 2026-09-28T09:04:00-05:00 | Laura Cárdenas (clienta)
+Me sirve. ¿Puede ser a las nueve de la mañana?
+
+[BH-C001-M006] 2026-09-28T09:05:00-05:00 | Andrés Ríos (líder de equipo)
+Sí hay disponibilidad el 30 a las 9 a. m. ¿Confirma el valor y ese horario?
+
+[BH-C001-M007] 2026-09-28T09:06:00-05:00 | Laura Cárdenas (clienta)
+Sí, de acuerdo con los $125.000 y el horario.
+
+[BH-C001-M008] 2026-09-28T09:07:00-05:00 | Andrés Ríos (líder de equipo)
+Listo, queda confirmado el servicio BH-S101 para el 30. Si necesita cambiarlo, nos avisa.
+
+========================================================================
+
+CONVERSACIÓN BH-C002 · CASO BH-S102
+
+ASUNTO: Nueva reserva de Laura
+
+PARTICIPANTES: Laura Cárdenas, Andrés Ríos
+
+[BH-C002-M001] 2026-10-02T10:00:00-05:00 | Laura Cárdenas (clienta)
+Hola, Andrés. Quiero otra limpieza igual a la de septiembre, para el 6 de octubre.
+
+[BH-C002-M002] 2026-10-02T10:01:00-05:00 | Andrés Ríos (líder de equipo)
+Claro. ¿Seguimos con dos habitaciones, un baño, estándar y sin adicionales?
+
+[BH-C002-M003] 2026-10-02T10:02:00-05:00 | Laura Cárdenas (clienta)
+Sí, igual. ¿Todavía vale los $125.000 de la vez pasada?
+
+[BH-C002-M004] 2026-10-02T10:03:00-05:00 | Andrés Ríos (líder de equipo)
+Para octubre la tarifa publicada de ese apartamento es $135.000. La anterior era de septiembre.
+
+[BH-C002-M005] 2026-10-02T10:04:00-05:00 | Laura Cárdenas (clienta)
+Listo, entiendo. ¿Hay cupo a las nueve?
+
+[BH-C002-M006] 2026-10-02T10:05:00-05:00 | Andrés Ríos (líder de equipo)
+Revisé con el equipo y sí hay cupo el 6 a las 9 a. m. El valor es $135.000.
+
+[BH-C002-M007] 2026-10-02T10:06:00-05:00 | Laura Cárdenas (clienta)
+Confirmado, gracias.
+
+[BH-C002-M008] 2026-10-02T10:07:00-05:00 | Andrés Ríos (líder de equipo)
+Queda BH-S102. Le aplican las condiciones generales de cancelación, no tiene un acuerdo especial.
+
+========================================================================
+
+CONVERSACIÓN BH-C003 · CASO BH-S102
+
+ASUNTO: Preferencias para atender a Laura
+
+PARTICIPANTES: Sara Vega, Lucía Mora, Laura Cárdenas
+
+[BH-C003-M001] 2026-10-03T11:00:00-05:00 | Sara Vega (equipo de limpieza)
+Lucía, para el servicio de Laura quiero confirmar qué productos llevamos.
+
+[BH-C003-M002] 2026-10-03T11:01:00-05:00 | Lucía Mora (responsable de operaciones)
+Preguntémosle sus preferencias y dejemos registro para que el siguiente equipo las vea.
+
+[BH-C003-M003] 2026-10-03T11:02:00-05:00 | Laura Cárdenas (clienta)
+Hola. Porfa, no usen productos con olor fuerte. Me molestan en el estudio donde trabajo.
+
+[BH-C003-M004] 2026-10-03T11:03:00-05:00 | Sara Vega (equipo de limpieza)
+Entendido. ¿Le confirmamos las cosas por llamada o por mensaje?
+
+[BH-C003-M005] 2026-10-03T11:04:00-05:00 | Laura Cárdenas (clienta)
+Por WhatsApp, mejor. En general prefiero las tardes para visitas futuras; esta vez mantengo lo de las nueve.
+
+[BH-C003-M006] 2026-10-03T11:05:00-05:00 | Lucía Mora (responsable de operaciones)
+Anotado: mensajes, sin fragancias fuertes y preferencia de tardes para futuras solicitudes.
+
+[BH-C003-M007] 2026-10-03T11:06:00-05:00 | Sara Vega (equipo de limpieza)
+Lo dejo en el caso BH-S102 para el equipo que vaya.
+
+[BH-C003-M008] 2026-10-03T11:07:00-05:00 | Laura Cárdenas (clienta)
+Gracias. Lo de las tardes no significa que quiera una reserva fija, yo les voy avisando.
+
+========================================================================
+
+CONVERSACIÓN BH-C004 · CASO BH-S102
+
+ASUNTO: Cambio de fecha de Laura
+
+PARTICIPANTES: Laura Cárdenas, Andrés Ríos
+
+[BH-C004-M001] 2026-10-05T08:30:00-05:00 | Laura Cárdenas (clienta)
+Hola, mañana se me cruzó una reunión. ¿Podemos mover la limpieza del 6 al 7 de octubre?
+
+[BH-C004-M002] 2026-10-05T08:31:00-05:00 | Andrés Ríos (líder de equipo)
+Sí podemos revisar. ¿El 7 a las dos de la tarde le funciona?
+
+[BH-C004-M003] 2026-10-05T08:32:00-05:00 | Laura Cárdenas (clienta)
+Sí, a las dos me queda bien.
+
+[BH-C004-M004] 2026-10-05T08:33:00-05:00 | Andrés Ríos (líder de equipo)
+El equipo tiene disponibilidad y estamos a más de 24 horas del horario original.
+
+[BH-C004-M005] 2026-10-05T08:34:00-05:00 | Laura Cárdenas (clienta)
+¿El valor sigue igual o el cambio tiene recargo?
+
+[BH-C004-M006] 2026-10-05T08:35:00-05:00 | Andrés Ríos (líder de equipo)
+Seguimos con la limpieza estándar de $135.000. No estoy añadiendo ningún recargo.
+
+[BH-C004-M007] 2026-10-05T08:36:00-05:00 | Laura Cárdenas (clienta)
+Perfecto, confirmo el 7 de octubre a las dos.
+
+[BH-C004-M008] 2026-10-05T08:37:00-05:00 | Andrés Ríos (líder de equipo)
+Actualicé BH-S102: ya no es el 6 a las nueve; queda el 7 a las 14:00. El servicio es el mismo.
+
+========================================================================
+
+CONVERSACIÓN BH-C005 · CASO BH-S102
+
+ASUNTO: Cierre de visita y pago por verificar
+
+PARTICIPANTES: Sara Vega, Andrés Ríos, Laura Cárdenas, Lucía Mora
+
+[BH-C005-M001] 2026-10-07T17:00:00-05:00 | Sara Vega (equipo de limpieza)
+Andrés, terminamos BH-S102 a las 16:30. Se hizo el alcance estándar acordado.
+
+[BH-C005-M002] 2026-10-07T17:01:00-05:00 | Andrés Ríos (líder de equipo)
+Gracias, Sara. Le escribo a Laura para confirmar cómo quedó todo.
+
+[BH-C005-M003] 2026-10-07T17:02:00-05:00 | Laura Cárdenas (clienta)
+Ya vi el apartamento, gracias. Acabo de hacer la transferencia de los $135.000.
+
+[BH-C005-M004] 2026-10-07T17:03:00-05:00 | Andrés Ríos (líder de equipo)
+¿Me comparte el comprobante por el canal de pagos? Lo revisa operaciones.
+
+[BH-C005-M005] 2026-10-07T17:04:00-05:00 | Laura Cárdenas (clienta)
+Sí, lo envío por allá. Me avisa cuando lo vean.
+
+[BH-C005-M006] 2026-10-07T17:05:00-05:00 | Sara Vega (equipo de limpieza)
+¿Entonces lo marco pagado?
+
+[BH-C005-M007] 2026-10-07T17:06:00-05:00 | Andrés Ríos (líder de equipo)
+Todavía no. Por ahora solo tenemos el mensaje de Laura; no la confirmación de ingreso.
+
+[BH-C005-M008] 2026-10-07T17:07:00-05:00 | Lucía Mora (responsable de operaciones)
+Dejemos el servicio realizado y el pago pendiente de verificar. Lo reviso en el control de pagos.
+
+========================================================================
+
+CONVERSACIÓN BH-C006 · CASO BH-S102
+
+ASUNTO: Queja de Laura y repaso
+
+PARTICIPANTES: Laura Cárdenas, Andrés Ríos, Sara Vega, Lucía Mora
+
+[BH-C006-M001] 2026-10-08T10:00:00-05:00 | Laura Cárdenas (clienta)
+Buenos días. Anoche noté que quedó polvo detrás del mueble de la sala.
+
+[BH-C006-M002] 2026-10-08T10:01:00-05:00 | Andrés Ríos (líder de equipo)
+Gracias por avisarnos. El servicio terminó ayer a las 16:30; estamos dentro de las 24 horas.
+
+[BH-C006-M003] 2026-10-08T10:02:00-05:00 | Laura Cárdenas (clienta)
+Sí, esa parte estaba incluida. Les mando la foto del área por este mismo caso.
+
+[BH-C006-M004] 2026-10-08T10:03:00-05:00 | Sara Vega (equipo de limpieza)
+Revisé el alcance y la evidencia del área. Esa zona sí correspondía a la limpieza.
+
+[BH-C006-M005] 2026-10-08T10:04:00-05:00 | Andrés Ríos (líder de equipo)
+Confirmamos la falla. Puedo programar un repaso correctivo sin costo, ¿mañana 9 a las diez le sirve?
+
+[BH-C006-M006] 2026-10-08T10:05:00-05:00 | Laura Cárdenas (clienta)
+Sí, me sirve a las diez. Sin productos de olor fuerte, porfa.
+
+[BH-C006-M007] 2026-10-08T10:06:00-05:00 | Andrés Ríos (líder de equipo)
+Queda aprobado y agendado el repaso de BH-S102 para el 9 de octubre a las 10:00.
+
+[BH-C006-M008] 2026-10-08T10:07:00-05:00 | Lucía Mora (responsable de operaciones)
+Registremos la solución y confirmemos con Laura después del repaso; la queja aún no está cerrada.
+
+========================================================================
+
+CONVERSACIÓN BH-C007 · CASO BH-S102
+
+ASUNTO: Repaso realizado, cierre pendiente
+
+PARTICIPANTES: Sara Vega, Andrés Ríos, Laura Cárdenas
+
+[BH-C007-M001] 2026-10-09T12:00:00-05:00 | Sara Vega (equipo de limpieza)
+Terminamos el repaso de Laura a las 11:00. Ya limpiamos detrás del mueble.
+
+[BH-C007-M002] 2026-10-09T12:01:00-05:00 | Andrés Ríos (líder de equipo)
+Gracias. ¿Tomaste la evidencia del trabajo para el registro del caso?
+
+[BH-C007-M003] 2026-10-09T12:02:00-05:00 | Sara Vega (equipo de limpieza)
+Sí, quedó en el caso. Usamos los productos sin fragancia fuerte que pidió.
+
+[BH-C007-M004] 2026-10-09T12:03:00-05:00 | Andrés Ríos (líder de equipo)
+Laura, el equipo reporta que el repaso terminó. ¿Nos confirma si quedó bien?
+
+[BH-C007-M005] 2026-10-09T12:04:00-05:00 | Laura Cárdenas (clienta)
+Estoy fuera de casa. Lo reviso en la noche y les cuento.
+
+[BH-C007-M006] 2026-10-09T12:05:00-05:00 | Andrés Ríos (líder de equipo)
+Perfecto, quedamos pendientes de su confirmación.
+
+[BH-C007-M007] 2026-10-09T12:06:00-05:00 | Sara Vega (equipo de limpieza)
+¿Puedo cerrar la queja por mi parte?
+
+[BH-C007-M008] 2026-10-09T12:07:00-05:00 | Andrés Ríos (líder de equipo)
+Marca repaso realizado. El cierre con la clienta sigue pendiente; no son lo mismo.
+
+========================================================================
+
+CONVERSACIÓN BH-C008 · CASO BH-S102
+
+ASUNTO: Confirmación de cierre de Laura
+
+PARTICIPANTES: Laura Cárdenas, Andrés Ríos, Sara Vega, Lucía Mora
+
+[BH-C008-M001] 2026-10-10T09:00:00-05:00 | Laura Cárdenas (clienta)
+Hola, ya revisé. El repaso quedó bien, muchas gracias.
+
+[BH-C008-M002] 2026-10-10T09:01:00-05:00 | Andrés Ríos (líder de equipo)
+Gracias por confirmarnos, Laura. Voy a registrar su respuesta.
+
+[BH-C008-M003] 2026-10-10T09:02:00-05:00 | Sara Vega (equipo de limpieza)
+Qué bueno. ¿Quedó algún detalle por resolver de la queja?
+
+[BH-C008-M004] 2026-10-10T09:03:00-05:00 | Laura Cárdenas (clienta)
+No, con lo del mueble quedé conforme.
+
+[BH-C008-M005] 2026-10-10T09:04:00-05:00 | Lucía Mora (responsable de operaciones)
+Entonces cerramos la queja de BH-S102 hoy, 10 de octubre.
+
+[BH-C008-M006] 2026-10-10T09:05:00-05:00 | Andrés Ríos (líder de equipo)
+Anoto cierre confirmado por la clienta. Se conservan el reporte y la visita correctiva.
+
+[BH-C008-M007] 2026-10-10T09:06:00-05:00 | Sara Vega (equipo de limpieza)
+¿Y cómo quedó el pago de la visita original?
+
+[BH-C008-M008] 2026-10-10T09:07:00-05:00 | Lucía Mora (responsable de operaciones)
+Ese tema se revisa por separado. En este chat no estoy confirmando que haya ingresado el dinero.
+
+========================================================================
+
+CONVERSACIÓN BH-C009 · CASO BH-AURORA
+
+ASUNTO: Precio y alcance de Dental Aurora
+
+PARTICIPANTES: Camila Pardo, Lucía Mora, Andrés Ríos
+
+[BH-C009-M001] 2026-10-05T15:00:00-05:00 | Camila Pardo (contacto de instalaciones · Dental Aurora)
+Hola, Lucía. Necesito confirmar el valor de las visitas de octubre para Dental Aurora.
+
+[BH-C009-M002] 2026-10-05T15:01:00-05:00 | Lucía Mora (responsable de operaciones)
+El acuerdo registra 300 metros cuadrados y ocho visitas al mes, martes y viernes a las siete de la noche.
+
+[BH-C009-M003] 2026-10-05T15:02:00-05:00 | Camila Pardo (contacto de instalaciones · Dental Aurora)
+Correcto. ¿El descuento de las ocho visitas ya está incluido?
+
+[BH-C009-M004] 2026-10-05T15:03:00-05:00 | Lucía Mora (responsable de operaciones)
+Sí. Son 300 por $1.600: $480.000 antes del descuento. Con el 10% por volumen, $432.000 por visita.
+
+[BH-C009-M005] 2026-10-05T15:04:00-05:00 | Camila Pardo (contacto de instalaciones · Dental Aurora)
+Listo. Para la factura usemos facturacion@aurora.example.com, no el correo de instalaciones.
+
+[BH-C009-M006] 2026-10-05T15:05:00-05:00 | Andrés Ríos (líder de equipo)
+¿Y el equipo incluye la limpieza de los equipos clínicos?
+
+[BH-C009-M007] 2026-10-05T15:06:00-05:00 | Camila Pardo (contacto de instalaciones · Dental Aurora)
+No, eso lo hace nuestro personal. Ustedes limpian las áreas de oficina del acuerdo.
+
+[BH-C009-M008] 2026-10-05T15:07:00-05:00 | Lucía Mora (responsable de operaciones)
+Confirmado el alcance y el correo de facturación. El contacto de instalaciones sigue siendo Camila.
+
+========================================================================
+
+CONVERSACIÓN BH-C010 · CASO BH-AURORA-0610
+
+ASUNTO: Cancelación de Aurora con ocho horas
+
+PARTICIPANTES: Camila Pardo, Lucía Mora, Andrés Ríos
+
+[BH-C010-M001] 2026-10-06T11:00:00-05:00 | Camila Pardo (contacto de instalaciones · Dental Aurora)
+Lucía, son las once y necesito cancelar la visita de hoy 6 a las siete de la noche.
+
+[BH-C010-M002] 2026-10-06T11:01:00-05:00 | Lucía Mora (responsable de operaciones)
+La cancelación queda avisada con ocho horas de anticipación. Voy a revisar su acuerdo.
+
+[BH-C010-M003] 2026-10-06T11:02:00-05:00 | Andrés Ríos (líder de equipo)
+Pensé que para diez o menos horas siempre era el 50% general.
+
+[BH-C010-M004] 2026-10-06T11:03:00-05:00 | Lucía Mora (responsable de operaciones)
+Aurora tiene una condición propia: de dos a doce horas se cobra el 25% de la visita.
+
+[BH-C010-M005] 2026-10-06T11:04:00-05:00 | Camila Pardo (contacto de instalaciones · Dental Aurora)
+¿Me confirma el valor del cobro para pasarlo a facturación?
+
+[BH-C010-M006] 2026-10-06T11:05:00-05:00 | Lucía Mora (responsable de operaciones)
+El 25% de $432.000 son $108.000 por esta cancelación.
+
+[BH-C010-M007] 2026-10-06T11:06:00-05:00 | Camila Pardo (contacto de instalaciones · Dental Aurora)
+Entendido. Lo paso a facturacion@aurora.example.com. No estoy reportando un pago todavía.
+
+[BH-C010-M008] 2026-10-06T11:07:00-05:00 | Andrés Ríos (líder de equipo)
+Registrado BH-AURORA-0610 como visita cancelada y cobro informado; no la cuento como visita realizada.
+
+========================================================================
+
+CONVERSACIÓN BH-C011 · CASO BH-AURORA
+
+ASUNTO: Comunicación y acceso de Aurora
+
+PARTICIPANTES: Camila Pardo, Andrés Ríos, Sara Vega, Lucía Mora
+
+[BH-C011-M001] 2026-10-07T09:00:00-05:00 | Camila Pardo (contacto de instalaciones · Dental Aurora)
+Andrés, para las próximas visitas avísenme por WhatsApp media hora antes de llegar.
+
+[BH-C011-M002] 2026-10-07T09:01:00-05:00 | Andrés Ríos (líder de equipo)
+Listo. ¿Ese aviso va a instalaciones y la factura al correo que nos dieron?
+
+[BH-C011-M003] 2026-10-07T09:02:00-05:00 | Camila Pardo (contacto de instalaciones · Dental Aurora)
+Sí, a mí los avisos de llegada. Las facturas a facturacion@aurora.example.com.
+
+[BH-C011-M004] 2026-10-07T09:03:00-05:00 | Sara Vega (equipo de limpieza)
+¿Podemos guardar la clave de la puerta en la nota del cliente para tenerla a mano?
+
+[BH-C011-M005] 2026-10-07T09:04:00-05:00 | Camila Pardo (contacto de instalaciones · Dental Aurora)
+No, las claves no van en el chat ni en la wiki. El personal autorizado usa el sistema seguro de accesos.
+
+[BH-C011-M006] 2026-10-07T09:05:00-05:00 | Lucía Mora (responsable de operaciones)
+Correcto. Guardemos la instrucción para obtener acceso, sin guardar ninguna clave.
+
+[BH-C011-M007] 2026-10-07T09:06:00-05:00 | Andrés Ríos (líder de equipo)
+Anoto también que el aviso de llegada es una preferencia operativa de este cliente.
+
+[BH-C011-M008] 2026-10-07T09:07:00-05:00 | Camila Pardo (contacto de instalaciones · Dental Aurora)
+Gracias. No cambien con esto el horario de martes y viernes a las siete.
+
+========================================================================
+
+CONVERSACIÓN BH-C012 · CASO BH-AURORA-0910
+
+ASUNTO: Duda sobre la clave de Aurora
+
+PARTICIPANTES: Diego León, Andrés Ríos, Camila Pardo, Sara Vega, Lucía Mora
+
+[BH-C012-M001] 2026-10-09T17:30:00-05:00 | Diego León (equipo de limpieza)
+Estoy preparando la visita de Aurora. ¿Quién me pasa por acá la clave de la puerta?
+
+[BH-C012-M002] 2026-10-09T17:31:00-05:00 | Andrés Ríos (líder de equipo)
+No está guardada en la base de conocimiento. Hay que usar el sistema seguro de accesos.
+
+[BH-C012-M003] 2026-10-09T17:32:00-05:00 | Diego León (equipo de limpieza)
+Busqué en los mensajes anteriores y tampoco veo un código.
+
+[BH-C012-M004] 2026-10-09T17:33:00-05:00 | Camila Pardo (contacto de instalaciones · Dental Aurora)
+Así debe ser. Por favor no inventen uno ni usen un dato de otra sede.
+
+[BH-C012-M005] 2026-10-09T17:34:00-05:00 | Sara Vega (equipo de limpieza)
+Si el acceso no queda resuelto antes de salir, ¿le avisamos a Andrés?
+
+[BH-C012-M006] 2026-10-09T17:35:00-05:00 | Andrés Ríos (líder de equipo)
+Sí, me avisan para coordinar con el contacto de instalaciones.
+
+[BH-C012-M007] 2026-10-09T17:36:00-05:00 | Lucía Mora (responsable de operaciones)
+Dejemos claro el procedimiento, no un secreto. Este chat no confirma ninguna entrega de credenciales.
+
+[BH-C012-M008] 2026-10-09T17:37:00-05:00 | Diego León (equipo de limpieza)
+Entendido, lo gestiono por el canal autorizado antes de la visita.
+
+========================================================================
+
+CONVERSACIÓN BH-C013 · CASO BH-AURORA-1310
+
+ASUNTO: Cancelación anticipada de Aurora
+
+PARTICIPANTES: Camila Pardo, Andrés Ríos, Lucía Mora
+
+[BH-C013-M001] 2026-10-12T18:00:00-05:00 | Camila Pardo (contacto de instalaciones · Dental Aurora)
+Buenas tardes. Necesito cancelar la visita de mañana 13 de octubre a las siete de la noche.
+
+[BH-C013-M002] 2026-10-12T18:01:00-05:00 | Andrés Ríos (líder de equipo)
+Recibo el aviso hoy 12 a las seis de la tarde. Faltan 25 horas para el servicio.
+
+[BH-C013-M003] 2026-10-12T18:02:00-05:00 | Camila Pardo (contacto de instalaciones · Dental Aurora)
+Sí. ¿Nos genera cobro de cancelación?
+
+[BH-C013-M004] 2026-10-12T18:03:00-05:00 | Andrés Ríos (líder de equipo)
+Voy a validar el acuerdo de Dental Aurora antes de responder.
+
+[BH-C013-M005] 2026-10-12T18:04:00-05:00 | Lucía Mora (responsable de operaciones)
+Con más de doce horas no se cobra según su acuerdo. Esta cancelación no genera cargo.
+
+[BH-C013-M006] 2026-10-12T18:05:00-05:00 | Camila Pardo (contacto de instalaciones · Dental Aurora)
+Gracias. La visita del viernes sigue igual, no quiero cancelar las demás.
+
+[BH-C013-M007] 2026-10-12T18:06:00-05:00 | Andrés Ríos (líder de equipo)
+Queda cancelada solamente la del 13, BH-AURORA-1310. No se cambia el contrato completo.
+
+[BH-C013-M008] 2026-10-12T18:07:00-05:00 | Lucía Mora (responsable de operaciones)
+Registremos que la condición se aplicó a esta visita y conservemos el aviso de Camila.
+
+========================================================================
+
+CONVERSACIÓN BH-C014 · CASO BH-S103
+
+ASUNTO: Coordinación de la visita de Rosa
+
+PARTICIPANTES: Rosa Medina, Andrés Ríos, Lucía Mora
+
+[BH-C014-M001] 2026-10-13T09:00:00-05:00 | Rosa Medina (clienta)
+Buenos días. Hoy teníamos una limpieza a las siete de la noche, pero necesito cancelarla.
+
+[BH-C014-M002] 2026-10-13T09:01:00-05:00 | Andrés Ríos (líder de equipo)
+Recibo el aviso a las nueve de la mañana: diez horas antes. La reserva BH-S103 es estándar de dos habitaciones y un baño, $135.000.
+
+[BH-C014-M003] 2026-10-13T09:02:00-05:00 | Rosa Medina (clienta)
+Sí, esa es. ¿Cuánto debo pagar por cancelarla?
+
+[BH-C014-M004] 2026-10-13T09:03:00-05:00 | Andrés Ríos (líder de equipo)
+Para este aviso dejo el cobro en el 25% de $135.000: $33.750.
+
+[BH-C014-M005] 2026-10-13T09:04:00-05:00 | Rosa Medina (clienta)
+Recibido. No tengo un acuerdo firmado con ustedes; solo había pedido esta visita.
+
+[BH-C014-M006] 2026-10-13T09:05:00-05:00 | Lucía Mora (responsable de operaciones)
+Pásame el registro del valor informado y la hora del aviso para la conciliación de la semana.
+
+[BH-C014-M007] 2026-10-13T09:06:00-05:00 | Rosa Medina (clienta)
+Por favor déjenme claro que cancelé la visita, no que ya pagué ese cobro.
+
+[BH-C014-M008] 2026-10-13T09:07:00-05:00 | Andrés Ríos (líder de equipo)
+Dejo cancelada BH-S103, con $33.750 informado y sin confirmación de pago.
+
+========================================================================
+
+CONVERSACIÓN BH-C015 · CASO BH-S104
+
+ASUNTO: Cotización de limpieza profunda de Diana
+
+PARTICIPANTES: Diana Salazar, Andrés Ríos
+
+[BH-C015-M001] 2026-10-14T10:00:00-05:00 | Diana Salazar (clienta)
+Hola, ¿me regala una cotización de limpieza profunda? Son dos habitaciones y un baño.
+
+[BH-C015-M002] 2026-10-14T10:01:00-05:00 | Andrés Ríos (líder de equipo)
+Claro. La base estándar de octubre es $135.000. Para profunda se multiplica por 1,45 y se redondea a $5.000.
+
+[BH-C015-M003] 2026-10-14T10:02:00-05:00 | Diana Salazar (clienta)
+También quiero que limpien la nevera por dentro.
+
+[BH-C015-M004] 2026-10-14T10:03:00-05:00 | Andrés Ríos (líder de equipo)
+La parte profunda queda en $195.000 después de redondear. La nevera suma $30.000: total $225.000.
+
+[BH-C015-M005] 2026-10-14T10:04:00-05:00 | Diana Salazar (clienta)
+¿Eso es para el 19 de octubre? Por ahora estoy mirando opciones.
+
+[BH-C015-M006] 2026-10-14T10:05:00-05:00 | Andrés Ríos (líder de equipo)
+Sí, esa cotización sirve para octubre. Todavía no revisamos horario ni confirmó la reserva.
+
+[BH-C015-M007] 2026-10-14T10:06:00-05:00 | Diana Salazar (clienta)
+Listo, lo pienso y les escribo mañana.
+
+[BH-C015-M008] 2026-10-14T10:07:00-05:00 | Andrés Ríos (líder de equipo)
+Dejo BH-S104 como cotización pendiente. No lo marco como pedido confirmado.
+
+========================================================================
+
+CONVERSACIÓN BH-C016 · CASO BH-S104
+
+ASUNTO: Diana añade horno y confirma
+
+PARTICIPANTES: Diana Salazar, Andrés Ríos
+
+[BH-C016-M001] 2026-10-15T14:00:00-05:00 | Diana Salazar (clienta)
+Hola, soy Diana, la de la cotización BH-S104. Sí quiero el servicio y también el horno por dentro.
+
+[BH-C016-M002] 2026-10-15T14:01:00-05:00 | Andrés Ríos (líder de equipo)
+Con profunda de $195.000, nevera de $30.000 y horno de $30.000, el total cambia a $255.000.
+
+[BH-C016-M003] 2026-10-15T14:02:00-05:00 | Diana Salazar (clienta)
+De acuerdo. ¿Podemos el 19 de octubre a las ocho de la mañana?
+
+[BH-C016-M004] 2026-10-15T14:03:00-05:00 | Andrés Ríos (líder de equipo)
+Acabo de revisar el equipo y sí hay disponibilidad a las ocho.
+
+[BH-C016-M005] 2026-10-15T14:04:00-05:00 | Diana Salazar (clienta)
+Confirmo los $255.000 y ese horario. No necesito incluir nada más.
+
+[BH-C016-M006] 2026-10-15T14:05:00-05:00 | Andrés Ríos (líder de equipo)
+Queda confirmado BH-S104 para el 19 a las 08:00. Reemplazo la cotización anterior de $225.000 por este alcance.
+
+[BH-C016-M007] 2026-10-15T14:06:00-05:00 | Diana Salazar (clienta)
+Porfa mantengan identificada la nevera y el horno, para que el equipo no los olvide.
+
+[BH-C016-M008] 2026-10-15T14:07:00-05:00 | Andrés Ríos (líder de equipo)
+Quedan los dos adicionales en la misma reserva. No son dos servicios nuevos.
+
+========================================================================
+
+CONVERSACIÓN BH-C017 · CASO BH-S104
+
+ASUNTO: Preparación del servicio de Diana
+
+PARTICIPANTES: Diana Salazar, Andrés Ríos, Sara Vega, Lucía Mora
+
+[BH-C017-M001] 2026-10-16T16:00:00-05:00 | Diana Salazar (clienta)
+Ya transferí los $255.000 de la limpieza del lunes. Les mandé un comprobante al canal de pagos.
+
+[BH-C017-M002] 2026-10-16T16:01:00-05:00 | Andrés Ríos (líder de equipo)
+Gracias, Diana. Le paso el aviso a operaciones.
+
+[BH-C017-M003] 2026-10-16T16:02:00-05:00 | Sara Vega (equipo de limpieza)
+Estoy preparando el alcance de BH-S104. Puse pagado en la ficha porque llegó el comprobante.
+
+[BH-C017-M004] 2026-10-16T16:03:00-05:00 | Andrés Ríos (líder de equipo)
+Ya actualicé también el estado del servicio a pagado en el resumen del equipo.
+
+[BH-C017-M005] 2026-10-16T16:04:00-05:00 | Diana Salazar (clienta)
+Está bien, me avisan. Mantengo la reserva del 19 a las ocho.
+
+[BH-C017-M006] 2026-10-16T16:05:00-05:00 | Lucía Mora (responsable de operaciones)
+Todavía no he conciliado esa transferencia. La revisaré por el canal de pagos cuando tenga el movimiento.
+
+[BH-C017-M007] 2026-10-16T16:06:00-05:00 | Sara Vega (equipo de limpieza)
+Para el equipo mantengo profunda, nevera y horno en el mismo servicio.
+
+[BH-C017-M008] 2026-10-16T16:07:00-05:00 | Andrés Ríos (líder de equipo)
+Sí. La visita sigue el 19 a las ocho, sin crear otra reserva.
+
+========================================================================
+
+CONVERSACIÓN BH-C018 · CASO BH-S105
+
+ASUNTO: Coordinación del servicio de Mateo
+
+PARTICIPANTES: Mateo Rojas, Andrés Ríos, Lucía Mora
+
+[BH-C018-M001] 2026-10-17T10:00:00-05:00 | Mateo Rojas (cliente)
+Hola, tengo la cotización estándar de $135.000 para el 20. ¿Me pueden dar un descuento del 15%?
+
+[BH-C018-M002] 2026-10-17T10:01:00-05:00 | Andrés Ríos (líder de equipo)
+Yo puedo aprobar hasta el 10%. Para lo que pide debo consultarle a Lucía.
+
+[BH-C018-M003] 2026-10-17T10:02:00-05:00 | Lucía Mora (responsable de operaciones)
+Revisé el caso de Mateo BH-S105. Apruebo por esta única vez un descuento del 12%, no del 15%.
+
+[BH-C018-M004] 2026-10-17T10:03:00-05:00 | Mateo Rojas (cliente)
+¿En cuánto queda con el 12%?
+
+[BH-C018-M005] 2026-10-17T10:04:00-05:00 | Andrés Ríos (líder de equipo)
+El descuento es $16.200 y el valor queda en $118.800.
+
+[BH-C018-M006] 2026-10-17T10:05:00-05:00 | Mateo Rojas (cliente)
+Sí acepto ese valor para el 20 a las nueve, si todavía tienen cupo.
+
+[BH-C018-M007] 2026-10-17T10:06:00-05:00 | Andrés Ríos (líder de equipo)
+Revisé y el cupo sigue disponible. Queda confirmado el 20 a las 09:00 por $118.800.
+
+[BH-C018-M008] 2026-10-17T10:07:00-05:00 | Lucía Mora (responsable de operaciones)
+Registremos mi aprobación como excepción de BH-S105. No cambia la tarifa general ni el límite de Andrés.
+
+========================================================================
+
+CONVERSACIÓN BH-C019 · CASO BH-INTERNO-01
+
+ASUNTO: Rumor sobre una tarifa de $99.000
+
+PARTICIPANTES: Diego León, Sara Vega, Andrés Ríos, Lucía Mora
+
+[BH-C019-M001] 2026-10-18T11:00:00-05:00 | Diego León (equipo de limpieza)
+Me llegó un volante que dice que la limpieza de dos habitaciones vale $99.000. ¿Actualizo la lista?
+
+[BH-C019-M002] 2026-10-18T11:01:00-05:00 | Sara Vega (equipo de limpieza)
+Yo también lo vi, pero no tiene fecha ni quién lo aprobó.
+
+[BH-C019-M003] 2026-10-18T11:02:00-05:00 | Andrés Ríos (líder de equipo)
+La tarifa publicada de octubre que tenemos dice $135.000 para dos habitaciones y un baño.
+
+[BH-C019-M004] 2026-10-18T11:03:00-05:00 | Diego León (equipo de limpieza)
+De pronto podemos poner la del volante mientras confirman, para no perder clientes.
+
+[BH-C019-M005] 2026-10-18T11:04:00-05:00 | Lucía Mora (responsable de operaciones)
+No. No he aprobado esa tarifa y el volante no es una actualización oficial.
+
+[BH-C019-M006] 2026-10-18T11:05:00-05:00 | Sara Vega (equipo de limpieza)
+Entonces guardamos la duda como pendiente de revisión, sin reemplazar los precios.
+
+[BH-C019-M007] 2026-10-18T11:06:00-05:00 | Lucía Mora (responsable de operaciones)
+Sí. Para octubre se mantiene la tarifa aprobada; no prometan el valor de $99.000.
+
+[BH-C019-M008] 2026-10-18T11:07:00-05:00 | Andrés Ríos (líder de equipo)
+Aviso al equipo y dejo este caso como antecedente, no como una nueva política.
+
+========================================================================
+
+CONVERSACIÓN BH-C020 · CASO BH-S106
+
+ASUNTO: Solicitud incompleta de Nora
+
+PARTICIPANTES: Nora Beltrán, Andrés Ríos
+
+[BH-C020-M001] 2026-10-19T09:00:00-05:00 | Nora Beltrán (clienta)
+Hola, quiero una limpieza mañana. ¿Me la pueden confirmar de una vez?
+
+[BH-C020-M002] 2026-10-19T09:01:00-05:00 | Andrés Ríos (líder de equipo)
+Con gusto revisamos. ¿Es vivienda u oficina, qué tamaño tiene y qué tipo de limpieza necesita?
+
+[BH-C020-M003] 2026-10-19T09:02:00-05:00 | Nora Beltrán (clienta)
+Es un apartamento, pero estoy en una reunión. Les paso los datos más tarde.
+
+[BH-C020-M004] 2026-10-19T09:03:00-05:00 | Andrés Ríos (líder de equipo)
+También necesitamos habitaciones, baños, adicionales y horario para cotizar y revisar disponibilidad.
+
+[BH-C020-M005] 2026-10-19T09:04:00-05:00 | Nora Beltrán (clienta)
+¿No pueden reservar mientras tanto un cupo cualquiera?
+
+[BH-C020-M006] 2026-10-19T09:05:00-05:00 | Andrés Ríos (líder de equipo)
+Por ahora queda como solicitud pendiente. Sin esos datos no puedo confirmar ni el precio ni el horario.
+
+[BH-C020-M007] 2026-10-19T09:06:00-05:00 | Nora Beltrán (clienta)
+Listo, vuelvo a escribir cuando tenga la información.
+
+[BH-C020-M008] 2026-10-19T09:07:00-05:00 | Andrés Ríos (líder de equipo)
+Dejo BH-S106 pendiente de datos de Nora. Este chat no confirma una reserva para el 20.
+
+========================================================================
+
+CONVERSACIÓN BH-C021 · CASO BH-INTERNO-02
+
+ASUNTO: Propuesta del equipo sobre los materiales
+
+PARTICIPANTES: Diego León, Sara Vega, Andrés Ríos, Lucía Mora
+
+[BH-C021-M001] 2026-10-20T15:00:00-05:00 | Diego León (equipo de limpieza)
+Hoy nos faltó una esponja y perdimos tiempo. Propongo revisar el kit antes de salir.
+
+[BH-C021-M002] 2026-10-20T15:01:00-05:00 | Sara Vega (equipo de limpieza)
+Me gusta. Podríamos tener una lista por tipo de servicio, con los adicionales.
+
+[BH-C021-M003] 2026-10-20T15:02:00-05:00 | Andrés Ríos (líder de equipo)
+La idea puede servir, pero todavía no existe una lista aprobada ni un responsable asignado.
+
+[BH-C021-M004] 2026-10-20T15:03:00-05:00 | Diego León (equipo de limpieza)
+¿La dejamos como procedimiento obligatorio desde mañana?
+
+[BH-C021-M005] 2026-10-20T15:04:00-05:00 | Lucía Mora (responsable de operaciones)
+Todavía no. Sara, por favor prepara un borrador y lo revisamos el 23 de octubre.
+
+[BH-C021-M006] 2026-10-20T15:05:00-05:00 | Sara Vega (equipo de limpieza)
+Quedo encargada del borrador. Lo conecto con los alcances de estándar y profunda.
+
+[BH-C021-M007] 2026-10-20T15:06:00-05:00 | Andrés Ríos (líder de equipo)
+Registro el pendiente con responsable Sara y revisión el 23. No voy a decir que ya está aprobado.
+
+[BH-C021-M008] 2026-10-20T15:07:00-05:00 | Lucía Mora (responsable de operaciones)
+Exactamente. La propuesta puede guardarse en la memoria como pendiente, no como regla vigente.
+
+========================================================================
+
+CONVERSACIÓN BH-C022 · CASO BH-INTERNO-03
+
+ASUNTO: Acuerdo operativo para evitar olvidar adicionales
+
+PARTICIPANTES: Andrés Ríos, Sara Vega, Lucía Mora, Diego León
+
+[BH-C022-M001] 2026-10-21T10:00:00-05:00 | Andrés Ríos (líder de equipo)
+Con lo de la cotización de Diana, conviene revisar siempre los adicionales antes de confirmar.
+
+[BH-C022-M002] 2026-10-21T10:01:00-05:00 | Sara Vega (equipo de limpieza)
+Sí, la primera cotización solo tenía nevera y luego añadió el horno en el mismo servicio.
+
+[BH-C022-M003] 2026-10-21T10:02:00-05:00 | Lucía Mora (responsable de operaciones)
+Eso ya está cubierto por el procedimiento de reserva: registrar el alcance y confirmar el valor acordado.
+
+[BH-C022-M004] 2026-10-21T10:03:00-05:00 | Diego León (equipo de limpieza)
+¿Creamos entonces una política nueva de cobrar el horno siempre?
+
+[BH-C022-M005] 2026-10-21T10:04:00-05:00 | Lucía Mora (responsable de operaciones)
+No. El horno solo se cobra cuando se solicita; el aprendizaje es revisar el alcance vigente del caso.
+
+[BH-C022-M006] 2026-10-21T10:05:00-05:00 | Andrés Ríos (líder de equipo)
+Dejo una nota práctica con el ejemplo BH-S104 y un enlace al procedimiento que ya existe.
+
+[BH-C022-M007] 2026-10-21T10:06:00-05:00 | Sara Vega (equipo de limpieza)
+Así otra persona puede entender por qué no debe sumar dos veces las cotizaciones.
+
+[BH-C022-M008] 2026-10-21T10:07:00-05:00 | Lucía Mora (responsable de operaciones)
+Bien. Mantengamos la evidencia de los mensajes sin convertir el ejemplo en un cobro general.
+
+========================================================================
+
+CONVERSACIÓN BH-C023 · CASO BH-CLIENTE-LAURA
+
+ASUNTO: Laura cambia su preferencia de horario
+
+PARTICIPANTES: Laura Cárdenas, Andrés Ríos, Sara Vega
+
+[BH-C023-M001] 2026-10-22T08:00:00-05:00 | Laura Cárdenas (clienta)
+Hola, cambié mi horario de trabajo. Para próximas solicitudes ya no me sirven las tardes.
+
+[BH-C023-M002] 2026-10-22T08:01:00-05:00 | Andrés Ríos (líder de equipo)
+Gracias por avisarnos. ¿Qué horario prefiere de ahora en adelante?
+
+[BH-C023-M003] 2026-10-22T08:02:00-05:00 | Laura Cárdenas (clienta)
+Mañanas de martes o jueves, si hay disponibilidad. Y sigamos coordinando por WhatsApp.
+
+[BH-C023-M004] 2026-10-22T08:03:00-05:00 | Sara Vega (equipo de limpieza)
+¿Sigue la preferencia de no usar productos de olor fuerte?
+
+[BH-C023-M005] 2026-10-22T08:04:00-05:00 | Laura Cárdenas (clienta)
+Sí, esa sigue igual. Solo cambia el horario que prefiero.
+
+[BH-C023-M006] 2026-10-22T08:05:00-05:00 | Andrés Ríos (líder de equipo)
+Actualizo su preferencia con fecha de hoy, 22 de octubre, y conservo la anterior como historial.
+
+[BH-C023-M007] 2026-10-22T08:06:00-05:00 | Laura Cárdenas (clienta)
+Gracias. Esto no es una reserva nueva, solo para que lo tengan en cuenta cuando vuelva a pedir.
+
+[BH-C023-M008] 2026-10-22T08:07:00-05:00 | Andrés Ríos (líder de equipo)
+Entendido. No cambio retroactivamente BH-S102 ni creo una cita con este mensaje.
+
+========================================================================
+
+CONVERSACIÓN BH-C024 · CASO BH-S107
+
+ASUNTO: Solicitud de reembolso pendiente de decisión
+
+PARTICIPANTES: Felipe Castro, Andrés Ríos, Lucía Mora, Elena Ruiz
+
+[BH-C024-M001] 2026-10-23T09:00:00-05:00 | Felipe Castro (cliente)
+Buenos días. Quiero que revisen mi solicitud de reembolso de $300.000 del caso BH-S107.
+
+[BH-C024-M002] 2026-10-23T09:01:00-05:00 | Andrés Ríos (líder de equipo)
+Recibo la solicitud. Yo no puedo aprobar reembolsos monetarios; la paso a operaciones.
+
+[BH-C024-M003] 2026-10-23T09:02:00-05:00 | Lucía Mora (responsable de operaciones)
+Por ese monto se requiere a Elena, porque supera mi límite de $250.000. Falta revisar el soporte del caso.
+
+[BH-C024-M004] 2026-10-23T09:03:00-05:00 | Felipe Castro (cliente)
+Entonces, ¿ya queda aprobado porque lo pasaron a la propietaria?
+
+[BH-C024-M005] 2026-10-23T09:04:00-05:00 | Lucía Mora (responsable de operaciones)
+No todavía. Enviarlo a revisión no significa que esté aprobado ni que haya un pago programado.
+
+[BH-C024-M006] 2026-10-23T09:05:00-05:00 | Elena Ruiz (propietaria)
+Lo recibí para revisión. Necesito el detalle del servicio y la evidencia antes de decidir.
+
+[BH-C024-M007] 2026-10-23T09:06:00-05:00 | Andrés Ríos (líder de equipo)
+Registro como pendiente de decisión de Elena, con soporte por completar. No hay autorización de devolución.
+
+[BH-C024-M008] 2026-10-23T09:07:00-05:00 | Felipe Castro (cliente)
+Entendido, les envío la información por el caso. Espero la respuesta de Elena.
