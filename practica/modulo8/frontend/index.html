@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comercial La Esquina · Módulo 8 (Del Comprobante al Sistema)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="header-container">
+      <div class="brand">
+        <div class="logo-box">CLE</div>
+        <div>
+          <h1>Comercial La Esquina</h1>
+          <small>Módulo 8 · Agente conectado a la operación (SQLite + GPT-5.6 Luna)</small>
+        </div>
+      </div>
+      <div class="header-actions">
+        <button id="btn-reset-db" class="btn btn-secondary">Reiniciar Base (Seed)</button>
+        <span class="badge" id="api-status">Sistema Local Listo</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-layout">
+    <!-- Panel Izquierdo: Chat y Carga de Comprobantes -->
+    <section class="left-panel">
+      <div class="panel-card chat-card">
+        <div class="panel-header">
+          <h2>Atención Agéntica y Carga de Soportes</h2>
+        </div>
+
+        <div class="upload-zone">
+          <label for="receipt-file" class="file-label">
+            <span>Arrastra o selecciona un comprobante (PNG, JPG)</span>
+            <input type="file" id="receipt-file" accept="image/*">
+          </label>
+          <div class="upload-controls">
+            <label for="mock-scenario-select">Escenario de prueba:</label>
+            <select id="mock-scenario-select">
+              <option value="">Extracción Real / Auto (Ejemplo $148.000)</option>
+              <option value="credit">Financiación (Sistecrédito $300.000)</option>
+              <option value="expense">Factura de Gasto (Transporte $55.000)</option>
+              <option value="cropped">Monto Ausente / Recortado</option>
+            </select>
+            <button id="btn-process-upload" class="btn btn-primary">Procesar Comprobante</button>
+          </div>
+        </div>
+
+        <div class="chat-container" id="chat-messages">
+          <div class="chat-bubble agent-bubble">
+            <strong>Agente:</strong>
+            <p>Hola. Puedes adjuntar un comprobante de pago o documento comercial. Leeré sus datos visibles, buscaré la venta en la base y prepararé una propuesta para tu revisión.</p>
+          </div>
+        </div>
+
+        <!-- Área de Acción Dinámica (Propuesta, Ambigüedad o Venta Faltante) -->
+        <div id="dynamic-action-area" class="dynamic-action-area" style="display: none;"></div>
+      </div>
+    </section>
+
+    <!-- Panel Derecho: Tablas del Sistema y Ficha de Extracción -->
+    <section class="right-panel">
+      <!-- Ficha del comprobante leída -->
+      <div class="panel-card receipt-preview-card" id="receipt-preview-box" style="display: none;">
+        <div class="panel-header">
+          <h3>Ficha del Comprobante Extraído</h3>
+          <span class="badge" id="extraction-badge">Extracción Fiel</span>
+        </div>
+        <div class="receipt-details-grid" id="receipt-details-content"></div>
+      </div>
+
+      <!-- Pestañas de Datos SQLite -->
+      <div class="panel-card tables-card">
+        <div class="tabs-header">
+          <button class="tab-btn active" data-tab="tab-sales">Ventas en Sistema</button>
+          <button class="tab-btn" data-tab="tab-receipts">Comprobantes (receipts)</button>
+          <button class="tab-btn" data-tab="tab-audit">Auditoría (audit_events)</button>
+        </div>
+
+        <div class="tab-content active" id="tab-sales">
+          <div class="table-wrap">
+            <table id="table-sales">
+              <thead>
+                <tr>
+                  <th>ID Venta</th>
+                  <th>Fecha</th>
+                  <th>Cliente</th>
+                  <th>Total</th>
+                  <th>Detalle Productos</th>
+                  <th>Pagos Asociados</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="tab-content" id="tab-receipts">
+          <div class="table-wrap">
+            <table id="table-receipts">
+              <thead>
+                <tr>
+                  <th>ID</th>
+                  <th>Hash SHA-256</th>
+                  <th>Tipo Soporte</th>
+                  <th>Monto</th>
+                  <th>Base Monto</th>
+                  <th>Fecha</th>
+                  <th>Referencia</th>
+                  <th>Estado</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="tab-content" id="tab-audit">
+          <div class="table-wrap">
+            <table id="table-audit">
+              <thead>
+                <tr>
+                  <th>ID</th>
+                  <th>Evento</th>
+                  <th>Aprobado Por</th>
+                  <th>Herramienta</th>
+                  <th>Versión</th>
+                  <th>Detalles</th>
+                  <th>Fecha</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

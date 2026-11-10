@@ -1,0 +1,368 @@
+:root {
+  --navy: #102c40;
+  --ink: #102332;
+  --teal: #007f75;
+  --teal-dark: #00665f;
+  --lime: #c9f266;
+  --mint: #dff6ee;
+  --paper: #fbfcf8;
+  --soft: #edf4f3;
+  --muted: #526570;
+  --line: #d7e2e4;
+  --amber: #ffd277;
+  --danger: #983b30;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: var(--soft);
+  color: var(--ink);
+  line-height: 1.5;
+}
+
+.topbar {
+  background-color: var(--navy);
+  color: #fff;
+  padding: 14px 28px;
+  border-bottom: 2px solid var(--lime);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.logo-box {
+  background-color: var(--lime);
+  color: var(--navy);
+  font-weight: 900;
+  font-size: 1.2rem;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+.brand h1 {
+  font-size: 1.25rem;
+  letter-spacing: -0.02em;
+}
+
+.brand small {
+  color: #c2d6de;
+  font-size: 0.8rem;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.badge {
+  background-color: var(--lime);
+  color: var(--navy);
+  font-size: 0.75rem;
+  font-weight: 800;
+  padding: 6px 12px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.badge.warning {
+  background-color: var(--amber);
+  color: #664400;
+}
+
+.badge.danger {
+  background-color: var(--danger);
+  color: #fff;
+}
+
+.main-layout {
+  display: grid;
+  grid-template-columns: 1fr 1.25fr;
+  gap: 20px;
+  max-width: 1400px;
+  margin: 20px auto;
+  padding: 0 20px;
+  height: calc(100vh - 120px);
+}
+
+.left-panel, .right-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  overflow-y: auto;
+}
+
+.panel-card {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+
+.panel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 12px;
+  margin-bottom: 16px;
+}
+
+.panel-header h2, .panel-header h3 {
+  font-size: 1.1rem;
+  color: var(--navy);
+}
+
+/* Upload zone */
+.upload-zone {
+  background: var(--paper);
+  border: 2px dashed var(--teal);
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.file-label {
+  display: block;
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--teal-dark);
+  margin-bottom: 12px;
+}
+
+.file-label input {
+  display: none;
+}
+
+.upload-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.upload-controls select {
+  padding: 8px 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  font-size: 0.88rem;
+}
+
+/* Buttons */
+.btn {
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: 750;
+  font-size: 0.88rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-primary {
+  background-color: var(--teal-dark);
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: var(--teal);
+}
+
+.btn-confirm {
+  background-color: var(--lime);
+  color: var(--navy);
+  font-size: 0.95rem;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  border: 1px solid var(--line);
+  color: var(--ink);
+}
+
+/* Chat */
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-height: 280px;
+  overflow-y: auto;
+  padding: 10px;
+  background: var(--paper);
+  border-radius: 12px;
+  border: 1px solid var(--line);
+}
+
+.chat-bubble {
+  padding: 12px 16px;
+  border-radius: 14px;
+  max-width: 90%;
+  font-size: 0.92rem;
+}
+
+.agent-bubble {
+  background: #fff;
+  border: 1px solid var(--line);
+  align-self: flex-start;
+}
+
+.agent-bubble strong {
+  color: var(--teal-dark);
+  display: block;
+  margin-bottom: 4px;
+}
+
+.user-bubble {
+  background: var(--mint);
+  border: 1px solid var(--teal);
+  align-self: flex-end;
+}
+
+/* Dynamic action area */
+.dynamic-action-area {
+  margin-top: 16px;
+  background: var(--mint);
+  border: 1px solid var(--teal);
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.proposal-box {
+  background: #fff;
+  padding: 14px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.candidate-item {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 12px;
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Receipt Details Grid */
+.receipt-details-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  font-size: 0.88rem;
+}
+
+.receipt-item-col {
+  background: var(--paper);
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+}
+
+.receipt-item-col b {
+  color: var(--teal-dark);
+  display: block;
+  font-size: 0.74rem;
+  text-transform: uppercase;
+}
+
+/* Tabs and Tables */
+.tabs-header {
+  display: flex;
+  gap: 8px;
+  border-bottom: 2px solid var(--line);
+  margin-bottom: 12px;
+}
+
+.tab-btn {
+  padding: 10px 16px;
+  background: none;
+  border: none;
+  font-weight: 750;
+  color: var(--muted);
+  cursor: pointer;
+  border-bottom: 3px solid transparent;
+  margin-bottom: -2px;
+}
+
+.tab-btn.active {
+  color: var(--teal-dark);
+  border-color: var(--teal-dark);
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.table-wrap {
+  overflow-x: auto;
+  max-height: 400px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+
+th, td {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+}
+
+thead th {
+  background-color: var(--mint);
+  color: var(--teal-dark);
+  position: sticky;
+  top: 0;
+}
+
+tbody tr:hover {
+  background-color: var(--paper);
+}
+
+/* Form for missing sales */
+.missing-sale-form {
+  display: grid;
+  gap: 8px;
+}
+
+.item-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr auto;
+  gap: 8px;
+  align-items: center;
+}
+
+.item-row input, .missing-sale-form input {
+  padding: 6px 10px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+}
